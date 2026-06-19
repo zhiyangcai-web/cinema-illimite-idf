@@ -113,7 +113,11 @@ async function main() {
     ...preservedAlloCine
   ];
 
-  const deduped = dedupe(showtimes)
+  const dedupedItems = dedupe(showtimes);
+  const duplicateCount = showtimes.length - dedupedItems.length;
+  if (duplicateCount) console.log(`Removed ${duplicateCount} duplicate showtimes`);
+
+  const deduped = dedupedItems
     .filter((item) => item.start && item.filmTitle && item.cinemaName)
     .sort((a, b) => new Date(a.start) - new Date(b.start));
 
@@ -769,10 +773,51 @@ function safeJsonParse(value) {
 function dedupe(items) {
   const map = new Map();
   for (const item of items) {
-    const key = item.id || `${item.source}|${item.cinemaName}|${item.filmTitle}|${item.start}`;
-    if (!map.has(key)) map.set(key, item);
+    const key = showtimeDedupeKey(item);
+    if (map.has(key)) {
+      map.set(key, mergeShowtime(map.get(key), item));
+    } else {
+      map.set(key, item);
+    }
   }
   return [...map.values()];
+}
+
+function showtimeDedupeKey(item) {
+  const cinema = [
+    normalizeCinemaName(item.cinemaName || item.cinemaId),
+    String(item.postalCode || "").trim()
+  ].join("-");
+  return [
+    cinema,
+    dedupeToken(item.filmTitle),
+    normalizeIso(item.start),
+    dedupeToken(item.version || item.audio)
+  ].join("|");
+}
+
+function mergeShowtime(existing, next) {
+  return {
+    ...existing,
+    genre: existing.genre || next.genre || "",
+    audio: existing.audio || next.audio || "",
+    durationMin: existing.durationMin || next.durationMin || null,
+    end: existing.end || next.end || "",
+    bookingUrl: existing.bookingUrl || next.bookingUrl || "",
+    filmUrl: existing.filmUrl || next.filmUrl || "",
+    poster: existing.poster || next.poster || "",
+    city: existing.city || next.city || "",
+    postalCode: existing.postalCode || next.postalCode || "",
+    address: existing.address || next.address || ""
+  };
+}
+
+function dedupeToken(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "");
 }
 
 function cleanHtml(value) {
