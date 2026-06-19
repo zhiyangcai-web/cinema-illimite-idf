@@ -286,6 +286,10 @@ a:focus-visible {
   border-bottom: 1px solid var(--line);
 }
 
+.screening-row > :first-child {
+  grid-column: 1;
+}
+
 .screening-time {
   color: var(--red-dark);
   font-size: 18px;
@@ -302,6 +306,7 @@ a:focus-visible {
 }
 
 .screening-main {
+  grid-column: 3;
   min-width: 0;
 }
 
@@ -316,7 +321,10 @@ a:focus-visible {
 }
 
 .poster-thumb {
+  grid-column: 2;
+  justify-self: start;
   width: 52px;
+  min-width: 52px;
   aspect-ratio: 2 / 3;
 }
 
@@ -516,6 +524,7 @@ a:focus-visible {
 
   .poster-thumb {
     width: 60px;
+    min-width: 60px;
   }
 }
 
@@ -527,6 +536,7 @@ a:focus-visible {
 
   .poster-thumb {
     width: 44px;
+    min-width: 44px;
   }
 
   .row-actions {

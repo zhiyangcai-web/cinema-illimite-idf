@@ -400,15 +400,15 @@ function openDetails(item) {
 function posterMarkup(item, className) {
   if (item.poster) {
     return `
-      <figure class="${className}">
+      <div class="${className}">
         <img src="${escapeAttr(item.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer">
-      </figure>
+      </div>
     `;
   }
   return `
-    <figure class="${className} poster-placeholder" aria-hidden="true">
+    <div class="${className} poster-placeholder" aria-hidden="true">
       <i data-lucide="image" aria-hidden="true"></i>
-    </figure>
+    </div>
   `;
 }
 
