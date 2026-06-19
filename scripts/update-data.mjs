@@ -9,28 +9,87 @@ const ENV = globalThis.process?.env || {};
 const DAYS_AHEAD = Number(ENV.DAYS_AHEAD || 21);
 const MAX_UGC_CINEMAS = Number(ENV.MAX_UGC_CINEMAS || 32);
 const REQUEST_TIMEOUT_MS = Number(ENV.REQUEST_TIMEOUT_MS || 15_000);
+const FETCH_RETRIES = Number(ENV.FETCH_RETRIES || 2);
 const UGC_CONCURRENCY = Number(ENV.UGC_CONCURRENCY || 8);
 const MK2_CONCURRENCY = Number(ENV.MK2_CONCURRENCY || 6);
+const ALLOCINE_DAYS_AHEAD = Number(ENV.ALLOCINE_DAYS_AHEAD || Math.min(DAYS_AHEAD, 10));
+const ALLOCINE_CONCURRENCY = Number(ENV.ALLOCINE_CONCURRENCY || 3);
+const ALLOCINE_DATE_CONCURRENCY = Number(ENV.ALLOCINE_DATE_CONCURRENCY || 3);
+const ALLOCINE_ENABLE_AUTOCOMPLETE = ENV.ALLOCINE_ENABLE_AUTOCOMPLETE === "1";
+const ALLOCINE_REQUEST_DELAY_MS = Number(ENV.ALLOCINE_REQUEST_DELAY_MS || 350);
 
 const IDF_POSTAL_PREFIXES = ["75", "77", "78", "91", "92", "93", "94", "95"];
 const UGC_IDF_IDS = new Set([
   10, 12, 7, 14, 15, 13, 4, 11, 5, 9, 37, 20, 59, 18, 38, 21, 19, 16, 17,
   43, 44, 6, 40, 41, 55, 47, 48, 49, 54, 39
 ]);
+const ALLOCINE_THEATER_OVERRIDES = [
+  ["LE GRAND REX - LE REX", "C0065", "Le Grand Rex", "75002"],
+  ["ECOLES CINEMA CLUB", "C0071", "Ecoles Cinema Club", "75005"],
+  ["ESPACE SAINT MICHEL", "C0117", "Espace Saint-Michel", "75005"],
+  ["EPEE DE BOIS", "W7504", "Epee de bois", "75005"],
+  ["LA FILMOTHEQUE QUARTIER LATIN", "C0020", "Filmotheque du Quartier Latin", "75005"],
+  ["LE REFLET MEDICIS", "C0074", "Reflet Medicis", "75005"],
+  ["STUDIO GALANDE", "C0016", "Studio Galande", "75005"],
+  ["CHRISTINE CINEMA CLUB", "C0015", "Christine Cinema Club", "75006"],
+  ["L'ARLEQUIN", "C0054", "L'Arlequin", "75006"],
+  ["LE LUCERNAIRE", "C0093", "Lucernaire", "75006"],
+  ["LES 3 LUXEMBOURG", "C0095", "Les 3 Luxembourg", "75006"],
+  ["JEU DE PAUME", "W7588", "Jeu de Paume", "75008"],
+  ["PUBLICIS", "C6336", "Publicis Cinemas", "75008"],
+  ["MAX LINDER", "C0089", "Max Linder Panorama", "75009"],
+  ["L'ARCHIPEL", "C0134", "L'Archipel", "75010"],
+  ["LE BRADY", "C0023", "Le Brady", "75010"],
+  ["LE LOUXOR", "W7510", "Le Louxor - Palais du cinema", "75010"],
+  ["LE MAJESTIC BASTILLE", "C0139", "Majestic Bastille", "75011"],
+  ["L'ESCURIAL", "C0147", "Escurial", "75013"],
+  ["LES 7 PARNASSIENS", "C0025", "Sept Parnassiens", "75014"],
+  ["CHAPLIN DENFERT", "C0153", "Cinema Chaplin Denfert", "75014"],
+  ["MAJESTIC PASSY", "C0120", "Majestic Passy", "75016"],
+  ["CINEMA DES CINEASTES", "C0004", "Le Cinema des Cineastes", "75017"],
+  ["MAC MAHON", "C0172", "Mac-Mahon", "75017"],
+  ["Le Central", "B0060", "Central Cinema", "91190"],
+  ["C2L Saint Germain", "B0038", "UGC C2L Saint-Germain", "78100"],
+  ["C2L Poissy", "B0052", "UGC C2L Poissy", "78300"],
+  ["CINEMA LE STUDIO", "B0101", "Le Studio", "93300"],
+  ["CINEMA JACQUES PREVERT", "B0103", "Theatre et Cinema Jacques-Prevert", "93600"],
+  ["CINEMA ABEL GANCE", "B0084", "Abel Gance", "92400"],
+  ["LOUIS DAQUIN", "B0105", "Louis-Daquin", "93150"],
+  ["CENTRE DES BORDS DE MARNE", "B0141", "Centre des Bords-de-Marne", "94170"],
+  ["JEAN MARAIS", "B0046", "Cinema Jean-Marais", "78110"],
+  ["CONFLUENCES MENNECY", "P9154", "Cinema Confluences Mennecy", "91540"],
+  ["LE BIJOU", "P9316", "Le Bijou", "93160"],
+  ["ARIEL RUEIL", "B0092", "Ariel - Centre ville", "92500"],
+  ["ARIEL HAUTS DE RUEIL", "W9250", "Ariel - Hauts de Rueil", "92500"],
+  ["LES 3 PIERROTS", "B0094", "Les 3 Pierrots", "92210"],
+  ["LES 4 DELTA", "B0144", "Cinema 4 Delta", "94110"],
+  ["3 CINES ROBESPIERRE", "B0151", "Les 3 Cines - Robespierre", "94400"],
+  ["L'ECRAN", "B0122", "L'Ecran", "93200"],
+  ["CONFLUENCES VARENNES", "W7713", "Cinema Confluences Varennes", "77130"],
+  ["LE CAPITOLE", "B0203", "Cinema Le Capitole", "92150"],
+  ["L'ANTARES", "B4834", "L'Antares", "95490"],
+  ["CINEMA ESPACE 1789", "B0123", "Espace 1789", "93400"]
+];
+let allocineRequestQueue = Promise.resolve();
+let allocineNextRequestAt = 0;
 
 async function main() {
   const generatedAt = new Date().toISOString();
   const partnerCatalog = await fetchUgcAcceptedCinemas();
-  const [independent, ugc, mk2] = await Promise.allSettled([
-    fetchIndependentPartnerShowtimes(partnerCatalog),
+  const independentPromise = fetchIndependentPartnerShowtimes(partnerCatalog);
+  const allocinePromise = independentPromise.then((showtimes) => fetchAllocinePartnerShowtimes(partnerCatalog, showtimes));
+  const [independent, ugc, mk2, allocine] = await Promise.allSettled([
+    independentPromise,
     fetchUgcShowtimes(),
-    fetchMk2Showtimes()
+    fetchMk2Showtimes(),
+    allocinePromise
   ]);
 
   const showtimes = [
     ...settledValue(independent, "DataCinesIndes"),
     ...settledValue(ugc, "UGC"),
-    ...settledValue(mk2, "MK2")
+    ...settledValue(mk2, "MK2"),
+    ...settledValue(allocine, "AlloCine")
   ];
 
   const deduped = dedupe(showtimes)
@@ -47,7 +106,8 @@ async function main() {
       "UGC accepted cinemas: https://www.ugc.fr/cinemas-acceptant-ui.html",
       "Independent cinema API: https://datacinesindes.fr/data-fair/api/v1/datasets/programmation-cinemas",
       "UGC showings: https://www.ugc.fr/showingsCinemaAjaxAction!getShowingsForCinemaPage.action",
-      "MK2 pages: https://www.mk2.com/salles"
+      "MK2 pages: https://www.mk2.com/salles",
+      "AlloCine partner showtimes: https://www.allocine.fr"
     ],
     showtimes: deduped
   }, null, 2)}\n`, "utf8");
@@ -62,28 +122,61 @@ function settledValue(result, name) {
 }
 
 async function fetchText(url, options = {}) {
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
-  try {
-    const response = await fetch(url, {
-      ...options,
-      signal: options.signal || controller.signal,
-      headers: {
-        "accept": "text/html,application/json",
-        "user-agent": "cinema-illimite-idf/0.1 (+GitHub Pages personal project)",
-        ...(options.headers || {})
+  let lastError;
+  for (let attempt = 0; attempt <= FETCH_RETRIES; attempt += 1) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+    let retryDelay = 0;
+    try {
+      const response = await fetch(url, {
+        ...options,
+        signal: options.signal || controller.signal,
+        headers: {
+          "accept": "text/html,application/json",
+          "user-agent": "cinema-illimite-idf/0.1 (+GitHub Pages personal project)",
+          ...(options.headers || {})
+        }
+      });
+      if (response.ok) return response.text();
+      lastError = new Error(`${response.status} ${response.statusText} for ${url}`);
+      if (attempt < FETCH_RETRIES && isRetryableStatus(response.status)) {
+        retryDelay = retryDelayMs(response, attempt);
+      } else {
+        throw lastError;
       }
-    });
-    if (!response.ok) throw new Error(`${response.status} ${response.statusText} for ${url}`);
-    return response.text();
-  } catch (error) {
-    if (error.name === "AbortError") {
-      throw new Error(`Timed out after ${REQUEST_TIMEOUT_MS}ms for ${url}`);
+    } catch (error) {
+      lastError = error.name === "AbortError"
+        ? new Error(`Timed out after ${REQUEST_TIMEOUT_MS}ms for ${url}`)
+        : error;
+      if (attempt < FETCH_RETRIES && isRetryableFetchError(lastError)) {
+        retryDelay = 750 * (attempt + 1);
+      } else {
+        throw lastError;
+      }
+    } finally {
+      clearTimeout(timeout);
     }
-    throw error;
-  } finally {
-    clearTimeout(timeout);
+    if (retryDelay) await sleep(retryDelay);
   }
+  throw lastError;
+}
+
+function isRetryableStatus(status) {
+  return [429, 500, 502, 503, 504].includes(Number(status));
+}
+
+function isRetryableFetchError(error) {
+  return /Timed out|fetch failed|ECONNRESET|ETIMEDOUT|ENOTFOUND/i.test(error.message || "");
+}
+
+function retryDelayMs(response, attempt) {
+  const retryAfter = Number(response.headers.get("retry-after") || 0);
+  const delay = retryAfter > 0 ? retryAfter * 1000 : 1_000 * (attempt + 1);
+  return Math.min(delay, 5_000);
+}
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function fetchJson(url) {
@@ -166,6 +259,193 @@ function fuzzyCinemaMatch(left, right) {
   if (left === right) return true;
   if (left.length >= 6 && right.length >= 6 && (left.includes(right) || right.includes(left))) return true;
   return false;
+}
+
+async function fetchAllocinePartnerShowtimes(partnerCatalog, existingPartnerShowtimes = []) {
+  const partners = partnerCatalog.filter((item) => item.network === "PARTNER");
+  const covered = coveredPartnerKeys(existingPartnerShowtimes, partners);
+  const missingPartners = partners.filter((partner) => !covered.has(partner.normalized));
+
+  return mapLimit(missingPartners, ALLOCINE_CONCURRENCY, async (partner) => {
+    try {
+      const theater = await findAllocineTheater(partner);
+      if (!theater) return [];
+      const dates = await fetchAllocineTheaterDates(theater.id);
+      const wantedDates = dates.filter((date) => isDateKeyWithinDays(date, ALLOCINE_DAYS_AHEAD));
+      const daily = await mapLimit(wantedDates, ALLOCINE_DATE_CONCURRENCY, async (date) => fetchAllocineShowtimesForDate(partner, theater, date));
+      return daily;
+    } catch (error) {
+      console.warn(`AlloCine ${partner.name} failed: ${error.message}`);
+      return [];
+    }
+  });
+}
+
+function coveredPartnerKeys(showtimes, partners) {
+  const keys = new Set();
+  for (const item of showtimes) {
+    const partner = findPartnerCinema({
+      cinenom: item.cinemaName,
+      cinecp: item.postalCode
+    }, partners);
+    if (partner) keys.add(partner.normalized);
+  }
+  return keys;
+}
+
+async function findAllocineTheater(partner) {
+  const knownTheater = allocineStaticTheater(partner);
+  if (knownTheater) return knownTheater;
+  if (!ALLOCINE_ENABLE_AUTOCOMPLETE) return null;
+
+  for (const query of allocineSearchQueries(partner.name)) {
+    const json = await fetchAllocineJson(`https://www.allocine.fr/_/autocomplete/theater/${encodeURIComponent(query)}`);
+    const candidate = (json.results || []).find((result) => {
+      const zip = String(result.data?.zip || "");
+      if (zip && partner.postalCode && zip !== partner.postalCode) return false;
+      return fuzzyCinemaMatch(normalizeCinemaName(result.label), partner.normalized);
+    });
+    if (candidate) {
+      return {
+        id: candidate.entity_id || candidate.data?.id,
+        name: cleanHtml(candidate.label),
+        postalCode: String(candidate.data?.zip || partner.postalCode || ""),
+        city: titleName(candidate.data?.city || inferCity(partner.address)),
+        address: cleanHtml(candidate.data?.address || partner.address || "")
+      };
+    }
+  }
+  return null;
+}
+
+function allocineStaticTheater(partner) {
+  const match = ALLOCINE_THEATER_OVERRIDES.find(([name, , , postalCode]) => {
+    if (postalCode && partner.postalCode && postalCode !== partner.postalCode) return false;
+    return fuzzyCinemaMatch(normalizeCinemaName(name), partner.normalized);
+  });
+  if (!match) return null;
+  const [, id, name, postalCode] = match;
+  return {
+    id,
+    name,
+    postalCode: postalCode || partner.postalCode || "",
+    city: inferCity(partner.address),
+    address: partner.address || ""
+  };
+}
+
+function allocineSearchQueries(name) {
+  const cleaned = cleanHtml(name)
+    .replace(/\([^)]*\)/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  const withoutDash = cleaned.split(/\s+-\s+/)[0].trim();
+  const withoutCinema = cleaned.replace(/\b(cinema|cine)\b/gi, " ").replace(/\s+/g, " ").trim();
+  return [...new Set([cleaned, withoutDash, withoutCinema].filter(Boolean))];
+}
+
+async function fetchAllocineTheaterDates(theaterId) {
+  const html = await fetchAllocineText(`https://www.allocine.fr/seance/salle_gen_csalle%3D${encodeURIComponent(theaterId)}.html`, {
+    headers: { "user-agent": "Mozilla/5.0" }
+  });
+  const encoded = (html.match(/data-showtimes-dates="([^"]+)"/) || [])[1] || "[]";
+  const dates = safeJsonParse(decodeAttr(encoded)) || [];
+  return Array.isArray(dates) ? dates : [];
+}
+
+async function fetchAllocineShowtimesForDate(partner, theater, date) {
+  const json = await fetchAllocineJson(`https://www.allocine.fr/_/showtimes/theater-${encodeURIComponent(theater.id)}/d-${encodeURIComponent(date)}/`);
+  return parseAllocineShowtimes(json, partner, theater);
+}
+
+async function fetchAllocineText(url, options = {}) {
+  await waitForAllocineSlot();
+  return fetchText(url, options);
+}
+
+async function fetchAllocineJson(url, options = {}) {
+  return JSON.parse(await fetchAllocineText(url, {
+    ...options,
+    headers: {
+      accept: "application/json",
+      ...(options.headers || {})
+    }
+  }));
+}
+
+async function waitForAllocineSlot() {
+  if (!ALLOCINE_REQUEST_DELAY_MS) return;
+  const queued = allocineRequestQueue.then(async () => {
+    const waitMs = Math.max(0, allocineNextRequestAt - Date.now());
+    if (waitMs) await sleep(waitMs);
+    allocineNextRequestAt = Date.now() + ALLOCINE_REQUEST_DELAY_MS;
+  });
+  allocineRequestQueue = queued.catch(() => {});
+  await queued;
+}
+
+function parseAllocineShowtimes(json, partner, theater) {
+  const results = [];
+  for (const item of json.results || []) {
+    const movie = item.movie || {};
+    const showtimeGroups = item.showtimes || {};
+    for (const [versionKey, showtimes] of Object.entries(showtimeGroups)) {
+      for (const showtime of showtimes || []) {
+        const start = allocineStartIso(showtime.startsAt);
+        if (!start) continue;
+        const durationMin = parseAllocineRuntime(movie.runtime);
+        results.push({
+          id: `allocine-${theater.id}-${showtime.internalId}`,
+          source: "AlloCine",
+          network: "PARTNER",
+          cinemaId: `partner-${slug(theater.name || partner.name)}-${theater.id}`,
+          cinemaName: titleName(theater.name || partner.name),
+          city: titleName(theater.city || inferCity(partner.address)),
+          postalCode: String(theater.postalCode || partner.postalCode || ""),
+          address: theater.address || partner.address || "",
+          filmTitle: movie.title || "",
+          genre: (movie.genres || []).map((genre) => genre.translate || genre.name).filter(Boolean).join(", "),
+          version: allocineVersionLabel(showtime.diffusionVersion || versionKey),
+          durationMin,
+          start,
+          end: durationMin ? addMinutesIso(start, durationMin) : "",
+          bookingUrl: allocineBookingUrl(showtime) || `https://www.allocine.fr/seance/salle_gen_csalle=${theater.id}.html`,
+          filmUrl: movie.internalId ? `https://www.allocine.fr/film/fichefilm_gen_cfilm=${movie.internalId}.html` : `https://www.allocine.fr/seance/salle_gen_csalle=${theater.id}.html`,
+          poster: movie.poster?.url || ""
+        });
+      }
+    }
+  }
+  return results;
+}
+
+function allocineBookingUrl(showtime) {
+  const ticketing = showtime.data?.ticketing || [];
+  const preferred = ticketing.find((item) => item.provider === "default") || ticketing[0];
+  return preferred?.urls?.[0] || "";
+}
+
+function allocineStartIso(value) {
+  if (!value) return "";
+  const text = String(value);
+  const date = text.slice(0, 10);
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) return "";
+  return `${text}${parisOffsetForLocalDate(date)}`;
+}
+
+function allocineVersionLabel(value) {
+  const normalized = String(value || "").toUpperCase();
+  if (normalized.includes("ORIGINAL")) return "VO";
+  if (normalized.includes("DUBBED") || normalized.includes("MULTIPLE")) return "VF";
+  return normalized || "";
+}
+
+function parseAllocineRuntime(value) {
+  const text = String(value || "");
+  const hours = Number((text.match(/(\d+)\s*h/) || [])[1] || 0);
+  const minutes = Number((text.match(/(\d+)\s*min/) || [])[1] || 0);
+  const total = hours * 60 + minutes;
+  return total || null;
 }
 
 async function fetchUgcShowtimes() {
@@ -460,18 +740,29 @@ function decodeAttr(value) {
     .replace(/&amp;/g, "&")
     .replace(/&quot;/g, '"')
     .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
     .replace(/&Eacute;/g, "E")
     .replace(/&eacute;/g, "e")
+    .replace(/&Ecirc;/g, "E")
+    .replace(/&ecirc;/g, "e")
     .replace(/&Ccedil;/g, "C")
     .replace(/&ccedil;/g, "c")
     .replace(/&Ocirc;/g, "O")
     .replace(/&ocirc;/g, "o")
+    .replace(/&OElig;/g, "Oe")
+    .replace(/&oelig;/g, "oe")
     .replace(/&Egrave;/g, "E")
     .replace(/&egrave;/g, "e")
     .replace(/&Agrave;/g, "A")
     .replace(/&agrave;/g, "a")
+    .replace(/&Icirc;/g, "I")
     .replace(/&icirc;/g, "i")
+    .replace(/&Uuml;/g, "U")
+    .replace(/&uuml;/g, "u")
     .replace(/&rsquo;/g, "'")
+    .replace(/&lsquo;/g, "'")
+    .replace(/&rdquo;/g, '"')
+    .replace(/&ldquo;/g, '"')
     .replace(/&hellip;/g, "...")
     .trim();
 }
@@ -485,7 +776,7 @@ function normalizeCinemaName(value) {
     .replace(/\b(quatre|four)\b/g, "4")
     .replace(/\b(cinq|five)\b/g, "5")
     .replace(/\b(sept|seven)\b/g, "7")
-    .replace(/\b(cinema|cine|le|la|les|l|ugc|mk2)\b/g, "")
+    .replace(/\b(cinema|cine|le|la|les|l|de|du|des|d|ugc|mk2)\b/g, "")
     .replace(/[^a-z0-9]/g, "");
 }
 
@@ -511,6 +802,14 @@ function isWithin(value, start, end) {
   if (!value) return false;
   const date = new Date(normalizeIso(value));
   return !Number.isNaN(date.valueOf()) && date >= start && date < end;
+}
+
+function isDateKeyWithinDays(value, daysAhead) {
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(String(value || ""))) return false;
+  const start = new Date();
+  const end = addDays(start, daysAhead + 1);
+  const date = new Date(`${value}T12:00:00${parisOffsetForLocalDate(value)}`);
+  return date >= start && date < end;
 }
 
 function normalizeIso(value) {
