@@ -104,13 +104,17 @@ const SAMPLE_DATA = {
       genre: "Documentaire",
       version: "VF",
       start: "2026-06-22T19:30:00+02:00",
-      bookingUrl: "https://www.mk2.com/film/rencontre-vivian-ostrovksy#sessions"
+      bookingUrl: "https://www.mk2.com/film/rencontre-vivian-ostrovksy#sessions",
+      special: true,
+      specialLabel: "Evenement MK2",
+      specialSource: "MK2 titre"
     }
   ]
 };
 
 const state = {
   data: SAMPLE_DATA,
+  view: initialView(),
   selectedDate: "",
   selectedZone: "all",
   selectedCinema: "all",
@@ -124,9 +128,11 @@ const els = {
   summaryScope: document.getElementById("summaryScope"),
   updatedAt: document.getElementById("updatedAt"),
   dateRail: document.getElementById("dateRail"),
+  viewTabs: document.querySelectorAll("[data-view]"),
   zoneFilter: document.getElementById("zoneFilter"),
   cinemaFilter: document.getElementById("cinemaFilter"),
   searchInput: document.getElementById("searchInput"),
+  sectionKicker: document.getElementById("sectionKicker"),
   selectedDateTitle: document.getElementById("selectedDateTitle"),
   agendaList: document.getElementById("agendaList"),
   clearFilters: document.getElementById("clearFilters"),
@@ -211,6 +217,17 @@ function networkLabel(network) {
   return network || "Cinema";
 }
 
+function initialView() {
+  return window.location.hash === "#speciales" ? "special" : "agenda";
+}
+
+function showtimesForView() {
+  if (state.view === "special") {
+    return state.data.showtimes.filter((item) => item.special);
+  }
+  return state.data.showtimes;
+}
+
 function versionLabel(version) {
   const value = String(version || "").toUpperCase();
   if (value.includes("ORIGINAL") && value.includes("LOCAL")) return "VO/VF";
@@ -255,21 +272,26 @@ async function loadData() {
 }
 
 function initializeFilters() {
-  const dates = uniqueDates();
-  const today = dateKey(new Date().toISOString());
-  state.selectedDate = dates.find((key) => key >= today) || dates[0] || "";
-
+  ensureSelectedDate();
   renderZoneFilter();
   renderCinemaFilter();
 }
 
+function ensureSelectedDate() {
+  const dates = uniqueDates();
+  const today = dateKey(new Date().toISOString());
+  if (!dates.includes(state.selectedDate)) {
+    state.selectedDate = dates.find((key) => key >= today) || dates[0] || "";
+  }
+}
+
 function uniqueDates() {
-  return [...new Set(state.data.showtimes.map((item) => item.dateKey))].sort();
+  return [...new Set(showtimesForView().map((item) => item.dateKey))].sort();
 }
 
 function uniqueCinemas() {
   const map = new Map();
-  state.data.showtimes.forEach((item) => {
+  showtimesForView().forEach((item) => {
     if (!map.has(item.cinemaId)) {
       map.set(item.cinemaId, {
         id: item.cinemaId,
@@ -283,7 +305,7 @@ function uniqueCinemas() {
 }
 
 function renderZoneFilter() {
-  const zonesInData = new Set(state.data.showtimes.map((item) => item.zoneKey));
+  const zonesInData = new Set(showtimesForView().map((item) => item.zoneKey));
   if (state.selectedZone !== "all" && !zonesInData.has(state.selectedZone)) {
     state.selectedZone = "all";
   }
@@ -310,11 +332,12 @@ function renderCinemaFilter() {
 }
 
 function filteredShowtimes() {
-  return state.data.showtimes.filter((item) => matchesActiveFilters(item));
+  return showtimesForView().filter((item) => matchesActiveFilters(item));
 }
 
 function matchesActiveFilters(item, options = {}) {
   const query = normalized(state.search);
+  if (state.view === "special" && !item.special) return false;
   if (!options.ignoreDate && state.selectedDate && item.dateKey !== state.selectedDate) return false;
   if (state.selectedZone !== "all" && item.zoneKey !== state.selectedZone) return false;
   if (state.selectedCinema !== "all" && item.cinemaId !== state.selectedCinema) return false;
@@ -327,17 +350,32 @@ function matchesActiveFilters(item, options = {}) {
 }
 
 function render() {
+  ensureSelectedDate();
+  renderViewTabs();
+  renderZoneFilter();
+  renderCinemaFilter();
   renderStatus();
   renderDates();
   renderAgenda();
   if (window.lucide) window.lucide.createIcons();
 }
 
+function renderViewTabs() {
+  els.viewTabs.forEach((tab) => {
+    const active = tab.dataset.view === state.view;
+    tab.classList.toggle("active", active);
+    tab.setAttribute("aria-selected", String(active));
+  });
+}
+
 function renderStatus() {
   const count = filteredShowtimes().length;
-  const total = state.data.showtimes.length;
+  const scopedTotal = showtimesForView().length;
+  const loadedTotal = state.data.showtimes.length;
   els.summaryCount.textContent = `${count} séance${count > 1 ? "s" : ""} affichée${count > 1 ? "s" : ""}`;
-  els.summaryScope.textContent = `${total} séances chargées`;
+  els.summaryScope.textContent = state.view === "special"
+    ? `${scopedTotal} séances spéciales · ${loadedTotal} chargées`
+    : `${loadedTotal} séances chargées`;
   if (state.data.generatedAt) {
     els.updatedAt.textContent = `MAJ ${formatUpdatedAt(state.data.generatedAt)}`;
   } else {
@@ -364,7 +402,7 @@ function renderDates() {
   els.dateRail.innerHTML = dates.map((key) => {
     const label = formatShortDay(key);
     const active = key === state.selectedDate ? " active" : "";
-    const count = state.data.showtimes.filter((item) => item.dateKey === key && matchesActiveFilters(item, { ignoreDate: true })).length;
+    const count = showtimesForView().filter((item) => item.dateKey === key && matchesActiveFilters(item, { ignoreDate: true })).length;
     return `
       <button class="date-chip${active}" type="button" role="tab" aria-selected="${key === state.selectedDate}" data-date="${key}">
         <strong>${escapeHtml(label.day)}</strong>
@@ -382,6 +420,7 @@ function renderDates() {
 }
 
 function renderAgenda() {
+  els.sectionKicker.textContent = state.view === "special" ? "Séances spéciales" : "Agenda";
   els.selectedDateTitle.textContent = state.selectedDate ? formatDateTitle(state.selectedDate) : "Aucune date";
   const items = filteredShowtimes();
   renderStatus();
@@ -390,7 +429,7 @@ function renderAgenda() {
     els.agendaList.innerHTML = `
       <div class="empty-state">
         <h3>Aucune séance trouvée</h3>
-        <p>Change la date, la zone, le cinéma ou le réseau. Les futures dates apparaissent seulement quand les cinémas les publient.</p>
+        <p>${state.view === "special" ? "Change la date, la zone ou le cinéma. Cette vue garde seulement les projections avec un label événementiel." : "Change la date, la zone, le cinéma ou le réseau. Les futures dates apparaissent seulement quand les cinémas les publient."}</p>
       </div>
     `;
     return;
@@ -427,6 +466,7 @@ function groupByPeriod(items) {
 function renderRow(item) {
   const networkClass = item.network === "UGC" ? "ugc" : item.network === "MK2" ? "mk2" : "partner";
   const end = item.end ? `<span class="screening-end">fin ${formatTime(item.end)}</span>` : "";
+  const specialBadge = item.special ? `<span class="badge special">${escapeHtml(item.specialLabel || "Special")}</span>` : "";
   const booking = item.bookingUrl
     ? `<a class="booking-link" href="${escapeAttr(item.bookingUrl)}" target="_blank" rel="noopener"><i data-lucide="ticket" aria-hidden="true"></i>Réserver</a>`
     : `<a class="booking-link" href="${escapeAttr(item.filmUrl || "#")}" target="_blank" rel="noopener"><i data-lucide="external-link" aria-hidden="true"></i>Voir</a>`;
@@ -442,6 +482,7 @@ function renderRow(item) {
         <h3 class="screening-title">${escapeHtml(toTitleCase(item.filmTitle))}</h3>
         <div class="screening-meta">
           <span class="badge ${networkClass}">${escapeHtml(networkLabel(item.network))}</span>
+          ${specialBadge}
           <span class="badge">${escapeHtml(item.versionShort)}</span>
           <span>${escapeHtml(item.cinemaName)}</span>
           <span>${escapeHtml(locationLabel(item))}</span>
@@ -469,6 +510,7 @@ function openDetails(item) {
       <li><strong>Cinéma</strong> ${escapeHtml(item.cinemaName)}</li>
       <li><strong>Zone</strong> ${escapeHtml(locationLabel(item))}</li>
       <li><strong>Version</strong> ${escapeHtml(item.versionShort)}</li>
+      ${item.special ? `<li><strong>Special</strong> ${escapeHtml(item.specialLabel || item.specialSource || "Projection speciale")}</li>` : ""}
       ${item.genre ? `<li><strong>Genre</strong> ${escapeHtml(item.genre)}</li>` : ""}
     </ul>
     ${item.bookingUrl ? `<a class="booking-link" href="${escapeAttr(item.bookingUrl)}" target="_blank" rel="noopener"><i data-lucide="ticket" aria-hidden="true"></i>Ouvrir la réservation</a>` : ""}
@@ -518,7 +560,22 @@ function escapeAttr(value) {
   return escapeHtml(value).replace(/`/g, "&#096;");
 }
 
+function setView(view, options = {}) {
+  if (!["agenda", "special"].includes(view) || state.view === view) return;
+  state.view = view;
+  state.selectedCinema = "all";
+  ensureSelectedDate();
+  if (!options.fromHash && window.history?.replaceState) {
+    const url = view === "special" ? "#speciales" : `${window.location.pathname}${window.location.search}`;
+    window.history.replaceState(null, "", url);
+  }
+  render();
+}
+
 els.refreshButton.addEventListener("click", loadData);
+els.viewTabs.forEach((tab) => {
+  tab.addEventListener("click", () => setView(tab.dataset.view));
+});
 els.zoneFilter.addEventListener("change", (event) => {
   state.selectedZone = event.target.value;
   renderCinemaFilter();
@@ -552,5 +609,8 @@ document.querySelectorAll(".network-row .chip").forEach((chip) => {
   });
 });
 els.closeDialog.addEventListener("click", () => els.detailsDialog.close());
+window.addEventListener("hashchange", () => {
+  setView(initialView(), { fromHash: true });
+});
 
 loadData();

@@ -138,6 +138,32 @@ h2 {
   backdrop-filter: blur(18px);
 }
 
+.view-switch {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-bottom: 12px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.view-tab {
+  min-height: 36px;
+  border: 0;
+  border-radius: 7px;
+  color: var(--muted);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 850;
+}
+
+.view-tab.active {
+  color: var(--surface);
+  background: var(--red);
+}
+
 .date-row,
 .network-row {
   display: flex;
@@ -266,9 +292,6 @@ a:focus-visible {
 }
 
 .time-label {
-  position: sticky;
-  top: 248px;
-  z-index: 4;
   display: inline-flex;
   align-items: center;
   gap: 6px;
@@ -396,6 +419,11 @@ a:focus-visible {
   background: var(--green);
 }
 
+.badge.special {
+  color: var(--ink);
+  background: #f1d25c;
+}
+
 .row-actions {
   display: flex;
   flex-wrap: wrap;
@@ -520,10 +548,6 @@ a:focus-visible {
 
   .filters {
     top: 76px;
-  }
-
-  .time-label {
-    top: 218px;
   }
 
   .screening-row {

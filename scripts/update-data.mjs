@@ -11,6 +11,8 @@ const MAX_UGC_CINEMAS = Number(ENV.MAX_UGC_CINEMAS || 32);
 const REQUEST_TIMEOUT_MS = Number(ENV.REQUEST_TIMEOUT_MS || 15_000);
 const FETCH_RETRIES = Number(ENV.FETCH_RETRIES || 2);
 const UGC_CONCURRENCY = Number(ENV.UGC_CONCURRENCY || 8);
+const UGC_SPECIAL_CONCURRENCY = Number(ENV.UGC_SPECIAL_CONCURRENCY || 6);
+const UGC_SPECIAL_DAYS_AHEAD = Number(ENV.UGC_SPECIAL_DAYS_AHEAD || Math.max(DAYS_AHEAD, 180));
 const MK2_CONCURRENCY = Number(ENV.MK2_CONCURRENCY || 6);
 const MK2_DAYS_AHEAD = Number(ENV.MK2_DAYS_AHEAD || Math.max(DAYS_AHEAD, 120));
 const ALLOCINE_DAYS_AHEAD = Number(ENV.ALLOCINE_DAYS_AHEAD || Math.min(DAYS_AHEAD, 10));
@@ -24,6 +26,17 @@ const UGC_IDF_IDS = new Set([
   10, 12, 7, 14, 15, 13, 4, 11, 5, 9, 37, 20, 59, 18, 38, 21, 19, 16, 17,
   43, 44, 6, 40, 41, 55, 47, 48, 49, 54, 39
 ]);
+const UGC_SPECIAL_CATEGORIES = [
+  { id: 1, name: "Avant-premiere" },
+  { id: 3, name: "UGC Culte" },
+  { id: 5, name: "Seances speciales" },
+  { id: 13, name: "Cycle / Marathon" }
+];
+const UGC_EXCLUDED_SPECIAL_LABEL_RE = /\b(preventes?|pre[-\s]?ventes?|ugc aime|ugc decouvre|family|famille|pestacles?)\b/i;
+const UGC_TRUE_PREMIERE_RE = /\b(avec equipe|rencontre|debat|masterclass)\b/i;
+const MK2_EXCLUDED_SELECTION_RE = /\b(precommandes?|preventes?|pre[-\s]?ventes?)\b/i;
+const MK2_ALLOWED_SELECTION_RE = /\b(on a vu|mk2 revelation|mk2 institut|philosophie|continuite|cycle|festival|retrospective|rencontre|debat|masterclass|cine[-\s]?club|carte blanche|marathon|seance speciale)\b/i;
+const MK2_EVENT_TITLE_RE = /\b(rencontre|debat|masterclass|cine[-\s]?club|carte blanche|festival|retrospective|marathon|seance speciale)\b/i;
 const ALLOCINE_THEATER_OVERRIDES = [
   ["LE GRAND REX - LE REX", "C0065", "Le Grand Rex", "75002"],
   ["ECOLES CINEMA CLUB", "C0071", "Ecoles Cinema Club", "75005"],
@@ -128,11 +141,13 @@ async function main() {
     timezone: "Europe/Paris",
     scope: "Ile-de-France",
     daysAhead: DAYS_AHEAD,
+    ugcSpecialDaysAhead: UGC_SPECIAL_DAYS_AHEAD,
     mk2DaysAhead: MK2_DAYS_AHEAD,
     sources: [
       "UGC accepted cinemas: https://www.ugc.fr/cinemas-acceptant-ui.html",
       "Independent cinema API: https://datacinesindes.fr/data-fair/api/v1/datasets/programmation-cinemas",
       "UGC showings: https://www.ugc.fr/showingsCinemaAjaxAction!getShowingsForCinemaPage.action",
+      "UGC event showings: https://www.ugc.fr/cinemaAjaxAction!getDoNotMissWithSlider.action",
       "MK2 pages: https://www.mk2.com/salles",
       "AlloCine partner showtimes: https://www.allocine.fr"
     ],
@@ -512,13 +527,31 @@ async function fetchUgcShowtimes() {
   const dates = dateRange(DAYS_AHEAD);
   const requests = cinemas.flatMap((cinema) => dates.map((date) => ({ cinema, date })));
 
-  return mapLimit(requests, UGC_CONCURRENCY, async ({ cinema, date }) => {
+  const regular = await mapLimit(requests, UGC_CONCURRENCY, async ({ cinema, date }) => {
     const url = `https://www.ugc.fr/showingsCinemaAjaxAction!getShowingsForCinemaPage.action?cinemaId=${encodeURIComponent(cinema.id)}&date=${encodeURIComponent(formatUgcDate(date))}&page=30007`;
     try {
       const html = await fetchText(url);
       return parseUgcHtml(html, cinema);
     } catch (error) {
       console.warn(`UGC ${cinema.name} ${date.toISOString().slice(0, 10)} failed: ${error.message}`);
+      return [];
+    }
+  });
+  const special = await fetchUgcSpecialShowtimes(cinemas);
+  return [...regular, ...special];
+}
+
+async function fetchUgcSpecialShowtimes(cinemas) {
+  const start = new Date();
+  const end = addDays(start, UGC_SPECIAL_DAYS_AHEAD + 1);
+  const requests = cinemas.flatMap((cinema) => UGC_SPECIAL_CATEGORIES.map((category) => ({ cinema, category })));
+  return mapLimit(requests, UGC_SPECIAL_CONCURRENCY, async ({ cinema, category }) => {
+    const url = `https://www.ugc.fr/cinemaAjaxAction!getDoNotMissWithSlider.action?doNotMissCategoryId=${encodeURIComponent(category.id)}&cinemaId=${encodeURIComponent(cinema.id)}`;
+    try {
+      const html = await fetchText(url);
+      return parseUgcSpecialHtml(html, cinema, category, start, end);
+    } catch (error) {
+      console.warn(`UGC special ${cinema.name} ${category.name} failed: ${error.message}`);
       return [];
     }
   });
@@ -564,18 +597,71 @@ function parseUgcHtml(html, cinema) {
   return showings;
 }
 
+function parseUgcSpecialHtml(html, cinema, category, start, end) {
+  const showings = [];
+  const chunks = html.split(/<div class="slider-item">/g).slice(1);
+  for (const chunk of chunks) {
+    const title = decodeAttr((chunk.match(/title="([^"]+)"/) || [])[1] || "");
+    if (!title) continue;
+    const filmHref = absolutizeUgc((chunk.match(/href="([^"]*film_[^"]+)"/) || [])[1] || "");
+    const filmId = (filmHref.match(/_(\d+)\.html/) || chunk.match(/goToFilm_(\d+)/) || [])[1] || "";
+    const poster = absolutizeUgc((chunk.match(/<img[^>]+src="([^"]+)"/) || [])[1] || "");
+    const genre = decodeAttr((chunk.match(/data-film-kind="([^"]*)"/) || [])[1] || "");
+    const tag = cleanHtml((chunk.match(/<span class="film-tag[^>]*>([\s\S]*?)<\/span>/) || [])[1] || "");
+    const dataLabel = decodeAttr((chunk.match(/data-film-label="([^"]*)"/) || [])[1] || "");
+    const specialLabel = tag || dataLabel || category.name;
+    if (!keepUgcSpecial(category, specialLabel)) continue;
+    const bookingRx = /href="reservationSeances\.html\?id=([^"]+)"[\s\S]*?<span>([^<]+)<\/span>/g;
+    let booking;
+    while ((booking = bookingRx.exec(chunk))) {
+      const showingId = booking[1];
+      const startIso = localIsoFromFrenchText(booking[2]);
+      if (!isWithin(startIso, start, end)) continue;
+      showings.push({
+        id: `ugc-${showingId}`,
+        source: "UGC",
+        network: "UGC",
+        cinemaId: `ugc-${cinema.id}`,
+        cinemaName: decodeAttr(cinema.name).trim(),
+        city: inferCity(cinema.name),
+        postalCode: "",
+        filmTitle: title,
+        genre,
+        version: "",
+        start: startIso,
+        end: "",
+        bookingUrl: `https://www.ugc.fr/reservationSeances.html?id=${showingId}`,
+        filmUrl: filmHref,
+        poster,
+        providerFilmId: filmId,
+        special: true,
+        specialLabel,
+        specialSource: `UGC ${category.name}`
+      });
+    }
+  }
+  return showings;
+}
+
+function keepUgcSpecial(category, specialLabel) {
+  const comparable = eventComparable(specialLabel);
+  if (category.id === 1) return UGC_TRUE_PREMIERE_RE.test(comparable);
+  return !UGC_EXCLUDED_SPECIAL_LABEL_RE.test(comparable);
+}
+
 async function fetchMk2Showtimes() {
   const indexHtml = await fetchText("https://www.mk2.com/salles");
   const slugs = [...new Set([...indexHtml.matchAll(/href="\/salle\/([^"]+)"/g)].map((match) => match[1]))]
     .filter((item) => item.startsWith("mk2-"));
   const start = new Date();
-  const end = addDays(start, MK2_DAYS_AHEAD + 1);
+  const regularEnd = addDays(start, DAYS_AHEAD + 1);
+  const specialEnd = addDays(start, MK2_DAYS_AHEAD + 1);
   return mapLimit(slugs, MK2_CONCURRENCY, async (complexSlug) => {
     const results = [];
     try {
       const html = await fetchText(`https://www.mk2.com/salle/${complexSlug}`);
       const flight = extractNextFlightText(html);
-      results.push(...parseMk2Flight(flight, start, end));
+      results.push(...parseMk2Flight(flight, start, regularEnd, specialEnd));
     } catch (error) {
       console.warn(`MK2 ${complexSlug} failed: ${error.message}`);
     }
@@ -583,7 +669,7 @@ async function fetchMk2Showtimes() {
   });
 }
 
-function parseMk2Flight(flight, start, end) {
+function parseMk2Flight(flight, start, regularEnd, specialEnd = regularEnd) {
   const results = [];
   const complexBlocks = extractJsonObjectsContaining(flight, '"sessionsByType":');
   for (const block of complexBlocks) {
@@ -593,10 +679,13 @@ function parseMk2Flight(flight, start, end) {
     for (const sessionType of complex.sessionsByType) {
       for (const pair of sessionType.sessionsByFilmAndCinema || []) {
         if (!pair?.film || !Array.isArray(pair.sessions)) continue;
+        const specialInfo = mk2SpecialInfo(pair.film, sessionType);
         for (const session of pair.sessions) {
-          if (!isWithin(session.showTime, start, end)) continue;
+          const inRegularWindow = isWithin(session.showTime, start, regularEnd);
+          const inSpecialWindow = specialInfo && isWithin(session.showTime, start, specialEnd);
+          if (!inRegularWindow && !inSpecialWindow) continue;
           const cinema = pair.cinema || cinemasById.get(String(session.cinemaId)) || {};
-          results.push(formatMk2Showtime(pair.film, cinema, session));
+          results.push(formatMk2Showtime(pair.film, cinema, session, specialInfo));
         }
       }
     }
@@ -608,16 +697,47 @@ function parseMk2Flight(flight, start, end) {
   for (const block of legacyBlocks) {
     const item = safeJsonParse(block);
     if (!item?.film || !item?.cinema || !Array.isArray(item.sessions)) continue;
+    const specialInfo = mk2SpecialInfo(item.film);
     for (const session of item.sessions) {
-      if (isWithin(session.showTime, start, end)) {
-        results.push(formatMk2Showtime(item.film, item.cinema, session));
+      const inRegularWindow = isWithin(session.showTime, start, regularEnd);
+      const inSpecialWindow = specialInfo && isWithin(session.showTime, start, specialEnd);
+      if (inRegularWindow || inSpecialWindow) {
+        results.push(formatMk2Showtime(item.film, item.cinema, session, specialInfo));
       }
     }
   }
   return results;
 }
 
-function formatMk2Showtime(film, cinema, session) {
+function mk2SpecialInfo(film = {}, sessionType = {}) {
+  const labels = [
+    film.label?.name,
+    ...(film.selections || []).map((selection) => selection?.name),
+    sessionType.label,
+    sessionType.name,
+    sessionType.title
+  ]
+    .map((value) => cleanHtml(value))
+    .filter(Boolean);
+  const candidates = [...new Set(labels)]
+    .filter((label) => !MK2_EXCLUDED_SELECTION_RE.test(eventComparable(label)))
+    .filter((label) => MK2_ALLOWED_SELECTION_RE.test(eventComparable(label)));
+  if (candidates.length) {
+    return {
+      label: candidates[0],
+      source: "MK2 selection"
+    };
+  }
+  if (MK2_EVENT_TITLE_RE.test(eventComparable(film.title))) {
+    return {
+      label: "Evenement MK2",
+      source: "MK2 titre"
+    };
+  }
+  return null;
+}
+
+function formatMk2Showtime(film, cinema, session, specialInfo = null) {
   const filmUrl = film.slug ? `https://www.mk2.com/film/${film.slug}` : "https://www.mk2.com/films";
   const version = (session.attributes || [])
     .map((attr) => attr.shortName)
@@ -641,7 +761,10 @@ function formatMk2Showtime(film, cinema, session) {
     end: film.runTime ? addMinutesIso(utcToParisIso(session.showTime), film.runTime) : "",
     bookingUrl: `${filmUrl}#sessions`,
     filmUrl,
-    poster: film.graphicUrl || film.posterUrl || ""
+    poster: film.graphicUrl || film.posterUrl || "",
+    special: Boolean(specialInfo),
+    specialLabel: specialInfo?.label || "",
+    specialSource: specialInfo?.source || ""
   };
 }
 
@@ -810,7 +933,10 @@ function mergeShowtime(existing, next) {
     poster: existing.poster || next.poster || "",
     city: existing.city || next.city || "",
     postalCode: existing.postalCode || next.postalCode || "",
-    address: existing.address || next.address || ""
+    address: existing.address || next.address || "",
+    special: Boolean(existing.special || next.special),
+    specialLabel: existing.specialLabel || next.specialLabel || "",
+    specialSource: existing.specialSource || next.specialSource || ""
   };
 }
 
@@ -828,6 +954,13 @@ function cleanHtml(value) {
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim());
+}
+
+function eventComparable(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 }
 
 function decodeAttr(value) {
@@ -942,6 +1075,38 @@ function localIsoFromFrenchDate(date, time) {
   const [day, month, year] = date.split("/");
   const isoDate = `${year}-${month}-${day}`;
   return `${isoDate}T${time}:00${parisOffsetForLocalDate(isoDate)}`;
+}
+
+function localIsoFromFrenchText(value) {
+  const text = eventComparable(value).replace(/\s+/g, " ").trim();
+  const match = text.match(/^(\d{1,2})\s+([a-z]+)\s+(\d{4})\s+([0-2]?\d:[0-5]\d)$/);
+  if (!match) return "";
+  const month = frenchMonthNumber(match[2]);
+  if (!month) return "";
+  const isoDate = [
+    match[3],
+    String(month).padStart(2, "0"),
+    String(Number(match[1])).padStart(2, "0")
+  ].join("-");
+  const [hour, minute] = match[4].split(":").map((part) => String(Number(part)).padStart(2, "0"));
+  return `${isoDate}T${hour}:${minute}:00${parisOffsetForLocalDate(isoDate)}`;
+}
+
+function frenchMonthNumber(value) {
+  return {
+    janvier: 1,
+    fevrier: 2,
+    mars: 3,
+    avril: 4,
+    mai: 5,
+    juin: 6,
+    juillet: 7,
+    aout: 8,
+    septembre: 9,
+    octobre: 10,
+    novembre: 11,
+    decembre: 12
+  }[eventComparable(value)] || 0;
 }
 
 function utcToParisIso(value) {

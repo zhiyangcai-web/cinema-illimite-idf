@@ -8,9 +8,9 @@
     <meta name="description" content="Agenda mobile des seances UGC, MK2 et cinemas partenaires UGC/MK2 Illimite en Ile-de-France.">
     <link rel="icon" href="data:,">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=20260619-3">
+    <link rel="stylesheet" href="styles.css?v=20260619-4">
     <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
-    <script defer src="app.js?v=20260619-3"></script>
+    <script defer src="app.js?v=20260619-4"></script>
   </head>
   <body>
     <div class="app-shell">
@@ -34,6 +34,11 @@
 
       <main>
         <section class="filters" aria-label="Filtres des seances">
+          <div class="view-switch" role="tablist" aria-label="Vue">
+            <button class="view-tab active" type="button" role="tab" aria-selected="true" data-view="agenda">Agenda</button>
+            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="special">Spéciales</button>
+          </div>
+
           <div class="date-row" id="dateRail" role="tablist" aria-label="Dates disponibles"></div>
 
           <div class="control-grid">
@@ -67,7 +72,7 @@
 
         <section class="agenda-head">
           <div>
-            <p class="section-kicker">Agenda</p>
+            <p class="section-kicker" id="sectionKicker">Agenda</p>
             <h2 id="selectedDateTitle">--</h2>
           </div>
           <button class="text-button" type="button" id="clearFilters">Effacer</button>
