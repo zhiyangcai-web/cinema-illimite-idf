@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -70,10 +70,23 @@ const ALLOCINE_THEATER_OVERRIDES = [
   ["L'ANTARES", "B4834", "L'Antares", "95490"],
   ["CINEMA ESPACE 1789", "B0123", "Espace 1789", "93400"]
 ];
+const ALLOCINE_PRIORITY_THEATER_IDS = [
+  "B0103",
+  "B0092",
+  "W9250",
+  "B0094",
+  "B0144",
+  "B0123",
+  "B0203",
+  "B4834",
+  "B0151",
+  "W7713"
+];
 let allocineRequestQueue = Promise.resolve();
 let allocineNextRequestAt = 0;
 
 async function main() {
+  const previousShowtimes = await readPreviousShowtimes();
   const generatedAt = new Date().toISOString();
   const partnerCatalog = await fetchUgcAcceptedCinemas();
   const independentPromise = fetchIndependentPartnerShowtimes(partnerCatalog);
@@ -85,11 +98,19 @@ async function main() {
     allocinePromise
   ]);
 
+  const independentItems = settledValue(independent, "DataCinesIndes");
+  const ugcItems = settledValue(ugc, "UGC");
+  const mk2Items = settledValue(mk2, "MK2");
+  const allocineItems = settledValue(allocine, "AlloCine");
+  const preservedAlloCine = preservePreviousAlloCineShowtimes(previousShowtimes, allocineItems);
+  if (preservedAlloCine.length) console.log(`Preserved ${preservedAlloCine.length} previous AlloCine showtimes`);
+
   const showtimes = [
-    ...settledValue(independent, "DataCinesIndes"),
-    ...settledValue(ugc, "UGC"),
-    ...settledValue(mk2, "MK2"),
-    ...settledValue(allocine, "AlloCine")
+    ...independentItems,
+    ...ugcItems,
+    ...mk2Items,
+    ...allocineItems,
+    ...preservedAlloCine
   ];
 
   const deduped = dedupe(showtimes)
@@ -119,6 +140,26 @@ function settledValue(result, name) {
   if (result.status === "fulfilled") return result.value;
   console.warn(`${name} source failed:`, result.reason?.message || result.reason);
   return [];
+}
+
+async function readPreviousShowtimes() {
+  try {
+    const data = JSON.parse(await readFile(OUT_FILE, "utf8"));
+    return Array.isArray(data.showtimes) ? data.showtimes : [];
+  } catch {
+    return [];
+  }
+}
+
+function preservePreviousAlloCineShowtimes(previousShowtimes, freshAlloCineShowtimes) {
+  if (!previousShowtimes.length) return [];
+  const freshIds = new Set(freshAlloCineShowtimes.map((item) => item.id).filter(Boolean));
+  const start = new Date();
+  const end = addDays(start, ALLOCINE_DAYS_AHEAD + 1);
+  return previousShowtimes
+    .filter((item) => item.source === "AlloCine")
+    .filter((item) => item.id && !freshIds.has(item.id))
+    .filter((item) => isWithin(item.start, start, end));
 }
 
 async function fetchText(url, options = {}) {
@@ -264,7 +305,9 @@ function fuzzyCinemaMatch(left, right) {
 async function fetchAllocinePartnerShowtimes(partnerCatalog, existingPartnerShowtimes = []) {
   const partners = partnerCatalog.filter((item) => item.network === "PARTNER");
   const covered = coveredPartnerKeys(existingPartnerShowtimes, partners);
-  const missingPartners = partners.filter((partner) => !covered.has(partner.normalized));
+  const missingPartners = partners
+    .filter((partner) => !covered.has(partner.normalized))
+    .sort((left, right) => allocinePriorityRank(left) - allocinePriorityRank(right));
 
   return mapLimit(missingPartners, ALLOCINE_CONCURRENCY, async (partner) => {
     try {
@@ -332,6 +375,12 @@ function allocineStaticTheater(partner) {
     city: inferCity(partner.address),
     address: partner.address || ""
   };
+}
+
+function allocinePriorityRank(partner) {
+  const id = allocineStaticTheater(partner)?.id || "";
+  const index = ALLOCINE_PRIORITY_THEATER_IDS.indexOf(id);
+  return index === -1 ? ALLOCINE_PRIORITY_THEATER_IDS.length : index;
 }
 
 function allocineSearchQueries(name) {
