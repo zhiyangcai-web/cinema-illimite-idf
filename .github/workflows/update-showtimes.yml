@@ -1,0 +1,27 @@
+name: Update showtimes
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh showtime data
+        env:
+          DAYS_AHEAD: 21
+        run: node scripts/update-data.mjs
+      - name: Commit refreshed data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update cinema showtimes"
+          file_pattern: data/showtimes.json

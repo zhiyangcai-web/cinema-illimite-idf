@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#f8f5f0">
+    <title>Ciné Illimité IDF</title>
+    <meta name="description" content="Agenda mobile des seances UGC, MK2 et cinemas partenaires UGC/MK2 Illimite en Ile-de-France.">
+    <link rel="icon" href="data:,">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">UGC / MK2 Illimite</p>
+          <h1>Ciné Illimité IDF</h1>
+        </div>
+        <button class="icon-button" id="refreshButton" type="button" aria-label="Recharger les donnees">
+          <i data-lucide="refresh-cw" aria-hidden="true"></i>
+        </button>
+      </header>
+
+      <section class="status-strip" aria-live="polite">
+        <div>
+          <span id="summaryCount">Chargement...</span>
+          <span id="summaryScope">Ile-de-France</span>
+        </div>
+        <span id="updatedAt">--</span>
+      </section>
+
+      <main>
+        <section class="filters" aria-label="Filtres des seances">
+          <div class="date-row" id="dateRail" role="tablist" aria-label="Dates disponibles"></div>
+
+          <div class="control-grid">
+            <label class="field">
+              <span>Cinéma</span>
+              <select id="cinemaFilter">
+                <option value="all">Toutes les salles</option>
+              </select>
+            </label>
+
+            <label class="field">
+              <span>Recherche</span>
+              <input id="searchInput" type="search" placeholder="Film, cinéma, ville">
+            </label>
+          </div>
+
+          <div class="network-row" aria-label="Reseaux">
+            <button class="chip active" type="button" data-network="all">Tous</button>
+            <button class="chip" type="button" data-network="UGC">UGC</button>
+            <button class="chip" type="button" data-network="MK2">MK2</button>
+            <button class="chip" type="button" data-network="PARTNER">Partenaires</button>
+          </div>
+        </section>
+
+        <section class="agenda-head">
+          <div>
+            <p class="section-kicker">Agenda</p>
+            <h2 id="selectedDateTitle">--</h2>
+          </div>
+          <button class="text-button" type="button" id="clearFilters">Effacer</button>
+        </section>
+
+        <section id="agendaList" class="agenda-list" aria-live="polite"></section>
+      </main>
+
+      <footer class="app-footer">
+        <p>Les liens ouvrent les pages officielles de reservation quand elles sont disponibles.</p>
+      </footer>
+    </div>
+
+    <dialog id="detailsDialog" class="details-dialog">
+      <button class="icon-button close-dialog" type="button" id="closeDialog" aria-label="Fermer">
+        <i data-lucide="x" aria-hidden="true"></i>
+      </button>
+      <div id="detailsContent"></div>
+    </dialog>
+  </body>
+</html>

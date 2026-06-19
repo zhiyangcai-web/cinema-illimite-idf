@@ -1,0 +1,9 @@
+{
+  "name": "Ciné Illimité IDF",
+  "short_name": "Ciné IDF",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8f5f0",
+  "theme_color": "#f8f5f0",
+  "description": "Agenda des seances UGC, MK2 et partenaires Illimite en Ile-de-France."
+}
