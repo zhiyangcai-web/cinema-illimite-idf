@@ -2,6 +2,31 @@
 
 const DATA_URL = "data/showtimes.json";
 
+const ZONES = [
+  ["75", "Paris (75)"],
+  ["77", "Seine-et-Marne (77)"],
+  ["78", "Yvelines (78)"],
+  ["91", "Essonne (91)"],
+  ["92", "Hauts-de-Seine (92)"],
+  ["93", "Seine-Saint-Denis (93)"],
+  ["94", "Val-de-Marne (94)"],
+  ["95", "Val-d'Oise (95)"],
+  ["unknown", "Zone inconnue"]
+];
+
+const ZONE_LABELS = Object.fromEntries(ZONES);
+
+const ZONE_NAME_RULES = [
+  ["77", ["meaux", "varennes"]],
+  ["78", ["saint germain", "poissy", "velizy", "parly", "sqy", "montigny", "cyrano", "plaisir", "jean marais", "chesnay", "versailles"]],
+  ["91", ["le central", "central cinema", "mennecy", "orsay", "les ulis"]],
+  ["92", ["la defense", "issy", "abel gance", "courbevoie", "rueil", "suresnes", "capitole", "3 pierrots", "saint cloud"]],
+  ["93", ["rosny", "o parinor", "aulnay", "noisy", "le studio", "louis daquin", "le bijou", "saint-denis", "saint denis", "saint ouen", "espace 1789", "l ecran", "cinhoche", "cin hoche", "bagnolet", "le blanc mesnil"]],
+  ["94", ["creteil", "bords de marne", "4 delta", "saint maur", "vitry", "roberspierre", "fontenay"]],
+  ["95", ["cergy", "enghien", "antares", "vaureal", "montmorency"]],
+  ["75", ["paris", "odeon", "opera", "bercy", "les halles", "maillot", "montparnasse", "gobelins", "danton", "rotonde", "roxane", "bastille", "bibliotheque", "beaubourg", "gambetta", "nation", "quai de seine", "quai de loire", "parnasse"]]
+];
+
 const SAMPLE_DATA = {
   generatedAt: "2026-06-19T10:30:00+02:00",
   timezone: "Europe/Paris",
@@ -87,6 +112,7 @@ const SAMPLE_DATA = {
 const state = {
   data: SAMPLE_DATA,
   selectedDate: "",
+  selectedZone: "all",
   selectedCinema: "all",
   selectedNetwork: "all",
   search: ""
@@ -98,6 +124,7 @@ const els = {
   summaryScope: document.getElementById("summaryScope"),
   updatedAt: document.getElementById("updatedAt"),
   dateRail: document.getElementById("dateRail"),
+  zoneFilter: document.getElementById("zoneFilter"),
   cinemaFilter: document.getElementById("cinemaFilter"),
   searchInput: document.getElementById("searchInput"),
   selectedDateTitle: document.getElementById("selectedDateTitle"),
@@ -154,6 +181,31 @@ function normalized(value) {
     .toLowerCase();
 }
 
+function zoneKeyForShowtime(item) {
+  const postal = String(item.postalCode || "").match(/\b(75|77|78|91|92|93|94|95)\d{3}\b/);
+  if (postal) return postal[1];
+
+  const haystack = normalized([
+    item.cinemaName,
+    item.city,
+    item.address,
+    item.bookingUrl
+  ].filter(Boolean).join(" "));
+  for (const [zoneKey, terms] of ZONE_NAME_RULES) {
+    if (terms.some((term) => haystack.includes(term))) return zoneKey;
+  }
+  return "unknown";
+}
+
+function zoneLabel(zoneKey) {
+  return ZONE_LABELS[zoneKey] || "Zone inconnue";
+}
+
+function locationLabel(item) {
+  if (item.postalCode) return [item.postalCode, item.city].filter(Boolean).join(" ");
+  return zoneLabel(item.zoneKey);
+}
+
 function networkLabel(network) {
   if (network === "PARTNER") return "Partenaire";
   return network || "Cinema";
@@ -168,12 +220,14 @@ function versionLabel(version) {
 }
 
 function enrichShowtime(showtime) {
+  const zoneKey = zoneKeyForShowtime(showtime);
   return {
     ...showtime,
     dateKey: dateKey(showtime.start),
     time: formatTime(showtime.start),
     versionShort: versionLabel(showtime.version),
-    poster: normalizePosterUrl(showtime.poster)
+    poster: normalizePosterUrl(showtime.poster),
+    zoneKey
   };
 }
 
@@ -205,11 +259,8 @@ function initializeFilters() {
   const today = dateKey(new Date().toISOString());
   state.selectedDate = dates.find((key) => key >= today) || dates[0] || "";
 
-  const cinemas = uniqueCinemas();
-  els.cinemaFilter.innerHTML = [
-    `<option value="all">Toutes les salles</option>`,
-    ...cinemas.map((cinema) => `<option value="${escapeHtml(cinema.id)}">${escapeHtml(cinema.name)}</option>`)
-  ].join("");
+  renderZoneFilter();
+  renderCinemaFilter();
 }
 
 function uniqueDates() {
@@ -223,25 +274,56 @@ function uniqueCinemas() {
       map.set(item.cinemaId, {
         id: item.cinemaId,
         name: item.cinemaName,
-        network: item.network
+        network: item.network,
+        zoneKey: item.zoneKey
       });
     }
   });
   return [...map.values()].sort((a, b) => a.name.localeCompare(b.name, "fr"));
 }
 
+function renderZoneFilter() {
+  const zonesInData = new Set(state.data.showtimes.map((item) => item.zoneKey));
+  if (state.selectedZone !== "all" && !zonesInData.has(state.selectedZone)) {
+    state.selectedZone = "all";
+  }
+  els.zoneFilter.innerHTML = [
+    `<option value="all">Toute l'Ile-de-France</option>`,
+    ...ZONES
+      .filter(([key]) => zonesInData.has(key))
+      .map(([key, label]) => `<option value="${escapeHtml(key)}">${escapeHtml(label)}</option>`)
+  ].join("");
+  els.zoneFilter.value = state.selectedZone;
+}
+
+function renderCinemaFilter() {
+  const cinemas = uniqueCinemas()
+    .filter((cinema) => state.selectedZone === "all" || cinema.zoneKey === state.selectedZone);
+  if (state.selectedCinema !== "all" && !cinemas.some((cinema) => cinema.id === state.selectedCinema)) {
+    state.selectedCinema = "all";
+  }
+  els.cinemaFilter.innerHTML = [
+    `<option value="all">Toutes les salles</option>`,
+    ...cinemas.map((cinema) => `<option value="${escapeHtml(cinema.id)}">${escapeHtml(cinema.name)}</option>`)
+  ].join("");
+  els.cinemaFilter.value = state.selectedCinema;
+}
+
 function filteredShowtimes() {
+  return state.data.showtimes.filter((item) => matchesActiveFilters(item));
+}
+
+function matchesActiveFilters(item, options = {}) {
   const query = normalized(state.search);
-  return state.data.showtimes.filter((item) => {
-    if (state.selectedDate && item.dateKey !== state.selectedDate) return false;
-    if (state.selectedCinema !== "all" && item.cinemaId !== state.selectedCinema) return false;
-    if (state.selectedNetwork !== "all" && item.network !== state.selectedNetwork) return false;
-    if (query) {
-      const haystack = normalized(`${item.filmTitle} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
-      if (!haystack.includes(query)) return false;
-    }
-    return true;
-  });
+  if (!options.ignoreDate && state.selectedDate && item.dateKey !== state.selectedDate) return false;
+  if (state.selectedZone !== "all" && item.zoneKey !== state.selectedZone) return false;
+  if (state.selectedCinema !== "all" && item.cinemaId !== state.selectedCinema) return false;
+  if (state.selectedNetwork !== "all" && item.network !== state.selectedNetwork) return false;
+  if (query) {
+    const haystack = normalized(`${item.filmTitle} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
+    if (!haystack.includes(query)) return false;
+  }
+  return true;
 }
 
 function render() {
@@ -282,7 +364,7 @@ function renderDates() {
   els.dateRail.innerHTML = dates.map((key) => {
     const label = formatShortDay(key);
     const active = key === state.selectedDate ? " active" : "";
-    const count = state.data.showtimes.filter((item) => item.dateKey === key).length;
+    const count = state.data.showtimes.filter((item) => item.dateKey === key && matchesActiveFilters(item, { ignoreDate: true })).length;
     return `
       <button class="date-chip${active}" type="button" role="tab" aria-selected="${key === state.selectedDate}" data-date="${key}">
         <strong>${escapeHtml(label.day)}</strong>
@@ -308,7 +390,7 @@ function renderAgenda() {
     els.agendaList.innerHTML = `
       <div class="empty-state">
         <h3>Aucune séance trouvée</h3>
-        <p>Change la date, le cinéma ou le réseau. Les futures dates apparaissent seulement quand les cinémas les publient.</p>
+        <p>Change la date, la zone, le cinéma ou le réseau. Les futures dates apparaissent seulement quand les cinémas les publient.</p>
       </div>
     `;
     return;
@@ -362,7 +444,7 @@ function renderRow(item) {
           <span class="badge ${networkClass}">${escapeHtml(networkLabel(item.network))}</span>
           <span class="badge">${escapeHtml(item.versionShort)}</span>
           <span>${escapeHtml(item.cinemaName)}</span>
-          <span>${escapeHtml(item.postalCode || item.city || "")}</span>
+          <span>${escapeHtml(locationLabel(item))}</span>
         </div>
         <div class="row-actions">
           ${booking}
@@ -385,7 +467,7 @@ function openDetails(item) {
     <ul class="details-list">
       <li><strong>Horaire</strong> ${escapeHtml(formatDateTitle(item.dateKey))}, ${escapeHtml(item.time)}</li>
       <li><strong>Cinéma</strong> ${escapeHtml(item.cinemaName)}</li>
-      <li><strong>Ville</strong> ${escapeHtml([item.postalCode, item.city].filter(Boolean).join(" "))}</li>
+      <li><strong>Zone</strong> ${escapeHtml(locationLabel(item))}</li>
       <li><strong>Version</strong> ${escapeHtml(item.versionShort)}</li>
       ${item.genre ? `<li><strong>Genre</strong> ${escapeHtml(item.genre)}</li>` : ""}
     </ul>
@@ -437,6 +519,11 @@ function escapeAttr(value) {
 }
 
 els.refreshButton.addEventListener("click", loadData);
+els.zoneFilter.addEventListener("change", (event) => {
+  state.selectedZone = event.target.value;
+  renderCinemaFilter();
+  render();
+});
 els.cinemaFilter.addEventListener("change", (event) => {
   state.selectedCinema = event.target.value;
   render();
@@ -446,9 +533,12 @@ els.searchInput.addEventListener("input", (event) => {
   renderAgenda();
 });
 els.clearFilters.addEventListener("click", () => {
+  state.selectedZone = "all";
   state.selectedCinema = "all";
   state.selectedNetwork = "all";
   state.search = "";
+  els.zoneFilter.value = "all";
+  renderCinemaFilter();
   els.cinemaFilter.value = "all";
   els.searchInput.value = "";
   document.querySelectorAll(".network-row .chip").forEach((chip) => chip.classList.toggle("active", chip.dataset.network === "all"));

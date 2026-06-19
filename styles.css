@@ -194,8 +194,13 @@ h2 {
 
 .control-grid {
   display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: 10px;
   margin: 12px 0 10px;
+}
+
+.control-grid .field:last-child {
+  grid-column: 1 / -1;
 }
 
 .field {
@@ -262,7 +267,7 @@ a:focus-visible {
 
 .time-label {
   position: sticky;
-  top: 247px;
+  top: 248px;
   z-index: 4;
   display: inline-flex;
   align-items: center;
@@ -506,7 +511,11 @@ a:focus-visible {
 
 @media (min-width: 620px) {
   .control-grid {
-    grid-template-columns: 260px minmax(0, 1fr);
+    grid-template-columns: 180px 260px minmax(0, 1fr);
+  }
+
+  .control-grid .field:last-child {
+    grid-column: auto;
   }
 
   .filters {
