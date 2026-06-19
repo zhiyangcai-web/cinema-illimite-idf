@@ -112,11 +112,7 @@ async function fetchUgcAcceptedCinemas() {
 }
 
 async function fetchIndependentPartnerShowtimes(partnerCatalog) {
-  const partnerKeys = new Set(
-    partnerCatalog
-      .filter((item) => item.network === "PARTNER")
-      .map((item) => item.normalized)
-  );
+  const partners = partnerCatalog.filter((item) => item.network === "PARTNER");
   const rows = [];
   let url = "https://datacinesindes.fr/data-fair/api/v1/datasets/programmation-cinemas/lines?size=1000";
   while (url) {
@@ -131,27 +127,45 @@ async function fetchIndependentPartnerShowtimes(partnerCatalog) {
   return rows
     .filter((row) => isIdfPostal(row.cinecp))
     .filter((row) => isWithin(row.showstart, start, end))
-    .filter((row) => partnerKeys.has(normalizeCinemaName(row.cinenom)))
+    .map((row) => ({ row, partner: findPartnerCinema(row, partners) }))
+    .filter((item) => item.partner)
     .map((row) => ({
-      id: `partner-${row.showid || row._id}`,
+      id: `partner-${row.row.showid || row.row._id}`,
       source: "DataCinesIndes",
       network: "PARTNER",
-      cinemaId: `partner-${slug(row.cinenom)}-${row.cineid || ""}`,
-      cinemaName: titleName(row.cinenom),
-      city: titleName(row.cineville),
-      postalCode: String(row.cinecp || ""),
-      address: row.cineadresse || "",
-      filmTitle: titleName(row.filmtitle),
-      genre: row.filmgenre || "",
-      version: row.filmversion || "",
-      audio: row.filmaudio || "",
-      durationMin: row.filmduration ? Math.round(Number(row.filmduration) / 60) : null,
-      start: normalizeIso(row.showstart),
-      end: normalizeIso(row.showend),
-      bookingUrl: row.showurl || "",
-      filmUrl: row.showurl || "",
-      poster: row.filmposter || ""
+      cinemaId: `partner-${slug(row.row.cinenom)}-${row.row.cineid || ""}`,
+      cinemaName: titleName(row.row.cinenom),
+      city: titleName(row.row.cineville),
+      postalCode: String(row.row.cinecp || row.partner.postalCode || ""),
+      address: row.row.cineadresse || row.partner.address || "",
+      filmTitle: titleName(row.row.filmtitle),
+      genre: row.row.filmgenre || "",
+      version: row.row.filmversion || "",
+      audio: row.row.filmaudio || "",
+      durationMin: row.row.filmduration ? Math.round(Number(row.row.filmduration) / 60) : null,
+      start: normalizeIso(row.row.showstart),
+      end: normalizeIso(row.row.showend),
+      bookingUrl: row.row.showurl || "",
+      filmUrl: row.row.showurl || "",
+      poster: row.row.filmposter || ""
     }));
+}
+
+function findPartnerCinema(row, partners) {
+  const postal = String(row.cinecp || "");
+  const rowKey = normalizeCinemaName(row.cinenom);
+  return partners.find((partner) => {
+    if (partner.normalized === rowKey) return true;
+    if (postal && partner.postalCode && postal !== partner.postalCode) return false;
+    return fuzzyCinemaMatch(rowKey, partner.normalized);
+  });
+}
+
+function fuzzyCinemaMatch(left, right) {
+  if (!left || !right) return false;
+  if (left === right) return true;
+  if (left.length >= 6 && right.length >= 6 && (left.includes(right) || right.includes(left))) return true;
+  return false;
 }
 
 async function fetchUgcShowtimes() {
@@ -226,38 +240,74 @@ async function fetchMk2Showtimes() {
     try {
       const html = await fetchText(`https://www.mk2.com/salle/${complexSlug}`);
       const flight = extractNextFlightText(html);
-      const blocks = extractJsonObjectsStartingWith(flight, '{"cinema":');
-      for (const block of blocks) {
-        const item = safeJsonParse(block);
-        if (!item?.film || !item?.cinema || !Array.isArray(item.sessions)) continue;
-        for (const session of item.sessions) {
-          if (!isWithin(session.showTime, start, end)) continue;
-          results.push({
-            id: `mk2-${session.id}`,
-            source: "MK2",
-            network: "MK2",
-            cinemaId: `mk2-${item.cinema.id}`,
-            cinemaName: `MK2 ${item.cinema.name}`.replace(/\s+/g, " ").trim(),
-            city: titleName(item.cinema.city),
-            postalCode: inferPostalCode(item.cinema.address2),
-            address: [item.cinema.address1, item.cinema.address2].filter(Boolean).join(", "),
-            filmTitle: item.film.title,
-            genre: (item.film.genres || []).map((genre) => genre.name).join(", "),
-            version: (session.attributes || []).map((attr) => attr.shortName).filter((name) => name === "VO" || name === "VF" || name === "VOST" || name === "STFR").join(" ") || "",
-            durationMin: item.film.runTime || null,
-            start: utcToParisIso(session.showTime),
-            end: item.film.runTime ? addMinutesIso(utcToParisIso(session.showTime), item.film.runTime) : "",
-            bookingUrl: `https://www.mk2.com/film/${item.film.slug || ""}#sessions`,
-            filmUrl: `https://www.mk2.com/film/${item.film.slug || ""}`,
-            poster: item.film.graphicUrl || ""
-          });
-        }
-      }
+      results.push(...parseMk2Flight(flight, start, end));
     } catch (error) {
       console.warn(`MK2 ${complexSlug} failed: ${error.message}`);
     }
     return results;
   });
+}
+
+function parseMk2Flight(flight, start, end) {
+  const results = [];
+  const complexBlocks = extractJsonObjectsContaining(flight, '"sessionsByType":');
+  for (const block of complexBlocks) {
+    const complex = safeJsonParse(block);
+    if (!Array.isArray(complex?.sessionsByType)) continue;
+    const cinemasById = new Map((complex.cinemas || []).map((cinema) => [String(cinema.id), cinema]));
+    for (const sessionType of complex.sessionsByType) {
+      for (const pair of sessionType.sessionsByFilmAndCinema || []) {
+        if (!pair?.film || !Array.isArray(pair.sessions)) continue;
+        for (const session of pair.sessions) {
+          if (!isWithin(session.showTime, start, end)) continue;
+          const cinema = pair.cinema || cinemasById.get(String(session.cinemaId)) || {};
+          results.push(formatMk2Showtime(pair.film, cinema, session));
+        }
+      }
+    }
+  }
+
+  if (results.length) return results;
+
+  const legacyBlocks = extractJsonObjectsStartingWith(flight, '{"cinema":');
+  for (const block of legacyBlocks) {
+    const item = safeJsonParse(block);
+    if (!item?.film || !item?.cinema || !Array.isArray(item.sessions)) continue;
+    for (const session of item.sessions) {
+      if (isWithin(session.showTime, start, end)) {
+        results.push(formatMk2Showtime(item.film, item.cinema, session));
+      }
+    }
+  }
+  return results;
+}
+
+function formatMk2Showtime(film, cinema, session) {
+  const filmUrl = film.slug ? `https://www.mk2.com/film/${film.slug}` : "https://www.mk2.com/films";
+  const version = (session.attributes || [])
+    .map((attr) => attr.shortName)
+    .filter((name) => ["VO", "VF", "VOST", "VOSTF", "STFR"].includes(name))
+    .join(" ");
+
+  return {
+    id: `mk2-${session.id || session.sessionId}`,
+    source: "MK2",
+    network: "MK2",
+    cinemaId: `mk2-${cinema.id || session.cinemaId || "unknown"}`,
+    cinemaName: `MK2 ${cinema.name || ""}`.replace(/\s+/g, " ").trim(),
+    city: titleName(cinema.city),
+    postalCode: inferPostalCode([cinema.address1, cinema.address2, cinema.address].filter(Boolean).join(" ")),
+    address: [cinema.address1, cinema.address2, cinema.address].filter(Boolean).join(", "),
+    filmTitle: film.title,
+    genre: (film.genres || []).map((genre) => genre.name).join(", "),
+    version,
+    durationMin: film.runTime || null,
+    start: utcToParisIso(session.showTime),
+    end: film.runTime ? addMinutesIso(utcToParisIso(session.showTime), film.runTime) : "",
+    bookingUrl: `${filmUrl}#sessions`,
+    filmUrl,
+    poster: film.graphicUrl || film.posterUrl || ""
+  };
 }
 
 async function mapLimit(items, limit, worker) {
@@ -329,6 +379,26 @@ function extractJsonObjectsStartingWith(text, marker) {
     const object = readBalancedJson(text, index);
     if (object) objects.push(object);
     index += Math.max(1, object?.length || marker.length);
+  }
+  return objects;
+}
+
+function extractJsonObjectsContaining(text, marker) {
+  const objects = [];
+  const seen = new Set();
+  let markerIndex = 0;
+  while ((markerIndex = text.indexOf(marker, markerIndex)) >= 0) {
+    for (let start = markerIndex; start >= 0; start = text.lastIndexOf("{", start - 1)) {
+      const object = readBalancedJson(text, start);
+      if (!object || !object.includes(marker)) continue;
+      if (!safeJsonParse(object)) continue;
+      if (!seen.has(object)) {
+        objects.push(object);
+        seen.add(object);
+      }
+      break;
+    }
+    markerIndex += marker.length;
   }
   return objects;
 }
@@ -411,6 +481,10 @@ function normalizeCinemaName(value) {
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()
+    .replace(/\b(trois|three)\b/g, "3")
+    .replace(/\b(quatre|four)\b/g, "4")
+    .replace(/\b(cinq|five)\b/g, "5")
+    .replace(/\b(sept|seven)\b/g, "7")
     .replace(/\b(cinema|cine|le|la|les|l|ugc|mk2)\b/g, "")
     .replace(/[^a-z0-9]/g, "");
 }
@@ -554,8 +628,10 @@ function isCliRun() {
 }
 
 export {
+  extractJsonObjectsContaining,
   extractJsonObjectsStartingWith,
   extractNextFlightText,
+  parseMk2Flight,
   parseUgcHtml,
   readBalancedArray,
   readBalancedJson

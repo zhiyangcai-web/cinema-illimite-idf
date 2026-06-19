@@ -172,7 +172,8 @@ function enrichShowtime(showtime) {
     ...showtime,
     dateKey: dateKey(showtime.start),
     time: formatTime(showtime.start),
-    versionShort: versionLabel(showtime.version)
+    versionShort: versionLabel(showtime.version),
+    poster: normalizePosterUrl(showtime.poster)
   };
 }
 
@@ -354,6 +355,7 @@ function renderRow(item) {
         <div class="screening-time">${escapeHtml(item.time)}</div>
         ${end}
       </div>
+      ${posterMarkup(item, "poster-thumb")}
       <div class="screening-main">
         <h3 class="screening-title">${escapeHtml(toTitleCase(item.filmTitle))}</h3>
         <div class="screening-meta">
@@ -373,8 +375,13 @@ function renderRow(item) {
 
 function openDetails(item) {
   els.detailsContent.innerHTML = `
-    <p class="eyebrow">${escapeHtml(networkLabel(item.network))}</p>
-    <h3>${escapeHtml(toTitleCase(item.filmTitle))}</h3>
+    <div class="details-hero">
+      ${posterMarkup(item, "detail-poster")}
+      <div>
+        <p class="eyebrow">${escapeHtml(networkLabel(item.network))}</p>
+        <h3>${escapeHtml(toTitleCase(item.filmTitle))}</h3>
+      </div>
+    </div>
     <ul class="details-list">
       <li><strong>Horaire</strong> ${escapeHtml(formatDateTitle(item.dateKey))}, ${escapeHtml(item.time)}</li>
       <li><strong>Cinéma</strong> ${escapeHtml(item.cinemaName)}</li>
@@ -388,6 +395,28 @@ function openDetails(item) {
     els.detailsDialog.showModal();
   }
   if (window.lucide) window.lucide.createIcons();
+}
+
+function posterMarkup(item, className) {
+  if (item.poster) {
+    return `
+      <figure class="${className}">
+        <img src="${escapeAttr(item.poster)}" alt="" loading="lazy" referrerpolicy="no-referrer">
+      </figure>
+    `;
+  }
+  return `
+    <figure class="${className} poster-placeholder" aria-hidden="true">
+      <i data-lucide="image" aria-hidden="true"></i>
+    </figure>
+  `;
+}
+
+function normalizePosterUrl(value) {
+  const url = String(value || "").trim();
+  if (!url) return "";
+  if (url.startsWith("//")) return `https:${url}`;
+  return url;
 }
 
 function toTitleCase(value) {
