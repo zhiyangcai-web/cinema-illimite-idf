@@ -289,8 +289,8 @@ function findPartnerCinema(row, partners) {
   const postal = String(row.cinecp || "");
   const rowKey = normalizeCinemaName(row.cinenom);
   return partners.find((partner) => {
-    if (partner.normalized === rowKey) return true;
     if (postal && partner.postalCode && postal !== partner.postalCode) return false;
+    if (partner.normalized === rowKey) return true;
     return fuzzyCinemaMatch(rowKey, partner.normalized);
   });
 }
