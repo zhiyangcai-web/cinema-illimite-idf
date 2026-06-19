@@ -12,6 +12,7 @@ const REQUEST_TIMEOUT_MS = Number(ENV.REQUEST_TIMEOUT_MS || 15_000);
 const FETCH_RETRIES = Number(ENV.FETCH_RETRIES || 2);
 const UGC_CONCURRENCY = Number(ENV.UGC_CONCURRENCY || 8);
 const MK2_CONCURRENCY = Number(ENV.MK2_CONCURRENCY || 6);
+const MK2_DAYS_AHEAD = Number(ENV.MK2_DAYS_AHEAD || Math.max(DAYS_AHEAD, 120));
 const ALLOCINE_DAYS_AHEAD = Number(ENV.ALLOCINE_DAYS_AHEAD || Math.min(DAYS_AHEAD, 10));
 const ALLOCINE_CONCURRENCY = Number(ENV.ALLOCINE_CONCURRENCY || 3);
 const ALLOCINE_DATE_CONCURRENCY = Number(ENV.ALLOCINE_DATE_CONCURRENCY || 3);
@@ -127,6 +128,7 @@ async function main() {
     timezone: "Europe/Paris",
     scope: "Ile-de-France",
     daysAhead: DAYS_AHEAD,
+    mk2DaysAhead: MK2_DAYS_AHEAD,
     sources: [
       "UGC accepted cinemas: https://www.ugc.fr/cinemas-acceptant-ui.html",
       "Independent cinema API: https://datacinesindes.fr/data-fair/api/v1/datasets/programmation-cinemas",
@@ -567,7 +569,7 @@ async function fetchMk2Showtimes() {
   const slugs = [...new Set([...indexHtml.matchAll(/href="\/salle\/([^"]+)"/g)].map((match) => match[1]))]
     .filter((item) => item.startsWith("mk2-"));
   const start = new Date();
-  const end = addDays(start, DAYS_AHEAD + 1);
+  const end = addDays(start, MK2_DAYS_AHEAD + 1);
   return mapLimit(slugs, MK2_CONCURRENCY, async (complexSlug) => {
     const results = [];
     try {

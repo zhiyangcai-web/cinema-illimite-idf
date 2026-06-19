@@ -19,6 +19,7 @@ jobs:
       - name: Refresh showtime data
         env:
           DAYS_AHEAD: 21
+          MK2_DAYS_AHEAD: 120
           ALLOCINE_DAYS_AHEAD: 10
           ALLOCINE_CONCURRENCY: 1
           ALLOCINE_DATE_CONCURRENCY: 1
