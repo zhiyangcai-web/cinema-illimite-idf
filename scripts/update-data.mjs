@@ -35,8 +35,9 @@ const UGC_SPECIAL_CATEGORIES = [
 const UGC_EXCLUDED_SPECIAL_LABEL_RE = /\b(preventes?|pre[-\s]?ventes?|ugc aime|ugc decouvre|family|famille|pestacles?)\b/i;
 const UGC_TRUE_PREMIERE_RE = /\b(avec equipe|rencontre|debat|masterclass)\b/i;
 const MK2_EXCLUDED_SELECTION_RE = /\b(precommandes?|preventes?|pre[-\s]?ventes?)\b/i;
-const MK2_ALLOWED_SELECTION_RE = /\b(on a vu|mk2 revelation|mk2 institut|philosophie|continuite|cycle|festival|retrospective|rencontre|debat|masterclass|cine[-\s]?club|carte blanche|marathon|seance speciale)\b/i;
+const MK2_STRONG_EVENT_SELECTION_RE = /\b(mk2 institut|philosophie|cycle|festival|retrospective|rencontre|debat|masterclass|cine[-\s]?club|carte blanche|marathon|seance speciale)\b/i;
 const MK2_EVENT_TITLE_RE = /\b(rencontre|debat|masterclass|cine[-\s]?club|carte blanche|festival|retrospective|marathon|seance speciale)\b/i;
+const MK2_REPERTORY_MIN_AGE_DAYS = Number(ENV.MK2_REPERTORY_MIN_AGE_DAYS || 90);
 const ALLOCINE_THEATER_OVERRIDES = [
   ["LE GRAND REX - LE REX", "C0065", "Le Grand Rex", "75002"],
   ["ECOLES CINEMA CLUB", "C0071", "Ecoles Cinema Club", "75005"],
@@ -656,20 +657,21 @@ async function fetchMk2Showtimes() {
   const start = new Date();
   const regularEnd = addDays(start, DAYS_AHEAD + 1);
   const specialEnd = addDays(start, MK2_DAYS_AHEAD + 1);
-  return mapLimit(slugs, MK2_CONCURRENCY, async (complexSlug) => {
+  const raw = await mapLimit(slugs, MK2_CONCURRENCY, async (complexSlug) => {
     const results = [];
     try {
       const html = await fetchText(`https://www.mk2.com/salle/${complexSlug}`);
       const flight = extractNextFlightText(html);
-      results.push(...parseMk2Flight(flight, start, regularEnd, specialEnd));
+      results.push(...parseMk2Flight(flight, start, specialEnd));
     } catch (error) {
       console.warn(`MK2 ${complexSlug} failed: ${error.message}`);
     }
     return results;
   });
+  return classifyMk2Showtimes(raw, start, regularEnd, specialEnd);
 }
 
-function parseMk2Flight(flight, start, regularEnd, specialEnd = regularEnd) {
+function parseMk2Flight(flight, start, end) {
   const results = [];
   const complexBlocks = extractJsonObjectsContaining(flight, '"sessionsByType":');
   for (const block of complexBlocks) {
@@ -679,13 +681,11 @@ function parseMk2Flight(flight, start, regularEnd, specialEnd = regularEnd) {
     for (const sessionType of complex.sessionsByType) {
       for (const pair of sessionType.sessionsByFilmAndCinema || []) {
         if (!pair?.film || !Array.isArray(pair.sessions)) continue;
-        const specialInfo = mk2SpecialInfo(pair.film, sessionType);
+        const sourceInfo = mk2SourceInfo(pair.film, sessionType);
         for (const session of pair.sessions) {
-          const inRegularWindow = isWithin(session.showTime, start, regularEnd);
-          const inSpecialWindow = specialInfo && isWithin(session.showTime, start, specialEnd);
-          if (!inRegularWindow && !inSpecialWindow) continue;
+          if (!isWithin(session.showTime, start, end)) continue;
           const cinema = pair.cinema || cinemasById.get(String(session.cinemaId)) || {};
-          results.push(formatMk2Showtime(pair.film, cinema, session, specialInfo));
+          results.push(formatMk2Showtime(pair.film, cinema, session, sourceInfo));
         }
       }
     }
@@ -697,19 +697,17 @@ function parseMk2Flight(flight, start, regularEnd, specialEnd = regularEnd) {
   for (const block of legacyBlocks) {
     const item = safeJsonParse(block);
     if (!item?.film || !item?.cinema || !Array.isArray(item.sessions)) continue;
-    const specialInfo = mk2SpecialInfo(item.film);
+    const sourceInfo = mk2SourceInfo(item.film);
     for (const session of item.sessions) {
-      const inRegularWindow = isWithin(session.showTime, start, regularEnd);
-      const inSpecialWindow = specialInfo && isWithin(session.showTime, start, specialEnd);
-      if (inRegularWindow || inSpecialWindow) {
-        results.push(formatMk2Showtime(item.film, item.cinema, session, specialInfo));
+      if (isWithin(session.showTime, start, end)) {
+        results.push(formatMk2Showtime(item.film, item.cinema, session, sourceInfo));
       }
     }
   }
   return results;
 }
 
-function mk2SpecialInfo(film = {}, sessionType = {}) {
+function mk2SourceInfo(film = {}, sessionType = {}) {
   const labels = [
     film.label?.name,
     ...(film.selections || []).map((selection) => selection?.name),
@@ -719,25 +717,110 @@ function mk2SpecialInfo(film = {}, sessionType = {}) {
   ]
     .map((value) => cleanHtml(value))
     .filter(Boolean);
-  const candidates = [...new Set(labels)]
-    .filter((label) => !MK2_EXCLUDED_SELECTION_RE.test(eventComparable(label)))
-    .filter((label) => MK2_ALLOWED_SELECTION_RE.test(eventComparable(label)));
-  if (candidates.length) {
+  const uniqueLabels = [...new Set(labels)];
+  const comparableLabels = uniqueLabels.map((label) => eventComparable(label));
+  const strongLabel = uniqueLabels.find((label) => {
+    const comparable = eventComparable(label);
+    return !MK2_EXCLUDED_SELECTION_RE.test(comparable) && MK2_STRONG_EVENT_SELECTION_RE.test(comparable);
+  }) || "";
+  return {
+    labels: uniqueLabels,
+    hasExcludedLabel: comparableLabels.some((label) => MK2_EXCLUDED_SELECTION_RE.test(label)),
+    strongLabel,
+    titleEvent: MK2_EVENT_TITLE_RE.test(eventComparable(film.title)),
+    openingDate: film.openingDate || ""
+  };
+}
+
+function classifyMk2Showtimes(items, start, regularEnd, specialEnd) {
+  const groups = new Map();
+  for (const item of items) {
+    const key = item._mk2FilmKey || dedupeToken(item.filmTitle);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(item);
+  }
+
+  const results = [];
+  for (const group of groups.values()) {
+    const specialInfo = mk2GroupSpecialInfo(group);
+    for (const item of group) {
+      const inRegularWindow = isWithin(item.start, start, regularEnd);
+      const inSpecialWindow = specialInfo && isWithin(item.start, start, specialEnd);
+      if (!inRegularWindow && !inSpecialWindow) continue;
+      results.push(stripMk2InternalFields({
+        ...item,
+        special: Boolean(specialInfo),
+        specialLabel: specialInfo?.label || "",
+        specialSource: specialInfo?.source || ""
+      }));
+    }
+  }
+  return results;
+}
+
+function mk2GroupSpecialInfo(group) {
+  const first = group[0] || {};
+  const strongLabel = group.find((item) => item._mk2StrongLabel)?._mk2StrongLabel || "";
+  if (strongLabel) {
     return {
-      label: candidates[0],
-      source: "MK2 selection"
+      label: strongLabel,
+      source: "MK2 evenement"
     };
   }
-  if (MK2_EVENT_TITLE_RE.test(eventComparable(film.title))) {
+  if (group.some((item) => item._mk2TitleEvent)) {
     return {
       label: "Evenement MK2",
       source: "MK2 titre"
     };
   }
+  if (group.some((item) => item._mk2HasExcludedLabel)) return null;
+
+  const sessionCount = group.length;
+  const dateCount = new Set(group.map((item) => item.start.slice(0, 10))).size;
+  const cinemaCount = new Set(group.map((item) => item.cinemaId)).size;
+  const oldEnough = isMk2OldEnoughForRepertory(first._mk2OpeningDate, group);
+  const veryRare = dateCount === 1 && sessionCount <= 2 && cinemaCount <= 2;
+  const sparseOneDay = dateCount === 1 && sessionCount <= 8 && cinemaCount <= 8;
+  const sparseFewDays = dateCount <= 2 && sessionCount <= 4 && cinemaCount <= 2;
+  if (veryRare) {
+    return {
+      label: oldEnough ? "Reprise MK2" : "Seance rare MK2",
+      source: "MK2 rarete"
+    };
+  }
+  if (oldEnough && (sparseOneDay || sparseFewDays)) {
+    return {
+      label: "Reprise MK2",
+      source: "MK2 rarete"
+    };
+  }
   return null;
 }
 
-function formatMk2Showtime(film, cinema, session, specialInfo = null) {
+function isMk2OldEnoughForRepertory(openingDate, group) {
+  if (!openingDate) return false;
+  const openedAt = new Date(openingDate);
+  if (Number.isNaN(openedAt.valueOf())) return false;
+  const firstSession = new Date(group.map((item) => item.start).sort()[0]);
+  if (Number.isNaN(firstSession.valueOf())) return false;
+  const ageDays = (firstSession - openedAt) / 86_400_000;
+  return ageDays >= MK2_REPERTORY_MIN_AGE_DAYS;
+}
+
+function stripMk2InternalFields(item) {
+  const {
+    _mk2FilmKey,
+    _mk2Labels,
+    _mk2HasExcludedLabel,
+    _mk2StrongLabel,
+    _mk2TitleEvent,
+    _mk2OpeningDate,
+    ...publicItem
+  } = item;
+  return publicItem;
+}
+
+function formatMk2Showtime(film, cinema, session, sourceInfo = {}) {
   const filmUrl = film.slug ? `https://www.mk2.com/film/${film.slug}` : "https://www.mk2.com/films";
   const version = (session.attributes || [])
     .map((attr) => attr.shortName)
@@ -762,9 +845,15 @@ function formatMk2Showtime(film, cinema, session, specialInfo = null) {
     bookingUrl: `${filmUrl}#sessions`,
     filmUrl,
     poster: film.graphicUrl || film.posterUrl || "",
-    special: Boolean(specialInfo),
-    specialLabel: specialInfo?.label || "",
-    specialSource: specialInfo?.source || ""
+    special: false,
+    specialLabel: "",
+    specialSource: "",
+    _mk2FilmKey: film.slug || film.id || dedupeToken(film.title),
+    _mk2Labels: sourceInfo.labels || [],
+    _mk2HasExcludedLabel: Boolean(sourceInfo.hasExcludedLabel),
+    _mk2StrongLabel: sourceInfo.strongLabel || "",
+    _mk2TitleEvent: Boolean(sourceInfo.titleEvent),
+    _mk2OpeningDate: sourceInfo.openingDate || ""
   };
 }
 
