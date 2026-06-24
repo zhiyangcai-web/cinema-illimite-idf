@@ -295,6 +295,7 @@ async function fetchIndependentPartnerShowtimes(partnerCatalog) {
       postalCode: String(row.row.cinecp || row.partner.postalCode || ""),
       address: row.row.cineadresse || row.partner.address || "",
       filmTitle: titleName(row.row.filmtitle),
+      director: cleanPeopleList(row.row.filmdirector),
       genre: row.row.filmgenre || "",
       version: row.row.filmversion || "",
       audio: row.row.filmaudio || "",
@@ -475,6 +476,7 @@ function parseAllocineShowtimes(json, partner, theater) {
           postalCode: String(theater.postalCode || partner.postalCode || ""),
           address: theater.address || partner.address || "",
           filmTitle: movie.title || "",
+          director: allocineDirectors(movie),
           genre: (movie.genres || []).map((genre) => genre.translate || genre.name).filter(Boolean).join(", "),
           version: allocineVersionLabel(showtime.diffusionVersion || versionKey),
           durationMin,
@@ -517,6 +519,16 @@ function parseAllocineRuntime(value) {
   const minutes = Number((text.match(/(\d+)\s*min/) || [])[1] || 0);
   const total = hours * 60 + minutes;
   return total || null;
+}
+
+function allocineDirectors(movie) {
+  const directors = (movie.credits || [])
+    .filter((credit) => eventComparable(credit.position?.department) === "direction")
+    .filter((credit) => /director|realisateur/i.test(String(credit.position?.name || "")))
+    .sort((left, right) => Number(left.rank || 0) - Number(right.rank || 0))
+    .map((credit) => personName(credit.person))
+    .filter(Boolean);
+  return uniquePeople(directors).join(", ");
 }
 
 async function fetchUgcShowtimes() {
@@ -567,6 +579,7 @@ function parseUgcHtml(html, cinema) {
     const filmKind = decodeAttr((chunk.match(/data-film-kind="([^"]*)"/) || [])[1] || "");
     const filmHref = absolutizeUgc((chunk.match(/href="([^"]*film_[^"]+)"/) || [])[1] || "");
     const poster = absolutizeUgc((chunk.match(/data-src="([^"]+)"/) || [])[1] || "");
+    const director = ugcDirectorFromChunk(chunk);
     const buttonRx = /<button[\s\S]*?data-showing="([^"]+)"[\s\S]*?data-version="([^"]*)"[\s\S]*?data-seanceHour="([^"]+)"[\s\S]*?data-seanceDate="([^"]+)"[\s\S]*?<\/button>/g;
     let button;
     while ((button = buttonRx.exec(chunk))) {
@@ -584,6 +597,7 @@ function parseUgcHtml(html, cinema) {
         city: inferCity(cinema.name),
         postalCode: "",
         filmTitle: title,
+        director,
         genre: filmKind,
         version,
         start: localIsoFromFrenchDate(date, hour),
@@ -608,6 +622,7 @@ function parseUgcSpecialHtml(html, cinema, category, start, end) {
     const filmId = (filmHref.match(/_(\d+)\.html/) || chunk.match(/goToFilm_(\d+)/) || [])[1] || "";
     const poster = absolutizeUgc((chunk.match(/<img[^>]+src="([^"]+)"/) || [])[1] || "");
     const genre = decodeAttr((chunk.match(/data-film-kind="([^"]*)"/) || [])[1] || "");
+    const director = ugcDirectorFromChunk(chunk);
     const tag = cleanHtml((chunk.match(/<span class="film-tag[^>]*>([\s\S]*?)<\/span>/) || [])[1] || "");
     const dataLabel = decodeAttr((chunk.match(/data-film-label="([^"]*)"/) || [])[1] || "");
     const specialLabel = tag || dataLabel || category.name;
@@ -627,6 +642,7 @@ function parseUgcSpecialHtml(html, cinema, category, start, end) {
         city: inferCity(cinema.name),
         postalCode: "",
         filmTitle: title,
+        director,
         genre,
         version: "",
         start: startIso,
@@ -648,6 +664,13 @@ function keepUgcSpecial(category, specialLabel) {
   const comparable = eventComparable(specialLabel);
   if (category.id === 1) return UGC_TRUE_PREMIERE_RE.test(comparable);
   return !UGC_EXCLUDED_SPECIAL_LABEL_RE.test(comparable);
+}
+
+function ugcDirectorFromChunk(chunk) {
+  const directMatch = chunk.match(/<p[^>]*>\s*De\s*<span[^>]*>([\s\S]*?)<\/span>\s*<\/p>/i)
+    || chunk.match(/<p[^>]*>\s*De\s*([\s\S]*?)<\/p>/i);
+  if (!directMatch) return "";
+  return cleanPeopleList(directMatch[1]);
 }
 
 async function fetchMk2Showtimes() {
@@ -820,6 +843,14 @@ function stripMk2InternalFields(item) {
   return publicItem;
 }
 
+function mk2Directors(film = {}) {
+  const directors = (film.cast || [])
+    .filter((person) => eventComparable(person.personType) === "director")
+    .map((person) => cleanPeopleList(person.displayName || [person.firstName, person.lastName].filter(Boolean).join(" ")))
+    .filter(Boolean);
+  return uniquePeople(directors).join(", ");
+}
+
 function formatMk2Showtime(film, cinema, session, sourceInfo = {}) {
   const filmUrl = film.slug ? `https://www.mk2.com/film/${film.slug}` : "https://www.mk2.com/films";
   const version = (session.attributes || [])
@@ -837,6 +868,7 @@ function formatMk2Showtime(film, cinema, session, sourceInfo = {}) {
     postalCode: inferPostalCode([cinema.address1, cinema.address2, cinema.address].filter(Boolean).join(" ")),
     address: [cinema.address1, cinema.address2, cinema.address].filter(Boolean).join(", "),
     filmTitle: film.title,
+    director: mk2Directors(film),
     genre: (film.genres || []).map((genre) => genre.name).join(", "),
     version,
     durationMin: film.runTime || null,
@@ -1023,6 +1055,7 @@ function mergeShowtime(existing, next) {
     city: existing.city || next.city || "",
     postalCode: existing.postalCode || next.postalCode || "",
     address: existing.address || next.address || "",
+    director: existing.director || next.director || "",
     special: Boolean(existing.special || next.special),
     specialLabel: existing.specialLabel || next.specialLabel || "",
     specialSource: existing.specialSource || next.specialSource || ""
@@ -1043,6 +1076,31 @@ function cleanHtml(value) {
     .replace(/<[^>]+>/g, " ")
     .replace(/\s+/g, " ")
     .trim());
+}
+
+function cleanPeopleList(value) {
+  return cleanHtml(value)
+    .replace(/^de\s+/i, "")
+    .replace(/\s*,\s*/g, ", ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function personName(person = {}) {
+  return cleanPeopleList(person.displayName || [person.firstName, person.lastName].filter(Boolean).join(" "));
+}
+
+function uniquePeople(values) {
+  const seen = new Set();
+  const people = [];
+  for (const value of values) {
+    const name = cleanPeopleList(value);
+    const key = eventComparable(name);
+    if (!name || seen.has(key)) continue;
+    seen.add(key);
+    people.push(name);
+  }
+  return people;
 }
 
 function eventComparable(value) {

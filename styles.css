@@ -384,6 +384,16 @@ a:focus-visible {
   letter-spacing: 0;
 }
 
+.screening-director,
+.details-director {
+  margin: 4px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 650;
+  line-height: 1.25;
+  overflow-wrap: anywhere;
+}
+
 .screening-meta {
   display: flex;
   flex-wrap: wrap;

@@ -42,6 +42,7 @@ const SAMPLE_DATA = {
       city: "Paris",
       postalCode: "75001",
       filmTitle: "Toy Story 5",
+      director: "Andrew Stanton",
       genre: "Famille, Comedie, Aventure, Animation",
       version: "VOSTF",
       start: "2026-06-19T12:05:00+02:00",
@@ -58,6 +59,7 @@ const SAMPLE_DATA = {
       city: "Paris",
       postalCode: "75005",
       filmTitle: "Disclosure Day",
+      director: "Val Guest",
       genre: "Science fiction, Thriller",
       version: "VO",
       start: "2026-06-19T14:30:00+02:00",
@@ -73,6 +75,7 @@ const SAMPLE_DATA = {
       city: "Paris",
       postalCode: "75013",
       filmTitle: "Projet Dernière Chance",
+      director: "Joe Carnahan",
       genre: "Action, Aventure, Science fiction",
       version: "VO",
       start: "2026-06-20T10:30:00+02:00",
@@ -87,6 +90,7 @@ const SAMPLE_DATA = {
       city: "Paris",
       postalCode: "75005",
       filmTitle: "Riz amer",
+      director: "Giuseppe De Santis",
       genre: "Drame",
       version: "VO",
       start: "2026-06-19T12:00:00+02:00",
@@ -101,6 +105,7 @@ const SAMPLE_DATA = {
       city: "Paris",
       postalCode: "75013",
       filmTitle: "Rencontre - Vivian Ostrovksy",
+      director: "Vivian Ostrovsky",
       genre: "Documentaire",
       version: "VF",
       start: "2026-06-22T19:30:00+02:00",
@@ -343,7 +348,7 @@ function matchesActiveFilters(item, options = {}) {
   if (state.selectedCinema !== "all" && item.cinemaId !== state.selectedCinema) return false;
   if (state.selectedNetwork !== "all" && item.network !== state.selectedNetwork) return false;
   if (query) {
-    const haystack = normalized(`${item.filmTitle} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
+    const haystack = normalized(`${item.filmTitle} ${item.director || ""} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
     if (!haystack.includes(query)) return false;
   }
   return true;
@@ -480,6 +485,7 @@ function renderRow(item) {
       ${posterMarkup(item, "poster-thumb")}
       <div class="screening-main">
         <h3 class="screening-title">${escapeHtml(toTitleCase(item.filmTitle))}</h3>
+        ${item.director ? `<div class="screening-director">de ${escapeHtml(item.director)}</div>` : ""}
         <div class="screening-meta">
           <span class="badge ${networkClass}">${escapeHtml(networkLabel(item.network))}</span>
           ${specialBadge}
@@ -503,10 +509,12 @@ function openDetails(item) {
       <div>
         <p class="eyebrow">${escapeHtml(networkLabel(item.network))}</p>
         <h3>${escapeHtml(toTitleCase(item.filmTitle))}</h3>
+        ${item.director ? `<p class="details-director">de ${escapeHtml(item.director)}</p>` : ""}
       </div>
     </div>
     <ul class="details-list">
       <li><strong>Horaire</strong> ${escapeHtml(formatDateTitle(item.dateKey))}, ${escapeHtml(item.time)}</li>
+      ${item.director ? `<li><strong>Réalisation</strong> ${escapeHtml(item.director)}</li>` : ""}
       <li><strong>Cinéma</strong> ${escapeHtml(item.cinemaName)}</li>
       <li><strong>Zone</strong> ${escapeHtml(locationLabel(item))}</li>
       <li><strong>Version</strong> ${escapeHtml(item.versionShort)}</li>
