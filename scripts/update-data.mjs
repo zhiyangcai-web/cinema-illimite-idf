@@ -128,7 +128,11 @@ async function main() {
     ...preservedAlloCine
   ];
 
-  const dedupedItems = dedupe(showtimes);
+  const directorEnriched = backfillMissingDirectors(showtimes, previousShowtimes);
+  const directorBackfillCount = directorEnriched.filter((item, index) => item.director && !showtimes[index]?.director).length;
+  if (directorBackfillCount) console.log(`Backfilled ${directorBackfillCount} missing directors`);
+
+  const dedupedItems = dedupe(directorEnriched);
   const duplicateCount = showtimes.length - dedupedItems.length;
   if (duplicateCount) console.log(`Removed ${duplicateCount} duplicate showtimes`);
 
@@ -182,6 +186,36 @@ function preservePreviousAlloCineShowtimes(previousShowtimes, freshAlloCineShowt
     .filter((item) => item.source === "AlloCine")
     .filter((item) => item.id && !freshIds.has(item.id))
     .filter((item) => isWithin(item.start, start, end));
+}
+
+function backfillMissingDirectors(showtimes, previousShowtimes = []) {
+  const directorByTitle = uniqueDirectorByTitle([...previousShowtimes, ...showtimes]);
+  return showtimes.map((item) => {
+    if (item.director) return item;
+    const director = directorByTitle.get(dedupeToken(item.filmTitle));
+    return director ? { ...item, director } : item;
+  });
+}
+
+function uniqueDirectorByTitle(items) {
+  const candidates = new Map();
+  for (const item of items) {
+    if (!item?.filmTitle || !item.director) continue;
+    const key = dedupeToken(item.filmTitle);
+    if (!key) continue;
+    if (!candidates.has(key)) candidates.set(key, new Map());
+    const directors = candidates.get(key);
+    const cleanDirector = cleanPeopleList(item.director);
+    if (!cleanDirector) continue;
+    const directorKey = eventComparable(cleanDirector);
+    if (!directors.has(directorKey)) directors.set(directorKey, cleanDirector);
+  }
+
+  const unique = new Map();
+  for (const [titleKey, directors] of candidates) {
+    if (directors.size === 1) unique.set(titleKey, [...directors.values()][0]);
+  }
+  return unique;
 }
 
 async function fetchText(url, options = {}) {
