@@ -38,6 +38,7 @@ const MK2_EXCLUDED_SELECTION_RE = /\b(precommandes?|preventes?|pre[-\s]?ventes?)
 const MK2_STRONG_EVENT_SELECTION_RE = /\b(mk2 institut|philosophie|cycle|festival|retrospective|rencontre|debat|masterclass|cine[-\s]?club|carte blanche|marathon|seance speciale)\b/i;
 const MK2_EVENT_TITLE_RE = /\b(rencontre|debat|masterclass|cine[-\s]?club|carte blanche|festival|retrospective|marathon|seance speciale)\b/i;
 const MK2_REPERTORY_MIN_AGE_DAYS = Number(ENV.MK2_REPERTORY_MIN_AGE_DAYS || 90);
+const NON_FILM_TITLE_RE = /^(rex studios|sauvez le cinema !?)$/i;
 const ALLOCINE_THEATER_OVERRIDES = [
   ["LE GRAND REX - LE REX", "C0065", "Le Grand Rex", "75002"],
   ["ECOLES CINEMA CLUB", "C0071", "Ecoles Cinema Club", "75005"],
@@ -128,12 +129,16 @@ async function main() {
     ...preservedAlloCine
   ];
 
-  const directorEnriched = backfillMissingDirectors(showtimes, previousShowtimes);
-  const directorBackfillCount = directorEnriched.filter((item, index) => item.director && !showtimes[index]?.director).length;
+  const filmShowtimes = showtimes.filter((item) => !isNonFilmTitle(item.filmTitle));
+  const removedNonFilms = showtimes.length - filmShowtimes.length;
+  if (removedNonFilms) console.log(`Removed ${removedNonFilms} non-film showtimes`);
+
+  const directorEnriched = backfillMissingDirectors(filmShowtimes, previousShowtimes);
+  const directorBackfillCount = directorEnriched.filter((item, index) => item.director && !filmShowtimes[index]?.director).length;
   if (directorBackfillCount) console.log(`Backfilled ${directorBackfillCount} missing directors`);
 
   const dedupedItems = dedupe(directorEnriched);
-  const duplicateCount = showtimes.length - dedupedItems.length;
+  const duplicateCount = filmShowtimes.length - dedupedItems.length;
   if (duplicateCount) console.log(`Removed ${duplicateCount} duplicate showtimes`);
 
   const deduped = dedupedItems
@@ -216,6 +221,10 @@ function uniqueDirectorByTitle(items) {
     if (directors.size === 1) unique.set(titleKey, [...directors.values()][0]);
   }
   return unique;
+}
+
+function isNonFilmTitle(title) {
+  return NON_FILM_TITLE_RE.test(eventComparable(title).trim());
 }
 
 async function fetchText(url, options = {}) {
