@@ -4,8 +4,8 @@ const CACHE_NAME = "cine-illimite-idf-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=20260710-2",
-  "./app.js?v=20260710-2",
+  "./styles.css?v=20260710-3",
+  "./app.js?v=20260710-3",
   "./manifest.webmanifest"
 ];
 
@@ -52,14 +52,19 @@ async function networkFirstShowtimes(request) {
   try {
     const response = await fetch(request);
     if (response.ok) {
-      await cache.put(request, response.clone());
+      await cache.put(showtimesCacheRequest(), response.clone());
     }
     return response;
   } catch (error) {
-    const cached = await cache.match(request, { ignoreSearch: true });
+    const cached = await cache.match(showtimesCacheRequest(), { ignoreSearch: true })
+      || await cache.match(request, { ignoreSearch: true });
     if (cached) return cached;
     throw error;
   }
+}
+
+function showtimesCacheRequest() {
+  return new Request(new URL("data/showtimes.json", self.registration.scope).href);
 }
 
 async function networkFirstPage(request) {

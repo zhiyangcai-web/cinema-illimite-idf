@@ -2,6 +2,9 @@
 
 const DATA_URL = "data/showtimes.json";
 const OFFLINE_CACHE_NAME = "cine-illimite-idf-v1";
+const OFFLINE_DB_NAME = "cine-illimite-idf";
+const OFFLINE_DB_STORE = "showtimes";
+const OFFLINE_DB_KEY = "latest";
 
 function registerOfflineCache() {
   if (!("serviceWorker" in navigator)) return;
@@ -287,12 +290,10 @@ async function loadData() {
   try {
     const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    await saveShowtimesForOffline(response.clone());
+    const cachePromise = saveShowtimesForOffline(response.clone());
     const json = await response.json();
-    state.data = {
-      ...json,
-      showtimes: Array.isArray(json.showtimes) ? json.showtimes : []
-    };
+    await Promise.all([cachePromise, saveShowtimesInDatabase(json)]);
+    state.data = normalizeShowtimesData(json);
   } catch (error) {
     const cachedData = await loadCachedShowtimes();
     state.data = cachedData || SAMPLE_DATA;
@@ -310,30 +311,100 @@ async function loadData() {
   render();
 }
 
+function normalizeShowtimesData(json) {
+  return {
+    ...(json || {}),
+    showtimes: Array.isArray(json?.showtimes) ? json.showtimes : []
+  };
+}
+
+function showtimesCacheRequest() {
+  return new Request(new URL(DATA_URL, window.location.href).href);
+}
+
 async function saveShowtimesForOffline(response) {
   if (!("caches" in window)) return;
   try {
     const cache = await caches.open(OFFLINE_CACHE_NAME);
-    await cache.put(DATA_URL, response);
+    await cache.put(showtimesCacheRequest(), response);
   } catch (error) {
     console.warn("Offline showtimes cache could not be saved.", error);
   }
 }
 
 async function loadCachedShowtimes() {
+  const fromCache = await loadShowtimesFromCache();
+  return fromCache || loadShowtimesFromDatabase();
+}
+
+async function loadShowtimesFromCache() {
   if (!("caches" in window)) return null;
   try {
     const cache = await caches.open(OFFLINE_CACHE_NAME);
-    const response = await cache.match(DATA_URL, { ignoreSearch: true });
+    const response = await cache.match(showtimesCacheRequest(), { ignoreSearch: true })
+      || await cache.match(DATA_URL, { ignoreSearch: true });
     if (!response?.ok) return null;
-    const json = await response.json();
-    return {
-      ...json,
-      showtimes: Array.isArray(json.showtimes) ? json.showtimes : []
-    };
+    return normalizeShowtimesData(await response.json());
   } catch (error) {
     console.warn("Offline showtimes cache could not be read.", error);
     return null;
+  }
+}
+
+function openOfflineDatabase() {
+  return new Promise((resolve, reject) => {
+    const request = indexedDB.open(OFFLINE_DB_NAME, 1);
+    request.onupgradeneeded = () => {
+      const database = request.result;
+      if (!database.objectStoreNames.contains(OFFLINE_DB_STORE)) {
+        database.createObjectStore(OFFLINE_DB_STORE);
+      }
+    };
+    request.onsuccess = () => resolve(request.result);
+    request.onerror = () => reject(request.error || new Error("Could not open offline database."));
+  });
+}
+
+function completeTransaction(transaction) {
+  return new Promise((resolve, reject) => {
+    transaction.oncomplete = resolve;
+    transaction.onerror = () => reject(transaction.error || new Error("Offline database transaction failed."));
+    transaction.onabort = () => reject(transaction.error || new Error("Offline database transaction was aborted."));
+  });
+}
+
+async function saveShowtimesInDatabase(json) {
+  if (!("indexedDB" in window)) return;
+  let database;
+  try {
+    database = await openOfflineDatabase();
+    const transaction = database.transaction(OFFLINE_DB_STORE, "readwrite");
+    transaction.objectStore(OFFLINE_DB_STORE).put({ data: json, savedAt: new Date().toISOString() }, OFFLINE_DB_KEY);
+    await completeTransaction(transaction);
+  } catch (error) {
+    console.warn("Offline showtimes database could not be saved.", error);
+  } finally {
+    database?.close();
+  }
+}
+
+async function loadShowtimesFromDatabase() {
+  if (!("indexedDB" in window)) return null;
+  let database;
+  try {
+    database = await openOfflineDatabase();
+    const transaction = database.transaction(OFFLINE_DB_STORE, "readonly");
+    const request = transaction.objectStore(OFFLINE_DB_STORE).get(OFFLINE_DB_KEY);
+    const record = await new Promise((resolve, reject) => {
+      request.onsuccess = () => resolve(request.result);
+      request.onerror = () => reject(request.error || new Error("Offline showtimes database could not be read."));
+    });
+    return record?.data ? normalizeShowtimesData(record.data) : null;
+  } catch (error) {
+    console.warn("Offline showtimes database could not be read.", error);
+    return null;
+  } finally {
+    database?.close();
   }
 }
 
