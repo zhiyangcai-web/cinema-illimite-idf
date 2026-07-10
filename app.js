@@ -124,6 +124,7 @@ const state = {
   selectedZone: "all",
   selectedCinema: "all",
   selectedNetwork: "all",
+  startTime: "",
   search: ""
 };
 
@@ -136,6 +137,7 @@ const els = {
   viewTabs: document.querySelectorAll("[data-view]"),
   zoneFilter: document.getElementById("zoneFilter"),
   cinemaFilter: document.getElementById("cinemaFilter"),
+  timeFilter: document.getElementById("timeFilter"),
   searchInput: document.getElementById("searchInput"),
   sectionKicker: document.getElementById("sectionKicker"),
   selectedDateTitle: document.getElementById("selectedDateTitle"),
@@ -166,6 +168,23 @@ function formatTime(value) {
     hour: "2-digit",
     minute: "2-digit"
   }).format(parseDate(value));
+}
+
+function minutesSinceMidnight(value) {
+  const parts = new Intl.DateTimeFormat("en-GB", {
+    timeZone: "Europe/Paris",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23"
+  }).formatToParts(parseDate(value));
+  const hours = Number(parts.find((part) => part.type === "hour")?.value || 0);
+  const minutes = Number(parts.find((part) => part.type === "minute")?.value || 0);
+  return hours * 60 + minutes;
+}
+
+function timeValueToMinutes(value) {
+  const [hours, minutes] = String(value || "").split(":").map(Number);
+  return Number.isInteger(hours) && Number.isInteger(minutes) ? hours * 60 + minutes : null;
 }
 
 function formatDateTitle(key) {
@@ -247,6 +266,7 @@ function enrichShowtime(showtime) {
     ...showtime,
     dateKey: dateKey(showtime.start),
     time: formatTime(showtime.start),
+    startMinutes: minutesSinceMidnight(showtime.start),
     versionShort: versionLabel(showtime.version),
     poster: normalizePosterUrl(showtime.poster),
     zoneKey
@@ -347,6 +367,8 @@ function matchesActiveFilters(item, options = {}) {
   if (state.selectedZone !== "all" && item.zoneKey !== state.selectedZone) return false;
   if (state.selectedCinema !== "all" && item.cinemaId !== state.selectedCinema) return false;
   if (state.selectedNetwork !== "all" && item.network !== state.selectedNetwork) return false;
+  const startTimeMinutes = timeValueToMinutes(state.startTime);
+  if (startTimeMinutes !== null && item.startMinutes < startTimeMinutes) return false;
   if (query) {
     const haystack = normalized(`${item.filmTitle} ${item.director || ""} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
     if (!haystack.includes(query)) return false;
@@ -593,6 +615,10 @@ els.cinemaFilter.addEventListener("change", (event) => {
   state.selectedCinema = event.target.value;
   render();
 });
+els.timeFilter.addEventListener("change", (event) => {
+  state.startTime = event.target.value;
+  render();
+});
 els.searchInput.addEventListener("input", (event) => {
   state.search = event.target.value;
   renderAgenda();
@@ -601,10 +627,12 @@ els.clearFilters.addEventListener("click", () => {
   state.selectedZone = "all";
   state.selectedCinema = "all";
   state.selectedNetwork = "all";
+  state.startTime = "";
   state.search = "";
   els.zoneFilter.value = "all";
   renderCinemaFilter();
   els.cinemaFilter.value = "all";
+  els.timeFilter.value = "";
   els.searchInput.value = "";
   document.querySelectorAll(".network-row .chip").forEach((chip) => chip.classList.toggle("active", chip.dataset.network === "all"));
   render();
