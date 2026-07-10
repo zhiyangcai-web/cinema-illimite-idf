@@ -1,6 +1,16 @@
 "use strict";
 
 const DATA_URL = "data/showtimes.json";
+const OFFLINE_CACHE_NAME = "cine-illimite-idf-v1";
+
+function registerOfflineCache() {
+  if (!("serviceWorker" in navigator)) return;
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch((error) => {
+      console.warn("Offline cache could not be registered.", error);
+    });
+  });
+}
 
 const ZONES = [
   ["75", "Paris (75)"],
@@ -277,14 +287,18 @@ async function loadData() {
   try {
     const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    await saveShowtimesForOffline(response.clone());
     const json = await response.json();
     state.data = {
       ...json,
       showtimes: Array.isArray(json.showtimes) ? json.showtimes : []
     };
   } catch (error) {
-    state.data = SAMPLE_DATA;
-    console.warn("Using bundled sample data because data/showtimes.json could not be loaded.", error);
+    const cachedData = await loadCachedShowtimes();
+    state.data = cachedData || SAMPLE_DATA;
+    console.warn(cachedData
+      ? "Using cached showtimes because fresh data could not be loaded."
+      : "Using bundled sample data because data/showtimes.json could not be loaded.", error);
   }
 
   state.data.showtimes = state.data.showtimes
@@ -294,6 +308,33 @@ async function loadData() {
 
   initializeFilters();
   render();
+}
+
+async function saveShowtimesForOffline(response) {
+  if (!("caches" in window)) return;
+  try {
+    const cache = await caches.open(OFFLINE_CACHE_NAME);
+    await cache.put(DATA_URL, response);
+  } catch (error) {
+    console.warn("Offline showtimes cache could not be saved.", error);
+  }
+}
+
+async function loadCachedShowtimes() {
+  if (!("caches" in window)) return null;
+  try {
+    const cache = await caches.open(OFFLINE_CACHE_NAME);
+    const response = await cache.match(DATA_URL, { ignoreSearch: true });
+    if (!response?.ok) return null;
+    const json = await response.json();
+    return {
+      ...json,
+      showtimes: Array.isArray(json.showtimes) ? json.showtimes : []
+    };
+  } catch (error) {
+    console.warn("Offline showtimes cache could not be read.", error);
+    return null;
+  }
 }
 
 function initializeFilters() {
@@ -650,3 +691,4 @@ window.addEventListener("hashchange", () => {
 });
 
 loadData();
+registerOfflineCache();
