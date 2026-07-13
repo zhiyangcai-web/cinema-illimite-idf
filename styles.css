@@ -312,6 +312,8 @@ a:focus-visible {
   align-items: start;
   padding: 14px 0;
   border-bottom: 1px solid var(--line);
+  content-visibility: auto;
+  contain-intrinsic-size: auto 132px;
 }
 
 .screening-row > :first-child {

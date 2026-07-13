@@ -4,9 +4,10 @@ const CACHE_NAME = "cine-illimite-idf-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=20260710-3",
-  "./app.js?v=20260710-3",
-  "./manifest.webmanifest"
+  "./styles.css?v=20260714-1",
+  "./app.js?v=20260714-1",
+  "./manifest.webmanifest",
+  "https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"
 ];
 
 self.addEventListener("install", (event) => {
@@ -32,7 +33,10 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
 
   const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return;
+  if (url.origin !== self.location.origin) {
+    if (url.hostname === "unpkg.com") event.respondWith(cacheFirstAsset(request));
+    return;
+  }
 
   if (url.pathname.endsWith("/data/showtimes.json")) {
     event.respondWith(networkFirstShowtimes(request));
@@ -86,6 +90,6 @@ async function cacheFirstAsset(request) {
   if (cached) return cached;
 
   const response = await fetch(request);
-  if (response.ok) await cache.put(request, response.clone());
+  if (response.ok || response.type === "opaque") await cache.put(request, response.clone());
   return response;
 }

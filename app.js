@@ -5,6 +5,25 @@ const OFFLINE_CACHE_NAME = "cine-illimite-idf-v1";
 const OFFLINE_DB_NAME = "cine-illimite-idf";
 const OFFLINE_DB_STORE = "showtimes";
 const OFFLINE_DB_KEY = "latest";
+const PREPARED_DATA_VERSION = 1;
+const OFFSET_DATETIME_RE = /^(\d{4}-\d{2}-\d{2})T(\d{2}):(\d{2})(?::\d{2}(?:\.\d+)?)?[+-]\d{2}:\d{2}$/;
+const PARIS_DATE_FORMATTER = new Intl.DateTimeFormat("fr-CA", {
+  timeZone: "Europe/Paris",
+  year: "numeric",
+  month: "2-digit",
+  day: "2-digit"
+});
+const PARIS_TIME_FORMATTER = new Intl.DateTimeFormat("fr-FR", {
+  timeZone: "Europe/Paris",
+  hour: "2-digit",
+  minute: "2-digit"
+});
+const PARIS_TIME_PARTS_FORMATTER = new Intl.DateTimeFormat("en-GB", {
+  timeZone: "Europe/Paris",
+  hour: "2-digit",
+  minute: "2-digit",
+  hourCycle: "h23"
+});
 
 function registerOfflineCache() {
   if (!("serviceWorker" in navigator)) return;
@@ -165,31 +184,30 @@ function parseDate(value) {
   return new Date(value);
 }
 
+function offsetDateTimeParts(value) {
+  const match = OFFSET_DATETIME_RE.exec(String(value || ""));
+  if (!match) return null;
+  const hours = Number(match[2]);
+  const minutes = Number(match[3]);
+  return {
+    date: match[1],
+    time: `${match[2]}:${match[3]}`,
+    minutes: hours * 60 + minutes
+  };
+}
+
 function dateKey(value) {
-  const date = parseDate(value);
-  return new Intl.DateTimeFormat("fr-CA", {
-    timeZone: "Europe/Paris",
-    year: "numeric",
-    month: "2-digit",
-    day: "2-digit"
-  }).format(date);
+  return offsetDateTimeParts(value)?.date || PARIS_DATE_FORMATTER.format(parseDate(value));
 }
 
 function formatTime(value) {
-  return new Intl.DateTimeFormat("fr-FR", {
-    timeZone: "Europe/Paris",
-    hour: "2-digit",
-    minute: "2-digit"
-  }).format(parseDate(value));
+  return offsetDateTimeParts(value)?.time || PARIS_TIME_FORMATTER.format(parseDate(value));
 }
 
 function minutesSinceMidnight(value) {
-  const parts = new Intl.DateTimeFormat("en-GB", {
-    timeZone: "Europe/Paris",
-    hour: "2-digit",
-    minute: "2-digit",
-    hourCycle: "h23"
-  }).formatToParts(parseDate(value));
+  const offsetParts = offsetDateTimeParts(value);
+  if (offsetParts) return offsetParts.minutes;
+  const parts = PARIS_TIME_PARTS_FORMATTER.formatToParts(parseDate(value));
   const hours = Number(parts.find((part) => part.type === "hour")?.value || 0);
   const minutes = Number(parts.find((part) => part.type === "minute")?.value || 0);
   return hours * 60 + minutes;
@@ -273,42 +291,88 @@ function versionLabel(version) {
   return value || "Version";
 }
 
-function enrichShowtime(showtime) {
-  const zoneKey = zoneKeyForShowtime(showtime);
+function enrichShowtime(showtime, zoneByCinema) {
+  const cinemaKey = showtime.cinemaId || `${showtime.cinemaName}|${showtime.postalCode || ""}`;
+  let zoneKey = zoneByCinema.get(cinemaKey);
+  if (!zoneKey) {
+    zoneKey = zoneKeyForShowtime(showtime);
+    zoneByCinema.set(cinemaKey, zoneKey);
+  }
+  const offsetStart = offsetDateTimeParts(showtime.start);
   return {
     ...showtime,
-    dateKey: dateKey(showtime.start),
-    time: formatTime(showtime.start),
-    startMinutes: minutesSinceMidnight(showtime.start),
+    dateKey: offsetStart?.date || dateKey(showtime.start),
+    time: offsetStart?.time || formatTime(showtime.start),
+    startMinutes: offsetStart?.minutes ?? minutesSinceMidnight(showtime.start),
+    sortTime: Date.parse(showtime.start),
     versionShort: versionLabel(showtime.version),
     poster: normalizePosterUrl(showtime.poster),
     zoneKey
   };
 }
 
-async function loadData() {
-  try {
-    const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const cachePromise = saveShowtimesForOffline(response.clone());
-    const json = await response.json();
-    await Promise.all([cachePromise, saveShowtimesInDatabase(json)]);
-    state.data = normalizeShowtimesData(json);
-  } catch (error) {
-    const cachedData = await loadCachedShowtimes();
-    state.data = cachedData || SAMPLE_DATA;
-    console.warn(cachedData
-      ? "Using cached showtimes because fresh data could not be loaded."
-      : "Using bundled sample data because data/showtimes.json could not be loaded.", error);
-  }
+let hasDisplayedData = false;
+let activeRefresh = null;
 
-  state.data.showtimes = state.data.showtimes
-    .filter((item) => item && item.start && item.filmTitle && item.cinemaName)
-    .map(enrichShowtime)
-    .sort((a, b) => parseDate(a.start) - parseDate(b.start));
+function prepareShowtimesData(json) {
+  const normalizedData = normalizeShowtimesData(json);
+  if (normalizedData.preparedDataVersion === PREPARED_DATA_VERSION) return normalizedData;
+  const zoneByCinema = new Map();
+  return {
+    ...normalizedData,
+    preparedDataVersion: PREPARED_DATA_VERSION,
+    showtimes: normalizedData.showtimes
+      .filter((item) => item && item.start && item.filmTitle && item.cinemaName)
+      .map((item) => enrichShowtime(item, zoneByCinema))
+      .sort((a, b) => a.sortTime - b.sortTime)
+  };
+}
 
+function displayShowtimesData(json) {
+  state.data = prepareShowtimesData(json);
+  hasDisplayedData = true;
   initializeFilters();
   render();
+  return state.data;
+}
+
+async function refreshData(options = {}) {
+  if (activeRefresh) return activeRefresh;
+  activeRefresh = (async () => {
+    try {
+      const response = await fetch(`${DATA_URL}?v=${Date.now()}`, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const responseForCache = response.clone();
+      const json = normalizeShowtimesData(await response.json());
+      const isCurrent = hasDisplayedData && json.generatedAt && json.generatedAt === state.data.generatedAt;
+      const preparedData = isCurrent ? state.data : displayShowtimesData(json);
+      void Promise.all([
+        saveShowtimesForOffline(responseForCache),
+        saveShowtimesInDatabase(preparedData)
+      ]);
+    } catch (error) {
+      if (options.showFallback && !hasDisplayedData) displayShowtimesData(SAMPLE_DATA);
+      console.warn(hasDisplayedData
+        ? "Fresh showtimes could not be loaded; keeping the displayed snapshot."
+        : "Fresh showtimes and the offline snapshot could not be loaded.", error);
+    }
+  })();
+
+  try {
+    await activeRefresh;
+  } finally {
+    activeRefresh = null;
+  }
+}
+
+async function startApp() {
+  const cachedData = await loadCachedShowtimes();
+  if (cachedData) {
+    const preparedData = displayShowtimesData(cachedData);
+    void saveShowtimesInDatabase(preparedData);
+    await new Promise((resolve) => requestAnimationFrame(resolve));
+  }
+  await refreshData({ showFallback: !cachedData });
 }
 
 function normalizeShowtimesData(json) {
@@ -333,8 +397,8 @@ async function saveShowtimesForOffline(response) {
 }
 
 async function loadCachedShowtimes() {
-  const fromCache = await loadShowtimesFromCache();
-  return fromCache || loadShowtimesFromDatabase();
+  const fromDatabase = await loadShowtimesFromDatabase();
+  return fromDatabase || loadShowtimesFromCache();
 }
 
 async function loadShowtimesFromCache() {
@@ -493,7 +557,6 @@ function render() {
   renderViewTabs();
   renderZoneFilter();
   renderCinemaFilter();
-  renderStatus();
   renderDates();
   renderAgenda();
   if (window.lucide) window.lucide.createIcons();
@@ -507,8 +570,8 @@ function renderViewTabs() {
   });
 }
 
-function renderStatus() {
-  const count = filteredShowtimes().length;
+function renderStatus(items) {
+  const count = items.length;
   const scopedTotal = showtimesForView().length;
   const loadedTotal = state.data.showtimes.length;
   els.summaryCount.textContent = `${count} séance${count > 1 ? "s" : ""} affichée${count > 1 ? "s" : ""}`;
@@ -538,10 +601,16 @@ function formatUpdatedAt(value) {
 
 function renderDates() {
   const dates = uniqueDates();
+  const counts = new Map(dates.map((key) => [key, 0]));
+  showtimesForView().forEach((item) => {
+    if (matchesActiveFilters(item, { ignoreDate: true })) {
+      counts.set(item.dateKey, (counts.get(item.dateKey) || 0) + 1);
+    }
+  });
   els.dateRail.innerHTML = dates.map((key) => {
     const label = formatShortDay(key);
     const active = key === state.selectedDate ? " active" : "";
-    const count = showtimesForView().filter((item) => item.dateKey === key && matchesActiveFilters(item, { ignoreDate: true })).length;
+    const count = counts.get(key) || 0;
     return `
       <button class="date-chip${active}" type="button" role="tab" aria-selected="${key === state.selectedDate}" data-date="${key}">
         <strong>${escapeHtml(label.day)}</strong>
@@ -562,7 +631,7 @@ function renderAgenda() {
   els.sectionKicker.textContent = state.view === "special" ? "Séances spéciales" : "Agenda";
   els.selectedDateTitle.textContent = state.selectedDate ? formatDateTitle(state.selectedDate) : "Aucune date";
   const items = filteredShowtimes();
-  renderStatus();
+  renderStatus(items);
 
   if (!items.length) {
     els.agendaList.innerHTML = `
@@ -714,7 +783,7 @@ function setView(view, options = {}) {
   render();
 }
 
-els.refreshButton.addEventListener("click", loadData);
+els.refreshButton.addEventListener("click", () => refreshData());
 els.viewTabs.forEach((tab) => {
   tab.addEventListener("click", () => setView(tab.dataset.view));
 });
@@ -761,5 +830,5 @@ window.addEventListener("hashchange", () => {
   setView(initialView(), { fromHash: true });
 });
 
-loadData();
+startApp();
 registerOfflineCache();
