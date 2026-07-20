@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#f8f5f0">
     <title>Ciné Illimité IDF</title>
-    <meta name="description" content="Agenda mobile des seances UGC, MK2 et cinemas partenaires UGC/MK2 Illimite en Ile-de-France.">
+    <meta id="metaDescription" name="description" content="Agenda mobile des seances UGC, MK2 et cinemas partenaires UGC/MK2 Illimite en Ile-de-France.">
     <link rel="icon" href="data:,">
     <link rel="manifest" href="manifest.webmanifest">
-    <link rel="stylesheet" href="styles.css?v=20260714-1">
+    <link rel="stylesheet" href="styles.css?v=20260720-1">
     <script defer src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
-    <script defer src="app.js?v=20260714-1"></script>
+    <script defer src="app.js?v=20260720-1"></script>
   </head>
   <body>
     <div class="app-shell">
@@ -19,15 +19,18 @@
           <p class="eyebrow">UGC / MK2 Illimite</p>
           <h1>Ciné Illimité IDF</h1>
         </div>
-        <button class="icon-button" id="refreshButton" type="button" aria-label="Recharger les donnees">
-          <i data-lucide="refresh-cw" aria-hidden="true"></i>
-        </button>
+        <div class="topbar-actions">
+          <button class="language-button" id="languageToggle" type="button" aria-label="Switch to English">EN</button>
+          <button class="icon-button" id="refreshButton" type="button" data-i18n-aria-label="refresh">
+            <i data-lucide="refresh-cw" aria-hidden="true"></i>
+          </button>
+        </div>
       </header>
 
       <section class="status-strip" aria-live="polite">
         <div>
-          <span id="summaryCount">Chargement...</span>
-          <span id="summaryScope">Ile-de-France</span>
+          <span id="summaryCount" data-i18n="loading">Chargement...</span>
+          <span id="summaryScope" data-i18n="regionScope">Ile-de-France</span>
         </div>
         <span id="updatedAt">--</span>
       </section>
@@ -35,64 +38,65 @@
       <main>
         <section class="filters" aria-label="Filtres des seances">
           <div class="view-switch" role="tablist" aria-label="Vue">
-            <button class="view-tab active" type="button" role="tab" aria-selected="true" data-view="agenda">Agenda</button>
-            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="special">Spéciales</button>
+            <button class="view-tab active" type="button" role="tab" aria-selected="true" data-view="agenda" data-i18n="agenda">Agenda</button>
+            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="special" data-i18n="specials">Spéciales</button>
           </div>
 
           <div class="date-row" id="dateRail" role="tablist" aria-label="Dates disponibles"></div>
 
           <div class="control-grid">
             <label class="field">
-              <span>Zone</span>
+              <span data-i18n="zone">Zone</span>
               <select id="zoneFilter">
-                <option value="all">Toute l'Ile-de-France</option>
+                <option value="all" data-i18n="allIdf">Toute l'Ile-de-France</option>
               </select>
             </label>
 
             <label class="field">
-              <span>Cinéma</span>
+              <span data-i18n="cinema">Cinéma</span>
               <select id="cinemaFilter">
-                <option value="all">Toutes les salles</option>
+                <option value="all" data-i18n="allCinemas">Toutes les salles</option>
               </select>
             </label>
 
             <label class="field">
-              <span>À partir de</span>
+              <span data-i18n="fromTime">À partir de</span>
               <input id="timeFilter" type="time" step="60" aria-label="Afficher les séances à partir de cette heure">
             </label>
 
             <label class="field">
-              <span>Recherche</span>
-              <input id="searchInput" type="search" placeholder="Film, cinéma, ville">
+              <span data-i18n="search">Recherche</span>
+              <input id="searchInput" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Film, cinéma, ville">
             </label>
           </div>
 
           <div class="network-row" aria-label="Reseaux">
-            <button class="chip active" type="button" data-network="all">Tous</button>
+            <button class="chip active" type="button" data-network="all" data-i18n="all">Tous</button>
             <button class="chip" type="button" data-network="UGC">UGC</button>
             <button class="chip" type="button" data-network="MK2">MK2</button>
-            <button class="chip" type="button" data-network="PARTNER">Partenaires</button>
+            <button class="chip" type="button" data-network="PARTNER" data-i18n="partners">Partenaires</button>
           </div>
         </section>
 
         <section class="agenda-head">
           <div>
-            <p class="section-kicker" id="sectionKicker">Agenda</p>
+            <p class="section-kicker" id="sectionKicker" data-i18n="agenda">Agenda</p>
             <h2 id="selectedDateTitle">--</h2>
           </div>
-          <button class="text-button" type="button" id="clearFilters">Effacer</button>
+          <button class="text-button" type="button" id="clearFilters" data-i18n="clear">Effacer</button>
         </section>
 
         <section id="agendaList" class="agenda-list" aria-live="polite"></section>
       </main>
 
       <footer class="app-footer">
-        <p>Les liens ouvrent les pages officielles de reservation quand elles sont disponibles.</p>
+        <p data-i18n="footerNote">Les liens ouvrent les pages officielles de reservation quand elles sont disponibles.</p>
+        <p><a href="https://www.themoviedb.org/" target="_blank" rel="noopener" data-i18n="tmdbAttribution">Ce produit utilise TMDB sans etre approuve ni certifie par TMDB.</a></p>
       </footer>
     </div>
 
     <dialog id="detailsDialog" class="details-dialog">
-      <button class="icon-button close-dialog" type="button" id="closeDialog" aria-label="Fermer">
+      <button class="icon-button close-dialog" type="button" id="closeDialog" data-i18n-aria-label="close">
         <i data-lucide="x" aria-hidden="true"></i>
       </button>
       <div id="detailsContent"></div>

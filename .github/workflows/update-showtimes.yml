@@ -25,9 +25,12 @@ jobs:
           ALLOCINE_DATE_CONCURRENCY: 1
           ALLOCINE_ENABLE_AUTOCOMPLETE: 0
           ALLOCINE_REQUEST_DELAY_MS: 500
+          TITLE_ENRICHMENT_LIMIT: 80
+          TITLE_ENRICHMENT_CONCURRENCY: 3
+          TMDB_REQUEST_DELAY_MS: 250
         run: node scripts/update-data.mjs
       - name: Commit refreshed data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update cinema showtimes"
-          file_pattern: data/showtimes.json
+          file_pattern: data/showtimes.json data/title-en-cache.json

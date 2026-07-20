@@ -1,11 +1,11 @@
 "use strict";
 
-const CACHE_NAME = "cine-illimite-idf-v1";
+const CACHE_NAME = "cine-illimite-idf-v2";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css?v=20260714-1",
-  "./app.js?v=20260714-1",
+  "./styles.css?v=20260720-1",
+  "./app.js?v=20260720-1",
   "./manifest.webmanifest",
   "https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"
 ];

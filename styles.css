@@ -108,6 +108,25 @@ h2 {
   height: 20px;
 }
 
+.topbar-actions {
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+}
+
+.language-button {
+  display: inline-grid;
+  width: 42px;
+  height: 42px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--ink);
+  background: var(--surface);
+  font-size: 12px;
+  font-weight: 850;
+}
+
 .status-strip {
   display: flex;
   justify-content: space-between;
@@ -495,6 +514,11 @@ a:focus-visible {
   padding: 0 18px calc(26px + env(safe-area-inset-bottom));
   color: var(--muted);
   font-size: 12px;
+}
+
+.app-footer a {
+  color: inherit;
+  text-underline-offset: 2px;
 }
 
 .details-dialog {

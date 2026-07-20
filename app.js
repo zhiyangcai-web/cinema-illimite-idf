@@ -1,7 +1,7 @@
 "use strict";
 
 const DATA_URL = "data/showtimes.json";
-const OFFLINE_CACHE_NAME = "cine-illimite-idf-v1";
+const OFFLINE_CACHE_NAME = "cine-illimite-idf-v2";
 const OFFLINE_DB_NAME = "cine-illimite-idf";
 const OFFLINE_DB_STORE = "showtimes";
 const OFFLINE_DB_KEY = "latest";
@@ -24,6 +24,121 @@ const PARIS_TIME_PARTS_FORMATTER = new Intl.DateTimeFormat("en-GB", {
   minute: "2-digit",
   hourCycle: "h23"
 });
+const LANGUAGE_STORAGE_KEY = "cine-illimite-language";
+const COPY = {
+  fr: {
+    pageDescription: "Agenda mobile des séances UGC, MK2 et cinémas partenaires UGC/MK2 Illimité en Île-de-France.",
+    loading: "Chargement...",
+    regionScope: "Île-de-France",
+    agenda: "Agenda",
+    specials: "Spéciales",
+    zone: "Zone",
+    allIdf: "Toute l'Île-de-France",
+    cinema: "Cinéma",
+    allCinemas: "Toutes les salles",
+    fromTime: "À partir de",
+    timeFilterAria: "Afficher les séances à partir de cette heure",
+    search: "Recherche",
+    searchPlaceholder: "Film, cinéma, ville",
+    all: "Tous",
+    partners: "Partenaires",
+    clear: "Effacer",
+    footerNote: "Les liens ouvrent les pages officielles de réservation quand elles sont disponibles.",
+    tmdbAttribution: "Ce produit utilise TMDB sans être approuvé ni certifié par TMDB.",
+    refresh: "Recharger les données",
+    close: "Fermer",
+    switchLanguage: "Passer en anglais",
+    availableDates: "Dates disponibles",
+    filters: "Filtres des séances",
+    view: "Vue",
+    networks: "Réseaux",
+    unknownZone: "Zone inconnue",
+    partner: "Partenaire",
+    genericCinema: "Cinéma",
+    sessionsShown: (count) => `${count} séance${count > 1 ? "s" : ""} affichée${count > 1 ? "s" : ""}`,
+    loadedScope: (count) => `${count} séances chargées`,
+    specialScope: (specials, total) => `${specials} séances spéciales · ${total} chargées`,
+    updated: (value) => `MAJ ${value}`,
+    unknownUpdate: "MAJ inconnue",
+    specialScreenings: "Séances spéciales",
+    noDate: "Aucune date",
+    noSessions: "Aucune séance trouvée",
+    emptySpecial: "Change la date, la zone ou le cinéma. Cette vue garde seulement les projections avec un label événementiel.",
+    emptyAgenda: "Change la date, la zone, le cinéma ou le réseau. Les futures dates apparaissent seulement quand les cinémas les publient.",
+    morning: "Matin",
+    afternoon: "Après-midi",
+    evening: "Soir",
+    endsAt: (value) => `fin ${value}`,
+    specialBadge: "Spéciale",
+    reserve: "Réserver",
+    viewBooking: "Voir",
+    details: "Détails",
+    directedBy: (name) => `de ${name}`,
+    schedule: "Horaire",
+    direction: "Réalisation",
+    area: "Zone",
+    version: "Version",
+    special: "Spéciale",
+    genre: "Genre",
+    openBooking: "Ouvrir la réservation"
+  },
+  en: {
+    pageDescription: "Mobile showtime guide for UGC, MK2 and UGC/MK2 Illimité partner cinemas across Île-de-France.",
+    loading: "Loading...",
+    regionScope: "Île-de-France",
+    agenda: "Schedule",
+    specials: "Specials",
+    zone: "Area",
+    allIdf: "All Île-de-France",
+    cinema: "Cinema",
+    allCinemas: "All cinemas",
+    fromTime: "From",
+    timeFilterAria: "Show screenings starting from this time",
+    search: "Search",
+    searchPlaceholder: "Film, cinema, city",
+    all: "All",
+    partners: "Partners",
+    clear: "Clear",
+    footerNote: "Links open official booking pages when available.",
+    tmdbAttribution: "This product uses the TMDB API but is not endorsed or certified by TMDB.",
+    refresh: "Refresh data",
+    close: "Close",
+    switchLanguage: "Passer en français",
+    availableDates: "Available dates",
+    filters: "Showtime filters",
+    view: "View",
+    networks: "Networks",
+    unknownZone: "Unknown area",
+    partner: "Partner",
+    genericCinema: "Cinema",
+    sessionsShown: (count) => `${count} session${count === 1 ? "" : "s"} shown`,
+    loadedScope: (count) => `${count} sessions loaded`,
+    specialScope: (specials, total) => `${specials} special sessions · ${total} loaded`,
+    updated: (value) => `Updated ${value}`,
+    unknownUpdate: "Update unknown",
+    specialScreenings: "Special screenings",
+    noDate: "No date available",
+    noSessions: "No screenings found",
+    emptySpecial: "Try another date, area or cinema. This view only includes event, repertory and rare screenings.",
+    emptyAgenda: "Try another date, area, cinema or network. Future dates appear when cinemas publish them.",
+    morning: "Morning",
+    afternoon: "Afternoon",
+    evening: "Evening",
+    endsAt: (value) => `ends ${value}`,
+    specialBadge: "Special",
+    reserve: "Book",
+    viewBooking: "View",
+    details: "Details",
+    directedBy: (name) => `by ${name}`,
+    schedule: "Schedule",
+    direction: "Director",
+    area: "Area",
+    version: "Version",
+    special: "Special",
+    genre: "Genre",
+    openBooking: "Open booking"
+  }
+};
 
 function registerOfflineCache() {
   if (!("serviceWorker" in navigator)) return;
@@ -152,6 +267,7 @@ const SAMPLE_DATA = {
 const state = {
   data: SAMPLE_DATA,
   view: initialView(),
+  language: readLanguagePreference(),
   selectedDate: "",
   selectedZone: "all",
   selectedCinema: "all",
@@ -167,6 +283,7 @@ const els = {
   updatedAt: document.getElementById("updatedAt"),
   dateRail: document.getElementById("dateRail"),
   viewTabs: document.querySelectorAll("[data-view]"),
+  languageToggle: document.getElementById("languageToggle"),
   zoneFilter: document.getElementById("zoneFilter"),
   cinemaFilter: document.getElementById("cinemaFilter"),
   timeFilter: document.getElementById("timeFilter"),
@@ -179,6 +296,44 @@ const els = {
   detailsContent: document.getElementById("detailsContent"),
   closeDialog: document.getElementById("closeDialog")
 };
+
+function readLanguagePreference() {
+  try {
+    return localStorage.getItem(LANGUAGE_STORAGE_KEY) === "en" ? "en" : "fr";
+  } catch {
+    return "fr";
+  }
+}
+
+function t(key, ...args) {
+  const value = COPY[state.language]?.[key] ?? COPY.fr[key] ?? key;
+  return typeof value === "function" ? value(...args) : value;
+}
+
+function currentLocale() {
+  return state.language === "en" ? "en-GB" : "fr-FR";
+}
+
+function applyLanguage() {
+  document.documentElement.lang = state.language;
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    element.textContent = t(element.dataset.i18n);
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+    element.placeholder = t(element.dataset.i18nPlaceholder);
+  });
+  document.querySelectorAll("[data-i18n-aria-label]").forEach((element) => {
+    element.setAttribute("aria-label", t(element.dataset.i18nAriaLabel));
+  });
+  document.getElementById("metaDescription")?.setAttribute("content", t("pageDescription"));
+  document.querySelector(".filters")?.setAttribute("aria-label", t("filters"));
+  document.querySelector(".view-switch")?.setAttribute("aria-label", t("view"));
+  document.querySelector(".network-row")?.setAttribute("aria-label", t("networks"));
+  els.dateRail.setAttribute("aria-label", t("availableDates"));
+  els.timeFilter.setAttribute("aria-label", t("timeFilterAria"));
+  els.languageToggle.textContent = state.language === "fr" ? "EN" : "FR";
+  els.languageToggle.setAttribute("aria-label", t("switchLanguage"));
+}
 
 function parseDate(value) {
   return new Date(value);
@@ -220,7 +375,8 @@ function timeValueToMinutes(value) {
 
 function formatDateTitle(key) {
   const date = new Date(`${key}T12:00:00+02:00`);
-  return new Intl.DateTimeFormat("fr-FR", {
+  return new Intl.DateTimeFormat(currentLocale(), {
+    timeZone: "Europe/Paris",
     weekday: "long",
     day: "numeric",
     month: "long"
@@ -230,8 +386,8 @@ function formatDateTitle(key) {
 function formatShortDay(key) {
   const date = new Date(`${key}T12:00:00+02:00`);
   return {
-    day: new Intl.DateTimeFormat("fr-FR", { weekday: "short" }).format(date).replace(".", ""),
-    date: new Intl.DateTimeFormat("fr-FR", { day: "2-digit", month: "short" }).format(date).replace(".", "")
+    day: new Intl.DateTimeFormat(currentLocale(), { timeZone: "Europe/Paris", weekday: "short" }).format(date).replace(".", ""),
+    date: new Intl.DateTimeFormat(currentLocale(), { timeZone: "Europe/Paris", day: "2-digit", month: "short" }).format(date).replace(".", "")
   };
 }
 
@@ -259,7 +415,7 @@ function zoneKeyForShowtime(item) {
 }
 
 function zoneLabel(zoneKey) {
-  return ZONE_LABELS[zoneKey] || "Zone inconnue";
+  return zoneKey === "unknown" ? t("unknownZone") : ZONE_LABELS[zoneKey] || t("unknownZone");
 }
 
 function locationLabel(item) {
@@ -268,8 +424,8 @@ function locationLabel(item) {
 }
 
 function networkLabel(network) {
-  if (network === "PARTNER") return "Partenaire";
-  return network || "Cinema";
+  if (network === "PARTNER") return t("partner");
+  return network || t("genericCinema");
 }
 
 function initialView() {
@@ -511,10 +667,10 @@ function renderZoneFilter() {
     state.selectedZone = "all";
   }
   els.zoneFilter.innerHTML = [
-    `<option value="all">Toute l'Ile-de-France</option>`,
+    `<option value="all">${escapeHtml(t("allIdf"))}</option>`,
     ...ZONES
       .filter(([key]) => zonesInData.has(key))
-      .map(([key, label]) => `<option value="${escapeHtml(key)}">${escapeHtml(label)}</option>`)
+      .map(([key, label]) => `<option value="${escapeHtml(key)}">${escapeHtml(key === "unknown" ? t("unknownZone") : label)}</option>`)
   ].join("");
   els.zoneFilter.value = state.selectedZone;
 }
@@ -526,7 +682,7 @@ function renderCinemaFilter() {
     state.selectedCinema = "all";
   }
   els.cinemaFilter.innerHTML = [
-    `<option value="all">Toutes les salles</option>`,
+    `<option value="all">${escapeHtml(t("allCinemas"))}</option>`,
     ...cinemas.map((cinema) => `<option value="${escapeHtml(cinema.id)}">${escapeHtml(cinema.name)}</option>`)
   ].join("");
   els.cinemaFilter.value = state.selectedCinema;
@@ -546,7 +702,7 @@ function matchesActiveFilters(item, options = {}) {
   const startTimeMinutes = timeValueToMinutes(state.startTime);
   if (startTimeMinutes !== null && item.startMinutes < startTimeMinutes) return false;
   if (query) {
-    const haystack = normalized(`${item.filmTitle} ${item.director || ""} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
+    const haystack = normalized(`${item.filmTitle} ${item.filmTitleEn || ""} ${item.director || ""} ${item.cinemaName} ${item.city} ${item.genre || ""}`);
     if (!haystack.includes(query)) return false;
   }
   return true;
@@ -574,20 +730,20 @@ function renderStatus(items) {
   const count = items.length;
   const scopedTotal = showtimesForView().length;
   const loadedTotal = state.data.showtimes.length;
-  els.summaryCount.textContent = `${count} séance${count > 1 ? "s" : ""} affichée${count > 1 ? "s" : ""}`;
+  els.summaryCount.textContent = t("sessionsShown", count);
   els.summaryScope.textContent = state.view === "special"
-    ? `${scopedTotal} séances spéciales · ${loadedTotal} chargées`
-    : `${loadedTotal} séances chargées`;
+    ? t("specialScope", scopedTotal, loadedTotal)
+    : t("loadedScope", loadedTotal);
   if (state.data.generatedAt) {
-    els.updatedAt.textContent = `MAJ ${formatUpdatedAt(state.data.generatedAt)}`;
+    els.updatedAt.textContent = t("updated", formatUpdatedAt(state.data.generatedAt));
   } else {
-    els.updatedAt.textContent = "MAJ inconnue";
+    els.updatedAt.textContent = t("unknownUpdate");
   }
 }
 
 function formatUpdatedAt(value) {
   try {
-    return new Intl.DateTimeFormat("fr-FR", {
+    return new Intl.DateTimeFormat(currentLocale(), {
       timeZone: "Europe/Paris",
       day: "2-digit",
       month: "2-digit",
@@ -628,16 +784,16 @@ function renderDates() {
 }
 
 function renderAgenda() {
-  els.sectionKicker.textContent = state.view === "special" ? "Séances spéciales" : "Agenda";
-  els.selectedDateTitle.textContent = state.selectedDate ? formatDateTitle(state.selectedDate) : "Aucune date";
+  els.sectionKicker.textContent = state.view === "special" ? t("specialScreenings") : t("agenda");
+  els.selectedDateTitle.textContent = state.selectedDate ? formatDateTitle(state.selectedDate) : t("noDate");
   const items = filteredShowtimes();
   renderStatus(items);
 
   if (!items.length) {
     els.agendaList.innerHTML = `
       <div class="empty-state">
-        <h3>Aucune séance trouvée</h3>
-        <p>${state.view === "special" ? "Change la date, la zone ou le cinéma. Cette vue garde seulement les projections avec un label événementiel." : "Change la date, la zone, le cinéma ou le réseau. Les futures dates apparaissent seulement quand les cinémas les publient."}</p>
+        <h3>${escapeHtml(t("noSessions"))}</h3>
+        <p>${escapeHtml(state.view === "special" ? t("emptySpecial") : t("emptyAgenda"))}</p>
       </div>
     `;
     return;
@@ -646,7 +802,7 @@ function renderAgenda() {
   const groups = groupByPeriod(items);
   els.agendaList.innerHTML = Object.entries(groups).map(([period, rows]) => `
     <div class="time-group">
-      <div class="time-label">${escapeHtml(period)} · ${rows.length}</div>
+      <div class="time-label">${escapeHtml(t(period))} · ${rows.length}</div>
       ${rows.map(renderRow).join("")}
     </div>
   `).join("");
@@ -664,7 +820,7 @@ function renderAgenda() {
 function groupByPeriod(items) {
   return items.reduce((acc, item) => {
     const hour = Number(item.time.slice(0, 2));
-    const period = hour < 12 ? "Matin" : hour < 18 ? "Après-midi" : "Soir";
+    const period = hour < 12 ? "morning" : hour < 18 ? "afternoon" : "evening";
     acc[period] = acc[period] || [];
     acc[period].push(item);
     return acc;
@@ -673,11 +829,11 @@ function groupByPeriod(items) {
 
 function renderRow(item) {
   const networkClass = item.network === "UGC" ? "ugc" : item.network === "MK2" ? "mk2" : "partner";
-  const end = item.end ? `<span class="screening-end">fin ${formatTime(item.end)}</span>` : "";
-  const specialBadge = item.special ? `<span class="badge special">${escapeHtml(item.specialLabel || "Special")}</span>` : "";
+  const end = item.end ? `<span class="screening-end">${escapeHtml(t("endsAt", formatTime(item.end)))}</span>` : "";
+  const specialBadge = item.special ? `<span class="badge special">${escapeHtml(displaySpecialLabel(item.specialLabel) || t("specialBadge"))}</span>` : "";
   const booking = item.bookingUrl
-    ? `<a class="booking-link" href="${escapeAttr(item.bookingUrl)}" target="_blank" rel="noopener"><i data-lucide="ticket" aria-hidden="true"></i>Réserver</a>`
-    : `<a class="booking-link" href="${escapeAttr(item.filmUrl || "#")}" target="_blank" rel="noopener"><i data-lucide="external-link" aria-hidden="true"></i>Voir</a>`;
+    ? `<a class="booking-link" href="${escapeAttr(item.bookingUrl)}" target="_blank" rel="noopener"><i data-lucide="ticket" aria-hidden="true"></i>${escapeHtml(t("reserve"))}</a>`
+    : `<a class="booking-link" href="${escapeAttr(item.filmUrl || "#")}" target="_blank" rel="noopener"><i data-lucide="external-link" aria-hidden="true"></i>${escapeHtml(t("viewBooking"))}</a>`;
 
   return `
     <article class="screening-row">
@@ -687,8 +843,8 @@ function renderRow(item) {
       </div>
       ${posterMarkup(item, "poster-thumb")}
       <div class="screening-main">
-        <h3 class="screening-title">${escapeHtml(toTitleCase(item.filmTitle))}</h3>
-        ${item.director ? `<div class="screening-director">de ${escapeHtml(item.director)}</div>` : ""}
+        <h3 class="screening-title">${escapeHtml(displayFilmTitle(item))}</h3>
+        ${item.director ? `<div class="screening-director">${escapeHtml(t("directedBy", item.director))}</div>` : ""}
         <div class="screening-meta">
           <span class="badge ${networkClass}">${escapeHtml(networkLabel(item.network))}</span>
           ${specialBadge}
@@ -698,7 +854,7 @@ function renderRow(item) {
         </div>
         <div class="row-actions">
           ${booking}
-          <button class="details-button" type="button" data-details="${escapeAttr(item.id)}">Détails</button>
+          <button class="details-button" type="button" data-details="${escapeAttr(item.id)}">${escapeHtml(t("details"))}</button>
         </div>
       </div>
     </article>
@@ -711,20 +867,20 @@ function openDetails(item) {
       ${posterMarkup(item, "detail-poster")}
       <div>
         <p class="eyebrow">${escapeHtml(networkLabel(item.network))}</p>
-        <h3>${escapeHtml(toTitleCase(item.filmTitle))}</h3>
-        ${item.director ? `<p class="details-director">de ${escapeHtml(item.director)}</p>` : ""}
+        <h3>${escapeHtml(displayFilmTitle(item))}</h3>
+        ${item.director ? `<p class="details-director">${escapeHtml(t("directedBy", item.director))}</p>` : ""}
       </div>
     </div>
     <ul class="details-list">
-      <li><strong>Horaire</strong> ${escapeHtml(formatDateTitle(item.dateKey))}, ${escapeHtml(item.time)}</li>
-      ${item.director ? `<li><strong>Réalisation</strong> ${escapeHtml(item.director)}</li>` : ""}
-      <li><strong>Cinéma</strong> ${escapeHtml(item.cinemaName)}</li>
-      <li><strong>Zone</strong> ${escapeHtml(locationLabel(item))}</li>
-      <li><strong>Version</strong> ${escapeHtml(item.versionShort)}</li>
-      ${item.special ? `<li><strong>Special</strong> ${escapeHtml(item.specialLabel || item.specialSource || "Projection speciale")}</li>` : ""}
-      ${item.genre ? `<li><strong>Genre</strong> ${escapeHtml(item.genre)}</li>` : ""}
+      <li><strong>${escapeHtml(t("schedule"))}</strong> ${escapeHtml(formatDateTitle(item.dateKey))}, ${escapeHtml(item.time)}</li>
+      ${item.director ? `<li><strong>${escapeHtml(t("direction"))}</strong> ${escapeHtml(item.director)}</li>` : ""}
+      <li><strong>${escapeHtml(t("cinema"))}</strong> ${escapeHtml(item.cinemaName)}</li>
+      <li><strong>${escapeHtml(t("area"))}</strong> ${escapeHtml(locationLabel(item))}</li>
+      <li><strong>${escapeHtml(t("version"))}</strong> ${escapeHtml(item.versionShort)}</li>
+      ${item.special ? `<li><strong>${escapeHtml(t("special"))}</strong> ${escapeHtml(displaySpecialLabel(item.specialLabel || item.specialSource) || t("specialBadge"))}</li>` : ""}
+      ${item.genre ? `<li><strong>${escapeHtml(t("genre"))}</strong> ${escapeHtml(item.genre)}</li>` : ""}
     </ul>
-    ${item.bookingUrl ? `<a class="booking-link" href="${escapeAttr(item.bookingUrl)}" target="_blank" rel="noopener"><i data-lucide="ticket" aria-hidden="true"></i>Ouvrir la réservation</a>` : ""}
+    ${item.bookingUrl ? `<a class="booking-link" href="${escapeAttr(item.bookingUrl)}" target="_blank" rel="noopener"><i data-lucide="ticket" aria-hidden="true"></i>${escapeHtml(t("openBooking"))}</a>` : ""}
   `;
   if (typeof els.detailsDialog.showModal === "function") {
     els.detailsDialog.showModal();
@@ -752,6 +908,28 @@ function normalizePosterUrl(value) {
   if (!url) return "";
   if (url.startsWith("//")) return `https:${url}`;
   return url;
+}
+
+function displayFilmTitle(item) {
+  if (state.language === "en" && item.filmTitleEn) return String(item.filmTitleEn).trim();
+  return toTitleCase(item.filmTitle);
+}
+
+function displaySpecialLabel(value) {
+  const label = String(value || "").trim();
+  if (state.language !== "en" || !label) return label;
+  const labels = {
+    "avant premiere": "Preview",
+    "ugc culte": "UGC Classics",
+    "seances speciales": "Special screenings",
+    "cycle marathon": "Series / Marathon",
+    "reprise mk2": "MK2 Revival",
+    "seance rare mk2": "Rare MK2 screening",
+    "evenement mk2": "MK2 Event",
+    "mk2 evenement": "MK2 Event",
+    "mk2 rarete": "MK2 rarity"
+  };
+  return labels[normalized(label).replace(/[^a-z0-9]+/g, " ").trim()] || label;
 }
 
 function toTitleCase(value) {
@@ -783,7 +961,22 @@ function setView(view, options = {}) {
   render();
 }
 
+function setLanguage(language) {
+  if (!["fr", "en"].includes(language) || state.language === language) return;
+  state.language = language;
+  try {
+    localStorage.setItem(LANGUAGE_STORAGE_KEY, language);
+  } catch {
+    // The language still applies for the current session.
+  }
+  applyLanguage();
+  if (hasDisplayedData) render();
+}
+
 els.refreshButton.addEventListener("click", () => refreshData());
+els.languageToggle.addEventListener("click", () => {
+  setLanguage(state.language === "fr" ? "en" : "fr");
+});
 els.viewTabs.forEach((tab) => {
   tab.addEventListener("click", () => setView(tab.dataset.view));
 });
@@ -830,5 +1023,6 @@ window.addEventListener("hashchange", () => {
   setView(initialView(), { fromHash: true });
 });
 
+applyLanguage();
 startApp();
 registerOfflineCache();

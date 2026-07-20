@@ -5,7 +5,9 @@ Mobile-first static page for UGC, MK2, and UGC/MK2 Illimite partner cinema showt
 ## What It Does
 
 - Shows future dates when they exist in the fetched data.
-- Filters by date, cinema, network, and search text.
+- Filters by date, area, cinema, start time, network, and search text.
+- Switches the interface and available official film titles between French and English.
+- Opens immediately from the last saved snapshot, then replaces it with fresh data in the background.
 - Opens official reservation links when the source provides them.
 - Stores refreshed data in `data/showtimes.json`, so the public site is static and works on GitHub Pages.
 
@@ -15,6 +17,7 @@ Mobile-first static page for UGC, MK2, and UGC/MK2 Illimite partner cinema showt
 - Independent partner cinema API: `https://datacinesindes.fr/data-fair/api/v1/datasets/programmation-cinemas`
 - UGC showings endpoint used by UGC cinema pages.
 - MK2 public cinema pages.
+- TMDB English-language public film pages, matched by title and director for English titles.
 
 The UGC and MK2 sources are public website endpoints, not a formal public API. If they change their HTML structure, the update script may need adjustment.
 

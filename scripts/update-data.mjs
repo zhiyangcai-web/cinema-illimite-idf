@@ -5,6 +5,7 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
 const OUT_FILE = join(ROOT, "data", "showtimes.json");
+const TITLE_CACHE_FILE = join(ROOT, "data", "title-en-cache.json");
 const ENV = globalThis.process?.env || {};
 const DAYS_AHEAD = Number(ENV.DAYS_AHEAD || 21);
 const MAX_UGC_CINEMAS = Number(ENV.MAX_UGC_CINEMAS || 32);
@@ -20,6 +21,10 @@ const ALLOCINE_CONCURRENCY = Number(ENV.ALLOCINE_CONCURRENCY || 3);
 const ALLOCINE_DATE_CONCURRENCY = Number(ENV.ALLOCINE_DATE_CONCURRENCY || 3);
 const ALLOCINE_ENABLE_AUTOCOMPLETE = ENV.ALLOCINE_ENABLE_AUTOCOMPLETE === "1";
 const ALLOCINE_REQUEST_DELAY_MS = Number(ENV.ALLOCINE_REQUEST_DELAY_MS || 350);
+const TITLE_ENRICHMENT_LIMIT = Number(ENV.TITLE_ENRICHMENT_LIMIT || 80);
+const TITLE_ENRICHMENT_CONCURRENCY = Number(ENV.TITLE_ENRICHMENT_CONCURRENCY || 3);
+const TMDB_REQUEST_DELAY_MS = Number(ENV.TMDB_REQUEST_DELAY_MS || 180);
+const TITLE_MISS_RETRY_DAYS = Number(ENV.TITLE_MISS_RETRY_DAYS || 14);
 
 const IDF_POSTAL_PREFIXES = ["75", "77", "78", "91", "92", "93", "94", "95"];
 const UGC_IDF_IDS = new Set([
@@ -100,9 +105,12 @@ const ALLOCINE_PRIORITY_THEATER_IDS = [
 ];
 let allocineRequestQueue = Promise.resolve();
 let allocineNextRequestAt = 0;
+let tmdbRequestQueue = Promise.resolve();
+let tmdbNextRequestAt = 0;
 
 async function main() {
   const previousShowtimes = await readPreviousShowtimes();
+  const titleCache = await readEnglishTitleCache();
   const generatedAt = new Date().toISOString();
   const partnerCatalog = await fetchUgcAcceptedCinemas();
   const independentPromise = fetchIndependentPartnerShowtimes(partnerCatalog);
@@ -137,7 +145,11 @@ async function main() {
   const directorBackfillCount = directorEnriched.filter((item, index) => item.director && !filmShowtimes[index]?.director).length;
   if (directorBackfillCount) console.log(`Backfilled ${directorBackfillCount} missing directors`);
 
-  const dedupedItems = dedupe(directorEnriched);
+  const englishEnrichment = await enrichEnglishFilmTitles(directorEnriched, previousShowtimes, titleCache);
+  const englishBackfillCount = englishEnrichment.showtimes.filter((item, index) => item.filmTitleEn && !directorEnriched[index]?.filmTitleEn).length;
+  if (englishBackfillCount) console.log(`Added ${englishBackfillCount} English film titles`);
+
+  const dedupedItems = dedupe(englishEnrichment.showtimes);
   const duplicateCount = filmShowtimes.length - dedupedItems.length;
   if (duplicateCount) console.log(`Removed ${duplicateCount} duplicate showtimes`);
 
@@ -163,6 +175,9 @@ async function main() {
     ],
     showtimes: deduped
   }, null, 2)}\n`, "utf8");
+  if (englishEnrichment.cacheChanged || !titleCache.exists) {
+    await writeEnglishTitleCache(englishEnrichment.cacheEntries, generatedAt);
+  }
 
   console.log(`Wrote ${deduped.length} showtimes to ${OUT_FILE}`);
 }
@@ -193,6 +208,28 @@ function preservePreviousAlloCineShowtimes(previousShowtimes, freshAlloCineShowt
     .filter((item) => isWithin(item.start, start, end));
 }
 
+async function readEnglishTitleCache() {
+  try {
+    const data = JSON.parse(await readFile(TITLE_CACHE_FILE, "utf8"));
+    return {
+      exists: true,
+      entries: data && typeof data.entries === "object" ? data.entries : {}
+    };
+  } catch {
+    return { exists: false, entries: {} };
+  }
+}
+
+async function writeEnglishTitleCache(entries, updatedAt) {
+  const sortedEntries = Object.fromEntries(Object.entries(entries).sort(([left], [right]) => left.localeCompare(right)));
+  await mkdir(dirname(TITLE_CACHE_FILE), { recursive: true });
+  await writeFile(TITLE_CACHE_FILE, `${JSON.stringify({
+    version: 1,
+    updatedAt,
+    entries: sortedEntries
+  }, null, 2)}\n`, "utf8");
+}
+
 function backfillMissingDirectors(showtimes, previousShowtimes = []) {
   const directorByTitle = uniqueDirectorByTitle([...previousShowtimes, ...showtimes]);
   return showtimes.map((item) => {
@@ -221,6 +258,288 @@ function uniqueDirectorByTitle(items) {
     if (directors.size === 1) unique.set(titleKey, [...directors.values()][0]);
   }
   return unique;
+}
+
+async function enrichEnglishFilmTitles(showtimes, previousShowtimes, titleCache) {
+  const entries = { ...(titleCache.entries || {}) };
+  const checkedAt = new Date().toISOString();
+  let cacheChanged = false;
+
+  for (const item of [...previousShowtimes, ...showtimes]) {
+    if (!item?.filmTitle || !item.filmTitleEn) continue;
+    const key = filmIdentityKey(item);
+    if (entries[key]?.titleEn === item.filmTitleEn) continue;
+    entries[key] = {
+      filmTitle: item.filmTitle,
+      director: item.director || "",
+      titleEn: cleanHtml(item.filmTitleEn),
+      source: item.source === "AlloCine" ? "AlloCine original title" : entries[key]?.source || "Previous showtimes",
+      checkedAt
+    };
+    cacheChanged = true;
+  }
+
+  const groups = new Map();
+  for (const item of showtimes) {
+    const key = filmIdentityKey(item);
+    if (!groups.has(key)) groups.set(key, { key, items: [], count: 0 });
+    const group = groups.get(key);
+    group.items.push(item);
+    group.count += 1;
+  }
+
+  const lookups = [];
+  for (const group of groups.values()) {
+    const directTitle = group.items.find((item) => item.filmTitleEn)?.filmTitleEn;
+    if (directTitle) continue;
+    const cached = entries[group.key];
+    if (cached?.titleEn || isRecentEnglishTitleMiss(cached)) continue;
+    const representative = group.items.find((item) => item.director) || group.items[0];
+    lookups.push({
+      key: group.key,
+      count: group.count,
+      filmTitle: representative.filmTitle,
+      director: representative.director || "",
+      productionYear: Number(group.items.find((item) => item.productionYear)?.productionYear || 0) || null
+    });
+  }
+
+  const selectedLookups = lookups
+    .sort((left, right) => right.count - left.count || left.filmTitle.localeCompare(right.filmTitle, "fr"))
+    .slice(0, Math.max(0, TITLE_ENRICHMENT_LIMIT));
+  if (selectedLookups.length) {
+    console.log(`Looking up ${selectedLookups.length} English film titles (${lookups.length} missing)`);
+  }
+
+  await mapLimit(selectedLookups, TITLE_ENRICHMENT_CONCURRENCY, async (film) => {
+    try {
+      const result = await lookupTmdbEnglishTitle(film);
+      entries[film.key] = {
+        filmTitle: film.filmTitle,
+        director: film.director,
+        titleEn: result?.titleEn || "",
+        source: result ? "TMDB English page" : "No confident TMDB match",
+        tmdbPath: result?.tmdbPath || "",
+        checkedAt
+      };
+      cacheChanged = true;
+    } catch (error) {
+      console.warn(`English title ${film.filmTitle} failed: ${error.message}`);
+    }
+  });
+
+  const uniqueByFrenchTitle = uniqueEnglishTitleByFrenchTitle(entries);
+  const enriched = showtimes.map((item) => {
+    if (item.filmTitleEn) return item;
+    const exact = entries[filmIdentityKey(item)]?.titleEn || "";
+    const titleEn = exact || uniqueByFrenchTitle.get(dedupeToken(item.filmTitle)) || "";
+    return titleEn ? { ...item, filmTitleEn: titleEn } : item;
+  });
+
+  return {
+    showtimes: enriched,
+    cacheEntries: entries,
+    cacheChanged
+  };
+}
+
+function filmIdentityKey(item) {
+  return `${dedupeToken(item.filmTitle)}|${dedupeToken(item.director)}`;
+}
+
+function isRecentEnglishTitleMiss(entry) {
+  if (!entry || entry.titleEn || !entry.checkedAt) return false;
+  const checkedAt = new Date(entry.checkedAt);
+  if (Number.isNaN(checkedAt.valueOf())) return false;
+  return Date.now() - checkedAt.valueOf() < TITLE_MISS_RETRY_DAYS * 86_400_000;
+}
+
+function uniqueEnglishTitleByFrenchTitle(entries) {
+  const candidates = new Map();
+  for (const entry of Object.values(entries)) {
+    if (!entry?.filmTitle || !entry.titleEn) continue;
+    const key = dedupeToken(entry.filmTitle);
+    if (!key) continue;
+    if (!candidates.has(key)) candidates.set(key, new Map());
+    const values = candidates.get(key);
+    values.set(dedupeToken(entry.titleEn), entry.titleEn);
+  }
+  const unique = new Map();
+  for (const [key, values] of candidates) {
+    if (values.size === 1) unique.set(key, [...values.values()][0]);
+  }
+  return unique;
+}
+
+async function lookupTmdbEnglishTitle(film) {
+  const direct = await searchTmdbEnglishTitle(film, film.filmTitle);
+  if (direct) return direct;
+
+  const aliases = await fetchAllocineFilmAliases(film);
+  for (const alias of aliases) {
+    const result = await searchTmdbEnglishTitle(film, alias);
+    if (result) return result;
+  }
+  return null;
+}
+
+async function searchTmdbEnglishTitle(film, query) {
+  const searchUrl = `https://www.themoviedb.org/search/movie?query=${encodeURIComponent(query)}&language=en-US`;
+  const candidates = parseTmdbSearchResults(await fetchTmdbText(searchUrl)).slice(0, 4);
+  const sourceDirectors = peopleTokens(film.director);
+
+  for (const candidate of candidates) {
+    const titleMatches = dedupeToken(candidate.titleEn) === dedupeToken(query);
+    const originalMatches = candidate.originalTitle && dedupeToken(candidate.originalTitle) === dedupeToken(query);
+    if (!sourceDirectors.length) {
+      if ((titleMatches || originalMatches) && tmdbYearMatches(film.productionYear, candidate.year)) {
+        return { titleEn: candidate.titleEn, tmdbPath: candidate.tmdbPath };
+      }
+      continue;
+    }
+
+    const details = await fetchTmdbMovieDetails(candidate.tmdbPath);
+    if (!tmdbDirectorsMatch(sourceDirectors, details.directors)) continue;
+    if (!tmdbYearMatches(film.productionYear, details.year || candidate.year)) continue;
+    return {
+      titleEn: details.titleEn || candidate.titleEn,
+      tmdbPath: candidate.tmdbPath
+    };
+  }
+  return null;
+}
+
+async function fetchAllocineFilmAliases(film) {
+  if (!film.filmTitle) return [];
+  try {
+    const json = await fetchAllocineJson(`https://www.allocine.fr/_/autocomplete/movie/${encodeURIComponent(film.filmTitle)}`, {
+      headers: { "user-agent": "Mozilla/5.0" }
+    });
+    const titleToken = dedupeToken(film.filmTitle);
+    const directorTokens = peopleTokens(film.director);
+    for (const result of json.results || []) {
+      if (result.entity_type !== "movie") continue;
+      const resultTitles = [
+        result.label,
+        result.original_label,
+        ...(result.text_search_data || [])
+      ].filter(Boolean);
+      if (!resultTitles.some((title) => dedupeToken(title) === titleToken)) continue;
+      const candidateDirectors = result.data?.director_name || [];
+      if (directorTokens.length && !tmdbDirectorsMatch(directorTokens, candidateDirectors)) continue;
+      if (!tmdbYearMatches(film.productionYear, Number(result.data?.year || 0) || null)) continue;
+
+      const aliases = [
+        result.original_label,
+        ...(result.text_search_data || []).flatMap((value) => String(value || "").split(/\s*,\s*/))
+      ]
+        .map((value) => cleanHtml(value))
+        .filter((value) => value && dedupeToken(value) !== titleToken);
+      return [...new Set(aliases)].slice(0, 3);
+    }
+  } catch (error) {
+    console.warn(`AlloCine aliases ${film.filmTitle} failed: ${error.message}`);
+  }
+  return [];
+}
+
+function parseTmdbSearchResults(html) {
+  const results = [];
+  for (const chunk of String(html || "").split('class="comp:media-card').slice(1)) {
+    const titleBlock = chunk.match(/<a[^>]+href="(\/movie\/[^"?]+)(?:\?[^"]*)?"[^>]*>\s*<h2[^>]*>([\s\S]*?)<\/h2>/i);
+    if (!titleBlock) continue;
+    const spans = [...titleBlock[2].matchAll(/<span[^>]*>([\s\S]*?)<\/span>/gi)].map((match) => cleanHtml(match[1]));
+    const titleEn = spans[0] || cleanHtml(titleBlock[2]);
+    if (!titleEn) continue;
+    const originalTitle = String(spans[1] || "").replace(/^\s*\(|\)\s*$/g, "").trim();
+    const releaseText = cleanHtml((chunk.match(/<span[^>]*class="[^"]*release_date[^"]*"[^>]*>([\s\S]*?)<\/span>/i) || [])[1] || "");
+    const year = Number((releaseText.match(/\b(18|19|20|21)\d{2}\b/) || [])[0] || 0) || null;
+    results.push({
+      tmdbPath: titleBlock[1],
+      titleEn,
+      originalTitle,
+      year
+    });
+  }
+  return results;
+}
+
+async function fetchTmdbMovieDetails(tmdbPath) {
+  const html = await fetchTmdbText(`https://www.themoviedb.org${tmdbPath}?language=en-US`);
+  const movieData = tmdbStructuredMovie(html);
+  const directors = [];
+  const profileRx = /<li[^>]+class="[^"]*\bprofile\b[^"]*"[^>]*>[\s\S]*?<a[^>]*>([\s\S]*?)<\/a>[\s\S]*?<p[^>]+class="[^"]*\bcharacter\b[^"]*"[^>]*>([\s\S]*?)<\/p>/gi;
+  let match;
+  while ((match = profileRx.exec(html))) {
+    const role = cleanHtml(match[2]);
+    if (/\bdirector\b/i.test(role)) directors.push(cleanPeopleList(match[1]));
+  }
+  const releaseDate = movieData?.releasedEvent?.[0]?.startDate || "";
+  return {
+    titleEn: cleanHtml(movieData?.name || ""),
+    directors: uniquePeople(directors),
+    year: Number(String(releaseDate).slice(0, 4)) || null
+  };
+}
+
+function tmdbStructuredMovie(html) {
+  const blocks = [...String(html || "").matchAll(/<script[^>]+type="application\/ld\+json"[^>]*>([\s\S]*?)<\/script>/gi)];
+  for (const block of blocks) {
+    const text = block[1].replace(/\/\*[\s\S]*?\*\//g, "").trim();
+    const data = safeJsonParse(text);
+    if (data?.["@type"] === "Movie") return data;
+  }
+  return null;
+}
+
+function peopleTokens(value) {
+  return String(value || "")
+    .split(/\s*(?:,|;|&|\bet\b|\band\b)\s*/i)
+    .map(personNameToken)
+    .filter(Boolean);
+}
+
+function tmdbDirectorsMatch(sourceDirectors, candidateDirectors) {
+  const candidates = new Set((candidateDirectors || []).map(personNameToken).filter(Boolean));
+  return sourceDirectors.some((director) => candidates.has(director));
+}
+
+function personNameToken(value) {
+  return String(value || "")
+    .replace(/\([^)]*\)/g, " ")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .match(/[a-z0-9]+/g)
+    ?.sort()
+    .join("") || "";
+}
+
+function tmdbYearMatches(sourceYear, candidateYear) {
+  if (!sourceYear || !candidateYear) return true;
+  return Math.abs(Number(sourceYear) - Number(candidateYear)) <= 1;
+}
+
+async function fetchTmdbText(url) {
+  await waitForTmdbSlot();
+  return fetchText(url, {
+    headers: {
+      accept: "text/html",
+      "accept-language": "en-US,en;q=0.9",
+      "user-agent": "Mozilla/5.0"
+    }
+  });
+}
+
+async function waitForTmdbSlot() {
+  if (!TMDB_REQUEST_DELAY_MS) return;
+  const queued = tmdbRequestQueue.then(async () => {
+    const waitMs = Math.max(0, tmdbNextRequestAt - Date.now());
+    if (waitMs) await sleep(waitMs);
+    tmdbNextRequestAt = Date.now() + TMDB_REQUEST_DELAY_MS;
+  });
+  tmdbRequestQueue = queued.catch(() => {});
+  await queued;
 }
 
 function isNonFilmTitle(title) {
@@ -519,7 +838,9 @@ function parseAllocineShowtimes(json, partner, theater) {
           postalCode: String(theater.postalCode || partner.postalCode || ""),
           address: theater.address || partner.address || "",
           filmTitle: movie.title || "",
+          filmTitleEn: allocineEnglishTitle(movie),
           director: allocineDirectors(movie),
+          productionYear: Number(movie.data?.productionYear || 0) || null,
           genre: (movie.genres || []).map((genre) => genre.translate || genre.name).filter(Boolean).join(", "),
           version: allocineVersionLabel(showtime.diffusionVersion || versionKey),
           durationMin,
@@ -572,6 +893,12 @@ function allocineDirectors(movie) {
     .map((credit) => personName(credit.person))
     .filter(Boolean);
   return uniquePeople(directors).join(", ");
+}
+
+function allocineEnglishTitle(movie) {
+  const languages = (movie.languages || []).map((language) => String(language || "").toUpperCase()).filter(Boolean);
+  if (!languages.length || !languages.every((language) => language === "ENGLISH")) return "";
+  return cleanHtml(movie.originalTitle || "");
 }
 
 async function fetchUgcShowtimes() {
@@ -1099,6 +1426,8 @@ function mergeShowtime(existing, next) {
     postalCode: existing.postalCode || next.postalCode || "",
     address: existing.address || next.address || "",
     director: existing.director || next.director || "",
+    filmTitleEn: existing.filmTitleEn || next.filmTitleEn || "",
+    productionYear: existing.productionYear || next.productionYear || null,
     special: Boolean(existing.special || next.special),
     specialLabel: existing.specialLabel || next.specialLabel || "",
     specialSource: existing.specialSource || next.specialSource || ""
@@ -1381,8 +1710,12 @@ export {
   extractJsonObjectsContaining,
   extractJsonObjectsStartingWith,
   extractNextFlightText,
+  fetchAllocineFilmAliases,
+  lookupTmdbEnglishTitle,
+  parseTmdbSearchResults,
   parseMk2Flight,
   parseUgcHtml,
   readBalancedArray,
-  readBalancedJson
+  readBalancedJson,
+  tmdbStructuredMovie
 };
