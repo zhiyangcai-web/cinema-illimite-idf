@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T14:24:38.822Z",
+  "updatedAt": "2026-07-21T19:52:39.443Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -229,6 +229,14 @@
       "tmdbPath": "/movie/1088548-amarga-navidad",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "autraversdesoliviers|abbaskiarostami": {
+      "filmTitle": "Au Travers Des Oliviers",
+      "director": "Abbas Kiarostami",
+      "titleEn": "Through the Olive Trees",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/47104",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "avendre|laetitiamasson": {
       "filmTitle": "À vendre",
       "director": "Laetitia Masson",
@@ -456,6 +464,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11779-buena-vista-social-club",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "byebyebresil|carlosdiegues": {
+      "filmTitle": "Bye Bye Brésil",
+      "director": "Carlos Diegues",
+      "titleEn": "Bye Bye Brazil",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/42167-bye-bye-brasil",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
     },
     "cadetdeaudouce|charlesfreisner": {
       "filmTitle": "Cadet D Eau Douce",
@@ -1201,6 +1217,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "exit8|genkikawamura": {
+      "filmTitle": "Exit 8",
+      "director": "Genki Kawamura",
+      "titleEn": "Exit 8",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1408208",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "eyeswideshut|stanleykubrick": {
       "filmTitle": "Eyes Wide Shut",
       "director": "Stanley Kubrick",
@@ -1284,6 +1308,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/377263-frantz",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "gatsbylemagnifique|bazluhrmann": {
+      "filmTitle": "Gatsby le Magnifique",
+      "director": "Baz Luhrmann",
+      "titleEn": "The Great Gatsby",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
     },
     "gatsbylemagnifique|jackclayton": {
       "filmTitle": "Gatsby le magnifique",
@@ -2235,6 +2266,13 @@
       "tmdbPath": "/movie/467244-the-zone-of-interest",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lebaiserdutueur|stanleykubrick": {
+      "filmTitle": "Le Baiser du tueur",
+      "director": "Stanley Kubrick",
+      "titleEn": "Killer's Kiss",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "lebergeretlesours|maxkeegan": {
       "filmTitle": "Le Berger Et Les Ours",
       "director": "Max Keegan",
@@ -2501,6 +2539,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1711490-le-monde-a-l-envers",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lenferdelacorruption|abrahampolonsky": {
+      "filmTitle": "L'Enfer de la corruption",
+      "director": "Abraham Polonsky",
+      "titleEn": "Force Of Evil",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
     },
     "lenomdelarose|jeanjacquesannaud": {
       "filmTitle": "Le Nom de la Rose",
@@ -3124,6 +3169,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "lhistoiredemanontheroyalballet|nicholasgeorgiadiskennethmacmillan": {
+      "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
+      "director": "Nicholas Georgiadis, Kenneth MacMillan",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "lillusiondeyakushima|naomikawase": {
       "filmTitle": "L'Illusion De Yakushima",
       "director": "Naomi Kawase",
@@ -3536,6 +3589,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "naissancedespieuvres|sciammaceline": {
+      "filmTitle": "Naissance Des Pieuvres",
+      "director": "SCIAMMA Céline",
+      "titleEn": "Water Lilies",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10818-naissance-des-pieuvres",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "newyork1997|johncarpenter": {
       "filmTitle": "New York 1997",
       "director": "John Carpenter",
@@ -3872,6 +3933,14 @@
       "tmdbPath": "/movie/797-persona",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "petitemaman|sciammaceline": {
+      "filmTitle": "Petite Maman",
+      "director": "SCIAMMA Céline",
+      "titleEn": "Petite Maman",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/749004-petite-maman",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "petitscontessouslocean|anastasiyasokolovajakubkourilursulaulmi": {
       "filmTitle": "Petits contes sous l’océan",
       "director": "Anastasiya Sokolova, Jakub Kouril, Ursula Ulmi",
@@ -3957,6 +4026,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/10227-playtime",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "pleinsoleil|reneclement": {
+      "filmTitle": "Plein soleil",
+      "director": "René Clément",
+      "titleEn": "Purple Noon",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10363-plein-soleil",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
     },
     "plusfortquemoi|kirkjones": {
       "filmTitle": "Plus Fort Que Moi",
@@ -4457,6 +4534,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "soudainpresenteparryusukehamaguchivirginieefira|": {
+      "filmTitle": "Soudain · Présenté Par Ryusuke Hamaguchi & Virginie Efira",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "soundtracktoacoupdetat|johangrimonprez": {
       "filmTitle": "Soundtrack to a Coup d'État",
       "director": "Johan Grimonprez",
@@ -4746,6 +4831,14 @@
       "tmdbPath": "/movie/1564831-tombe-du-ciel",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "tommyguns|carlosconceicao": {
+      "filmTitle": "Tommy Guns",
+      "director": "Carlos Conceição",
+      "titleEn": "Tommy Guns",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/996954-nacao-valente",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "toutesmessoeurs|massoudbakhshi": {
       "filmTitle": "Toutes mes soeurs",
       "director": "Massoud Bakhshi",
@@ -4858,10 +4951,9 @@
     "uneaffaireturque|huseyinaydingursoy": {
       "filmTitle": "UNE AFFAIRE TURQUE",
       "director": "Huseyin Aydin Gursoy",
-      "titleEn": "",
+      "titleEn": "A Turkish case",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-07-21T19:55:30.027Z"
     },
     "uneaffaireturque|huseyinaydngursoy": {
       "filmTitle": "Une Affaire Turque",
@@ -4918,6 +5010,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "unpetitairdefamille|": {
+      "filmTitle": "UN PETIT AIR DE FAMILLE",
+      "director": "",
+      "titleEn": "Un Petit Air De Famille",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/750369-un-petit-air-de-famille",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
     "unpetitairdefamille|divers": {
       "filmTitle": "Un Petit Air De Famille",
       "director": "Divers",
@@ -4925,6 +5025,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "unpetitairdefamille|nankemakikokarpovamarinasmatanamartindiablamiaaesmathendjirkovaevgeniya": {
+      "filmTitle": "Un Petit Air De Famille",
+      "director": "NANKE Makiko, KARPOVA Marina, SMATANA Martin, DIAB Lamiaa, ESMAT Hend, JIRKOVA Evgeniya",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-21T19:55:30.027Z"
     },
     "unpoete|simonmesasoto": {
       "filmTitle": "Un poète",
