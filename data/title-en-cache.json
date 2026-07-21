@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T08:46:29.425Z",
+  "updatedAt": "2026-07-21T14:24:38.822Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -578,6 +578,14 @@
       "titleEn": "Kangaroo",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "chicastristes|fernandatovar": {
+      "filmTitle": "Chicas Tristes",
+      "director": "Fernanda Tovar",
+      "titleEn": "Sad Girlz",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1536433-chicas-tristes",
+      "checkedAt": "2026-07-21T14:28:11.531Z"
     },
     "chroniquedunete|jeanrouchedgarmorin": {
       "filmTitle": "Chronique d'un été",
@@ -3552,6 +3560,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "ninaetlesecretduherisson|alaingagnoljeanloupfelicioli": {
+      "filmTitle": "Nina Et Le Secret Du Hérisson",
+      "director": "Alain Gagnol, Jean-Loup Felicioli",
+      "titleEn": "Nina and the Hedgehog's Secret",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/588524-nina-et-le-secret-du-herisson",
+      "checkedAt": "2026-07-21T14:28:11.531Z"
+    },
     "noise|kimsoojin": {
       "filmTitle": "Noise",
       "director": "Kim Soo-jin",
@@ -4846,6 +4862,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "uneaffaireturque|huseyinaydngursoy": {
+      "filmTitle": "Une Affaire Turque",
+      "director": "Hüseyin Aydın Gürsoy",
+      "titleEn": "A Turkish case",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1488613-une-affaire-turque",
+      "checkedAt": "2026-07-21T14:28:11.531Z"
     },
     "uneanneeitalienne|laurasamani": {
       "filmTitle": "Une Année Italienne",
