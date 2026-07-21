@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-21T03:47:21.783Z",
+  "updatedAt": "2026-07-21T08:46:29.425Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -816,12 +816,27 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "dancerinthedark|vontrierlars": {
+      "filmTitle": "Dancer In The Dark",
+      "director": "VON TRIER Lars",
+      "titleEn": "Dancer in the Dark",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
     "danslachaleurdelanuit|normanjewison": {
       "filmTitle": "Dans la chaleur de la nuit",
       "director": "Norman Jewison",
       "titleEn": "In the Heat of the Night",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "danslaforetenchanteedeoukybouky|rasmusasivertsen": {
+      "filmTitle": "Dans La Foret Enchantee De Oukybouky",
+      "director": "Rasmus A. Sivertsen",
+      "titleEn": "In the Forest of Huckybucky",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/429458-dyrene-i-hakkebakkeskogen",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
     },
     "dao|alaingomis": {
       "filmTitle": "Dao",
@@ -2911,10 +2926,9 @@
     "lestourougesetlestoubleus|collectif": {
       "filmTitle": "Les Tourouges Et Les Toubleus",
       "director": "Collectif",
-      "titleEn": "",
+      "titleEn": "The Smeds and the Smoos",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-21T03:51:08.662Z"
+      "checkedAt": "2026-07-21T08:49:45.509Z"
     },
     "lestourougesetlestoubleus|samanthacutlerdanielsnaddonvasilisatikunova": {
       "filmTitle": "Les Tourouges et les Toubleus",
@@ -3787,6 +3801,14 @@
       "tmdbPath": "/movie/496243",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "paristexas|wenderswim": {
+      "filmTitle": "Paris Texas",
+      "director": "WENDERS Wim",
+      "titleEn": "Paris, Texas",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/655-paris-texas",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
     "patouilleetmomolescontesdelaforet|collectif": {
       "filmTitle": "Patouille Et Momo Les Contes De La Foret",
       "director": "Collectif",
@@ -3966,6 +3988,14 @@
       "tmdbPath": "/movie/531428-portrait-de-la-jeune-fille-en-feu",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "possession|andrzejzulawski": {
+      "filmTitle": "Possession",
+      "director": "Andrzej Zulawski",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
     "pourlesenfants|": {
       "filmTitle": "Pour Les Enfants !",
       "director": "",
@@ -3989,6 +4019,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/8852-prince-of-darkness",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "princesetprincesses|ocelotmichel": {
+      "filmTitle": "Princes Et Princesses",
+      "director": "OCELOT Michel",
+      "titleEn": "Princes and Princesses",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/65592-princes-et-princesses",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
     },
     "princessedragon|rouxanthony": {
       "filmTitle": "Princesse Dragon",
@@ -4517,6 +4555,14 @@
       "tmdbPath": "/movie/4689",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "taipeistory|edwardyang": {
+      "filmTitle": "Taipei Story",
+      "director": "Edward Yang",
+      "titleEn": "Taipei Story",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/106380",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
     "tangerine|seanbaker": {
       "filmTitle": "Tangerine",
       "director": "Sean Baker",
@@ -4591,6 +4637,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/854-the-mask",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "themastermind|kellyreichardt": {
+      "filmTitle": "The Mastermind",
+      "director": "Kelly Reichardt",
+      "titleEn": "The Mastermind",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1352624-the-mastermind",
+      "checkedAt": "2026-07-21T08:49:45.509Z"
     },
     "theoreme|pierpaolopasolini": {
       "filmTitle": "Théorème",
