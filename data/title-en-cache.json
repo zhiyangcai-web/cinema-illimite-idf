@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T08:45:41.519Z",
+  "updatedAt": "2026-07-22T14:23:52.971Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -1833,6 +1833,14 @@
       "tmdbPath": "/movie/60773-la-baie-des-anges",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "labaladesauvage|terrencemalick": {
+      "filmTitle": "LA BALADE SAUVAGE",
+      "director": "Terrence Malick",
+      "titleEn": "Badlands",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3133-badlands",
+      "checkedAt": "2026-07-22T14:26:59.262Z"
+    },
     "labaleineetlemusicien|valentinpaoli": {
       "filmTitle": "La Baleine Et Le Musicien",
       "director": "Valentin Paoli",
@@ -2604,6 +2612,14 @@
       "titleEn": "Force Of Evil",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
+    "lenlevement2023|marcobellocchio": {
+      "filmTitle": "L'ENLEVEMENT (2023)",
+      "director": "Marco Bellocchio",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-22T14:26:59.262Z"
     },
     "lenomdelarose|jeanjacquesannaud": {
       "filmTitle": "Le Nom de la Rose",
