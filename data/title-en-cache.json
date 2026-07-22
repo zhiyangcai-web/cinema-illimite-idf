@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T03:49:09.505Z",
+  "updatedAt": "2026-07-22T08:45:41.519Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -3218,6 +3218,14 @@
       "titleEn": "The Young and Prodigious T.S. Spivet",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "lhistoiredemanontheroyalballet|kennethmacmillan": {
+      "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
+      "director": "Kenneth MacMillan",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-22T08:48:49.718Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
