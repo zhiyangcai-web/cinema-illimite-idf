@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T14:23:52.971Z",
+  "updatedAt": "2026-07-22T19:45:18.558Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -282,6 +282,14 @@
       "titleEn": "Bait",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "bandedefilles|sciammaceline": {
+      "filmTitle": "Bande De Filles",
+      "director": "SCIAMMA Céline",
+      "titleEn": "Girlhood",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/266082-bande-de-filles",
+      "checkedAt": "2026-07-22T19:48:02.905Z"
     },
     "barrylyndon|stanleykubrick": {
       "filmTitle": "Barry Lyndon",
@@ -3259,6 +3267,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-21T19:55:30.027Z"
     },
+    "likesomeoneinlove|abbaskiarostami": {
+      "filmTitle": "Like Someone In Love",
+      "director": "Abbas Kiarostami",
+      "titleEn": "Like Someone in Love",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/102001-like-someone-in-love",
+      "checkedAt": "2026-07-22T19:48:02.905Z"
+    },
     "lillusiondeyakushima|naomikawase": {
       "filmTitle": "L'Illusion De Yakushima",
       "director": "Naomi Kawase",
@@ -4964,6 +4980,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1564831-tombe-du-ciel",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "tomboy|celinesciamma": {
+      "filmTitle": "Tomboy",
+      "director": "Céline Sciamma",
+      "titleEn": "Tomboy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/65229-tomboy",
+      "checkedAt": "2026-07-22T19:48:02.905Z"
     },
     "tommyguns|carlosconceicao": {
       "filmTitle": "Tommy Guns",
