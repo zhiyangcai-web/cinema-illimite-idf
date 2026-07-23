@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T08:45:19.832Z",
+  "updatedAt": "2026-07-23T14:33:53.547Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -808,6 +808,14 @@
       "tmdbPath": "/movie/37563-conte-d-ete",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "conversationsecrete|francisfordcoppola": {
+      "filmTitle": "CONVERSATION SECRETE",
+      "director": "Francis Ford Coppola",
+      "titleEn": "The Conversation",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/592-the-conversation",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
     "copieconforme|jeandreville": {
       "filmTitle": "Copie conforme",
       "director": "Jean Dréville",
@@ -823,6 +831,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "cottonqueen|suzannahmirghani": {
+      "filmTitle": "Cotton Queen",
+      "director": "Suzannah Mirghani",
+      "titleEn": "Cotton Queen",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/974228",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "cowboybebop|shinichirowatanabe": {
       "filmTitle": "Cowboy Bebop",
@@ -961,6 +977,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1496491-de-la-comedie-francaise",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "dersououzala|akirakurosawa": {
+      "filmTitle": "DERSOU OUZALA",
+      "director": "Akira Kurosawa",
+      "titleEn": "Dersu Uzala",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9764",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "desfleurspourtokyo|": {
       "filmTitle": "Des Fleurs Pour Tokyo",
@@ -1278,6 +1302,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "fautedamour|andreiumlzviaguintsev": {
+      "filmTitle": "FAUTE D'AMOUR",
+      "director": "Andre&iuml; Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
     "fautilavoirpeurdesjeuxvideos|": {
       "filmTitle": "Faut-il avoir peur des jeux vidéos ?",
       "director": "",
@@ -1564,6 +1596,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "iletaitunefoisenamerique|sergioleone": {
+      "filmTitle": "IL ETAIT UNE FOIS EN AMERIQUE",
+      "director": "Sergio Leone",
+      "titleEn": "Once Upon a Time in America",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/311-once-upon-a-time-in-america",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "infiltrerlesextremesunmetierarisque|": {
       "filmTitle": "Infiltrer les extrêmes : un métier à risque ?",
@@ -1990,6 +2030,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/821494",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "ladernieretentationduchrist|martinscorsese": {
+      "filmTitle": "LA DERNIERE TENTATION DU CHRIST",
+      "director": "Martin Scorsese",
+      "titleEn": "The Last Temptation of Christ",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11051-the-last-temptation-of-christ",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "ladolcevita|federicofellini": {
       "filmTitle": "La Dolce Vita",
@@ -2536,6 +2584,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/2860-le-genou-de-claire",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "legoutdusake|yasujiroozu": {
+      "filmTitle": "LE GOUT DU SAKE",
+      "director": "Yasujiro Ozu",
+      "titleEn": "An Autumn Afternoon",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/50759",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "legrandcouteau|robertaldrich": {
       "filmTitle": "Le Grand couteau",
@@ -3524,6 +3580,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "mastersoffoodavecmorysacko|": {
+      "filmTitle": "Masters of Food avec Mory Sacko",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
     "mata|rachellangii": {
       "filmTitle": "Mata",
       "director": "Rachel Lang (II)",
@@ -3740,6 +3804,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/964849-yon-lapsi",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "nimrodsagreendaycomedy|leekirk": {
+      "filmTitle": "NIMRODS: A GREEN DAY COMEDY",
+      "director": "Lee Kirk",
+      "titleEn": "Nimrods",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1432474-nimrods",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "nimusesnisoumises|": {
       "filmTitle": "Ni muses ni soumises",
@@ -4130,6 +4202,14 @@
       "titleEn": "Phantom Thread",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "pickpocket|robertbresson": {
+      "filmTitle": "PICKPOCKET",
+      "director": "Robert Bresson",
+      "titleEn": "Pickpocket",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/690-pickpocket",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "pierrotlefou|jeanlucgodard": {
       "filmTitle": "Pierrot le Fou",
@@ -4836,6 +4916,20 @@
       "titleEn": "The Christophers",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thedarkknightlechevaliernoir|christophernolan": {
+      "filmTitle": "The Dark Knight, Le Chevalier Noir",
+      "director": "Christopher Nolan",
+      "titleEn": "The Dark Knight",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
+    "thedarkknightrises|christophernolan": {
+      "filmTitle": "The Dark Knight Rises",
+      "director": "Christopher Nolan",
+      "titleEn": "The Dark Knight Rises",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "thedrama|kristofferborgli": {
       "filmTitle": "The Drama",
