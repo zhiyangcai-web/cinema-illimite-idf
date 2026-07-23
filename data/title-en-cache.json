@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-22T19:45:18.558Z",
+  "updatedAt": "2026-07-23T03:46:47.686Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -641,6 +641,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11104",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "cinelecturejeandelalune|": {
+      "filmTitle": "Ciné-Lecture Jean De La Lune",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-23T03:50:14.530Z"
     },
     "cinemaparadiso|giuseppetornatore": {
       "filmTitle": "Cinema Paradiso",
