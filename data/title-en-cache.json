@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-23T19:47:10.511Z",
+  "updatedAt": "2026-07-24T14:14:31.639Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -2809,6 +2809,14 @@
       "tmdbPath": "/movie/11220",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "lesanimauxontilsunepsychologie|": {
+      "filmTitle": "Les animaux ont-ils une psychologie ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-24T14:16:55.656Z"
+    },
     "lesbansheesdinisherin|martinmcdonagh": {
       "filmTitle": "Les Banshees d'Inisherin",
       "director": "Martin McDonagh",
@@ -3191,6 +3199,14 @@
       "titleEn": "The Creature from the Black Lagoon",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "letranger|francoisozon": {
+      "filmTitle": "L’Étranger",
+      "director": "François Ozon",
+      "titleEn": "The Stranger",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1429348-l-etranger",
+      "checkedAt": "2026-07-24T14:16:55.656Z"
     },
     "letrangere|gayajiji": {
       "filmTitle": "L Etrangere",
@@ -3788,6 +3804,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/10818-naissance-des-pieuvres",
       "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
+    "network|sidneylumet": {
+      "filmTitle": "Network",
+      "director": "Sidney Lumet",
+      "titleEn": "Network",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10774-network",
+      "checkedAt": "2026-07-24T14:16:55.656Z"
     },
     "newyork1997|johncarpenter": {
       "filmTitle": "New York 1997",
@@ -4588,6 +4612,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/579974",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "rrrtelougou|ssrajamouli": {
+      "filmTitle": "RRR (TELOUGOU)",
+      "director": "S.S. Rajamouli",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-24T14:16:55.656Z"
     },
     "ruemalaga|maryamtouzani": {
       "filmTitle": "Rue Málaga",
@@ -5447,6 +5479,14 @@
       "titleEn": "War Requiem",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "whenthelightbreaks|runarrunarsson": {
+      "filmTitle": "When The Light Breaks",
+      "director": "Rúnar Rúnarsson",
+      "titleEn": "When the Light Breaks",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1257407-ljosbrot",
+      "checkedAt": "2026-07-24T14:16:55.656Z"
     },
     "whiplash|damienchazelle": {
       "filmTitle": "Whiplash",
