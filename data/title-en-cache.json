@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T03:40:09.634Z",
+  "updatedAt": "2026-07-25T14:03:20.646Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -174,6 +174,14 @@
       "titleEn": "Another Man's Poison",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "antoniaetsesfilles|marleengorris": {
+      "filmTitle": "Antonia et ses filles",
+      "director": "Marleen Gorris",
+      "titleEn": "Antonia's Line",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/880-antonia",
+      "checkedAt": "2026-07-25T14:05:31.028Z"
     },
     "apocalypsenowfinalcut|francisfordcoppola": {
       "filmTitle": "Apocalypse Now Final Cut",
@@ -3153,6 +3161,14 @@
       "tmdbPath": "/movie/1058054-the-smeds-and-the-smoos",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "lestoutespetitescreatures|lucyizzard": {
+      "filmTitle": "Les Toutes Petites Créatures",
+      "director": "Lucy Izzard",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-25T14:05:31.028Z"
+    },
     "lesvacancesdegoloetritchie|martinfougerolahmedhamidi": {
       "filmTitle": "LES VACANCES DE GOLO ET RITCHIE",
       "director": "Martin Fougerol, Ahmed Hamidi",
@@ -3316,6 +3332,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/575557-le-voyage-du-prince",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "levoyageduprince|laguioniejeanfrancois": {
+      "filmTitle": "Le Voyage Du Prince",
+      "director": "LAGUIONIE Jean-Francois",
+      "titleEn": "The Prince’s Voyage",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/575557-le-voyage-du-prince",
+      "checkedAt": "2026-07-25T14:05:31.028Z"
     },
     "lexorciste|williamfriedkin": {
       "filmTitle": "L'Exorciste",
@@ -3765,6 +3789,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/47735-sommaren-med-monika",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "monnomestpersonne|toninovalerii": {
+      "filmTitle": "Mon nom est Personne",
+      "director": "Tonino Valerii",
+      "titleEn": "My Name Is Nobody",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9474-il-mio-nome-e-nessuno",
+      "checkedAt": "2026-07-25T14:05:31.028Z"
     },
     "mononcle|jacquestati": {
       "filmTitle": "Mon oncle",
