@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T19:48:21.340Z",
+  "updatedAt": "2026-07-25T03:40:09.634Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -3626,6 +3626,14 @@
       "titleEn": "The Matrix",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "meangirlsparty|": {
+      "filmTitle": "Mean Girls Party 🎀",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-25T03:43:25.059Z"
     },
     "mektoubmylovecantodue|abdellatifkechiche": {
       "filmTitle": "Mektoub my Love : Canto Due",
