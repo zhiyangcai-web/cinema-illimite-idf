@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T19:35:58.196Z",
+  "updatedAt": "2026-07-26T03:57:19.944Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -1574,6 +1574,14 @@
       "tmdbPath": "/movie/656573-histoire-d-un-regard",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "holafrida|andrekadikarinevezina": {
+      "filmTitle": "HOLA FRIDA",
+      "director": "Andre Kadi, Karine Vezina",
+      "titleEn": "Hola Frida!",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1245399-hola-frida",
+      "checkedAt": "2026-07-26T04:00:14.352Z"
+    },
     "homestories|evatrobisch": {
       "filmTitle": "Home Stories",
       "director": "Eva Trobisch",
@@ -2164,6 +2172,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/179144-la-grande-bellezza",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "lagrandecourseaufromage|rasmusasivertsen": {
+      "filmTitle": "LA GRANDE COURSE AU FROMAGE",
+      "director": "Rasmus A. Sivertsen",
+      "titleEn": "Louis & Luca: The Big Cheese Race",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/374331-solan-og-ludvig-herfra-til-flaklypa",
+      "checkedAt": "2026-07-26T04:00:14.352Z"
     },
     "lagrandecourseaufromage|sivertsenrasmusa": {
       "filmTitle": "La Grande Course Au Fromage",
