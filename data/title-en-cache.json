@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T15:15:23.494Z",
+  "updatedAt": "2026-07-27T19:56:42.415Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -213,6 +213,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "asakoiii|ryusukehamaguchi": {
+      "filmTitle": "ASAKO I&II",
+      "director": "Ryūsuke Hamaguchi",
+      "titleEn": "Asako I & II",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/487850",
+      "checkedAt": "2026-07-27T19:59:18.827Z"
     },
     "asbestas|rodrigosorogoyen": {
       "filmTitle": "As bestas",
@@ -1350,6 +1358,14 @@
       "titleEn": "Eternal Sunshine of the Spotless Mind",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "etlaviecontinue|abbaskiarostami": {
+      "filmTitle": "Et La Vie Continue",
+      "director": "Abbas Kiarostami",
+      "titleEn": "Life, and Nothing More…",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/83761",
+      "checkedAt": "2026-07-27T19:59:18.827Z"
     },
     "europe51|robertorossellini": {
       "filmTitle": "Europe 51",
@@ -2864,6 +2880,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1379266",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "lemalnexistepas|ryusukehamaguchi": {
+      "filmTitle": "Le Mal n'existe pas",
+      "director": "Ryūsuke Hamaguchi",
+      "titleEn": "Evil Does Not Exist",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1156125",
+      "checkedAt": "2026-07-27T19:59:18.827Z"
     },
     "lemepris|jeanlucgodard": {
       "filmTitle": "Le Mépris",
@@ -5333,6 +5357,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
+    "thedoomgeneration|greggaraki": {
+      "filmTitle": "The Doom Generation",
+      "director": "Gregg Araki",
+      "titleEn": "The Doom Generation",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T19:59:18.827Z"
+    },
     "thedrama|kristofferborgli": {
       "filmTitle": "The Drama",
       "director": "Kristoffer Borgli",
@@ -5524,6 +5555,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/996954-nacao-valente",
       "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
+    "totallyfedup|greggaraki": {
+      "filmTitle": "Totally F***ed Up",
+      "director": "Gregg Araki",
+      "titleEn": "Totally F***ed Up",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T19:59:18.827Z"
     },
     "toutesmessoeurs|massoudbakhshi": {
       "filmTitle": "Toutes mes soeurs",
