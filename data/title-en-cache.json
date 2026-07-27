@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T04:03:53.731Z",
+  "updatedAt": "2026-07-27T10:10:39.164Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -61,6 +61,14 @@
       "titleEn": "Running on Empty",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "aboutdesouffle|jeanlucgodard": {
+      "filmTitle": "À bout de souffle",
+      "director": "Jean-Luc Godard",
+      "titleEn": "Breathless",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/269-a-bout-de-souffle",
+      "checkedAt": "2026-07-27T10:12:29.113Z"
     },
     "adieuaulangage|jeanlucgodard": {
       "filmTitle": "Adieu au Langage",
@@ -3464,6 +3472,14 @@
       "titleEn": "Carlito's Way",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "linconnue|arthurharari": {
+      "filmTitle": "L'inconnue",
+      "director": "Arthur Harari",
+      "titleEn": "The Unknown",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1182935-l-inconnue",
+      "checkedAt": "2026-07-27T10:12:29.113Z"
     },
     "linspecteurharry|donsiegel": {
       "filmTitle": "L'Inspecteur Harry",
