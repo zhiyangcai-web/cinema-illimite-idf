@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-27T10:10:39.164Z",
+  "updatedAt": "2026-07-27T15:15:23.494Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -107,6 +107,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/2000-aguirre-der-zorn-gottes",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "aiintelligenceartificielle|stevenspielberg": {
+      "filmTitle": "A.I. Intelligence artificielle",
+      "director": "Steven Spielberg",
+      "titleEn": "A.I. Artificial Intelligence",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "alarecherchedemistergoodbar|richardbrooks": {
       "filmTitle": "A la recherche de Mister Goodbar",
@@ -229,6 +236,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "astearsgobyainsivontleslarmes|wongkarwai": {
+      "filmTitle": "As Tears Go By - Ainsi vont les larmes",
+      "director": "Wong Kar-Wai",
+      "titleEn": "As Tears Go By",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/24163",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "aunomdelaloi|germipietro": {
       "filmTitle": "Au Nom De La Loi",
       "director": "GERMI Pietro",
@@ -338,6 +353,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1193421-berlinguer-la-grande-ambizione",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "bianca|nannimoretti": {
+      "filmTitle": "Bianca",
+      "director": "Nanni Moretti",
+      "titleEn": "Bianca",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/15014-bianca",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "blackdog|huguan": {
       "filmTitle": "Black Dog",
@@ -824,6 +847,14 @@
       "tmdbPath": "/movie/37563-conte-d-ete",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "contesduhasardetautresfantaisies|ryusukehamaguchi": {
+      "filmTitle": "Contes du hasard et autres fantaisies",
+      "director": "Ryūsuke Hamaguchi",
+      "titleEn": "Wheel of Fortune and Fantasy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/795811",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "conversationsecrete|francisfordcoppola": {
       "filmTitle": "CONVERSATION SECRETE",
       "director": "Francis Ford Coppola",
@@ -871,6 +902,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "cowboybeboplefilm|shinichirowatanabeyoshiyukitakei": {
+      "filmTitle": "Cowboy Bebop, le film",
+      "director": "Shinichirô Watanabe, Yoshiyuki Takei",
+      "titleEn": "Cowboy Bebop: The Movie",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11299",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "cowboybeboplefilm|yoshiyukitakeishinichirowatanabe": {
       "filmTitle": "Cowboy Bebop, le film",
@@ -1079,6 +1118,14 @@
       "tmdbPath": "/movie/935-dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "dogman|matteogarrone": {
+      "filmTitle": "Dogman",
+      "director": "Matteo Garrone",
+      "titleEn": "Dogman",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/483184-dogman",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "dogville|larsvontrier": {
       "filmTitle": "Dogville",
       "director": "Lars von Trier",
@@ -1147,6 +1194,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1527288-d-un-monde-a-l-autre",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "eccebombo|nannimoretti": {
+      "filmTitle": "Ecce Bombo",
+      "director": "Nanni Moretti",
+      "titleEn": "Ecce Bombo",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/48282-ecce-bombo",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "eclairdelune|normanjewison": {
       "filmTitle": "Eclair de lune",
@@ -1494,6 +1549,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "gloria|margheritavicario": {
+      "filmTitle": "Gloria!",
+      "director": "Margherita Vicario",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "goatreverplushaut|tyreedillihay": {
       "filmTitle": "GOAT : REVER PLUS HAUT",
       "director": "Tyree Dillihay",
@@ -1620,6 +1683,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "huitetdemi|federicofellini": {
+      "filmTitle": "Huit et demi",
+      "director": "Federico Fellini",
+      "titleEn": "8½",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/422-8",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "hurlements|joedante": {
       "filmTitle": "HURLEMENTS",
       "director": "Joe Dante",
@@ -1652,6 +1723,14 @@
       "tmdbPath": "/movie/311-once-upon-a-time-in-america",
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
+    "ilresteencoredemain|paolacortellesi": {
+      "filmTitle": "Il reste encore demain",
+      "director": "Paola Cortellesi",
+      "titleEn": "There's Still Tomorrow",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1026227-c-e-ancora-domani",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "infiltrerlesextremesunmetierarisque|": {
       "filmTitle": "Infiltrer les extrêmes : un métier à risque ?",
       "director": "",
@@ -1683,6 +1762,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/49018-insidious",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "interditauxchiensetauxitaliens|alainughetto": {
+      "filmTitle": "Interdit aux chiens et aux Italiens",
+      "director": "Alain Ughetto",
+      "titleEn": "No Dogs or Italians Allowed",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/715385-interdit-aux-chiens-et-aux-italiens",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "inthemoodforlove|wongkarwai": {
       "filmTitle": "In the Mood for Love",
@@ -1729,6 +1816,14 @@
       "titleEn": "Irma La douce",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "iwantyoursex|greggaraki": {
+      "filmTitle": "I WANT YOUR SEX",
+      "director": "Gregg Araki",
+      "titleEn": "I Want Your Sex",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1288059-i-want-your-sex",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "jananayagan|hvinoth": {
       "filmTitle": "Jana Nayagan",
@@ -1927,6 +2022,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/21348-kirikou-et-la-sorciere",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "kramercontrekramer|robertbenton": {
+      "filmTitle": "Kramer contre Kramer",
+      "director": "Robert Benton",
+      "titleEn": "Kramer vs. Kramer",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "kwaidan|masakikobayashi": {
       "filmTitle": "Kwaïdan",
@@ -2290,6 +2392,14 @@
       "tmdbPath": "/movie/17905",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lamesseestfinie|nannimoretti": {
+      "filmTitle": "La Messe est finie",
+      "director": "Nanni Moretti",
+      "titleEn": "The Mass Is Ended",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/60732-la-messa-finita",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "langeexterminateur|luisbunuel": {
       "filmTitle": "L'Ange exterminateur",
       "director": "Luis Buñuel",
@@ -2382,6 +2492,14 @@
       "titleEn": "Twelve Monkeys",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "lastrada|federicofellini": {
+      "filmTitle": "La Strada",
+      "director": "Federico Fellini",
+      "titleEn": "La Strada",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/405-la-strada",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "lasvegasparano|terrygilliam": {
       "filmTitle": "Las Vegas parano",
@@ -2500,6 +2618,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "lecercledespoetesdisparus|peterweir": {
+      "filmTitle": "Le Cercle des poètes disparus",
+      "director": "Peter Weir",
+      "titleEn": "Dead Poets Society",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "lechemindelesperance|germipietro": {
       "filmTitle": "Le Chemin De L Esperance",
       "director": "GERMI Pietro",
@@ -2609,6 +2734,14 @@
       "tmdbPath": "/movie/194-le-fabuleux-destin-d-amelie-poulain",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "lefanfaron|dinorisi": {
+      "filmTitle": "Le Fanfaron",
+      "director": "Dino Risi",
+      "titleEn": "Il Sorpasso",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/24188-il-sorpasso",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "lefantomedelaliberte|luisbunuel": {
       "filmTitle": "Le fantôme de la liberté",
       "director": "Luis Buñuel",
@@ -2671,6 +2804,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "leguepard|luchinovisconti": {
+      "filmTitle": "Le Guépard",
+      "director": "Luchino Visconti",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "leguetapens|sampeckinpah": {
       "filmTitle": "Le Guet-apens",
       "director": "Sam Peckinpah",
@@ -2708,6 +2849,13 @@
       "titleEn": "The Graduate",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "leloupdewallstreet|martinscorsese": {
+      "filmTitle": "Le Loup de Wall Street",
+      "director": "Martin Scorsese",
+      "titleEn": "The Wolf Of Wall Street",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "lemaitredukabuki|sangillee": {
       "filmTitle": "Le Maître du Kabuki",
@@ -3007,6 +3155,14 @@
       "tmdbPath": "/movie/1472287-les-gendarmes",
       "checkedAt": "2026-07-27T04:06:30.279Z"
     },
+    "lesgendarmes|francoisprevotleygoniestephanarchinard": {
+      "filmTitle": "LES GENDARMES",
+      "director": "Francois Prevot-Leygonie, Stephan Archinard",
+      "titleEn": "Les Gendarmes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1472287-les-gendarmes",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "lesglaneursetlaglaneuse|agnesvarda": {
       "filmTitle": "Les Glaneurs et la glaneuse",
       "director": "Agnès Varda",
@@ -3248,6 +3404,14 @@
       "tmdbPath": "/movie/1680635-les-vacances-de-golo-ritchie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lesvacancesdegoloritchie|ahmedhamidimartinfougerol": {
+      "filmTitle": "Les vacances de Golo & Ritchie",
+      "director": "Ahmed Hamidi, Martin Fougerol",
+      "titleEn": "Les Vacances de Golo & Ritchie",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1680635-les-vacances-de-golo-ritchie",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "lesvacancesdegoloritchie|martinfougerolahmedhamidi": {
       "filmTitle": "Les Vacances de Golo & Ritchie",
       "director": "Martin Fougerol, Ahmed Hamidi",
@@ -3357,6 +3521,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "leventnousemportera|abbaskiarostami": {
+      "filmTitle": "Le Vent Nous Emportera",
+      "director": "Abbas Kiarostami",
+      "titleEn": "The Wind Will Carry Us",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/43423",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "levertige|quentindupieux": {
       "filmTitle": "Le Vertige",
       "director": "Quentin Dupieux",
@@ -3457,6 +3629,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/102001-like-someone-in-love",
       "checkedAt": "2026-07-22T19:48:02.905Z"
+    },
+    "liledeblackmor|jeanfrancoislaguionie": {
+      "filmTitle": "L'île de Black Mór",
+      "director": "Jean-François Laguionie",
+      "titleEn": "Black Mor's Island",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/22568-l-ile-de-black-mor",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "lillusiondeyakushima|naomikawase": {
       "filmTitle": "L'Illusion De Yakushima",
@@ -3619,6 +3799,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/334-magnolia",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "mainbassesurlaville|francescorosi": {
+      "filmTitle": "Main basse sur la ville",
+      "director": "Francesco Rosi",
+      "titleEn": "Hands Over the City",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/58383-le-mani-sulla-citta",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "mammaroma|pierpaolopasolini": {
       "filmTitle": "Mamma Roma",
@@ -3948,6 +4136,13 @@
       "tmdbPath": "/movie/1103-escape-from-new-york",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "niagara|henryhathaway": {
+      "filmTitle": "Niagara",
+      "director": "Henry Hathaway",
+      "titleEn": "Niagara",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "nightborn|hannabergholm": {
       "filmTitle": "NIGHTBORN",
       "director": "Hanna Bergholm",
@@ -4072,6 +4267,14 @@
       "titleEn": "Nowhere",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "obsession|briandepalma": {
+      "filmTitle": "Obsession",
+      "director": "Brian De Palma",
+      "titleEn": "Obsession",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4780-obsession",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "obsession|currybarker": {
       "filmTitle": "OBSESSION",
@@ -4635,6 +4838,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "reds|warrenbeatty": {
+      "filmTitle": "Reds",
+      "director": "Warren Beatty",
+      "titleEn": "Reds",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/18254-reds",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "rendezvous|ernstlubitsch": {
       "filmTitle": "Rendez-vous",
       "director": "Ernst Lubitsch",
@@ -4731,6 +4942,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1182861-romer-a",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "romevilleouverte|robertorossellini": {
+      "filmTitle": "Rome, ville ouverte",
+      "director": "Roberto Rossellini",
+      "titleEn": "Rome, Open City",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/307-roma-citta-aperta",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "romevilleouverte|rosselliniroberto": {
       "filmTitle": "Rome Ville Ouverte",
@@ -5211,6 +5430,22 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "theugly|sanghoyeon": {
+      "filmTitle": "THE UGLY",
+      "director": "Sang-Ho Yeon",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "theugly|yeonsangho": {
+      "filmTitle": "The Ugly",
+      "director": "Yeon Sang-ho",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "theworldoflove|yoongaeun": {
       "filmTitle": "The World Of Love",
       "director": "Yoon Ga-eun",
@@ -5462,6 +5697,13 @@
       "tmdbPath": "/movie/1683079-un-grand-raccourci",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "unhommedanslafoule|eliakazan": {
+      "filmTitle": "Un Homme dans la foule",
+      "director": "Elia Kazan",
+      "titleEn": "A Face in the Crowd",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
     "unhommequidort|bernardqueysannegeorgesperec": {
       "filmTitle": "Un homme qui dort",
       "director": "Bernard Queysanne, Georges Perec",
@@ -5544,6 +5786,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/712440-vanille",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "vermigliooulamarieedesmontagnes|mauradelpero": {
+      "filmTitle": "Vermiglio ou La Mariée des Montagnes",
+      "director": "Maura Delpero",
+      "titleEn": "Vermiglio",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1151244-vermiglio",
+      "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "viesetmortsdemaxlinder|edwardporembny": {
       "filmTitle": "Vies et morts de Max Linder",
