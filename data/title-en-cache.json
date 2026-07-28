@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T03:38:02.278Z",
+  "updatedAt": "2026-07-28T09:06:04.955Z",
   "entries": {
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
@@ -2797,6 +2797,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "lecadetdeaudouce|charlesfreisner": {
+      "filmTitle": "Le Cadet D Eau Douce",
+      "director": "Charles F. Reisner",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-28T09:09:08.721Z"
+    },
     "lecapitalismeestilleproblemeoulasolution|": {
       "filmTitle": "Le capitalisme est-il le problème ou la solution ?",
       "director": "",
@@ -3371,6 +3379,14 @@
       "tmdbPath": "/movie/9693-children-of-men",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "lesflicsnedormentpaslanuit|richardfleischer": {
+      "filmTitle": "Les Flics ne dorment pas la nuit",
+      "director": "Richard Fleischer",
+      "titleEn": "The New Centurions",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/37608-the-new-centurions",
+      "checkedAt": "2026-07-28T09:09:08.721Z"
+    },
     "lesfraisessauvages|ingmarbergman": {
       "filmTitle": "Les Fraises sauvages",
       "director": "Ingmar Bergman",
@@ -3418,6 +3434,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1278263-les-graines-du-figuier-sauvage",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "lesgrandesvacancesdecowboyetindien|vincentpatarstephaneaubier": {
+      "filmTitle": "Les Grandes Vacances De Cowboy Et Indien",
+      "director": "Vincent Patar, Stéphane Aubier",
+      "titleEn": "Les Grandes Vacances de Cowboy et Indien",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1135094-les-grandes-vacances-de-cowboy-et-indien",
+      "checkedAt": "2026-07-28T09:09:08.721Z"
     },
     "lesguerriersdelanuit|walterhill": {
       "filmTitle": "Les Guerriers de la nuit",
@@ -3495,6 +3519,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/258128-prick-och-flack-pa-flacken",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lesnouvellesaventuresdegrospoisetpetitpoint|uzietlottageffenblad": {
+      "filmTitle": "Les Nouvelles Aventures De Gros Pois Et Petit Point",
+      "director": "Uzi et Lotta Geffenblad",
+      "titleEn": "Spot and Splodge Plottspotting",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/258128-prick-och-flack-pa-flacken",
+      "checkedAt": "2026-07-28T09:09:08.721Z"
     },
     "lesnouvellesaventuresdegrospoisetpetitpoint|uzigeffenbladlottageffenblad": {
       "filmTitle": "Les Nouvelles Aventures De Gros-Pois Et Petit-Point",
@@ -4331,6 +4363,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1351705-miss-mermaid",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "mlemaudit|fritzlang": {
+      "filmTitle": "M le Maudit",
+      "director": "Fritz Lang",
+      "titleEn": "M",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/832-m-eine-stadt-sucht-einen-morder",
+      "checkedAt": "2026-07-28T09:09:08.721Z"
     },
     "monika|ingmarbergman": {
       "filmTitle": "Monika",
