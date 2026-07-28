@@ -1,7 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T09:06:04.955Z",
+  "updatedAt": "2026-07-28T14:39:56.600Z",
   "entries": {
+    "120battementsparminute|robincampillo": {
+      "filmTitle": "120 battements par minute",
+      "director": "Robin Campillo",
+      "titleEn": "BPM (Beats per Minute)",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/451945-120-battements-par-minute",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "12hommesencolere|sidneylumet": {
       "filmTitle": "12 hommes en colère",
       "director": "Sidney Lumet",
@@ -47,6 +55,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "3billboardslespanneauxdelavengeance|martinmcdonagh": {
+      "filmTitle": "3 Billboards, Les Panneaux de la vengeance",
+      "director": "Martin McDonagh",
+      "titleEn": "Three Billboards Outside Ebbing, Missouri",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/359940-three-billboards-outside-ebbing-missouri",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "7ansdereflexion|billywilder": {
       "filmTitle": "7 ans de réflexion",
@@ -331,6 +347,14 @@
       "tmdbPath": "/movie/19026-azur-et-asmar",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "babylon|damienchazelle": {
+      "filmTitle": "Babylon",
+      "director": "Damien Chazelle",
+      "titleEn": "Babylon",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/615777-babylon",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "backrooms|kaneparsons": {
       "filmTitle": "Backrooms",
       "director": "Kane Parsons",
@@ -497,6 +521,13 @@
       "titleEn": "Blue Velvet",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "bodydouble|briandepalma": {
+      "filmTitle": "Body Double",
+      "director": "Brian De Palma",
+      "titleEn": "Body Double",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "bonnieandclyde|arthurpenn": {
       "filmTitle": "Bonnie and Clyde",
@@ -796,6 +827,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/499-cleo-de-5-a-7",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "close|lukasdhont": {
+      "filmTitle": "Close",
+      "director": "Lukas Dhont",
+      "titleEn": "Close",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/901563-close",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "closeup|abbaskiarostami": {
       "filmTitle": "Close-Up",
@@ -1261,6 +1300,14 @@
       "tmdbPath": "/movie/758866",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "drunk|thomasvinterberg": {
+      "filmTitle": "Drunk",
+      "director": "Thomas Vinterberg",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "dryleaf|aleksandrekoberidze": {
       "filmTitle": "Dry Leaf",
       "director": "Aleksandre Koberidze",
@@ -1530,6 +1577,14 @@
       "titleEn": "F.I.S.T.",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "fjord|cristianmungiu": {
+      "filmTitle": "Fjord",
+      "director": "Cristian Mungiu",
+      "titleEn": "Fjord",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1401459-fjord",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "flee|jonaspoherrasmussen": {
       "filmTitle": "Flee",
@@ -1983,6 +2038,14 @@
       "tmdbPath": "/movie/1288059-i-want-your-sex",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "jairencontrelediable|kimjeewoon": {
+      "filmTitle": "J'ai rencontré le Diable",
+      "director": "Kim Jee-Woon",
+      "titleEn": "I Saw the Devil",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/49797",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "jananayagan|hvinoth": {
       "filmTitle": "Jana Nayagan",
       "director": "H. Vinoth",
@@ -2131,6 +2194,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1728113-katseye-wild-hearts",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "katyperrythelifetimestourlivefromparis|pauldugdale": {
+      "filmTitle": "KATY PERRY THE LIFETIMES TOUR LIVE FROM PARIS",
+      "director": "Paul Dugdale",
+      "titleEn": "Katy Perry: The Lifetimes Tour - Live from Paris",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1684016-katy-perry-the-lifetimes-tour-live-from-paris",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "kayaraprincesseinca|cesarzelada": {
       "filmTitle": "Kayara, Princesse Inca",
@@ -2430,6 +2501,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1072742",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "lafindoakstreet|davidrobertmitchell": {
+      "filmTitle": "La fin d'Oak Street",
+      "director": "David Robert Mitchell",
+      "titleEn": "The End of Oak Street",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1101383-the-end-of-oak-street",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "lafontainefaitsoncinemalecorbeauetlerenard|collectif": {
       "filmTitle": "La Fontaine Fait Son Cinema, Le Corbeau Et Le Renard",
@@ -4085,6 +4164,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "lydiaetlevaisseaudestempetes|emilierosasphillippearseneaybussieresnnancy": {
+      "filmTitle": "Lydia Et Le Vaisseau Des Tempetes",
+      "director": "Emilie Rosas, Phillippe Arseneay Bussièresn, Nancy",
+      "titleEn": "Lydia and the Mist Rider",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1594694-lydia-et-le-vaisseau-des-tempetes",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "mademoiselle|parkchanwook": {
       "filmTitle": "Mademoiselle",
       "director": "Park Chan-wook",
@@ -4131,6 +4218,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/48831-ma-nuit-chez-maud",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "mariusetleroyaumedesmers|endreskandfer": {
+      "filmTitle": "Marius Et Le Royaume Des Mers",
+      "director": "Endre Skandfer",
+      "titleEn": "Rufus: The Sea Serpent Who Couldn't Swim",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1512207-ruffen-sjoormen-som-ikke-kunne-svomme",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "marsupilami|philippelacheau": {
       "filmTitle": "MARSUPILAMI",
@@ -4412,6 +4507,14 @@
       "tmdbPath": "/movie/22596-safety-last",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "moonlight|barryjenkins": {
+      "filmTitle": "Moonlight",
+      "director": "Barry Jenkins",
+      "titleEn": "Moonlight",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/376867-moonlight",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "mortduncycliste|juanantoniobardem": {
       "filmTitle": "Mort d'un cycliste",
       "director": "Juan Antonio Bardem",
@@ -4621,6 +4724,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1339713-obsession",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "oklahomahoney|andrewpatterson": {
+      "filmTitle": "Oklahoma Honey",
+      "director": "Andrew Patterson",
+      "titleEn": "The Rivals of Amziah King",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1124142-the-rivals-of-amziah-king",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "oldboy|parkchanwook": {
       "filmTitle": "Old Boy",
@@ -5169,6 +5280,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "raisonetsentiments|anglee": {
+      "filmTitle": "Raison et sentiments",
+      "director": "Ang Lee",
+      "titleEn": "Sense and Sensibility",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4584-sense-and-sensibility",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
     "raisonetsentiments1995|anglee": {
       "filmTitle": "RAISON ET SENTIMENTS (1995)",
       "director": "Ang Lee",
@@ -5191,6 +5310,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/18254-reds",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "rencontreaveccristianmungiufjord|": {
+      "filmTitle": "Rencontre Avec Cristian Mungiu · Fjord",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-28T14:42:44.026Z"
     },
     "rendezvous|ernstlubitsch": {
       "filmTitle": "Rendez-vous",
