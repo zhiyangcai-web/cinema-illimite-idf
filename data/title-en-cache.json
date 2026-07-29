@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-28T19:54:07.859Z",
+  "updatedAt": "2026-07-29T03:42:35.826Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -40,6 +40,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "15h45realfjord|": {
+      "filmTitle": "15h45 Réal - Fjord",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "2001lodysseedelespace|stanleykubrick": {
       "filmTitle": "2001 : l'odyssée de l'espace",
@@ -354,6 +362,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/615777-babylon",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "baccalaureat|cristianmungiu": {
+      "filmTitle": "Baccalauréat",
+      "director": "Cristian Mungiu",
+      "titleEn": "Graduation",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/374458-bacalaureat",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "backrooms|kaneparsons": {
       "filmTitle": "Backrooms",
@@ -2503,6 +2519,14 @@
       "tmdbPath": "/movie/8286-la-femme-infidele",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lafetedufeu|asgharfarhadi": {
+      "filmTitle": "La Fête Du Feu",
+      "director": "Asghar Farhadi",
+      "titleEn": "Fireworks Wednesday",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/43766",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
     "laffairethomascrown|normanjewison": {
       "filmTitle": "L'Affaire Thomas Crown",
       "director": "Norman Jewison",
@@ -3071,6 +3095,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "lefilsdesaul|laszlonemes": {
+      "filmTitle": "Le Fils De Saul",
+      "director": "Lászlo Nemes",
+      "titleEn": "Son of Saul",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/336050-saul-fia",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
     "legarconetleheron|hayaomiyazaki": {
       "filmTitle": "Le Garçon et le Héron",
       "director": "Hayao Miyazaki",
@@ -3086,6 +3118,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1400743",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "legeantegoiste|cliobarnard": {
+      "filmTitle": "Le Géant Égoïste",
+      "director": "Clio Barnard",
+      "titleEn": "The Selfish Giant",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/194101-the-selfish-giant",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "legenoudeclaire|ericrohmer": {
       "filmTitle": "Le Genou de Claire",
@@ -3332,6 +3372,22 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "lequatuoracornes|ademuynckbbotellaegorgiardphecquet": {
+      "filmTitle": "Le Quatuor A Cornes",
+      "director": "A Demuynck, B Botella, E Gorgiard, P Hecquet",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
+    "leretour|andreizviaguintsev": {
+      "filmTitle": "Le Retour",
+      "director": "Andreï Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
     "leroietloiseau|paulgrimault": {
       "filmTitle": "Le Roi Et L'Oiseau",
       "director": "Paul Grimault",
@@ -3451,6 +3507,14 @@
       "tmdbPath": "/movie/560-secret-beyond-the-door",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "lesecretdesmesanges|antoinelanciaux": {
+      "filmTitle": "Le Secret Des Mesanges",
+      "director": "Antoine Lanciaux",
+      "titleEn": "The Songbirds' Secret",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/989246-le-secret-des-mesanges",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
     "lesecretmagnifique|douglassirk": {
       "filmTitle": "Le Secret magnifique",
       "director": "Douglas Sirk",
@@ -3465,6 +3529,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/490-det-sjunde-inseglet",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "lesespieglescinemapublicfilms|janiscimermanis": {
+      "filmTitle": "Les Espiegles Cinema Public Films",
+      "director": "Janis Cimermanis",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "lesfantastiqueslivresvolantsdemmorrislessmore|": {
       "filmTitle": "Les fantastiques livres volants de M Morris Lessmore",
@@ -3881,6 +3953,14 @@
       "tmdbPath": "/movie/443033",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "lettreamomo|okiurahiroyuki": {
+      "filmTitle": "Lettre A Momo",
+      "director": "OKIURA Hiroyuki",
+      "titleEn": "A Letter to Momo",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/100271",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
     "lettresdamourdemagrandmere|hongchunlan": {
       "filmTitle": "Lettres d'amour de ma grand-mère",
       "director": "Hongchun Lan",
@@ -3974,6 +4054,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/575557-le-voyage-du-prince",
       "checkedAt": "2026-07-25T14:05:31.028Z"
+    },
+    "levoyageenballon|bengtssonanna": {
+      "filmTitle": "Le Voyage En Ballon",
+      "director": "BENGTSSON Anna",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "lexorciste|williamfriedkin": {
       "filmTitle": "L'Exorciste",
@@ -4686,6 +4774,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "nonnondanslespacecinemapublicfilms2024|wassimboutalebjoutei": {
+      "filmTitle": "Non Non Dans L Espace Cinema Public Films 2024",
+      "director": "Wassim Boutaleb Joutei",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "normandieniemen|jeandreville": {
       "filmTitle": "Normandie Niemen",
@@ -6236,6 +6332,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1480387-undertone",
       "checkedAt": "2026-07-23T08:49:05.717Z"
+    },
+    "uneaffairedefamille|hirokazukoreeda": {
+      "filmTitle": "Une Affaire De Famille",
+      "director": "Hirokazu Kore-eda",
+      "titleEn": "Shoplifters",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/505192",
+      "checkedAt": "2026-07-29T03:45:48.893Z"
     },
     "uneaffaireturque|huseyinaydingursoy": {
       "filmTitle": "UNE AFFAIRE TURQUE",
