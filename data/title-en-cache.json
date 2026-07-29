@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T03:42:35.826Z",
+  "updatedAt": "2026-07-29T14:32:35.334Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -322,6 +322,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1088548-amarga-navidad",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "autopsiedunmeurtre|ottopreminger": {
+      "filmTitle": "Autopsie d'un meurtre",
+      "director": "Otto Preminger",
+      "titleEn": "Anatomy of a Murder",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-29T14:35:00.432Z"
     },
     "autraversdesoliviers|abbaskiarostami": {
       "filmTitle": "Au Travers Des Oliviers",
