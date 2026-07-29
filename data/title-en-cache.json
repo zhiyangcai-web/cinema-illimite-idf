@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T14:32:35.334Z",
+  "updatedAt": "2026-07-29T19:45:43.314Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1255,6 +1255,14 @@
       "tmdbPath": "/movie/113782-metti-una-sera-a-cena",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "divorcealitalienne|pietrogermi": {
+      "filmTitle": "Divorce à l'Italienne",
+      "director": "Pietro Germi",
+      "titleEn": "Divorce Italian Style",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/20271-divorzio-all-italiana",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "djangounchained|quentintarantino": {
       "filmTitle": "Django Unchained",
       "director": "Quentin Tarantino",
@@ -1425,6 +1433,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/974950-emilia-perez",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "enamorada|emiliofernandez": {
+      "filmTitle": "Enamorada",
+      "director": "Emilio Fernandez",
+      "titleEn": "Enamorada",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/115301-enamorada",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "enfantsdepalestinedeuxhistoiresdecisjordanie|mohamedmesbahshaymaawawdeh": {
       "filmTitle": "Enfants de Palestine – Deux histoires de Cisjordanie",
@@ -2518,6 +2534,14 @@
       "tmdbPath": "/movie/65912-la-fayette",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "lafemmedudimanche|luigicomencini": {
+      "filmTitle": "La Femme du dimanche",
+      "director": "Luigi Comencini",
+      "titleEn": "The Sunday Woman",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/57310-la-donna-della-domenica",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "lafemmeinfidele|claudechabrol": {
       "filmTitle": "La Femme infidèle",
       "director": "Claude Chabrol",
@@ -2689,6 +2713,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "lamarieeetaitennoir|francoistruffaut": {
+      "filmTitle": "La Mariee Etait En Noir",
+      "director": "François Truffaut",
+      "titleEn": "The Bride Wore Black",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4191-la-mariee-etait-en-noir",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "lamarquedutueur|seijunsuzuki": {
       "filmTitle": "La Marque du tueur",
@@ -2915,6 +2947,14 @@
       "tmdbPath": "/movie/15067",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lebonlabruteetletruand|sergioleone": {
+      "filmTitle": "Le Bon, la brute et le truand",
+      "director": "Sergio Leone",
+      "titleEn": "The Good, the Bad and the Ugly",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/429-il-buono-il-brutto-il-cattivo",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "leboucher|claudechabrol": {
       "filmTitle": "Le Boucher",
       "director": "Claude Chabrol",
@@ -2961,6 +3001,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1309373-le-chant-des-forets",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "lechataneufqueues|darioargento": {
+      "filmTitle": "Le Chat à neuf queues",
+      "director": "Dario Argento",
+      "titleEn": "The Cat o' Nine Tails",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/27431-il-gatto-a-nove-code",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "lechemindelesperance|germipietro": {
       "filmTitle": "Le Chemin De L Esperance",
@@ -3357,6 +3405,13 @@
       "tmdbPath": "/movie/947590-le-pharaon-le-sauvage-et-la-princesse",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "leplongeon|frankperrysydneypollack": {
+      "filmTitle": "Le Plongeon",
+      "director": "Frank Perry, Sydney Pollack",
+      "titleEn": "The Swimmer",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "lepointdenonretour|johnboorman": {
       "filmTitle": "Le Point de non-retour",
       "director": "John Boorman",
@@ -3584,6 +3639,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/614-smultronstallet",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "lesfrissonsdelangoisse|darioargento": {
+      "filmTitle": "Les Frissons de l'angoisse",
+      "director": "Dario Argento",
+      "titleEn": "Deep Red",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/20126-profondo-rosso",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "lesgendarmes|francoisprevotleygonie": {
       "filmTitle": "Les Gendarmes",
@@ -4229,6 +4292,22 @@
       "tmdbPath": "/movie/641364-l-odyssee-de-choum",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "loiseauauplumagedecristal|darioargento": {
+      "filmTitle": "L'Oiseau au plumage de cristal",
+      "director": "Dario Argento",
+      "titleEn": "The Bird with the Crystal Plumage",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/20345-l-uccello-dalle-piume-di-cristallo",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "lola|jacquesdemy": {
+      "filmTitle": "Lola",
+      "director": "Jacques Demy",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "lorieparty2026aucinema|tristancarne": {
       "filmTitle": "LORIE PARTY 2026 AU CINEMA",
       "director": "Tristan Carne",
@@ -4345,6 +4424,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/48831-ma-nuit-chez-maud",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "mariagealitalienne|vittoriodesica": {
+      "filmTitle": "Mariage à l'Italienne",
+      "director": "Vittorio De Sica",
+      "titleEn": "Marriage Italian Style",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/49687-matrimonio-all-italiana",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "mariusetleroyaumedesmers|endreskandfer": {
       "filmTitle": "Marius Et Le Royaume Des Mers",
@@ -5164,6 +5251,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "phenomena|darioargento": {
+      "filmTitle": "Phenomena",
+      "director": "Dario Argento",
+      "titleEn": "Phenomena",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/29161-phenomena",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "pickpocket|robertbresson": {
       "filmTitle": "PICKPOCKET",
       "director": "Robert Bresson",
@@ -5374,6 +5469,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/38360",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "quatrenuitsdunreveur|robertbresson": {
+      "filmTitle": "Quatre nuits d'un rêveur",
+      "director": "Robert Bresson",
+      "titleEn": "Four Nights of a Dreamer",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/55847-quatre-nuits-d-un-reveur",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "quelabetemeure|claudechabrol": {
       "filmTitle": "Que la bête meure",
@@ -5845,6 +5948,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "standbyme|robreiner": {
+      "filmTitle": "Stand by Me",
+      "director": "Rob Reiner",
+      "titleEn": "Stand by Me",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "starwarsthemandalorianandgrogu|jonfavreau": {
       "filmTitle": "STAR WARS: THE MANDALORIAN AND GROGU",
       "director": "Jon Favreau",
@@ -5966,6 +6076,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-23T19:50:33.839Z"
+    },
+    "tenebres|darioargento": {
+      "filmTitle": "Ténèbres",
+      "director": "Dario Argento",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "thechaser|nahongjin": {
       "filmTitle": "The Chaser",
@@ -6387,6 +6505,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "uneteviolent|valeriozurlini": {
+      "filmTitle": "Un été violent",
+      "director": "Valerio Zurlini",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "uneviedemente|annsirotraphaelbalboni": {
       "filmTitle": "Une vie démente",
       "director": "Ann Sirot, Raphaël Balboni",
@@ -6485,6 +6611,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "vacancesromaines|williamwyler": {
+      "filmTitle": "Vacances romaines",
+      "director": "William Wyler",
+      "titleEn": "Roman Holiday",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
     "vaianalalegendeduboutdumonde|thomaskail": {
       "filmTitle": "Vaiana, la légende du bout du monde",
       "director": "Thomas Kail",
@@ -6499,6 +6632,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/712440-vanille",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "veniselaluneettoi|dinorisi": {
+      "filmTitle": "Venise, la lune et toi",
+      "director": "Dino Risi",
+      "titleEn": "Venice, the Moon and You",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/48937-venezia-la-luna-e-tu",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "vermigliooulamarieedesmontagnes|mauradelpero": {
       "filmTitle": "Vermiglio ou La Mariée des Montagnes",
@@ -6646,6 +6787,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/288990-hustruer-iii",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "zabriskiepoint|michelangeloantonioni": {
+      "filmTitle": "Zabriskie Point",
+      "director": "Michelangelo Antonioni",
+      "titleEn": "Zabriskie Point",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-29T19:48:12.519Z"
     },
     "zodiac|davidfincher": {
       "filmTitle": "Zodiac",
