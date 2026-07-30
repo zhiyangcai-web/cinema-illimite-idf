@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-29T19:45:43.314Z",
+  "updatedAt": "2026-07-30T03:31:26.077Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -32,6 +32,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "14hrealfjord|": {
+      "filmTitle": "14h Real  - Fjord",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-30T03:34:32.358Z"
     },
     "14hreallesmatinsmerveilleux|": {
       "filmTitle": "14h Real - Les Matins Merveilleux",
@@ -6550,6 +6558,14 @@
       "titleEn": "My Father's Shadow",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "unjoursansfin|haroldramis": {
+      "filmTitle": "Un jour sans fin",
+      "director": "Harold Ramis",
+      "titleEn": "Groundhog Day",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/137-groundhog-day",
+      "checkedAt": "2026-07-30T03:34:32.358Z"
     },
     "unpetitairdefamille|": {
       "filmTitle": "UN PETIT AIR DE FAMILLE",
