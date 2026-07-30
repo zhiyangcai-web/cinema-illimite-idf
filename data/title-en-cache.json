@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T14:33:30.264Z",
+  "updatedAt": "2026-07-30T19:53:40.072Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1749,6 +1749,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/419430-get-out",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "ghost2bigtorig|amirjuanchamdin": {
+      "filmTitle": "GHOST : 2 BIG TO RIG",
+      "director": "Amir Juan Chamdin",
+      "titleEn": "2 Big to Rig",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1693400-2-big-to-rig",
+      "checkedAt": "2026-07-30T19:56:52.753Z"
     },
     "ghostelephants|herzogwerner": {
       "filmTitle": "Ghost Elephants",
@@ -6575,6 +6583,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/747681-une-vie-demente",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "ungrandraccourci|armandfoeumlxclementdevilliers": {
+      "filmTitle": "UN GRAND RACCOURCI",
+      "director": "Armand Fo&euml;x, Clement Devilliers",
+      "titleEn": "Un grand raccourci",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1683079-un-grand-raccourci",
+      "checkedAt": "2026-07-30T19:56:52.753Z"
     },
     "ungrandraccourci|armandfoexclementdevilliers": {
       "filmTitle": "Un grand raccourci",
