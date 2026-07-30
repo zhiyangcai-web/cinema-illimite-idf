@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T09:03:38.385Z",
+  "updatedAt": "2026-07-30T14:33:30.264Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1125,6 +1125,14 @@
       "tmdbPath": "/movie/429458-dyrene-i-hakkebakkeskogen",
       "checkedAt": "2026-07-21T08:49:45.509Z"
     },
+    "danslavilleblanche|alaintanner": {
+      "filmTitle": "Dans la ville blanche",
+      "director": "Alain Tanner",
+      "titleEn": "In the White City",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/33802-dans-la-ville-blanche",
+      "checkedAt": "2026-07-30T14:36:40.647Z"
+    },
     "dao|alaingomis": {
       "filmTitle": "Dao",
       "director": "Alain Gomis",
@@ -1346,6 +1354,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "drive|nicolaswindingrefn": {
+      "filmTitle": "DRIVE",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "Drive",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/64690-drive",
+      "checkedAt": "2026-07-30T14:36:40.647Z"
     },
     "drivemycar|ryusukehamaguchi": {
       "filmTitle": "Drive My Car",
@@ -4806,6 +4822,13 @@
       "tmdbPath": "/movie/10774-network",
       "checkedAt": "2026-07-24T14:16:55.656Z"
     },
+    "networkmainbassesurlatelevision|sidneylumet": {
+      "filmTitle": "Network, main basse sur la télévision",
+      "director": "Sidney Lumet",
+      "titleEn": "Network",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-30T14:36:40.647Z"
+    },
     "newyork1997|johncarpenter": {
       "filmTitle": "New York 1997",
       "director": "John Carpenter",
@@ -5023,6 +5046,14 @@
       "titleEn": "The Death Of Robin Hood",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "opera|darioargento": {
+      "filmTitle": "Opéra",
+      "director": "Dario Argento",
+      "titleEn": "Opera",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/20115-opera",
+      "checkedAt": "2026-07-30T14:36:40.647Z"
     },
     "orangemecanique|stanleykubrick": {
       "filmTitle": "Orange mécanique",
@@ -5762,6 +5793,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/5336-salo-o-le-120-giornate-di-sodoma",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "salvation|eminalper": {
+      "filmTitle": "Salvation",
+      "director": "Emin Alper",
+      "titleEn": "Salvation",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1401106-kurtulus",
+      "checkedAt": "2026-07-30T14:36:40.647Z"
     },
     "sanspitie|lattuadaalberto": {
       "filmTitle": "Sans Pitie",
