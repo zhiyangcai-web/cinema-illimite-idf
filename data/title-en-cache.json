@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T09:17:21.324Z",
+  "updatedAt": "2026-07-31T14:37:07.155Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -79,6 +79,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/359940-three-billboards-outside-ebbing-missouri",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "48heures|walterhill": {
+      "filmTitle": "48 heures",
+      "director": "Walter Hill",
+      "titleEn": "48 Hrs.",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
     },
     "7ansdereflexion|billywilder": {
       "filmTitle": "7 ans de réflexion",
@@ -1891,6 +1898,70 @@
       "tmdbPath": "/movie/18329",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "harrypotter1alecoledessorciers|chriscolumbus": {
+      "filmTitle": "HARRY POTTER 1 - A L'ECOLE DES SORCIERS",
+      "director": "Chris Columbus",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter2etlachambredessecrets|chriscolumbus": {
+      "filmTitle": "HARRY POTTER 2 - ET LA CHAMBRE DES SECRETS",
+      "director": "Chris Columbus",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter3etleprisonnierdazkaban|alfonsocuaroacuten": {
+      "filmTitle": "HARRY POTTER 3 - ET LE PRISONNIER D'AZKABAN",
+      "director": "Alfonso Cuar&oacute;n",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter4etlacoupedefeu|mikenewell": {
+      "filmTitle": "HARRY POTTER 4 - ET LA COUPE DE FEU",
+      "director": "Mike Newell",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter5etlordreduphenix|davidyates": {
+      "filmTitle": "HARRY POTTER 5 - ET L'ORDRE DU PHENIX",
+      "director": "David Yates",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter6etleprincedesangmele|davidyates": {
+      "filmTitle": "HARRY POTTER 6 - ET LE PRINCE DE SANG-MELE",
+      "director": "David Yates",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter7etlesreliquesdelamortpart1|davidyates": {
+      "filmTitle": "HARRY POTTER 7 - ET LES RELIQUES DE LA MORT PART 1",
+      "director": "David Yates",
+      "titleEn": "Harry Potter and the Deathly Hallows: Part 1",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/12444-harry-potter-and-the-deathly-hallows-part-1",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "harrypotter7etlesreliquesdelamortpart2|davidyates": {
+      "filmTitle": "HARRY POTTER 7 - ET LES RELIQUES DE LA MORT PART 2",
+      "director": "David Yates",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
     "heat|michaelmann": {
       "filmTitle": "Heat",
       "director": "Michael Mann",
@@ -2622,12 +2693,11 @@
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
     "lafindoakstreet|davidrobertmitchell": {
-      "filmTitle": "La fin d'Oak Street",
+      "filmTitle": "La fin d’Oak Street",
       "director": "David Robert Mitchell",
-      "titleEn": "The End of Oak Street",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1101383-the-end-of-oak-street",
-      "checkedAt": "2026-07-28T14:42:44.026Z"
+      "titleEn": "The End Of Oak Street",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
     },
     "lafontainefaitsoncinemalecorbeauetlerenard|collectif": {
       "filmTitle": "La Fontaine Fait Son Cinema, Le Corbeau Et Le Renard",
@@ -2832,6 +2902,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "lapiscine|jacquesderay": {
+      "filmTitle": "La Piscine",
+      "director": "Jacques Deray",
+      "titleEn": "The Swimming Pool",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4946-la-piscine",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
     "laplanetesauvage|lalouxrene": {
       "filmTitle": "La Planete Sauvage",
       "director": "LALOUX Rene",
@@ -2939,6 +3017,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/728118-quo-vadis-aida",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lavventura|michelangeloantonioni": {
+      "filmTitle": "L'Avventura",
+      "director": "Michelangelo Antonioni",
+      "titleEn": "L'Avventura",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/5165-l-avventura",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
     },
     "lawrencedarabie|davidlean": {
       "filmTitle": "LAWRENCE D'ARABIE",
@@ -6319,6 +6405,13 @@
       "titleEn": "The Rocky Horror Picture Show",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thetrumanshow|peterweir": {
+      "filmTitle": "The Truman Show",
+      "director": "Peter Weir",
+      "titleEn": "The Truman Show",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-07-31T14:39:16.810Z"
     },
     "theugly|sanghoyeon": {
       "filmTitle": "THE UGLY",
