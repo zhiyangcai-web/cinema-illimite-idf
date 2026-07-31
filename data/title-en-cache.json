@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-30T19:53:40.072Z",
+  "updatedAt": "2026-07-31T03:52:19.806Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1681,6 +1681,14 @@
       "tmdbPath": "/movie/823219-straume",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "flowlechatquinavaitpluspeurdeleau|gintszilbalodis": {
+      "filmTitle": "Flow, le chat qui n’avait plus peur de l’eau",
+      "director": "Gints Zilbalodis",
+      "titleEn": "Flow",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/823219-straume",
+      "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
     "fog|carpenterjohn": {
       "filmTitle": "Fog",
       "director": "CARPENTER John",
@@ -3283,6 +3291,14 @@
       "tmdbPath": "/movie/1248217-der-held-vom-bahnhof-friedrichstrasse",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lejardindesfinzicontini|vittoriodesica": {
+      "filmTitle": "Le Jardin des Finzi-Contini",
+      "director": "Vittorio De Sica",
+      "titleEn": "The Garden of the Finzi-Continis",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4789-il-giardino-dei-finzi-contini",
+      "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
     "lelacdescygnesoperadeparis|isabellejulien": {
       "filmTitle": "LE LAC DES CYGNES (OPERA DE PARIS)",
       "director": "Isabelle Julien",
@@ -4821,6 +4837,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/10818-naissance-des-pieuvres",
       "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
+    "nausicaadelavalleeduvent|hayaomiyazaki": {
+      "filmTitle": "NAUSICAA DE LA VALLEE DU VENT",
+      "director": "Hayao Miyazaki",
+      "titleEn": "Warriors of the Wind",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/81",
+      "checkedAt": "2026-07-31T03:55:22.927Z"
     },
     "network|sidneylumet": {
       "filmTitle": "Network",
