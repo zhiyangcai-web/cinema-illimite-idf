@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T03:52:19.806Z",
+  "updatedAt": "2026-07-31T09:17:21.324Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -3065,6 +3065,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "lecirque|charleschaplin": {
+      "filmTitle": "Le Cirque",
+      "director": "Charles Chaplin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-07-31T09:19:39.419Z"
     },
     "lecologiedessentiments|alexandresteiger": {
       "filmTitle": "L Ecologie Des Sentiments",
