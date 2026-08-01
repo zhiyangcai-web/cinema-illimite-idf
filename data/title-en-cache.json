@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-31T14:37:07.155Z",
+  "updatedAt": "2026-08-01T13:57:05.747Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -198,6 +198,14 @@
       "titleEn": "Experiment in Terror",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "amelieetlametaphysiquedestubes|lianechohanmailysvallade": {
+      "filmTitle": "Amelie Et La Metaphysique Des Tubes",
+      "director": "Liane-Cho Han, Mailys Vallade",
+      "titleEn": "Little Amélie or the Character of Rain",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/682012-amelie-et-la-metaphysique-des-tubes",
+      "checkedAt": "2026-08-01T13:59:33.428Z"
     },
     "americangigolo|paulschrader": {
       "filmTitle": "American Gigolo",
@@ -3868,6 +3876,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lesmalaimes|heleneducrocq": {
+      "filmTitle": "Les Mal-aimés",
+      "director": "Hélène Ducrocq",
+      "titleEn": "Les Mal-aimés",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/734548-les-mal-aimes",
+      "checkedAt": "2026-08-01T13:59:33.428Z"
+    },
     "lesmatinsmerveilleux|avrilbesson": {
       "filmTitle": "Les Matins Merveilleux",
       "director": "Avril Besson",
@@ -4893,6 +4909,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/72083-muerte-de-un-ciclista",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "mugangaceluiquisoigne|marieheleneroux": {
+      "filmTitle": "Muganga - Celui qui soigne",
+      "director": "Marie-Hélène Roux",
+      "titleEn": "Muganga",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1000169-muganga-celui-qui-soigne",
+      "checkedAt": "2026-08-01T13:59:33.428Z"
     },
     "mulhollanddrive|davidlynch": {
       "filmTitle": "Mulholland Drive",
@@ -6639,12 +6663,11 @@
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
     "undertone|iantuason": {
-      "filmTitle": "UNDERTONE",
+      "filmTitle": "Undertone",
       "director": "Ian Tuason",
-      "titleEn": "undertone",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1480387-undertone",
-      "checkedAt": "2026-07-23T08:49:05.717Z"
+      "titleEn": "Undertone",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-01T13:59:33.428Z"
     },
     "uneaffairedefamille|hirokazukoreeda": {
       "filmTitle": "Une Affaire De Famille",
@@ -6676,6 +6699,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1442922-un-anno-di-scuola",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "uneaubenouvelle|yoshitoshishinomiya": {
+      "filmTitle": "Une aube nouvelle",
+      "director": "Yoshitoshi Shinomiya",
+      "titleEn": "A New Dawn",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1279865",
+      "checkedAt": "2026-08-01T13:59:33.428Z"
     },
     "unehistoirevraie|davidlynch": {
       "filmTitle": "Une Histoire Vraie",
