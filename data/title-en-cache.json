@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T13:57:05.747Z",
+  "updatedAt": "2026-08-01T19:35:29.931Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -116,6 +116,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/269-a-bout-de-souffle",
       "checkedAt": "2026-07-27T10:12:29.113Z"
+    },
+    "aboutportant|donsiegel": {
+      "filmTitle": "A bout portant",
+      "director": "Don Siegel",
+      "titleEn": "The Killers",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-01T19:37:32.631Z"
     },
     "adieuaulangage|jeanlucgodard": {
       "filmTitle": "Adieu au Langage",
@@ -329,6 +336,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/24163",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "atontoujourslesmotspourledire|": {
+      "filmTitle": "A-t-on toujours les mots pour le dire ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-01T19:37:32.631Z"
     },
     "aunomdelaloi|germipietro": {
       "filmTitle": "Au Nom De La Loi",
@@ -1016,6 +1031,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/592-the-conversation",
       "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
+    "cop|jamesbharris": {
+      "filmTitle": "Cop",
+      "director": "James B. Harris",
+      "titleEn": "Cop",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-01T19:37:32.631Z"
     },
     "copieconforme|abbaskiarostami": {
       "filmTitle": "Copie Conforme",
@@ -3231,6 +3253,14 @@
       "tmdbPath": "/movie/643",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "ledahlianoir|briandepalma": {
+      "filmTitle": "Le Dahlia noir",
+      "director": "Brian De Palma",
+      "titleEn": "The Black Dahlia",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9676-the-black-dahlia",
+      "checkedAt": "2026-08-01T19:37:32.631Z"
+    },
     "ledemondesarmes|josephhlewis": {
       "filmTitle": "Le Démon des armes",
       "director": "Joseph H. Lewis",
@@ -4078,6 +4108,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-25T14:05:31.028Z"
+    },
+    "lestueurs|robertsiodmak": {
+      "filmTitle": "Les Tueurs",
+      "director": "Robert Siodmak",
+      "titleEn": "The Killers",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-01T19:37:32.631Z"
     },
     "lesvacancesdegoloetritchie|martinfougerolahmedhamidi": {
       "filmTitle": "LES VACANCES DE GOLO ET RITCHIE",
