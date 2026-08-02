@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-01T19:35:29.931Z",
+  "updatedAt": "2026-08-02T03:54:41.877Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -3732,6 +3732,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/5691-i-racconti-di-canterbury",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lescontesdelamer|aleksandrazarebaignacioruizgabrielasalguero": {
+      "filmTitle": "LES CONTES DE LA MER",
+      "director": "Aleksandra Zareba, Ignacio Ruiz, Gabriela Salguero",
+      "titleEn": "Enco",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/374016-enco",
+      "checkedAt": "2026-08-02T03:57:31.176Z"
     },
     "lescyclopesetregeantcanefaitpastout|": {
       "filmTitle": "Les cyclopes : être géant, ça ne fait pas tout !",
