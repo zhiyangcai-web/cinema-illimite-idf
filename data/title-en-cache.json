@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-02T03:54:41.877Z",
+  "updatedAt": "2026-08-02T13:57:21.901Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -492,6 +492,14 @@
       "titleEn": "Bird",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "biutiful|alejandrogonzalezinarritu": {
+      "filmTitle": "Biutiful",
+      "director": "Alejandro González Iñárritu",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-02T13:59:15.516Z"
     },
     "blackdog|huguan": {
       "filmTitle": "Black Dog",
@@ -2084,6 +2092,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11298-the-howling",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "icibrigadecriminelle|donsiegel": {
+      "filmTitle": "Ici brigade criminelle",
+      "director": "Don Siegel",
+      "titleEn": "Private Hell 36",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-02T13:59:15.516Z"
     },
     "idhayammuralitamoul|aakashbaskaran": {
       "filmTitle": "IDHAYAM MURALI - TAMOUL",
@@ -4038,6 +4053,14 @@
       "titleEn": "Dark Passage",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "lespiratesdumetro|josephsargent": {
+      "filmTitle": "Les Pirates du métro",
+      "director": "Joseph Sargent",
+      "titleEn": "The Taking of Pelham One Two Three",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/8333-the-taking-of-pelham-one-two-three",
+      "checkedAt": "2026-08-02T13:59:15.516Z"
     },
     "lespritdelaruche|victorerice": {
       "filmTitle": "L Esprit De La Ruche",
