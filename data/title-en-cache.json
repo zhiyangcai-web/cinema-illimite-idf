@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T15:17:59.872Z",
+  "updatedAt": "2026-08-03T19:59:12.613Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1194,6 +1194,14 @@
       "tmdbPath": "/movie/1135582-dao",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "darkwaters|toddhaynes": {
+      "filmTitle": "DARK WATERS",
+      "director": "Todd Haynes",
+      "titleEn": "Dark Waters",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/552178-dark-waters",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
+    },
     "davidlynchtheartlife|jonnguyen": {
       "filmTitle": "David Lynch The Art Life",
       "director": "Jon Nguyen",
@@ -1438,7 +1446,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
@@ -2022,6 +2030,22 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "herprivatehell|nicolaswindingrefn": {
+      "filmTitle": "Her Private Hell",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "Her Private Hell",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1469342-her-private-hell",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
+    },
+    "heureuxcommelazzaro|alicerohrwacher": {
+      "filmTitle": "Heureux comme Lazzaro",
+      "director": "Alice Rohrwacher",
+      "titleEn": "Happy as Lazzaro",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/481432-lazzaro-felice",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "hiroshimamonamour|alainresnais": {
       "filmTitle": "Hiroshima, mon amour",
@@ -2868,7 +2892,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "lajeunessedelabete|seijunsuzuki": {
       "filmTitle": "La Jeunesse de la bête",
@@ -3609,10 +3633,10 @@
     "leparrain|francisfordcoppola": {
       "filmTitle": "Le Parrain",
       "director": "Francis Ford Coppola",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T14:36:57.178Z"
+      "titleEn": "The Godfather",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/238-the-godfather",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "leparrain2epartie|francisfordcoppola": {
       "filmTitle": "Le Parrain, 2e partie",
@@ -3817,6 +3841,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "lesechosdupasse|maschaschilinski": {
+      "filmTitle": "Les Échos du passé",
+      "director": "Mascha Schilinski",
+      "titleEn": "Sound of Falling",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1221061-in-die-sonne-schauen",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "lesecretderrierelaporte|fritzlang": {
       "filmTitle": "Le Secret Derriere La Porte",
@@ -4201,6 +4233,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1058054-the-smeds-and-the-smoos",
       "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
+    "lestourougesetlestoubleus|samanthacutlerdanielsnaddon": {
+      "filmTitle": "Les Tourouges et les Toubleus",
+      "director": "Samantha Cutler, Daniel Snaddon",
+      "titleEn": "The Smeds and the Smoos",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1058054-the-smeds-and-the-smoos",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "lestourougesetlestoubleus|samanthacutlerdanielsnaddonvasilisatikunova": {
       "filmTitle": "Les Tourouges et les Toubleus",
@@ -6262,10 +6302,10 @@
     "soudain|ryusukehamaguchi": {
       "filmTitle": "Soudain",
       "director": "Ryûsuke Hamaguchi",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T20:00:48.385Z"
+      "titleEn": "All of a Sudden",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1476614",
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "soudainpresenteparryusukehamaguchivirginieefira|": {
       "filmTitle": "Soudain · Présenté Par Ryusuke Hamaguchi & Virginie Efira",
@@ -6667,7 +6707,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T20:02:32.577Z"
     },
     "tobeornottobe|ernstlubitsch": {
       "filmTitle": "To Be or not to Be",
