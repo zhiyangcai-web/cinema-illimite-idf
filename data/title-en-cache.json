@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T10:06:52.869Z",
+  "updatedAt": "2026-08-03T15:17:59.872Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -733,7 +733,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "carrieaubaldudiable|briandepalma": {
       "filmTitle": "Carrie au bal du diable",
@@ -1032,6 +1032,14 @@
       "tmdbPath": "/movie/795811",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "contessurmoi|mohammadalisoleymanzadehanastasiyasokolovanegarehhalimi": {
+      "filmTitle": "CONTES SUR MOI!",
+      "director": "Mohammad Ali Soleymanzadeh, Anastasiya Sokolova, Negareh Halimi",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "conversationsecrete|francisfordcoppola": {
       "filmTitle": "CONVERSATION SECRETE",
       "director": "Francis Ford Coppola",
@@ -1080,12 +1088,12 @@
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
     "cowboybebop|shinichirowatanabe": {
-      "filmTitle": "Cowboy Bebop",
-      "director": "Shin'ichirô Watanabe",
+      "filmTitle": "COWBOY BEBOP",
+      "director": "Shin'ichiro Watanabe",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T14:36:57.178Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "cowboybeboplefilm|shinichirowatanabeyoshiyukitakei": {
       "filmTitle": "Cowboy Bebop, le film",
@@ -1847,7 +1855,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "gloria|margheritavicario": {
       "filmTitle": "Gloria!",
@@ -2279,7 +2287,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T14:36:57.178Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "jardinsenchantes|deborahcheyennecruchonjuditorosznastiavoronina": {
       "filmTitle": "Jardins Enchantes",
@@ -2295,7 +2303,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "jeandelalune|stephanscheschsarahclaraweber": {
       "filmTitle": "Jean de la Lune",
@@ -2492,6 +2500,14 @@
       "tmdbPath": "/movie/30959",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "kymalondemysterieuse|romaindaudetjahan": {
+      "filmTitle": "KYMA L'ONDE MYSTERIEUSE",
+      "director": "Romain Daudet-Jahan",
+      "titleEn": "Kyma, l'onde mystérieuse",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1365362-kyma-l-onde-mysterieuse",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "labaiedesanges|jacquesdemy": {
       "filmTitle": "La Baie Des Anges",
       "director": "Jacques Demy",
@@ -2579,6 +2595,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
     },
+    "labayadereoperadeparis|juliencondemine": {
+      "filmTitle": "LA BAYADERE (OPERA DE PARIS)",
+      "director": "Julien Condemine",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "laboum|claudepinoteau": {
       "filmTitle": "La Boum",
       "director": "Claude Pinoteau",
@@ -2602,6 +2626,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1492288-la-chaleur",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lachambredufils|nannimoretti": {
+      "filmTitle": "La Chambre du fils",
+      "director": "Nanni Moretti",
+      "titleEn": "The Son's Room",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11447-la-stanza-del-figlio",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lachassecruising|williamfriedkin": {
       "filmTitle": "La Chasse - Cruising",
@@ -2633,6 +2665,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/83389",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "lacosa|nannimoretti": {
+      "filmTitle": "La Cosa",
+      "director": "Nanni Moretti",
+      "titleEn": "The Thing",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/168735-la-cosa",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lacroisiere|bennettmiller": {
       "filmTitle": "La Croisière",
@@ -2844,7 +2884,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lalaland|damienchazelle": {
       "filmTitle": "La La Land",
@@ -2952,7 +2992,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lapiscine|jacquesderay": {
       "filmTitle": "La Piscine",
@@ -2984,7 +3024,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "laragazza|luigicomencini": {
       "filmTitle": "La Ragazza",
@@ -3000,6 +3040,14 @@
       "titleEn": "Twelve Monkeys",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "larmesdejoie|mariomonicelli": {
+      "filmTitle": "Larmes de joie",
+      "director": "Mario Monicelli",
+      "titleEn": "The Passionate Thief",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/71995-risate-di-gioia",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lastrada|federicofellini": {
       "filmTitle": "La Strada",
@@ -3152,10 +3200,9 @@
     "lecadetdeaudouce|charlesfreisner": {
       "filmTitle": "Le Cadet D Eau Douce",
       "director": "Charles F. Reisner",
-      "titleEn": "",
+      "titleEn": "Steamboat Bill, Jr.",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-28T09:09:08.721Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lecapitalismeestilleproblemeoulasolution|": {
       "filmTitle": "Le capitalisme est-il le problème ou la solution ?",
@@ -4023,6 +4070,14 @@
       "tmdbPath": "/movie/258128-prick-och-flack-pa-flacken",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lesnuitsdecabiria|federicofellini": {
+      "filmTitle": "Les Nuits de Cabiria",
+      "director": "Federico Fellini",
+      "titleEn": "Nights of Cabiria",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/19426-le-notti-di-cabiria",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "lesnuitsdelapleinelune|ericrohmer": {
       "filmTitle": "Les nuits de la pleine lune",
       "director": "Eric Rohmer",
@@ -4138,6 +4193,14 @@
       "titleEn": "The Smeds and the Smoos",
       "source": "No confident TMDB match",
       "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
+    "lestourougesetlestoubleus|danielsnaddonsamanthacutler": {
+      "filmTitle": "Les Tourouges et les Toubleus",
+      "director": "Daniel Snaddon, Samantha Cutler",
+      "titleEn": "The Smeds and the Smoos",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1058054-the-smeds-and-the-smoos",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lestourougesetlestoubleus|samanthacutlerdanielsnaddonvasilisatikunova": {
       "filmTitle": "Les Tourouges et les Toubleus",
@@ -4516,7 +4579,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "lodyssee|christophernolan": {
       "filmTitle": "L'Odyssée",
@@ -4619,6 +4682,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "lusuredutemps|alanparker": {
+      "filmTitle": "L'Usure du temps",
+      "director": "Alan Parker",
+      "titleEn": "Shoot the Moon",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "lydiaetlevaisseaudestempetes|emilierosasphillippearseneaybussieresnnancy": {
       "filmTitle": "Lydia Et Le Vaisseau Des Tempetes",
       "director": "Emilie Rosas, Phillippe Arseneay Bussièresn, Nancy",
@@ -4698,6 +4768,14 @@
       "tmdbPath": "/movie/1145899-marsupilami",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "martineden|pietromarcello": {
+      "filmTitle": "Martin Eden",
+      "director": "Pietro Marcello",
+      "titleEn": "Martin Eden",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/582873-martin-eden",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "maryanning|marcelbarelli": {
       "filmTitle": "Mary Anning",
       "director": "Marcel Barelli",
@@ -4743,7 +4821,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "mastersofbooksavecmaggienelson|": {
       "filmTitle": "Masters of Books avec Maggie Nelson",
@@ -4751,7 +4829,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "mastersofcinemaavecandreizviaguintsev|": {
       "filmTitle": "Masters of Cinema avec Andreï Zviaguintsev",
@@ -4937,6 +5015,14 @@
       "tmdbPath": "/movie/832-m-eine-stadt-sucht-einen-morder",
       "checkedAt": "2026-07-28T09:09:08.721Z"
     },
+    "moicapitaine|matteogarrone": {
+      "filmTitle": "Moi capitaine",
+      "director": "Matteo Garrone",
+      "titleEn": "Io Capitano",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/937746-io-capitano",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
     "monika|ingmarbergman": {
       "filmTitle": "Monika",
       "director": "Ingmar Bergman",
@@ -5099,7 +5185,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "ninaetlesecretduherisson|alaingagnoljeanloupfelicioli": {
       "filmTitle": "Nina Et Le Secret Du Hérisson",
@@ -5301,7 +5387,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "ouestlamaisondemonami|abbaskiarostami": {
       "filmTitle": "Ou Est La Maison De Mon Ami",
@@ -5491,7 +5577,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "peutonencorecroireademain|": {
       "filmTitle": "Peut-on encore croire à demain ?",
@@ -5499,7 +5585,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "peutonreverdequiteautravail|": {
       "filmTitle": "Peut-on rêver d’équité au travail ?",
@@ -5954,7 +6040,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "romeria|carlasimon": {
       "filmTitle": "Romería",
@@ -6010,7 +6096,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "saccharine|natalieerikajames": {
       "filmTitle": "Saccharine",
@@ -6445,6 +6531,14 @@
       "titleEn": "The King of New York",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "thelastisland|marleengorris": {
+      "filmTitle": "The Last island",
+      "director": "Marleen Gorris",
+      "titleEn": "The Last Island",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/518866-the-last-island",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "thelastofengland|derekjarman": {
       "filmTitle": "The Last of England",
@@ -7092,10 +7186,10 @@
     "wives|anjabreien": {
       "filmTitle": "Wives",
       "director": "Anja Breien",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "titleEn": "Wives",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/164891-hustruer",
+      "checkedAt": "2026-08-03T15:21:06.126Z"
     },
     "wives2dixansapres|anjabreien": {
       "filmTitle": "Wives 2, dix ans après",
