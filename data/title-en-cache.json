@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T09:09:55.517Z",
+  "updatedAt": "2026-08-04T14:40:27.175Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -2145,6 +2145,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/422-8",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "hungergameslaballadeduserpentetdeloiseau|francislawrence": {
+      "filmTitle": "Hunger Games: la Ballade du serpent et de l'oiseau",
+      "director": "Francis Lawrence",
+      "titleEn": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/695721-the-hunger-games-the-ballad-of-songbirds-snakes",
+      "checkedAt": "2026-08-04T14:43:14.042Z"
     },
     "hurlements|joedante": {
       "filmTitle": "HURLEMENTS",
@@ -4937,7 +4945,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-04T14:43:14.042Z"
     },
     "mastersofbooksaveclaurentmauvignier|": {
       "filmTitle": "Masters of Books avec Laurent Mauvignier",
@@ -5796,6 +5804,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-04T09:12:58.564Z"
     },
+    "pinocchio|enzodalo": {
+      "filmTitle": "Pinocchio",
+      "director": "Enzo D'Alò",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-04T14:43:14.042Z"
+    },
     "playtime|jacquestati": {
       "filmTitle": "Playtime",
       "director": "Jacques Tati",
@@ -6566,6 +6582,14 @@
       "tmdbPath": "/movie/4689",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "tadlexplorateuretlalampemagique|enriquegato": {
+      "filmTitle": "Tad L' Explorateur Et La Lampe Magique",
+      "director": "Enrique Gato",
+      "titleEn": "Tad and The Magic Lamp",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1187326-tadeo-jones-y-la-lampara-maravillosa",
+      "checkedAt": "2026-08-04T14:43:14.042Z"
+    },
     "taipeistory|edwardyang": {
       "filmTitle": "Taipei Story",
       "director": "Edward Yang",
@@ -7108,6 +7132,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1683079-un-grand-raccourci",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "ungrandraccourci|clementdevilliersarmandfoex": {
+      "filmTitle": "Un grand raccourci",
+      "director": "Clément Devilliers, Armand Foëx",
+      "titleEn": "Un grand raccourci",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1683079-un-grand-raccourci",
+      "checkedAt": "2026-08-04T14:43:14.042Z"
     },
     "unhommedanslafoule|eliakazan": {
       "filmTitle": "Un Homme dans la foule",
