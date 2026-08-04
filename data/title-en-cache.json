@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T03:39:45.580Z",
+  "updatedAt": "2026-08-04T09:09:55.517Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -597,6 +597,13 @@
       "titleEn": "Body Double",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "bonjourtristesse|ottopreminger": {
+      "filmTitle": "Bonjour tristesse",
+      "director": "Otto Preminger",
+      "titleEn": "Bonjour tristesse",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "bonnieandclyde|arthurpenn": {
       "filmTitle": "Bonnie and Clyde",
@@ -1263,6 +1270,13 @@
       "tmdbPath": "/movie/1496491-de-la-comedie-francaise",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "delivrance|johnboorman": {
+      "filmTitle": "Délivrance",
+      "director": "John Boorman",
+      "titleEn": "Deliverance",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
     "dersououzala|akirakurosawa": {
       "filmTitle": "DERSOU OUZALA",
       "director": "Akira Kurosawa",
@@ -1478,6 +1492,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "ecritsurduvent|douglassirk": {
+      "filmTitle": "Ecrit sur du vent",
+      "director": "Douglas Sirk",
+      "titleEn": "Written on the Wind",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "elegiedelabagarre|seijunsuzuki": {
       "filmTitle": "Elégie de la bagarre",
@@ -2101,7 +2122,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-21T03:51:08.662Z"
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "hotspot|dennishopper": {
       "filmTitle": "Hot Spot",
@@ -2980,6 +3001,14 @@
       "tmdbPath": "/movie/29264-el-angel-exterminador",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "lanneederniereamarienbad|alainresnais": {
+      "filmTitle": "L'Année dernière à Marienbad",
+      "director": "Alain Resnais",
+      "titleEn": "Last Year at Marienbad",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4024-l-annee-derniere-a-marienbad",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
     "lanuee|justphilippot": {
       "filmTitle": "La Nuée",
       "director": "Just Philippot",
@@ -3088,6 +3117,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/71995-risate-di-gioia",
       "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
+    "larondedelaube|douglassirk": {
+      "filmTitle": "La Ronde de l'aube",
+      "director": "Douglas Sirk",
+      "titleEn": "The Tarnished Angels",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "lasoifdumal|orsonwelles": {
       "filmTitle": "La Soif Du Mal",
@@ -5079,6 +5115,13 @@
       "tmdbPath": "/movie/43379-miracolo-a-milano",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "miragedelavie|douglassirk": {
+      "filmTitle": "Mirage de la vie",
+      "director": "Douglas Sirk",
+      "titleEn": "Imitation of life",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
     "missmermaid|paulinebrunneretmarionverle": {
       "filmTitle": "Miss Mermaid",
       "director": "Pauline Brunner et Marion Verlé",
@@ -5338,6 +5381,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/18311",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "nostalghia|andreitarkovsky": {
+      "filmTitle": "Nostalghia",
+      "director": "Andreï Tarkovsky",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "notrehistoirechroniquesducaire|abshawky": {
       "filmTitle": "Notre histoire - Chroniques du Caire ",
@@ -5743,7 +5794,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-21T03:51:08.662Z"
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "playtime|jacquestati": {
       "filmTitle": "Playtime",
@@ -5805,7 +5856,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-21T03:51:08.662Z"
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "portraitdelajeunefilleenfeu|celinesciamma": {
       "filmTitle": "Portrait de la jeune fille en feu",
@@ -5829,7 +5880,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-21T08:49:45.509Z"
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "pourlesenfants|": {
       "filmTitle": "Pour Les Enfants !",
@@ -5986,6 +6037,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "quoideneufpussycat|clivedonner": {
+      "filmTitle": "Quoi de neuf, Pussycat ?",
+      "director": "Clive Donner",
+      "titleEn": "What's New, Pussycat ?",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "ragingbull|martinscorsese": {
       "filmTitle": "Raging Bull",
@@ -6811,6 +6869,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T19:59:18.827Z"
     },
+    "toutcequelecielpermet|douglassirk": {
+      "filmTitle": "Tout ce que le ciel permet",
+      "director": "Douglas Sirk",
+      "titleEn": "All that Heaven Allows",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
     "toutesmessoeurs|massoudbakhshi": {
       "filmTitle": "Toutes mes soeurs",
       "director": "Massoud Bakhshi",
@@ -6886,7 +6951,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-21T03:51:08.662Z"
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "unamericainaparis|vincenteminnelli": {
       "filmTitle": "Un Américain à Paris",
@@ -7310,6 +7375,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/288990-hustruer-iii",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "yellowletters|ilkercatak": {
+      "filmTitle": " Yellow Letters ",
+      "director": "İlker Çatak",
+      "titleEn": "Yellow Letters",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1315657-yellow-letters",
+      "checkedAt": "2026-08-04T09:12:58.564Z"
     },
     "zabriskiepoint|michelangeloantonioni": {
       "filmTitle": "Zabriskie Point",
