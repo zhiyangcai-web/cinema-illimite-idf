@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-03T19:59:12.613Z",
+  "updatedAt": "2026-08-04T03:39:45.580Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -2055,6 +2055,14 @@
       "tmdbPath": "/movie/5544-hiroshima-mon-amour",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "hiroshimamonamour|resnaisalain": {
+      "filmTitle": "Hiroshima Mon Amour",
+      "director": "RESNAIS Alain",
+      "titleEn": "Hiroshima Mon Amour",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/5544-hiroshima-mon-amour",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
     "histoireduneprostituee|seijunsuzuki": {
       "filmTitle": "Histoire d'une prostituée",
       "director": "Seijun Suzuki",
@@ -3050,6 +3058,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "laragazza|comenciniluigi": {
+      "filmTitle": "La Ragazza",
+      "director": "COMENCINI Luigi",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
     "laragazza|luigicomencini": {
       "filmTitle": "La Ragazza",
       "director": "Luigi Comencini",
@@ -3072,6 +3088,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/71995-risate-di-gioia",
       "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
+    "lasoifdumal|orsonwelles": {
+      "filmTitle": "La Soif Du Mal",
+      "director": "Orson Welles",
+      "titleEn": "Touch of Evil",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1480-touch-of-evil",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
     },
     "lastrada|federicofellini": {
       "filmTitle": "La Strada",
@@ -3422,6 +3446,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/336050-saul-fia",
       "checkedAt": "2026-07-29T03:45:48.893Z"
+    },
+    "lefleuve|renoirjean": {
+      "filmTitle": "Le Fleuve",
+      "director": "RENOIR Jean",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
     },
     "legarconetleheron|hayaomiyazaki": {
       "filmTitle": "Le Garçon et le Héron",
@@ -4023,6 +4055,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "leslumieresdelaville|charleschaplin": {
+      "filmTitle": "Les Lumières de la ville",
+      "director": "Charles Chaplin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
     "lesmalaimes|heleneducrocq": {
       "filmTitle": "Les Mal-aimés",
       "director": "Hélène Ducrocq",
@@ -4312,6 +4352,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/67754-les-veces-etaient-fermes-de-l-interieur",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "letempsdaimeretletempsdemourir|douglassirk": {
+      "filmTitle": "Le Temps d'aimer et le temps de mourir",
+      "director": "Douglas Sirk",
+      "titleEn": "A Time to Love and a Time to Die",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/84079-a-time-to-love-and-a-time-to-die",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
     },
     "letombeaudeslucioles|isaotakahata": {
       "filmTitle": "Le Tombeau Des Lucioles",
@@ -4743,7 +4791,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-04T03:42:56.819Z"
     },
     "madmaxfuryroad|georgemiller": {
       "filmTitle": "Mad Max: Fury Road",
@@ -6840,6 +6888,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "unamericainaparis|vincenteminnelli": {
+      "filmTitle": "Un Américain à Paris",
+      "director": "Vincente Minnelli",
+      "titleEn": "An American in Paris",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2769-an-american-in-paris",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
     "unamourdepouvantail|samanthacutlerjeroenjaspaert": {
       "filmTitle": "Un amour d’épouvantail",
       "director": "Samantha Cutler, Jeroen Jaspaert",
@@ -6931,6 +6987,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1279865",
       "checkedAt": "2026-08-01T13:59:33.428Z"
+    },
+    "uneenfanceallemandeiledamrum1945|fatihakn": {
+      "filmTitle": "Une enfance allemande - Île d'Amrum, 1945",
+      "director": "Fatih Akın",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-04T03:42:56.819Z"
     },
     "unehistoirevraie|davidlynch": {
       "filmTitle": "Une Histoire Vraie",
