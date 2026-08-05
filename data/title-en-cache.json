@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T14:34:18.854Z",
+  "updatedAt": "2026-08-05T19:56:24.216Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -375,6 +375,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/47104",
       "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
+    "avantpremiereexceptionnellesalvation|": {
+      "filmTitle": "Avant-Première Exceptionnelle - Salvation",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-05T19:59:29.105Z"
     },
     "avendre|laetitiamasson": {
       "filmTitle": "À vendre",
@@ -6308,6 +6316,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-24T14:16:55.656Z"
     },
+    "ruecasesnegres|euzhanpalcy": {
+      "filmTitle": "Rue Cases-Nègres",
+      "director": "Euzhan Palcy",
+      "titleEn": "Sugar Cane Alley",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/42115-rue-cases-negres",
+      "checkedAt": "2026-08-05T19:59:29.105Z"
+    },
     "ruemalaga|maryamtouzani": {
       "filmTitle": "Rue Málaga",
       "director": "Maryam Touzani",
@@ -7141,6 +7157,14 @@
       "tmdbPath": "/movie/1442922-un-anno-di-scuola",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "uneaubenouvelle|shinomiyayoshitoshi": {
+      "filmTitle": "Une aube nouvelle",
+      "director": "Shinomiya Yoshitoshi",
+      "titleEn": "A New Dawn",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1279865",
+      "checkedAt": "2026-08-05T19:59:29.105Z"
+    },
     "uneaubenouvelle|yoshitoshishinomiya": {
       "filmTitle": "Une aube nouvelle",
       "director": "Yoshitoshi Shinomiya",
@@ -7487,6 +7511,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1315657-yellow-letters",
       "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
+    "yojimbo|": {
+      "filmTitle": "Yojimbo",
+      "director": "",
+      "titleEn": "Yojimbo",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11878",
+      "checkedAt": "2026-08-05T19:59:29.105Z"
     },
     "zabriskiepoint|michelangeloantonioni": {
       "filmTitle": "Zabriskie Point",
