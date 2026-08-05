@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-04T19:57:49.818Z",
+  "updatedAt": "2026-08-05T03:34:31.509Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -4494,10 +4494,10 @@
     "lettresdamourdemagrandmere|hongchunlan": {
       "filmTitle": "Lettres d'amour de ma grand-mère",
       "director": "Hongchun Lan",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "titleEn": "Dear You",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1671548",
+      "checkedAt": "2026-08-05T03:37:51.387Z"
     },
     "levadedalcatraz|donsiegel": {
       "filmTitle": "L'Evadé d'Alcatraz",
