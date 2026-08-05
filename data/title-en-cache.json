@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T09:07:05.478Z",
+  "updatedAt": "2026-08-05T14:34:18.854Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1586,6 +1586,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1532477-en-nous",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "enquatriemevitesse|robertaldrich": {
+      "filmTitle": "En quatrième vitesse",
+      "director": "Robert Aldrich",
+      "titleEn": "Kiss Me Deadly",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/18030-kiss-me-deadly",
+      "checkedAt": "2026-08-05T14:36:42.580Z"
     },
     "entrecieletterre|adrianjafferuslansinkevichchosuanamseungmincheonyerimjuseoeunparksaeyeonkimmanri": {
       "filmTitle": "Entre Ciel Et Terre",
@@ -3209,6 +3217,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1442669-la-venus-electrique",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "laviedunefemme|charlinebourgeoistacquet": {
+      "filmTitle": "La vie d'une femme",
+      "director": "Charline Bourgeois-Tacquet",
+      "titleEn": "A Woman's Life",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1258181-la-vie-d-une-femme",
+      "checkedAt": "2026-08-05T14:36:42.580Z"
     },
     "lavieduntatoue|seijunsuzuki": {
       "filmTitle": "La Vie d'un tatoué",
@@ -6660,6 +6676,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/975324-tardes-de-soledad",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "teenagesexanddeathatcampmiasma|janeschoenbrun": {
+      "filmTitle": "Teenage Sex and Death at Camp Miasma",
+      "director": "Jane Schoenbrun",
+      "titleEn": "Teenage Sex and Death at Camp Miasma",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1240889-teenage-sex-and-death-at-camp-miasma",
+      "checkedAt": "2026-08-05T14:36:42.580Z"
     },
     "temoinacharge|billywilder": {
       "filmTitle": "Témoin à charge",
