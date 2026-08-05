@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-05T03:34:31.509Z",
+  "updatedAt": "2026-08-05T09:07:05.478Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -1538,7 +1538,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-22T03:53:46.639Z"
+      "checkedAt": "2026-08-05T09:10:00.932Z"
     },
     "emiliaperez|jacquesaudiard": {
       "filmTitle": "Emilia Pérez",
@@ -2969,6 +2969,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "lalonguenuitdelexorcisme|luciofulci": {
+      "filmTitle": "La Longue Nuit de l'exorcisme",
+      "director": "Lucio Fulci",
+      "titleEn": "Don't Torture a Duckling",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/49361-non-si-sevizia-un-paperino",
+      "checkedAt": "2026-08-05T09:10:00.932Z"
+    },
     "lamantdouble|ozonfrancois": {
       "filmTitle": "L'Amant Double",
       "director": "OZON François",
@@ -3660,6 +3668,14 @@
       "titleEn": "Ministry of Fear",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "lemmureevivante|luciofulci": {
+      "filmTitle": "L'Emmurée vivante",
+      "director": "Lucio Fulci",
+      "titleEn": "The Psychic",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/27703-sette-note-in-nero",
+      "checkedAt": "2026-08-05T09:10:00.932Z"
     },
     "lemondealenvers|arnauddemuyncknoegarciaerwannhette": {
       "filmTitle": "Le Monde à l'envers",
@@ -4514,6 +4530,14 @@
       "tmdbPath": "/movie/185837-sopralluoghi-in-palestina-per-il-vangelo-secondo-matteo",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "levenindelapeur|luciofulci": {
+      "filmTitle": "Le Venin de la peur",
+      "director": "Lucio Fulci",
+      "titleEn": "A Lizard in a Woman's Skin",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/63025-una-lucertola-con-la-pelle-di-donna",
+      "checkedAt": "2026-08-05T09:10:00.932Z"
+    },
     "leventnousemportera|abbaskiarostami": {
       "filmTitle": "Le Vent Nous Emportera",
       "director": "Abbas Kiarostami",
@@ -4613,7 +4637,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-22T08:48:49.718Z"
+      "checkedAt": "2026-08-05T09:10:00.932Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
@@ -5717,6 +5741,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/797-persona",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "perversionstory|luciofulci": {
+      "filmTitle": "Perversion Story",
+      "director": "Lucio Fulci",
+      "titleEn": "One on Top of the Other",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2993-una-sull-altra",
+      "checkedAt": "2026-08-05T09:10:00.932Z"
     },
     "petitemaman|sciammaceline": {
       "filmTitle": "Petite Maman",
