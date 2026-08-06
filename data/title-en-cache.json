@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T03:40:46.700Z",
+  "updatedAt": "2026-08-06T14:36:13.366Z",
   "entries": {
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -93,6 +93,14 @@
       "titleEn": "The Seven Year Itch",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "8mile|curtishanson": {
+      "filmTitle": "8 MILE",
+      "director": "Curtis Hanson",
+      "titleEn": "8 Mile",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/65-8-mile",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
     },
     "abittersweetlife|kimjeewoon": {
       "filmTitle": "A bittersweet life",
@@ -826,6 +834,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "challengers|lucaguadagnino": {
+      "filmTitle": "CHALLENGERS",
+      "director": "Luca Guadagnino",
+      "titleEn": "Challengers",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/937287-challengers",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
     "charlieetleskangourous|katewoods": {
       "filmTitle": "Charlie et les kangourous",
       "director": "Kate Woods",
@@ -1548,6 +1564,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-05T09:10:00.932Z"
     },
+    "elvis|bazluhrmann": {
+      "filmTitle": "ELVIS",
+      "director": "Baz Luhrmann",
+      "titleEn": "Elvis",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/614934-elvis",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
     "emiliaperez|jacquesaudiard": {
       "filmTitle": "Emilia Pérez",
       "director": "Jacques Audiard",
@@ -1723,7 +1747,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-23T14:36:31.346Z"
+      "checkedAt": "2026-08-06T14:39:13.235Z"
     },
     "fautilavoirpeurdesjeuxvideos|": {
       "filmTitle": "Faut-il avoir peur des jeux vidéos ?",
@@ -2170,6 +2194,14 @@
       "tmdbPath": "/movie/422-8",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "hungergames|garyross": {
+      "filmTitle": "Hunger Games",
+      "director": "Gary Ross",
+      "titleEn": "The Hunger Games",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/70160-the-hunger-games",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
     "hungergameslaballadeduserpentetdeloiseau|francislawrence": {
       "filmTitle": "Hunger Games: la Ballade du serpent et de l'oiseau",
       "director": "Francis Lawrence",
@@ -2177,6 +2209,30 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/695721-the-hunger-games-the-ballad-of-songbirds-snakes",
       "checkedAt": "2026-08-04T14:43:14.042Z"
+    },
+    "hungergameslarevoltepartie1|francislawrence": {
+      "filmTitle": "Hunger Games - La Révolte : Partie 1",
+      "director": "Francis Lawrence",
+      "titleEn": "The Hunger Games: Mockingjay - Part 1",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/131631-the-hunger-games-mockingjay-part-1",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "hungergameslarevoltepartie2|francislawrence": {
+      "filmTitle": "Hunger Games - La Révolte : Partie 2",
+      "director": "Francis Lawrence",
+      "titleEn": "The Hunger Games: Mockingjay - Part 2",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/131634-the-hunger-games-mockingjay-part-2",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "hungergameslembrasement|francislawrence": {
+      "filmTitle": "Hunger Games - L'embrasement",
+      "director": "Francis Lawrence",
+      "titleEn": "The Hunger Games: Catching Fire",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/101299-the-hunger-games-catching-fire",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
     },
     "hurlements|joedante": {
       "filmTitle": "HURLEMENTS",
@@ -2704,6 +2760,14 @@
       "tmdbPath": "/movie/143065-la-cage-aux-rossignols",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "laceremonie|claudechabrol": {
+      "filmTitle": "LA CEREMONIE",
+      "director": "Claude Chabrol",
+      "titleEn": "La Cérémonie",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1802-la-c-r-monie",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
     "lachaleur|stephanedemoustier": {
       "filmTitle": "La Chaleur",
       "director": "Stéphane Demoustier",
@@ -2852,6 +2916,14 @@
       "titleEn": "The Thomas Crown Affair",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lafillecondor|alvaroolmostorrico": {
+      "filmTitle": "La Fille Condor",
+      "director": "Alvaro Olmos Torrico",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
     },
     "lafilledanslesnuages|philipperiche": {
       "filmTitle": "LA FILLE DANS LES NUAGES",
@@ -5041,7 +5113,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-23T14:36:31.346Z"
+      "checkedAt": "2026-08-06T14:39:13.235Z"
     },
     "mata|rachellangii": {
       "filmTitle": "Mata",
@@ -7027,6 +7099,13 @@
       "tmdbPath": "/movie/11378-trafic",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "traitresurcommande|martinritt": {
+      "filmTitle": "Traître sur commande",
+      "director": "Martin Ritt",
+      "titleEn": "The Molly Maguires",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
     "tuezcharleyvarrick|donsiegel": {
       "filmTitle": "Tuez Charley Varrick!",
       "director": "Don Siegel",
@@ -7266,6 +7345,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/137-groundhog-day",
       "checkedAt": "2026-07-30T03:34:32.358Z"
+    },
+    "unjusticierdanslaville|michaelwinner": {
+      "filmTitle": "Un justicier dans la ville",
+      "director": "Michael Winner",
+      "titleEn": "Death Wish",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-06T14:39:13.235Z"
     },
     "unpetitairdefamille|": {
       "filmTitle": "UN PETIT AIR DE FAMILLE",
