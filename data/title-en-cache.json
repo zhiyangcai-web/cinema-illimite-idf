@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T00:16:29.393Z",
+  "updatedAt": "2026-08-07T13:40:50.229Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -291,6 +291,14 @@
       "tmdbPath": "/movie/28-apocalypse-now",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "arco|ugobienvenu": {
+      "filmTitle": "Arco",
+      "director": "Ugo Bienvenu",
+      "titleEn": "Arco",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/804370-arco",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
     "artusleshowxxlaucinema|artusjulienfaustino": {
       "filmTitle": "ARTUS - LE SHOW XXL AU CINEMA",
       "director": "Artus, Julien Faustino",
@@ -360,6 +368,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-01T19:37:32.631Z"
+    },
+    "audition|takashimiike": {
+      "filmTitle": "AUDITION",
+      "director": "Takashi Miike",
+      "titleEn": "Audition",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11075",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "aunomdelaloi|germipietro": {
       "filmTitle": "Au Nom De La Loi",
@@ -889,6 +905,14 @@
       "tmdbPath": "/movie/11104",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "cinegouterenfamille|": {
+      "filmTitle": "Ciné-Goûter En Famille",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
     "cinelecturejeandelalune|": {
       "filmTitle": "Ciné-Lecture Jean De La Lune",
       "director": "",
@@ -1173,6 +1197,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/262009-risttuules",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "cure|kiyoshikurosawa": {
+      "filmTitle": "Cure",
+      "director": "Kiyoshi Kurosawa",
+      "titleEn": "Cure",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/36095",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "cutterswaylablessure|ivanpasser": {
       "filmTitle": "Cutter's way (la blessure)",
@@ -1572,6 +1604,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-05T09:10:00.932Z"
     },
+    "elmergantrylecharlatan|richardbrooks": {
+      "filmTitle": "Elmer Gantry, le charlatan",
+      "director": "Richard Brooks",
+      "titleEn": "Elmer Gantry",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
     "elvis|bazluhrmann": {
       "filmTitle": "ELVIS",
       "director": "Baz Luhrmann",
@@ -1748,6 +1787,14 @@
       "titleEn": "Fargo",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "fastandfurious|robcohen": {
+      "filmTitle": "FAST AND FURIOUS",
+      "director": "Rob Cohen",
+      "titleEn": "The Fast and the Furious",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9799-the-fast-and-the-furious",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "fautedamour|andreiumlzviaguintsev": {
       "filmTitle": "FAUTE D'AMOUR",
@@ -2806,6 +2853,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/837335-la-chimera",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lacitedesdangers|robertaldrich": {
+      "filmTitle": "La Cité des dangers",
+      "director": "Robert Aldrich",
+      "titleEn": "Hustle",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "lacollectionneuse|ericrohmer": {
       "filmTitle": "La collectionneuse",
@@ -3959,6 +4013,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-29T03:45:48.893Z"
     },
+    "leroiarthuretleschevaliersdelatablerondealarecherchedugraal|": {
+      "filmTitle": "Le Roi Arthur et les chevaliers de la table ronde : à la recherche du Graal",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
     "leroietloiseau|paulgrimault": {
       "filmTitle": "Le Roi Et L'Oiseau",
       "director": "Paul Grimault",
@@ -4408,6 +4470,14 @@
       "tmdbPath": "/movie/8333-the-taking-of-pelham-one-two-three",
       "checkedAt": "2026-08-02T13:59:15.516Z"
     },
+    "lesplusgrandsmysteresdelunivers|": {
+      "filmTitle": "Les plus grands mystères de l’Univers",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
     "lespritdelaruche|victorerice": {
       "filmTitle": "L Esprit De La Ruche",
       "director": "Victor Erice",
@@ -4579,6 +4649,14 @@
       "titleEn": "The Creature from the Black Lagoon",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "letrangemonsieurvictor|jeangremillon": {
+      "filmTitle": "L'Etrange Monsieur Victor",
+      "director": "Jean Gremillon",
+      "titleEn": "The Strange Monsieur Victor",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/133840-l-etrange-monsieur-victor",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "letranger|francoisozon": {
       "filmTitle": "L’Étranger",
@@ -6751,6 +6829,14 @@
       "tmdbPath": "/movie/1226863-the-super-mario-galaxy-movie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "surlaplanche|leilakilani": {
+      "filmTitle": "Sur la planche",
+      "director": "Leïla Kilani",
+      "titleEn": "On the Edge",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/110969-sur-la-planche",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
     "surlaroutedomaha|colewebley": {
       "filmTitle": "Sur La Route D Omaha",
       "director": "Cole Webley",
@@ -6939,6 +7025,14 @@
       "titleEn": "Thelma & Louise",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thelobster|yorgoslanthimos": {
+      "filmTitle": "THE LOBSTER",
+      "director": "Yorgos Lanthimos",
+      "titleEn": "The Lobster",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/254320-the-lobster",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "themask|chuckrussell": {
       "filmTitle": "THE MASK",
@@ -7146,6 +7240,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11378-trafic",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "trainspotting|dannyboyle": {
+      "filmTitle": "TRAINSPOTTING",
+      "director": "Danny Boyle",
+      "titleEn": "Trainspotting",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/627-trainspotting",
+      "checkedAt": "2026-08-07T13:42:56.523Z"
     },
     "traitresurcommande|martinritt": {
       "filmTitle": "Traître sur commande",
