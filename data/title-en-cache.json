@@ -1,7 +1,15 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-06T14:36:13.366Z",
+  "updatedAt": "2026-08-07T00:16:29.393Z",
   "entries": {
+    "|": {
+      "filmTitle": "",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-07T00:19:28.382Z"
+    },
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
       "director": "Robin Campillo",
@@ -2956,6 +2964,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "laforteressecachee|akirakurosawa": {
+      "filmTitle": "La forteresse cachée",
+      "director": "Akira Kurosawa",
+      "titleEn": "The Hidden Fortress",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1059",
+      "checkedAt": "2026-08-07T00:19:28.382Z"
+    },
     "laforteressenoire|michaelmann": {
       "filmTitle": "La Forteresse noire",
       "director": "Michael Mann",
@@ -3439,6 +3455,14 @@
       "tmdbPath": "/movie/27431-il-gatto-a-nove-code",
       "checkedAt": "2026-07-29T19:48:12.519Z"
     },
+    "lechateaudelaraignee|akirakurosawa": {
+      "filmTitle": "Le château de l'araignée",
+      "director": "Akira Kurosawa",
+      "titleEn": "Throne of Blood",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3777",
+      "checkedAt": "2026-08-07T00:19:28.382Z"
+    },
     "lechemindelesperance|germipietro": {
       "filmTitle": "Le Chemin De L Esperance",
       "director": "GERMI Pietro",
@@ -3510,6 +3534,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "lecrepusculedesdieuxtheroyalopera|barriekosky": {
+      "filmTitle": "LE CREPUSCULE DES DIEUX (THE ROYAL OPERA)",
+      "director": "Barrie Kosky",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-07T00:19:28.382Z"
     },
     "lecrimeetaitpresqueparfait|alfredhitchcock": {
       "filmTitle": "Le Crime était presque parfait",
@@ -4871,6 +4903,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/641364-l-odyssee-de-choum",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "loeildudirecteuravantpremiereexceptionnelledufilmrose|": {
+      "filmTitle": "L'Oeil Du Directeur - Avant-Première Exceptionnelle Du Film Rose",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-07T00:19:28.382Z"
     },
     "loiseauauplumagedecristal|darioargento": {
       "filmTitle": "L'Oiseau au plumage de cristal",
@@ -6442,6 +6482,14 @@
       "tmdbPath": "/movie/1401106-kurtulus",
       "checkedAt": "2026-07-30T14:36:40.647Z"
     },
+    "sanjuro|akirakurosawa": {
+      "filmTitle": "Sanjuro",
+      "director": "Akira Kurosawa",
+      "titleEn": "Sanjuro",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11712",
+      "checkedAt": "2026-08-07T00:19:28.382Z"
+    },
     "sanspitie|lattuadaalberto": {
       "filmTitle": "Sans Pitie",
       "director": "LATTUADA Alberto",
@@ -6786,7 +6834,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-23T19:50:33.839Z"
+      "checkedAt": "2026-08-07T00:19:28.382Z"
     },
     "tenebres|darioargento": {
       "filmTitle": "Ténèbres",
