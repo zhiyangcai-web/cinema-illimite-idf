@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-07T19:16:54.932Z",
+  "updatedAt": "2026-08-08T02:22:28.604Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6192,6 +6192,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-28T19:57:25.455Z"
     },
+    "pressure|anthonymaras": {
+      "filmTitle": "PRESSURE",
+      "director": "Anthony Maras",
+      "titleEn": "Pressure",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1318413-pressure",
+      "checkedAt": "2026-08-08T02:25:21.325Z"
+    },
     "princedestenebres|johncarpenter": {
       "filmTitle": "Prince des ténèbres",
       "director": "John Carpenter",
@@ -7481,6 +7489,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1683079-un-grand-raccourci",
       "checkedAt": "2026-08-04T14:43:14.042Z"
+    },
+    "ungrandraccourcipresenteparlequipedufilm|": {
+      "filmTitle": "Un Grand Raccourci · Présenté Par L'Équipe Du Film",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-08T02:25:21.325Z"
     },
     "unhommedanslafoule|eliakazan": {
       "filmTitle": "Un Homme dans la foule",
