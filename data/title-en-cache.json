@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T13:13:24.624Z",
+  "updatedAt": "2026-08-08T18:59:53.783Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -525,6 +525,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/15014-bianca",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "bienvenuechezleschtis|danyboon": {
+      "filmTitle": "Bienvenue Chez Les Ch Tis",
+      "director": "Dany Boon",
+      "titleEn": "Welcome to the Sticks",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/8265-bienvenue-chez-les-ch-tis",
+      "checkedAt": "2026-08-08T19:02:00.489Z"
     },
     "bird|andreaarnold": {
       "filmTitle": "Bird",
@@ -4602,7 +4610,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-25T14:05:31.028Z"
+      "checkedAt": "2026-08-08T19:02:00.489Z"
     },
     "lestueurs|robertsiodmak": {
       "filmTitle": "Les Tueurs",
@@ -5224,6 +5232,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1400214-maspalomas",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "mastersofbooksavecamelienothomb|": {
+      "filmTitle": "Masters of Books avec Amélie Nothomb",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-08T19:02:00.489Z"
     },
     "mastersofbooksavecherveletellieretmanuelefior|": {
       "filmTitle": "Masters of Books avec Hervé Le Tellier et Manuele Fior",
@@ -6215,6 +6231,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "pouvonsnousvraimentetrecoherents|": {
+      "filmTitle": "Pouvons-nous vraiment être cohérents ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-08T19:02:00.489Z"
     },
     "presentationexceptionnellefjord|": {
       "filmTitle": "Présentation Exceptionnelle - Fjord",
