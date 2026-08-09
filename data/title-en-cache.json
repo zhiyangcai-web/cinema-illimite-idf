@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T02:30:09.243Z",
+  "updatedAt": "2026-08-09T19:02:40.137Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1062,6 +1062,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "commentjugerlesenfants|": {
+      "filmTitle": "Comment juger les enfants ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-09T19:05:15.459Z"
     },
     "commentmieuxvivreaveclincertitude|": {
       "filmTitle": "Comment mieux vivre avec l'incertitude ?",
@@ -6356,6 +6364,14 @@
       "tmdbPath": "/movie/55847-quatre-nuits-d-un-reveur",
       "checkedAt": "2026-07-29T19:48:12.519Z"
     },
+    "quediosnosperdone|rodrigosorogoyen": {
+      "filmTitle": "Que Dios Nos Perdone",
+      "director": "Rodrigo Sorogoyen",
+      "titleEn": "May God Save Us",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/394684-que-dios-nos-perdone",
+      "checkedAt": "2026-08-09T19:05:15.459Z"
+    },
     "quelabetemeure|claudechabrol": {
       "filmTitle": "Que la bête meure",
       "director": "Claude Chabrol",
@@ -7696,6 +7712,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/712440-vanille",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "vanille|loringuillaume": {
+      "filmTitle": "Vanille",
+      "director": "LORIN Guillaume",
+      "titleEn": "Vanille",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/712440-vanille",
+      "checkedAt": "2026-08-09T19:05:15.459Z"
     },
     "veniselaluneettoi|dinorisi": {
       "filmTitle": "Venise, la lune et toi",
