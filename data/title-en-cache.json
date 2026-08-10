@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T19:02:40.137Z",
+  "updatedAt": "2026-08-10T13:45:53.915Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -139,6 +139,14 @@
       "titleEn": "The Killers",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-01T19:37:32.631Z"
+    },
+    "accattone|pierpaolopasolini": {
+      "filmTitle": "Accattone",
+      "director": "Pier Paolo Pasolini",
+      "titleEn": "Accattone",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/12491-accattone",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "adieuaulangage|jeanlucgodard": {
       "filmTitle": "Adieu au Langage",
@@ -298,6 +306,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/804370-arco",
       "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
+    "arcobaleno|pablocires": {
+      "filmTitle": "Arcobaleno",
+      "director": "Pablo Cirès",
+      "titleEn": "Arcobaleno",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1697858-arcobaleno",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "artusleshowxxlaucinema|artusjulienfaustino": {
       "filmTitle": "ARTUS - LE SHOW XXL AU CINEMA",
@@ -2344,6 +2360,14 @@
       "tmdbPath": "/movie/311-once-upon-a-time-in-america",
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
+    "iletaitunefoislarevolution|sergioleone": {
+      "filmTitle": "Il était une fois la révolution",
+      "director": "Sergio Leone",
+      "titleEn": "Duck, You Sucker",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/336-giu-la-testa",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
     "ilresteencoredemain|paolacortellesi": {
       "filmTitle": "Il reste encore demain",
       "director": "Paola Cortellesi",
@@ -2525,6 +2549,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
     },
+    "jeremiahjohnson|sydneypollack": {
+      "filmTitle": "Jeremiah Johnson",
+      "director": "Sydney Pollack",
+      "titleEn": "Jeremiah Johnson",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
     "jeuxdete|ingmarbergman": {
       "filmTitle": "Jeux d'été",
       "director": "Ingmar Bergman",
@@ -2617,6 +2648,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-09T02:32:46.576Z"
+    },
+    "justepourunenuit|willgluck": {
+      "filmTitle": "Juste pour une nuit",
+      "director": "Will Gluck",
+      "titleEn": "One Night Only",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "justeuneillusion|oliviernakacheerictoledano": {
       "filmTitle": "JUSTE UNE ILLUSION",
@@ -2947,6 +2985,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/4550",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lafameuseinvasiondesoursensicile|lorenzomattotti": {
+      "filmTitle": "La Fameuse invasion des ours en Sicile",
+      "director": "Lorenzo Mattotti",
+      "titleEn": "The Bears' Famous Invasion of Sicily",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/537655-la-fameuse-invasion-des-ours-en-sicile",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "lafamillebelier|ericlartigau": {
       "filmTitle": "La Famille Bélier",
@@ -3315,6 +3361,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/71995-risate-di-gioia",
       "checkedAt": "2026-08-03T15:21:06.126Z"
+    },
+    "larnacoeur|pascalchaumeil": {
+      "filmTitle": "L'Arnacoeur",
+      "director": "Pascal Chaumeil",
+      "titleEn": "Heartbreaker",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/41211-l-arnacoeur",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "larondedelaube|douglassirk": {
       "filmTitle": "La Ronde de l'aube",
@@ -4187,6 +4241,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "lesdesaxes|johnhuston": {
+      "filmTitle": "Les Désaxés",
+      "director": "John Huston",
+      "titleEn": "The Misfits",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "lesechosdupasse|maschaschilinski": {
       "filmTitle": "Les Échos du passé",
@@ -5747,6 +5808,14 @@
       "tmdbPath": "/movie/1459622-nous-l-orchestre",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "nousnoussommestantaimes|ettorescola": {
+      "filmTitle": "Nous nous sommes tant aimés !",
+      "director": "Ettore Scola",
+      "titleEn": "We All Loved Each Other So Much",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/42269-c-eravamo-tanto-amati",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
     "nouveauxcopainsapuffinrock|jeremypurcell": {
       "filmTitle": "Nouveaux copains à Puffin Rock",
       "director": "Jeremy Purcell",
@@ -5972,6 +6041,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/51808-paris-vu-par",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "patgarrettetbillylekid|sampeckinpah": {
+      "filmTitle": "Pat Garrett et Billy le Kid",
+      "director": "Sam Peckinpah",
+      "titleEn": "Pat Garrett & Billy the Kid",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "patouilleetmomolescontesdelaforet|collectif": {
       "filmTitle": "Patouille Et Momo Les Contes De La Foret",
@@ -6247,6 +6323,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "pourunepoigneededollars|sergioleone": {
+      "filmTitle": "Pour une poignée de dollars",
+      "director": "Sergio Leone",
+      "titleEn": "A Fistful of Dollars",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/391-per-un-pugno-di-dollari",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "pouvonsnousvraimentetrecoherents|": {
       "filmTitle": "Pouvons-nous vraiment être cohérents ?",
@@ -6563,6 +6647,14 @@
       "tmdbPath": "/movie/31058-riso-amaro",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "roccoetsesfreres|luchinovisconti": {
+      "filmTitle": "Rocco et ses frères",
+      "director": "Luchino Visconti",
+      "titleEn": "Rocco and His Brothers",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/8422-rocco-e-i-suoi-fratelli",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
     "rollerball|normanjewison": {
       "filmTitle": "Rollerball",
       "director": "Norman Jewison",
@@ -6726,6 +6818,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/42241-sebastiane",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "senso|luchinovisconti": {
+      "filmTitle": "Senso",
+      "director": "Luchino Visconti",
+      "titleEn": "Senso",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/43195-senso",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "seulelavie|adriangoiginger": {
       "filmTitle": "Seule La Vie",
@@ -7802,10 +7902,10 @@
     "voyageauboutdelenfer|michaelcimino": {
       "filmTitle": "Voyage au bout de l'enfer",
       "director": "Michael Cimino",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "titleEn": "The Deer Hunter",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11778-the-deer-hunter",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "wakeinfright|tedkotcheff": {
       "filmTitle": "WAKE IN FRIGHT",
@@ -7814,6 +7914,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/26405-wake-in-fright",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "walle|andrewstanton": {
+      "filmTitle": "WALL-E",
+      "director": "Andrew Stanton",
+      "titleEn": "WALL·E",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10681-wall-e",
+      "checkedAt": "2026-08-10T13:48:26.704Z"
     },
     "warrequiem|derekjarman": {
       "filmTitle": "War Requiem",
