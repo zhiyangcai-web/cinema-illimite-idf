@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T13:45:53.915Z",
+  "updatedAt": "2026-08-10T19:18:20.065Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -147,6 +147,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/12491-accattone",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "achevalsurletigre|luigicomencini": {
+      "filmTitle": "À cheval sur le tigre",
+      "director": "Luigi Comencini",
+      "titleEn": "On the Tiger's Back",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/101475-a-cavallo-della-tigre",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "adieuaulangage|jeanlucgodard": {
       "filmTitle": "Adieu au Langage",
@@ -619,6 +627,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/17101-bleach-the-diamonddust-rebellion",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "bleeder|nicolaswindingrefn": {
+      "filmTitle": "Bleeder",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "Bleeder",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/17985-bleeder",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "bloodsimple|joelcoenethancoen": {
       "filmTitle": "Blood Simple",
@@ -1783,6 +1799,14 @@
       "tmdbPath": "/movie/83761",
       "checkedAt": "2026-07-27T19:59:18.827Z"
     },
+    "etpourquelquesdollarsdeplus|sergioleone": {
+      "filmTitle": "Et pour quelques dollars de plus",
+      "director": "Sergio Leone",
+      "titleEn": "For a Few Dollars More",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/938-per-qualche-dollaro-in-piu",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
     "europe51|robertorossellini": {
       "filmTitle": "Europe 51",
       "director": "Roberto Rossellini",
@@ -2351,6 +2375,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-06T03:43:53.751Z"
+    },
+    "iletaitunefoisdanslouest|sergioleone": {
+      "filmTitle": "Il était une fois dans l'Ouest",
+      "director": "Sergio Leone",
+      "titleEn": "Once Upon a Time in the West",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/335-c-era-una-volta-il-west",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "iletaitunefoisenamerique|sergioleone": {
       "filmTitle": "IL ETAIT UNE FOIS EN AMERIQUE",
@@ -4242,6 +4274,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
     },
+    "lesdemoisellesderochefort|jacquesdemy": {
+      "filmTitle": "Les Demoiselles de Rochefort",
+      "director": "Jacques Demy",
+      "titleEn": "The Young Girls of Rochefort",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2433-les-demoiselles-de-rochefort",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
     "lesdesaxes|johnhuston": {
       "filmTitle": "Les Désaxés",
       "director": "John Huston",
@@ -4422,6 +4462,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/759-gentlemen-prefer-blondes",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "leshuitsalopards|quentintarantino": {
+      "filmTitle": "Les Huit salopards",
+      "director": "Quentin Tarantino",
+      "titleEn": "The Hateful Eight",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "lesilencedesagneaux|jonathandemme": {
       "filmTitle": "Le Silence des agneaux",
@@ -5016,6 +5063,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lincompris|luigicomencini": {
+      "filmTitle": "L'Incompris",
+      "director": "Luigi Comencini",
+      "titleEn": "Misunderstood",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/56978-incompreso-vita-col-figlio",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
     "linconnue|arthurharari": {
       "filmTitle": "L'inconnue",
       "director": "Arthur Harari",
@@ -5192,6 +5247,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "lydiaetlevaisseaudestempetes|emilierosasphilippearseneaubussieresnancyflorencesavard": {
+      "filmTitle": "Lydia et le vaisseau des tempêtes",
+      "director": "Émilie Rosas, Philippe Arseneau Bussières, Nancy Florence Savard",
+      "titleEn": "Lydia and the Mist Rider",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1594694-lydia-et-le-vaisseau-des-tempetes",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
     "lydiaetlevaisseaudestempetes|emilierosasphillippearseneaybussieresnnancy": {
       "filmTitle": "Lydia Et Le Vaisseau Des Tempetes",
       "director": "Emilie Rosas, Phillippe Arseneay Bussièresn, Nancy",
@@ -5199,6 +5262,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1594694-lydia-et-le-vaisseau-des-tempetes",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "lydiaetlevaisseaudestempetes|nancyflorencesavardphilippearseneaubussieresemilierosas": {
+      "filmTitle": "LYDIA ET LE VAISSEAU DES TEMPETES",
+      "director": "Nancy Florence Savard, Philippe Arseneau Bussieres, Emilie Rosas",
+      "titleEn": "Lydia and the Mist Rider",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1594694-lydia-et-le-vaisseau-des-tempetes",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "mademoiselle|parkchanwook": {
       "filmTitle": "Mademoiselle",
@@ -6432,6 +6503,22 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "pusher|nicolaswindingrefn": {
+      "filmTitle": "Pusher",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "Pusher",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2061-pusher",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
+    "pusher2dusangsurlesmains|nicolaswindingrefn": {
+      "filmTitle": "Pusher 2 - Du sang sur les mains",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "Pusher II",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11328-pusher-ii",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
     "quandpassentlescigognes|mikhailkalatozov": {
       "filmTitle": "Quand passent les cigognes",
       "director": "Mikhail Kalatozov",
@@ -7316,18 +7403,18 @@
     "theugly|sanghoyeon": {
       "filmTitle": "THE UGLY",
       "director": "Sang-Ho Yeon",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-27T15:17:54.180Z"
+      "titleEn": "The Ugly",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1316719",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "theugly|yeonsangho": {
       "filmTitle": "The Ugly",
       "director": "Yeon Sang-ho",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-27T15:17:54.180Z"
+      "titleEn": "The Ugly",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1316719",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "theworldoflove|yoongaeun": {
       "filmTitle": "The World Of Love",
@@ -7858,6 +7945,14 @@
       "titleEn": "The Virgin Suicides",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "vishwanathandsonstamoul|venkyatluri": {
+      "filmTitle": "VISHWANATH AND SONS - TAMOUL",
+      "director": "Venky Atluri",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-10T19:20:17.668Z"
     },
     "visiteguidee|carolineroucouxhervethebault": {
       "filmTitle": "Visite guidée",
