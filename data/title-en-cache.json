@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-11T07:38:53.857Z",
+  "updatedAt": "2026-08-11T19:26:50.094Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1572,7 +1572,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-28T14:42:44.026Z"
+      "checkedAt": "2026-08-11T19:29:34.288Z"
     },
     "dryleaf|aleksandrekoberidze": {
       "filmTitle": "Dry Leaf",
@@ -2291,6 +2291,14 @@
       "tmdbPath": "/movie/1299061-etwas-ganz-besonderes",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "hommagefrederickwiseman19302026monrovia|frederickwiseman": {
+      "filmTitle": "Hommage Frederick Wiseman (1930 - 2026) : Monrovia",
+      "director": "Frederick Wiseman",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
     "honorableangelina|zampaluigui": {
       "filmTitle": "Honorable Angelina",
       "director": "ZAMPA Luigui",
@@ -2972,6 +2980,22 @@
       "tmdbPath": "/movie/837335-la-chimera",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble1|alainthomas": {
+      "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #1",
+      "director": "Alain Thomas",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
+    "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|jeanjacqueshenryalainmassonneau": {
+      "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
+      "director": "Jean-Jacques Henry, Alain Massonneau",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
     "lacitedesdangers|robertaldrich": {
       "filmTitle": "La Cité des dangers",
       "director": "Robert Aldrich",
@@ -3166,6 +3190,14 @@
       "titleEn": "The Keep",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lafrappe|juliengasparoliveri": {
+      "filmTitle": "La Frappe",
+      "director": "Julien Gaspar-Oliveri",
+      "titleEn": "The Blow",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1437948-la-frappe",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
     },
     "lagradiva|marineatlan": {
       "filmTitle": "La Gradiva",
@@ -3754,6 +3786,22 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "leconomiedelaguerre|": {
+      "filmTitle": "L'économie de la guerre",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
+    "lecorset|louisclichy": {
+      "filmTitle": "Le corset",
+      "director": "Louis Clichy",
+      "titleEn": "Iron Boy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/947493-le-corset",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
     },
     "lecrepusculedesdieuxtheroyalopera|barriekosky": {
       "filmTitle": "LE CREPUSCULE DES DIEUX (THE ROYAL OPERA)",
@@ -5996,6 +6044,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "oasisdontlookbackinanger|dylansouthernwilllovelace": {
+      "filmTitle": "OASIS: DON'T LOOK BACK IN ANGER",
+      "director": "Dylan Southern, Will Lovelace",
+      "titleEn": "Don't Look Back in Anger",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1447853-don-t-look-back-in-anger",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
     "obsession|briandepalma": {
       "filmTitle": "Obsession",
       "director": "Brian De Palma",
@@ -6506,6 +6562,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-08T19:02:00.489Z"
     },
+    "premiercontact|denisvilleneuve": {
+      "filmTitle": "Premier Contact",
+      "director": "Denis Villeneuve",
+      "titleEn": "Arrival",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/329865-arrival",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
     "presentationexceptionnellefjord|": {
       "filmTitle": "Présentation Exceptionnelle - Fjord",
       "director": "",
@@ -6777,7 +6841,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-28T14:42:44.026Z"
+      "checkedAt": "2026-08-11T19:29:34.288Z"
     },
     "rendezvous|ernstlubitsch": {
       "filmTitle": "Rendez-vous",
@@ -7499,6 +7563,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "theopera|paologepcucco": {
+      "filmTitle": "The Opera!",
+      "director": "PAOLO GEP CUCCO",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
     "theoreme|pierpaolopasolini": {
       "filmTitle": "Théorème",
       "director": "Pier Paolo Pasolini",
@@ -7713,6 +7785,14 @@
       "titleEn": "The Molly Maguires",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "troisadieux|isabelcoixet": {
+      "filmTitle": "Trois Adieux",
+      "director": "Isabel Coixet",
+      "titleEn": "Three Goodbyes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1433339-tre-ciotole",
+      "checkedAt": "2026-08-11T19:29:34.288Z"
     },
     "tuezcharleyvarrick|donsiegel": {
       "filmTitle": "Tuez Charley Varrick!",
