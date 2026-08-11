@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T19:18:20.065Z",
+  "updatedAt": "2026-08-11T02:28:57.238Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1722,6 +1722,14 @@
       "tmdbPath": "/movie/18030-kiss-me-deadly",
       "checkedAt": "2026-08-05T14:36:42.580Z"
     },
+    "enquetesuruncitoyenaudessusdetoutsoupcon|eliopetri": {
+      "filmTitle": "Enquête sur un citoyen au-dessus de tout soupçon",
+      "director": "Elio Petri",
+      "titleEn": "Investigation of a Citizen Above Suspicion",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/26451-indagine-su-un-cittadino-al-di-sopra-di-ogni-sospetto",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "entrecieletterre|adrianjafferuslansinkevichchosuanamseungmincheonyerimjuseoeunparksaeyeonkimmanri": {
       "filmTitle": "Entre Ciel Et Terre",
       "director": "Adrián Jaffé, Ruslan Sinkevich, Cho Su-a, Nam Seung-min, Cheon Ye-rim, Ju Seo-eun, Park Saeyeon, KIM Manri, Мария Румянцева, Михаил Алдашин",
@@ -2100,6 +2108,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/292795-gus-petit-oiseau-grand-voyage",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "habemuspapam|nannimoretti": {
+      "filmTitle": "Habemus Papam",
+      "director": "Nanni Moretti",
+      "titleEn": "We Have a Pope",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/61667-habemus-papam",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "hacker|michaelmann": {
       "filmTitle": "Hacker",
@@ -2517,6 +2533,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "itfollows|davidrobertmitchell": {
+      "filmTitle": "It Follows",
+      "director": "David Robert Mitchell",
+      "titleEn": "It Follows",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/270303-it-follows",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "iwantyoursex|arakigregg": {
       "filmTitle": "I Want Your Sex",
       "director": "ARAKI Gregg",
@@ -2532,6 +2556,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1288059-i-want-your-sex",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "jacquotdenantes|agnesvarda": {
+      "filmTitle": "Jacquot de Nantes",
+      "director": "Agnès Varda",
+      "titleEn": "Jacquot",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/41789-jacquot-de-nantes",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "jairencontrelediable|kimjeewoon": {
       "filmTitle": "J'ai rencontré le Diable",
@@ -3120,6 +3152,14 @@
       "tmdbPath": "/movie/1059",
       "checkedAt": "2026-08-07T00:19:28.382Z"
     },
+    "laforteressecachee|kurosawaakira": {
+      "filmTitle": "La Forteresse Cachee",
+      "director": "KUROSAWA Akira",
+      "titleEn": "The Hidden Fortress",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1059",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "laforteressenoire|michaelmann": {
       "filmTitle": "La Forteresse noire",
       "director": "Michael Mann",
@@ -3634,6 +3674,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/3777",
       "checkedAt": "2026-08-07T00:19:28.382Z"
+    },
+    "lechateaudelaraignee|kurosawaakira": {
+      "filmTitle": "Le Chateau De L Araignee",
+      "director": "KUROSAWA Akira",
+      "titleEn": "Throne of Blood",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3777",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "lechemindelesperance|germipietro": {
       "filmTitle": "Le Chemin De L Esperance",
@@ -4289,6 +4337,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-10T13:48:26.704Z"
     },
+    "lesdimanches|alaudaruizdeazua": {
+      "filmTitle": "Les Dimanches",
+      "director": "Alauda Ruiz de Azúa",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "lesechosdupasse|maschaschilinski": {
       "filmTitle": "Les Échos du passé",
       "director": "Mascha Schilinski",
@@ -4625,6 +4681,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/8333-the-taking-of-pelham-one-two-three",
       "checkedAt": "2026-08-02T13:59:15.516Z"
+    },
+    "lesplagesdagnes|agnesvarda": {
+      "filmTitle": "Les Plages d'Agnès",
+      "director": "Agnès Varda",
+      "titleEn": "The Beaches of Agnès",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/38879-les-plages-d-agnes",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "lesplusgrandsmysteresdelunivers|": {
       "filmTitle": "Les plus grands mystères de l’Univers",
@@ -5040,6 +5104,14 @@
       "tmdbPath": "/movie/102001-like-someone-in-love",
       "checkedAt": "2026-07-22T19:48:02.905Z"
     },
+    "lile|kimkiduk": {
+      "filmTitle": "L'Île",
+      "director": "Kim Ki-duk",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "liledeblackmor|jeanfrancoislaguionie": {
       "filmTitle": "L'île de Black Mór",
       "director": "Jean-François Laguionie",
@@ -5047,6 +5119,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/22568-l-ile-de-black-mor",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "lilith|robertrossen": {
+      "filmTitle": "Lilith",
+      "director": "Robert Rossen",
+      "titleEn": "Lilith",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "lillusiondeyakushima|naomikawase": {
       "filmTitle": "L'Illusion De Yakushima",
@@ -6519,6 +6598,14 @@
       "tmdbPath": "/movie/11328-pusher-ii",
       "checkedAt": "2026-08-10T19:20:17.668Z"
     },
+    "pusher3langedelamort|nicolaswindingrefn": {
+      "filmTitle": "Pusher 3 - L'ange de la mort",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "Pusher 3",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11330-pusher-3",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "quandpassentlescigognes|mikhailkalatozov": {
       "filmTitle": "Quand passent les cigognes",
       "director": "Mikhail Kalatozov",
@@ -6628,6 +6715,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "rashomon|akirakurosawa": {
+      "filmTitle": "Rashômon",
+      "director": "Akira Kurosawa",
+      "titleEn": "Rashomon",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/548",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "readyplayerone|stevenspielberg": {
       "filmTitle": "Ready Player One",
@@ -6858,6 +6953,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11712",
       "checkedAt": "2026-08-07T00:19:28.382Z"
+    },
+    "sanjuro|kurosawaakira": {
+      "filmTitle": "Sanjuro",
+      "director": "KUROSAWA Akira",
+      "titleEn": "Sanjuro",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11712",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "sanspitie|lattuadaalberto": {
       "filmTitle": "Sans Pitie",
@@ -7357,6 +7460,14 @@
       "tmdbPath": "/movie/1352624-the-mastermind",
       "checkedAt": "2026-07-21T08:49:45.509Z"
     },
+    "themythoftheamericansleepover|mitchelldavidrobert": {
+      "filmTitle": "The Myth Of The American Sleepover",
+      "director": "MITCHELL David Robert",
+      "titleEn": "The Myth of the American Sleepover",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/70588-the-myth-of-the-american-sleepover",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "theoffence|sidneylumet": {
       "filmTitle": "The Offence",
       "director": "Sidney Lumet",
@@ -7378,6 +7489,14 @@
       "titleEn": "The Plague",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thequietfamily|kimjeewoon": {
+      "filmTitle": "The Quiet Family",
+      "director": "Kim Jee-Woon",
+      "titleEn": "The Quiet Family",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/74336",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "therearenowords|minsooklee": {
       "filmTitle": "There Are No Words",
@@ -7454,6 +7573,14 @@
       "titleEn": "To Be or not to Be",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "tobeornottobe|lubitschernst": {
+      "filmTitle": "To Be Or Not To Be",
+      "director": "LUBITSCH Ernst",
+      "titleEn": "To Be or Not to Be",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/198-to-be-or-not-to-be",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "tokyogodfathers|satoshikonshogofuruya": {
       "filmTitle": "Tokyo Godfathers",
@@ -7654,6 +7781,14 @@
       "titleEn": "The Manchurian Candidate",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "underthesilverlake|davidrobertmitchell": {
+      "filmTitle": "Under The Silver Lake",
+      "director": "David Robert Mitchell",
+      "titleEn": "Under the Silver Lake",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/396461-under-the-silver-lake",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "undertone|iantuason": {
       "filmTitle": "Undertone",
@@ -7970,6 +8105,14 @@
       "tmdbPath": "/movie/1365683-primavera",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "vivresaviefilmendouzetableaux|jeanlucgodard": {
+      "filmTitle": "Vivre sa vie: Film en douze tableaux",
+      "director": "Jean-Luc Godard",
+      "titleEn": "Vivre Sa Vie",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1626-vivre-sa-vie-film-en-douze-tableaux",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "vivrevite|carlossaura": {
       "filmTitle": "Vivre vite",
       "director": "Carlos Saura",
@@ -7994,6 +8137,14 @@
       "tmdbPath": "/movie/5156-ladri-di-biciclette",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "volver|pedroalmodovar": {
+      "filmTitle": "Volver",
+      "director": "Pedro Almodóvar",
+      "titleEn": "Volver",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/219-volver",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
     "voyageauboutdelenfer|michaelcimino": {
       "filmTitle": "Voyage au bout de l'enfer",
       "director": "Michael Cimino",
@@ -8001,6 +8152,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11778-the-deer-hunter",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "voyageenitalie|robertorossellini": {
+      "filmTitle": "Voyage en Italie",
+      "director": "Roberto Rossellini",
+      "titleEn": "Journey to Italy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2748-viaggio-in-italia",
+      "checkedAt": "2026-08-11T02:32:19.607Z"
     },
     "wakeinfright|tedkotcheff": {
       "filmTitle": "WAKE IN FRIGHT",
