@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T02:46:10.472Z",
+  "updatedAt": "2026-08-12T07:53:47.193Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -58,12 +58,12 @@
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
     "15h45realfjord|": {
-      "filmTitle": "15h45 Réal - Fjord",
+      "filmTitle": "15h45 Real - Fjord",
       "director": "",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T03:45:48.893Z"
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "2001lodysseedelespace|stanleykubrick": {
       "filmTitle": "2001 : l'odyssée de l'espace",
@@ -4225,7 +4225,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T03:45:48.893Z"
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "leretour|andreizviaguintsev": {
       "filmTitle": "Le Retour",
@@ -4233,7 +4233,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T03:45:48.893Z"
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "leroiarthuretleschevaliersdelatablerondealarecherchedugraal|": {
       "filmTitle": "Le Roi Arthur et les chevaliers de la table ronde : à la recherche du Graal",
@@ -4446,7 +4446,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T03:45:48.893Z"
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "lesfantastiqueslivresvolantsdemmorrislessmore|": {
       "filmTitle": "Les fantastiques livres volants de M Morris Lessmore",
@@ -5097,7 +5097,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T03:45:48.893Z"
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "lexorciste|williamfriedkin": {
       "filmTitle": "L'Exorciste",
@@ -5167,6 +5167,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/22568-l-ile-de-black-mor",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "liledessouvenirs|joelcrawfordjanuelpmercado": {
+      "filmTitle": "L'ILE DES SOUVENIRS",
+      "director": "Joel Crawford, Januel P. Mercado",
+      "titleEn": "Forgotten Island",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1465063-forgotten-island",
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "lilith|robertrossen": {
       "filmTitle": "Lilith",
@@ -5304,6 +5312,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "lolita|stanleykubrick": {
+      "filmTitle": "Lolita",
+      "director": "Stanley Kubrick",
+      "titleEn": "Lolita",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "lorieparty2026aucinema|tristancarne": {
       "filmTitle": "LORIE PARTY 2026 AU CINEMA",
@@ -5965,7 +5980,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T03:45:48.893Z"
+      "checkedAt": "2026-08-12T07:57:06.083Z"
     },
     "normandieniemen|jeandreville": {
       "filmTitle": "Normandie Niemen",
