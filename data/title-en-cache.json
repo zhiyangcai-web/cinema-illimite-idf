@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T07:53:47.193Z",
+  "updatedAt": "2026-08-12T13:49:24.280Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3526,6 +3526,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "laura|ottopreminger": {
+      "filmTitle": "Laura",
+      "director": "Otto Preminger",
+      "titleEn": "Laura",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-12T13:51:50.587Z"
+    },
     "laventureinterieure|dantejoe": {
       "filmTitle": "L Aventure Interieure",
       "director": "DANTE Joe",
@@ -5167,6 +5174,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/22568-l-ile-de-black-mor",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "liledessouvenirs|joelcrawfordjanuelmercado": {
+      "filmTitle": "L'île des souvenirs",
+      "director": "Joel Crawford, Januel Mercado",
+      "titleEn": "Forgotten Island",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1465063-forgotten-island",
+      "checkedAt": "2026-08-12T13:51:50.587Z"
     },
     "liledessouvenirs|joelcrawfordjanuelpmercado": {
       "filmTitle": "L'ILE DES SOUVENIRS",
