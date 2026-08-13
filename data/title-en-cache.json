@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T07:54:45.586Z",
+  "updatedAt": "2026-08-13T13:49:37.373Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -245,6 +245,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/682012-amelie-et-la-metaphysique-des-tubes",
       "checkedAt": "2026-08-01T13:59:33.428Z"
+    },
+    "amelieetlametaphysiquedestubes|mailysvalladelianechohan": {
+      "filmTitle": "Amélie et la métaphysique des tubes",
+      "director": "Mailys Vallade, Liane-Cho Han",
+      "titleEn": "Little Amélie or the Character of Rain",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/682012-amelie-et-la-metaphysique-des-tubes",
+      "checkedAt": "2026-08-13T13:52:35.828Z"
     },
     "americangigolo|paulschrader": {
       "filmTitle": "American Gigolo",
@@ -4221,10 +4229,9 @@
     "leprive|robertaltman": {
       "filmTitle": "Le Privé",
       "director": "Robert Altman",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "titleEn": "The Long Goodbye",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-13T13:52:35.828Z"
     },
     "lequatuoracornes|ademuynckbbotellaegorgiardphecquet": {
       "filmTitle": "Le Quatuor A Cornes",
@@ -6294,6 +6301,14 @@
       "tmdbPath": "/movie/496243",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "parisaumoisdaout|pierregranierdeferre": {
+      "filmTitle": "Paris au mois d'août",
+      "director": "Pierre Granier-Deferre",
+      "titleEn": "Paris in August",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/563300-paris-au-mois-d-aout",
+      "checkedAt": "2026-08-13T13:52:35.828Z"
+    },
     "paristexas|wenderswim": {
       "filmTitle": "Paris Texas",
       "director": "WENDERS Wim",
@@ -8132,6 +8147,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "unroianewyork|charleschaplin": {
+      "filmTitle": "Un Roi à New York",
+      "director": "Charles Chaplin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-13T13:52:35.828Z"
     },
     "untramwaynommedesir|eliakazan": {
       "filmTitle": "Un Tramway nommé désir",
