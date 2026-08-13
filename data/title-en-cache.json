@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T13:49:37.373Z",
+  "updatedAt": "2026-08-13T19:26:47.852Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -502,6 +502,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1083381-backrooms",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "baekdudaeganlecycledubonheur|": {
+      "filmTitle": "BAEKDU DAEGAN : LE CYCLE DU BONHEUR",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-13T19:29:06.166Z"
     },
     "bait|markjenkin": {
       "filmTitle": "Bait",
