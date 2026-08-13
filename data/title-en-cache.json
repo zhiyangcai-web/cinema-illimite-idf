@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-12T19:27:59.918Z",
+  "updatedAt": "2026-08-13T02:48:29.893Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5326,7 +5326,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-29T19:48:12.519Z"
+      "checkedAt": "2026-08-13T02:51:39.490Z"
     },
     "lolita|stanleykubrick": {
       "filmTitle": "Lolita",
@@ -5458,6 +5458,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/58383-le-mani-sulla-citta",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "maintheme|yoshimitsumorita": {
+      "filmTitle": "Main Theme",
+      "director": "Yoshimitsu Morita",
+      "titleEn": "Main Theme",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/328083",
+      "checkedAt": "2026-08-13T02:51:39.490Z"
     },
     "mammaroma|pierpaolopasolini": {
       "filmTitle": "Mamma Roma",
@@ -7461,10 +7469,10 @@
     "tenebres|darioargento": {
       "filmTitle": "Ténèbres",
       "director": "Dario Argento",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-29T19:48:12.519Z"
+      "titleEn": "Tenebre",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/29702-tenebre",
+      "checkedAt": "2026-08-13T02:51:39.490Z"
     },
     "thechaser|nahongjin": {
       "filmTitle": "The Chaser",
@@ -8013,10 +8021,10 @@
     "uneteviolent|valeriozurlini": {
       "filmTitle": "Un été violent",
       "director": "Valerio Zurlini",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-07-29T19:48:12.519Z"
+      "titleEn": "Violent Summer",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/88395-estate-violenta",
+      "checkedAt": "2026-08-13T02:51:39.490Z"
     },
     "uneviedemente|annsirotraphaelbalboni": {
       "filmTitle": "Une vie démente",
