@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T13:44:56.804Z",
+  "updatedAt": "2026-08-14T19:15:11.834Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2186,7 +2186,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "harrypotter2etlachambredessecrets|chriscolumbus": {
       "filmTitle": "HARRY POTTER 2 - ET LA CHAMBRE DES SECRETS",
@@ -2194,7 +2194,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "harrypotter3etleprisonnierdazkaban|alfonsocuaroacuten": {
       "filmTitle": "HARRY POTTER 3 - ET LE PRISONNIER D'AZKABAN",
@@ -2202,7 +2202,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "harrypotter4etlacoupedefeu|mikenewell": {
       "filmTitle": "HARRY POTTER 4 - ET LA COUPE DE FEU",
@@ -2210,7 +2210,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "harrypotter5etlordreduphenix|davidyates": {
       "filmTitle": "HARRY POTTER 5 - ET L'ORDRE DU PHENIX",
@@ -2218,7 +2218,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "harrypotter6etleprincedesangmele|davidyates": {
       "filmTitle": "HARRY POTTER 6 - ET LE PRINCE DE SANG-MELE",
@@ -2226,7 +2226,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "harrypotter7etlesreliquesdelamortpart1|davidyates": {
       "filmTitle": "HARRY POTTER 7 - ET LES RELIQUES DE LA MORT PART 1",
@@ -2242,7 +2242,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T14:39:16.810Z"
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "heat|michaelmann": {
       "filmTitle": "Heat",
@@ -7611,6 +7611,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "thedutchman|gainesandre": {
+      "filmTitle": "The Dutchman",
+      "director": "GAINES Andre",
+      "titleEn": "The Dutchman",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1180417-the-dutchman",
+      "checkedAt": "2026-08-14T19:17:14.976Z"
+    },
     "thefin|syeyoungpark": {
       "filmTitle": "The Fin",
       "director": "Syeyoung Park",
@@ -7747,6 +7755,14 @@
       "titleEn": "The Rocky Horror Picture Show",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "theshadowofgreed|masonakay": {
+      "filmTitle": "The Shadow Of Greed",
+      "director": "MASON Akay",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "thetrumanshow|peterweir": {
       "filmTitle": "The Truman Show",
@@ -7925,6 +7941,14 @@
       "titleEn": "The Molly Maguires",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "tricoteserrecrepu|hilleljoseph": {
+      "filmTitle": "Tricote Serre Crepu",
+      "director": "HILLEL Joseph",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T19:17:14.976Z"
     },
     "troisadieux|isabelcoixet": {
       "filmTitle": "Trois Adieux",
