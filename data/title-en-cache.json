@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-13T19:26:47.852Z",
+  "updatedAt": "2026-08-14T13:44:56.804Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1222,6 +1222,14 @@
       "tmdbPath": "/movie/974228",
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
+    "courtsmetragesdescaraibes|multiple": {
+      "filmTitle": "Courts Métrages Des Caraïbes",
+      "director": "multiple",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
+    },
     "cowboybebop|shinichirowatanabe": {
       "filmTitle": "COWBOY BEBOP",
       "director": "Shin'ichiro Watanabe",
@@ -1541,6 +1549,14 @@
       "titleEn": "Donnie Darko",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "dotherightthing|spikelee": {
+      "filmTitle": "Do the Right Thing",
+      "director": "Spike Lee",
+      "titleEn": "Do the Right Thing",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/925-do-the-right-thing",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
     },
     "douvientlevent|amelguellaty": {
       "filmTitle": "D Ou Vient Le Vent",
@@ -3309,6 +3325,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "lalicorneaumoyenageoncroyaitquelleexistaitvraiment|": {
+      "filmTitle": "La licorne : au Moyen Âge, on croyait qu’elle existait vraiment ! ",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
+    },
     "lalonguenuitdelexorcisme|luciofulci": {
       "filmTitle": "La Longue Nuit de l'exorcisme",
       "director": "Lucio Fulci",
@@ -3526,6 +3550,14 @@
       "titleEn": "Fear and Loathing in Las Vegas",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "latechnologiepensetelleanotreplace|": {
+      "filmTitle": "La technologie pense-t-elle à notre place ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
     },
     "latempete|derekjarman": {
       "filmTitle": "La Tempête",
@@ -3760,7 +3792,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-31T09:19:39.419Z"
+      "checkedAt": "2026-08-14T13:46:59.477Z"
     },
     "lecologiedessentiments|alexandresteiger": {
       "filmTitle": "L Ecologie Des Sentiments",
@@ -4034,6 +4066,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/4789-il-giardino-dei-finzi-contini",
       "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
+    "lekid|charleschaplin": {
+      "filmTitle": "Le Kid",
+      "director": "Charles Chaplin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
     },
     "lelacdescygnesoperadeparis|isabellejulien": {
       "filmTitle": "LE LAC DES CYGNES (OPERA DE PARIS)",
@@ -5784,6 +5824,13 @@
       "tmdbPath": "/movie/1351705-miss-mermaid",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "mistermajestyk|richardfleischer": {
+      "filmTitle": "Mister Majestyk",
+      "director": "Richard Fleischer",
+      "titleEn": "Mister Majestyk",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
+    },
     "mlemaudit|fritzlang": {
       "filmTitle": "M le Maudit",
       "director": "Fritz Lang",
@@ -5848,6 +5895,14 @@
       "tmdbPath": "/movie/376867-moonlight",
       "checkedAt": "2026-07-28T14:42:44.026Z"
     },
+    "moraestla|zairikhalid": {
+      "filmTitle": "Mora Est La",
+      "director": "ZAIRI Khalid",
+      "titleEn": "Mora Is Here",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1211746",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
+    },
     "mortduncycliste|juanantoniobardem": {
       "filmTitle": "Mort d'un cycliste",
       "director": "Juan Antonio Bardem",
@@ -5893,6 +5948,14 @@
       "titleEn": "Mystic River",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "nailsman|sheriyatwana": {
+      "filmTitle": "Nail S Man",
+      "director": "SHERIYA Twana",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
     },
     "naissancedespieuvres|sciammaceline": {
       "filmTitle": "Naissance Des Pieuvres",
@@ -6834,6 +6897,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "quetonregnevienneunehistoiredusatanismeenfrance|mathiasaverty": {
+      "filmTitle": "Que Ton Règne Vienne - Une histoire du satanisme en France",
+      "director": "Mathias Averty",
+      "titleEn": "Thy Kingdom Come",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1527009-que-ton-regne-vienne-une-histoire-du-satanisme-en-france",
+      "checkedAt": "2026-08-14T13:46:59.477Z"
     },
     "quiprotegeencoreletatdedroit|": {
       "filmTitle": "Qui protège encore l’État de droit ?",
