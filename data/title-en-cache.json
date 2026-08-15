@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T19:15:11.834Z",
+  "updatedAt": "2026-08-15T12:59:47.184Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1262,6 +1262,14 @@
       "tmdbPath": "/movie/10238-viskningar-och-rop",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "croissantetcinema|": {
+      "filmTitle": "Croissant Et Cinéma !",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
     "crosswindlacroiseedesvents|marttihelde": {
       "filmTitle": "Crosswind - La Croisée Des Vents",
       "director": "Martti Helde",
@@ -2117,6 +2125,14 @@
       "tmdbPath": "/movie/846575-gorgona",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "goundafalechantmaudit|benjellounali": {
+      "filmTitle": "Goundafa Le Chant Maudit",
+      "director": "BENJELLOUN Ali",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
     "gouttesdeausurpierresbrulantes|francoisozon": {
       "filmTitle": "Gouttes D Eau Sur Pierres Brulantes",
       "director": "François Ozon",
@@ -2243,6 +2259,27 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-14T19:17:14.976Z"
+    },
+    "harrypotteralecoledessorciers|chriscolumbus": {
+      "filmTitle": "Harry Potter à l'école des sorciers",
+      "director": "Chris Columbus",
+      "titleEn": "Harry Potter and the Sorcerer's Stone",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
+    "harrypotteretlachambredessecrets|chriscolumbus": {
+      "filmTitle": "Harry Potter et la chambre des secrets",
+      "director": "Chris Columbus",
+      "titleEn": "Harry Potter and The Chamber of Secrets",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
+    "harrypotteretleprisonnierdazkaban|alfonsocuaron": {
+      "filmTitle": "Harry Potter et le Prisonnier d'Azkaban",
+      "director": "Alfonso Cuarón",
+      "titleEn": "Harry Potter and the Prisoner of Azkaban",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
     },
     "heat|michaelmann": {
       "filmTitle": "Heat",
@@ -3372,6 +3409,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/17905",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "lamemoiredumanguier|sawalocissenicolas": {
+      "filmTitle": "La Memoire Du Manguier",
+      "director": "SAWALO CISSE Nicolas",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
     },
     "lamesseestfinie|nannimoretti": {
       "filmTitle": "La Messe est finie",
@@ -4566,6 +4611,14 @@
       "tmdbPath": "/movie/20126-profondo-rosso",
       "checkedAt": "2026-07-29T19:48:12.519Z"
     },
+    "lesgalettesdepontaven|joelseria": {
+      "filmTitle": "Les Galettes de Pont-Aven",
+      "director": "Joël Seria",
+      "titleEn": "Cookies",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/35549-les-galettes-de-pont-aven",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
     "lesgendarmes|francoisprevotleygonie": {
       "filmTitle": "Les Gendarmes",
       "director": "François Prévôt-Leygonie",
@@ -5261,6 +5314,13 @@
       "tmdbPath": "/movie/1449868-l-illusion-de-yakushima",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lilostitch|deanfleischercamp": {
+      "filmTitle": "Lilo & Stitch",
+      "director": "Dean Fleischer Camp",
+      "titleEn": "Lilo & Stitch",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
     "limpasse|briandepalma": {
       "filmTitle": "L'Impasse",
       "director": "Brian De Palma",
@@ -5732,6 +5792,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/108759-messidor",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "metissescinqfemmescontreuncrimedetat|mbottimalolojeancharles": {
+      "filmTitle": "Metisses Cinq Femmes Contre Un Crime D Etat",
+      "director": "MBOTTI MALOLO Jean Charles",
+      "titleEn": "Uprooted - Five Women Against a Colonial Crime",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1657156-metisses-cinq-femmes-contre-un-crime-d-etat",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
     },
     "miamivicedeuxflicsamiami|michaelmann": {
       "filmTitle": "Miami vice - Deux flics à Miami",
@@ -7513,6 +7581,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1187326-tadeo-jones-y-la-lampara-maravillosa",
       "checkedAt": "2026-08-04T14:43:14.042Z"
+    },
+    "tadlexplorateuretlatabledemeraude|enriquegato": {
+      "filmTitle": "Tad l'explorateur et la table d'émeraude",
+      "director": "Enrique Gato",
+      "titleEn": "Tad the Lost Explorer and the Emerald Tablet",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/676701-tadeo-jones-3-la-tabla-esmeralda",
+      "checkedAt": "2026-08-15T13:02:31.682Z"
     },
     "taipeistory|edwardyang": {
       "filmTitle": "Taipei Story",
