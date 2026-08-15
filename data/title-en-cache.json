@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-15T12:59:47.184Z",
+  "updatedAt": "2026-08-15T18:48:48.605Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -913,6 +913,14 @@
       "titleEn": "Some Like It Hot",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "cesaretrosalie|claudesautet": {
+      "filmTitle": "Cesar Et Rosalie",
+      "director": "Claude Sautet",
+      "titleEn": "Cesar and Rosalie",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3426-cesar-et-rosalie",
+      "checkedAt": "2026-08-15T18:50:45.147Z"
     },
     "challengers|lucaguadagnino": {
       "filmTitle": "CHALLENGERS",
@@ -3228,6 +3236,14 @@
       "titleEn": "The End Of Oak Street",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "lafoipeutelleetreunchoix|": {
+      "filmTitle": "La foi peut-elle être un choix ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-15T18:50:45.147Z"
     },
     "lafontainefaitsoncinemalecorbeauetlerenard|collectif": {
       "filmTitle": "La Fontaine Fait Son Cinema, Le Corbeau Et Le Renard",
@@ -6003,6 +6019,14 @@
       "tmdbPath": "/movie/236-muriel-s-wedding",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "musicpicturesneworleans|chaceben": {
+      "filmTitle": "Music Pictures New Orleans",
+      "director": "CHACE Ben",
+      "titleEn": "Music Pictures: New Orleans",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/924168-music-pictures-new-orleans",
+      "checkedAt": "2026-08-15T18:50:45.147Z"
+    },
     "myownprivateidaho|gusvansant": {
       "filmTitle": "My Own Private Idaho",
       "director": "Gus Van Sant",
@@ -6306,6 +6330,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/466272-once-upon-a-time-in-hollywood",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "onewomanonebra|nchoguvincho": {
+      "filmTitle": "One Woman One Bra",
+      "director": "NCHOGU Vincho",
+      "titleEn": "One Woman One Bra",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1517105-one-woman-one-bra",
+      "checkedAt": "2026-08-15T18:50:45.147Z"
     },
     "onlappelaitrobindesbois|michaelsarnoski": {
       "filmTitle": "On l'appelait Robin des Bois",
