@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T13:01:46.106Z",
+  "updatedAt": "2026-08-16T18:47:52.499Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -587,7 +587,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-02T13:59:15.516Z"
+      "checkedAt": "2026-08-16T18:49:41.289Z"
     },
     "blackdog|huguan": {
       "filmTitle": "Black Dog",
@@ -6957,6 +6957,14 @@
       "tmdbPath": "/movie/11330-pusher-3",
       "checkedAt": "2026-08-11T02:32:19.607Z"
     },
+    "quandlamermonte|yolandemoreaugillesporte": {
+      "filmTitle": "Quand La Mer Monte...",
+      "director": "Yolande Moreau, Gilles Porte",
+      "titleEn": "When the Sea Rises",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/64758-quand-la-mer-monte",
+      "checkedAt": "2026-08-16T18:49:41.289Z"
+    },
     "quandpassentlescigognes|mikhailkalatozov": {
       "filmTitle": "Quand passent les cigognes",
       "director": "Mikhail Kalatozov",
@@ -7036,6 +7044,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1527009-que-ton-regne-vienne-une-histoire-du-satanisme-en-france",
       "checkedAt": "2026-08-14T13:46:59.477Z"
+    },
+    "quiasaplaceatable|": {
+      "filmTitle": "Qui a sa place à table ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-16T18:49:41.289Z"
     },
     "quiprotegeencoreletatdedroit|": {
       "filmTitle": "Qui protège encore l’État de droit ?",
