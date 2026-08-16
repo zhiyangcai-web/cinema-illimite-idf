@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-16T01:58:04.885Z",
+  "updatedAt": "2026-08-16T13:01:46.106Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2289,6 +2289,13 @@
       "titleEn": "Harry Potter and The Chamber of Secrets",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
+    "harrypotteretlacoupedefeu|mikenewell": {
+      "filmTitle": "Harry Potter et la Coupe de Feu",
+      "director": "Mike Newell",
+      "titleEn": "Harry Potter and the Goblet of Fire",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-16T13:03:43.855Z"
     },
     "harrypotteretleprisonnierdazkaban|alfonsocuaron": {
       "filmTitle": "Harry Potter et le Prisonnier d'Azkaban",
@@ -6095,6 +6102,14 @@
       "titleEn": "Network",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-30T14:36:40.647Z"
+    },
+    "newgroup|yutashimotsu": {
+      "filmTitle": "New Group",
+      "director": "Yûta Shimotsu",
+      "titleEn": "New Group",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1494715-new-group",
+      "checkedAt": "2026-08-16T13:03:43.855Z"
     },
     "newyork1997|johncarpenter": {
       "filmTitle": "New York 1997",
