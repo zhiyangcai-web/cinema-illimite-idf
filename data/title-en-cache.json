@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T01:55:45.449Z",
+  "updatedAt": "2026-08-17T13:07:24.130Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -238,6 +238,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "allonsdoncpapa|vincenteminnelli": {
+      "filmTitle": "Allons donc, papa !",
+      "director": "Vincente Minnelli",
+      "titleEn": "Father's Little Dividend",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
     "amelieetlametaphysiquedestubes|lianechohanmailysvallade": {
       "filmTitle": "Amelie Et La Metaphysique Des Tubes",
       "director": "Liane-Cho Han, Mailys Vallade",
@@ -337,7 +344,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "asakoiii|ryusukehamaguchi": {
       "filmTitle": "ASAKO I&II",
@@ -462,7 +469,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "azuretasmar|michelocelot": {
       "filmTitle": "Azur et Asmar",
@@ -533,6 +540,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/3175-barry-lyndon",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "batmanbegins|christophernolan": {
+      "filmTitle": "Batman Begins",
+      "director": "Christopher Nolan",
+      "titleEn": "Batman Begins",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "beforeafterhistoireintimedunecollection|annedeboismilonjulienviala": {
       "filmTitle": "Before & After - Histoire intime d’une collection",
@@ -1141,7 +1155,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "commentraconterlaguerre|": {
       "filmTitle": "Comment raconter la guerre ?",
@@ -1149,7 +1163,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "commentsortirduchacunpoursoi|": {
       "filmTitle": "Comment sortir du chacun pour soi ?",
@@ -1157,7 +1171,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "contedete|ericrohmer": {
       "filmTitle": "Conte d'été",
@@ -1220,7 +1234,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "cottonqueen|suzannahmirghani": {
       "filmTitle": "Cotton Queen",
@@ -1659,7 +1673,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "ecritsurduvent|douglassirk": {
       "filmTitle": "Ecrit sur du vent",
@@ -1930,7 +1944,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "fautiltoujoursfaireavec|": {
       "filmTitle": "Faut-il toujours “faire avec” ?",
@@ -1938,7 +1952,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "fautilvraimentsadapter|": {
       "filmTitle": "Faut-il vraiment “s’adapter” ?",
@@ -1946,7 +1960,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "fenetresurcour|alfredhitchcock": {
       "filmTitle": "Fenêtre sur cour",
@@ -2297,12 +2311,26 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-16T13:03:43.855Z"
     },
+    "harrypotteretleprincedesangmele|davidyates": {
+      "filmTitle": "Harry Potter et le Prince de sang mêlé",
+      "director": "David Yates",
+      "titleEn": "Harry Potter and the Half-Blood Prince",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
     "harrypotteretleprisonnierdazkaban|alfonsocuaron": {
       "filmTitle": "Harry Potter et le Prisonnier d'Azkaban",
       "director": "Alfonso Cuarón",
       "titleEn": "Harry Potter and the Prisoner of Azkaban",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
+    "harrypotteretlordreduphenix|davidyates": {
+      "filmTitle": "Harry Potter et l'Ordre du Phénix",
+      "director": "David Yates",
+      "titleEn": "Harry Potter and the Order of the Phoenix",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "heat|michaelmann": {
       "filmTitle": "Heat",
@@ -2317,7 +2345,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "herprivatehell|nicolaswindingrefn": {
       "filmTitle": "Her Private Hell",
@@ -2538,7 +2566,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "inglouriousbasterds|quentintarantino": {
       "filmTitle": "Inglourious Basterds",
@@ -2563,6 +2591,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/49018-insidious",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "insidiouslinvasiondulointain|jacobchase": {
+      "filmTitle": "Insidious : l'invasion du lointain",
+      "director": "Jacob Chase",
+      "titleEn": "Insidious: Out of the Further",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "interditauxchiensetauxitaliens|alainughetto": {
       "filmTitle": "Interdit aux chiens et aux Italiens",
@@ -2711,7 +2746,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "jeremiahjohnson|sydneypollack": {
       "filmTitle": "Jeremiah Johnson",
@@ -2991,7 +3026,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "labatailledegaullepartie1lagedefer|antoninbaudry": {
       "filmTitle": "La Bataille de Gaulle - Partie 1 : L’âge de fer",
@@ -2999,7 +3034,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "labatailledegaullepartie2jecristonnom|antoninbaudry": {
       "filmTitle": "LA BATAILLE DE GAULLE - PARTIE 2 : J'ECRIS TON NOM",
@@ -3007,7 +3042,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "labayadereoperadeparis|juliencondemine": {
       "filmTitle": "LA BAYADERE (OPERA DE PARIS)",
@@ -3457,6 +3492,14 @@
       "tmdbPath": "/movie/60732-la-messa-finita",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "lamome|olivierdahan": {
+      "filmTitle": "La Môme",
+      "director": "Olivier Dahan",
+      "titleEn": "La Vie en Rose",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1407-la-mome",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
     "langeexterminateur|luisbunuel": {
       "filmTitle": "L'Ange exterminateur",
       "director": "Luis Buñuel",
@@ -3464,6 +3507,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/29264-el-angel-exterminador",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "lanirvana|hakimbougheraba": {
+      "filmTitle": "La Nirvana",
+      "director": "Hakim Bougheraba",
+      "titleEn": "La Nirvana",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1566470-la-nirvana",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lanneederniereamarienbad|alainresnais": {
       "filmTitle": "L'Année dernière à Marienbad",
@@ -3813,7 +3864,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lecercledespoetesdisparus|peterweir": {
       "filmTitle": "Le Cercle des poètes disparus",
@@ -3900,7 +3951,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lecon2refuserladocilite|": {
       "filmTitle": "Leçon 2 : refuser la docilité",
@@ -3908,7 +3959,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lecon3restercelibataire|": {
       "filmTitle": "Leçon 3 : rester célibataire",
@@ -3924,7 +3975,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "leconomiedelaguerre|": {
       "filmTitle": "L'économie de la guerre",
@@ -4426,7 +4477,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lesamisanimaux|evalindstrom": {
       "filmTitle": "Les amis animaux",
@@ -4514,7 +4565,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lesdemoisellesderochefort|jacquesdemy": {
       "filmTitle": "Les Demoiselles de Rochefort",
@@ -4608,7 +4659,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lesfeuxdelarampe|charleschaplin": {
       "filmTitle": "Les feux de la rampe",
@@ -4953,7 +5004,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lestourougesetlestoubleus|collectif": {
       "filmTitle": "Les Tourouges Et Les Toubleus",
@@ -5511,7 +5562,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "lostintranslation|sofiacoppola": {
       "filmTitle": "Lost in Translation",
@@ -6050,6 +6101,13 @@
       "tmdbPath": "/movie/924168-music-pictures-new-orleans",
       "checkedAt": "2026-08-15T18:50:45.147Z"
     },
+    "mutiny|jeanfrancoisrichet": {
+      "filmTitle": "Mutiny",
+      "director": "Jean-François Richet",
+      "titleEn": "Mutiny",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
     "myownprivateidaho|gusvansant": {
       "filmTitle": "My Own Private Idaho",
       "director": "Gus Van Sant",
@@ -6191,12 +6249,12 @@
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
     "nonnondanslespace|wassimboutalebjoutei": {
-      "filmTitle": "NON NON DANS L'ESPACE",
+      "filmTitle": "Non-Non Dans L'Espace",
       "director": "Wassim Boutaleb Joutei",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "nonnondanslespacecinemapublicfilms2024|wassimboutalebjoutei": {
       "filmTitle": "Non Non Dans L Espace Cinema Public Films 2024",
@@ -6322,6 +6380,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1124142-the-rivals-of-amziah-king",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "oklahomahoney|andrewpattersoni": {
+      "filmTitle": "Oklahoma Honey",
+      "director": "Andrew Patterson (I)",
+      "titleEn": "The Rivals of Amziah King",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "oldboy|parkchanwook": {
       "filmTitle": "Old Boy",
@@ -6635,7 +6700,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "peutonseparerlhommedelartiste|": {
       "filmTitle": "Peut-on séparer l'homme de l’artiste ?",
@@ -6643,7 +6708,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "phantomoftheparadise|briandepalma": {
       "filmTitle": "Phantom of the paradise",
@@ -6799,7 +6864,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "pourquoitravaillonsnousautant|": {
       "filmTitle": "Pourquoi travaillons-nous autant ?",
@@ -6807,7 +6872,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "pourunepoigneededollars|sergioleone": {
       "filmTitle": "Pour une poignée de dollars",
@@ -7003,7 +7068,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "questcequelajusticesociale|": {
       "filmTitle": "Qu’est-ce que la justice sociale ?",
@@ -7011,7 +7076,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "questcequeletatdumondefaitaleconomie|": {
       "filmTitle": "Qu'est-ce que l'état du monde fait à l'économie ?",
@@ -7027,7 +7092,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "questcequetrebiendanssapeau|": {
       "filmTitle": "Qu’est-ce qu’être bien dans sa peau ?",
@@ -7035,7 +7100,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "quetonregnevienneunehistoiredusatanismeenfrance|mathiasaverty": {
       "filmTitle": "Que Ton Règne Vienne - Une histoire du satanisme en France",
@@ -8534,7 +8599,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "vivaldietmoi|damianomichieletto": {
       "filmTitle": "Vivaldi Et Moi",
@@ -8707,6 +8772,13 @@
       "titleEn": "Zabriskie Point",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "zebulonledragon|maxlangdanielsnaddonsophieolgadejong": {
+      "filmTitle": "Zébulon, le dragon",
+      "director": "Max Lang, Daniel Snaddon, Sophie Olga de Jong",
+      "titleEn": "Zébulon, le dragon",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-17T13:09:34.266Z"
     },
     "zodiac|davidfincher": {
       "filmTitle": "Zodiac",
