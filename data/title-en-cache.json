@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T07:05:30.060Z",
+  "updatedAt": "2026-08-18T13:09:39.414Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -56,6 +56,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-13T07:57:09.531Z"
+    },
+    "14hreallaviedunefemme|": {
+      "filmTitle": "14h Real - La Vie D'Une Femme",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-18T13:12:30.400Z"
     },
     "14hreallesmatinsmerveilleux|": {
       "filmTitle": "14h Real - Les Matins Merveilleux",
@@ -740,6 +748,13 @@
       "titleEn": "Blue Velvet",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "bodiesbodiesbodies|halinareijn": {
+      "filmTitle": "Bodies Bodies Bodies",
+      "director": "Halina Reijn",
+      "titleEn": "Bodies Bodies Bodies",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-18T13:12:30.400Z"
     },
     "bodydouble|briandepalma": {
       "filmTitle": "Body Double",
@@ -6538,7 +6553,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T09:12:58.564Z"
+      "checkedAt": "2026-08-18T13:12:30.400Z"
     },
     "notrehistoirechroniquesducaire|abshawky": {
       "filmTitle": "Notre histoire - Chroniques du Caire ",
@@ -7030,7 +7045,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T09:12:58.564Z"
+      "checkedAt": "2026-08-18T13:12:30.400Z"
     },
     "pinocchio|enzodalo": {
       "filmTitle": "Pinocchio",
@@ -7100,7 +7115,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T09:12:58.564Z"
+      "checkedAt": "2026-08-18T13:12:30.400Z"
     },
     "portraitdelajeunefilleenfeu|celinesciamma": {
       "filmTitle": "Portrait de la jeune fille en feu",
@@ -7124,7 +7139,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T09:12:58.564Z"
+      "checkedAt": "2026-08-18T13:12:30.400Z"
     },
     "pourlesenfants|": {
       "filmTitle": "Pour Les Enfants !",
