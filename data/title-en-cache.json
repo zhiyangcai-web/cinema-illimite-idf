@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T13:09:39.414Z",
+  "updatedAt": "2026-08-18T18:57:30.948Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -80,6 +80,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-12T07:57:06.083Z"
+    },
+    "18h15reallaviedunefemme|": {
+      "filmTitle": "18h15 Real - La Vie D'Une Femme",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-18T19:00:11.814Z"
     },
     "2001lodysseedelespace|stanleykubrick": {
       "filmTitle": "2001 : l'odyssée de l'espace",
@@ -2497,6 +2505,14 @@
       "tmdbPath": "/movie/656573-histoire-d-un-regard",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "histoiresdelanuit|leamysius": {
+      "filmTitle": "Histoires de la nuit",
+      "director": "Léa Mysius",
+      "titleEn": "The Birthday Party",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1191818-histoires-de-la-nuit",
+      "checkedAt": "2026-08-18T19:00:11.814Z"
+    },
     "holafrida|andrekadikarinevezina": {
       "filmTitle": "HOLA FRIDA",
       "director": "Andre Kadi, Karine Vezina",
@@ -4467,6 +4483,14 @@
       "tmdbPath": "/movie/27703-sette-note-in-nero",
       "checkedAt": "2026-08-05T09:10:00.932Z"
     },
+    "lemondealendroit|sylviemayer": {
+      "filmTitle": "Le Monde à l'endroit",
+      "director": "Sylvie Mayer",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-18T19:00:11.814Z"
+    },
     "lemondealenvers|arnauddemuyncknoegarciaerwannhette": {
       "filmTitle": "Le Monde à l'envers",
       "director": "Arnaud Demuynck, Noé Garcia, Erwann Hette",
@@ -4596,6 +4620,14 @@
       "titleEn": "The Picture of Dorian Gray",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lepotderentreedelepee|": {
+      "filmTitle": "Le Pot De Rentrée De L'Épée ✨",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-18T19:00:11.814Z"
     },
     "lepresidentetleneutre|": {
       "filmTitle": "Le président et le neutre",
@@ -6008,7 +6040,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T14:43:14.042Z"
+      "checkedAt": "2026-08-18T19:00:11.814Z"
     },
     "mastersofbooksaveclaurentmauvignier|": {
       "filmTitle": "Masters of Books avec Laurent Mauvignier",
@@ -7053,7 +7085,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T14:43:14.042Z"
+      "checkedAt": "2026-08-18T19:00:11.814Z"
     },
     "playtime|jacquestati": {
       "filmTitle": "Playtime",
@@ -7845,6 +7877,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/46761-sitcom",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "situpensesbien|geraldinenakache": {
+      "filmTitle": "Si tu penses bien",
+      "director": "Géraldine Nakache",
+      "titleEn": "Think Good",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1466670-si-tu-penses-bien",
+      "checkedAt": "2026-08-18T19:00:11.814Z"
     },
     "soireegaliambrunohenry|henrybruno": {
       "filmTitle": "Soiree Galiam Bruno Henry",
