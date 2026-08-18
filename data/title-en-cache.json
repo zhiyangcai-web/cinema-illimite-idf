@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T18:58:38.057Z",
+  "updatedAt": "2026-08-18T01:51:37.950Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -32,6 +32,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/76203-12-years-a-slave",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "13h50realtroisadieux|": {
+      "filmTitle": "13h50 Real - Trois Adieux",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-18T01:54:33.034Z"
     },
     "14hreal|": {
       "filmTitle": "14h Real",
@@ -1523,6 +1531,14 @@
       "tmdbPath": "/movie/1464829",
       "checkedAt": "2026-07-28T19:57:25.455Z"
     },
+    "desjoursetdesnuitsdanslaforet|satyajitray": {
+      "filmTitle": "Des Jours Et Des Nuits Dans La Foret",
+      "director": "Satyajit Ray",
+      "titleEn": "Days and Nights in the Forest",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/35867",
+      "checkedAt": "2026-08-18T01:54:33.034Z"
+    },
     "desminionsetdesmonstres|patrickdelagepierrecoffin": {
       "filmTitle": "Des Minions et des monstres",
       "director": "Patrick Delage, Pierre Coffin",
@@ -1545,6 +1561,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1443774-deviens-genial",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "diamantnoir|arthurharari": {
+      "filmTitle": "Diamant Noir",
+      "director": "Arthur Harari",
+      "titleEn": "Dark Diamond",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/384212-diamant-noir",
+      "checkedAt": "2026-08-18T01:54:33.034Z"
     },
     "diemylove|lynneramsay": {
       "filmTitle": "Die My Love",
@@ -1697,7 +1721,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T20:02:32.577Z"
+      "checkedAt": "2026-08-18T01:54:33.034Z"
     },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
@@ -3498,7 +3522,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T20:02:32.577Z"
+      "checkedAt": "2026-08-18T01:54:33.034Z"
     },
     "lajetee|chrismarker": {
       "filmTitle": "La Jetée",
@@ -3719,6 +3743,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "laprovidenceetlaguitare|joaonicolau": {
+      "filmTitle": "La Providence Et La Guitare",
+      "director": "João Nicolau",
+      "titleEn": "Providence and the Guitar",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1440397-a-providencia-e-a-guitarra",
+      "checkedAt": "2026-08-18T01:54:33.034Z"
     },
     "laprovidenceetlaguitare|joatildeonicolau": {
       "filmTitle": "LA PROVIDENCE ET LA GUITARE",
@@ -6663,6 +6695,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "onoda10000nuitsdanslajungle|harariarthur": {
+      "filmTitle": "Onoda - 10 000 Nuits Dans La Jungle",
+      "director": "HARARI Arthur",
+      "titleEn": "Onoda: 10,000 Nights in the Jungle",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/695089-onoda-10-000-nuits-dans-la-jungle",
+      "checkedAt": "2026-08-18T01:54:33.034Z"
+    },
     "opera|darioargento": {
       "filmTitle": "Opéra",
       "director": "Dario Argento",
@@ -8783,6 +8823,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-13T13:52:35.828Z"
+    },
+    "unsimpleaccident|jafarpanahi": {
+      "filmTitle": "UN SIMPLE ACCIDENT",
+      "director": "Jafar Panahi",
+      "titleEn": "It Was Just an Accident",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1456349-un-simple-accident",
+      "checkedAt": "2026-08-18T01:54:33.034Z"
     },
     "untramwaynommedesir|eliakazan": {
       "filmTitle": "Un Tramway nommé désir",
