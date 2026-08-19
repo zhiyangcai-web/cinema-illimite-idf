@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-18T18:57:30.948Z",
+  "updatedAt": "2026-08-19T01:54:03.176Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -494,6 +494,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-05T19:59:29.105Z"
+    },
+    "avantpremieresurprise|": {
+      "filmTitle": "Avant-Première Surprise 👀",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
     },
     "avendre|laetitiamasson": {
       "filmTitle": "À vendre",
@@ -2670,6 +2678,14 @@
       "tmdbPath": "/movie/1026227-c-e-ancora-domani",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "imitationgame|mortentyldum": {
+      "filmTitle": "Imitation Game",
+      "director": "Morten Tyldum",
+      "titleEn": "The Imitation Game",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/205596-the-imitation-game",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
+    },
     "inception|christophernolan": {
       "filmTitle": "Inception",
       "director": "Christopher Nolan",
@@ -3952,6 +3968,14 @@
       "tmdbPath": "/movie/1258181-la-vie-d-une-femme",
       "checkedAt": "2026-08-05T14:36:42.580Z"
     },
+    "laviedunefemme|charlinebourgeoistaquet": {
+      "filmTitle": "La Vie D Une Femme",
+      "director": "Charline Bourgeois-Taquet",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
+    },
     "lavieduntatoue|seijunsuzuki": {
       "filmTitle": "La Vie d'un tatoué",
       "director": "Seijun Suzuki",
@@ -4235,6 +4259,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/9676-the-black-dahlia",
       "checkedAt": "2026-08-01T19:37:32.631Z"
+    },
+    "ledecameron|pierpaolopasolini": {
+      "filmTitle": "Le Decameron",
+      "director": "Pier Paolo Pasolini",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
     },
     "ledemondesarmes|josephhlewis": {
       "filmTitle": "Le Démon des armes",
@@ -4635,7 +4667,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T20:01:22.056Z"
+      "checkedAt": "2026-08-19T01:57:30.946Z"
     },
     "leprive|robertaltman": {
       "filmTitle": "Le Privé",
@@ -5000,6 +5032,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lesherosdulouvre|eliechouraqui": {
+      "filmTitle": "Les Heros Du Louvre",
+      "director": "Elie Chouraqui",
+      "titleEn": "Les Héros du Louvre",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1208117-les-heros-du-louvre",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
+    },
     "leshommespreferentlesblondes|howardhawks": {
       "filmTitle": "LES HOMMES PREFERENT LES BLONDES",
       "director": "Howard Hawks",
@@ -5249,6 +5289,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "lessurvivantsduche|christophedimitrireveille": {
+      "filmTitle": "Les Survivants Du Che",
+      "director": "Christophe Dimitri Réveille",
+      "titleEn": "Che Guevara: The Last Companions",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1666700-les-survivants-du-che",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
     },
     "lestourougesetlestoubleus|collectif": {
       "filmTitle": "Les Tourouges Et Les Toubleus",
@@ -7791,7 +7839,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T10:08:38.000Z"
+      "checkedAt": "2026-08-19T01:57:30.946Z"
     },
     "sebastiane|paulhumfressderekjarman": {
       "filmTitle": "Sebastiane",
@@ -8230,6 +8278,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1418811",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "thegoodsister|sarahmirofischer": {
+      "filmTitle": "The Good Sister",
+      "director": "Sarah Miro Fischer",
+      "titleEn": "The Good Sister",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1418512-schwesterherz",
+      "checkedAt": "2026-08-19T01:57:30.946Z"
     },
     "thehand|wongkarwai": {
       "filmTitle": "The Hand",
