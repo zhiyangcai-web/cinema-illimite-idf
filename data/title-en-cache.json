@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T01:54:03.176Z",
+  "updatedAt": "2026-08-19T07:06:38.489Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3971,10 +3971,9 @@
     "laviedunefemme|charlinebourgeoistaquet": {
       "filmTitle": "La Vie D Une Femme",
       "director": "Charline Bourgeois-Taquet",
-      "titleEn": "",
+      "titleEn": "A Woman's Life",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-19T01:57:30.946Z"
+      "checkedAt": "2026-08-19T07:09:57.266Z"
     },
     "lavieduntatoue|seijunsuzuki": {
       "filmTitle": "La Vie d'un tatoué",
