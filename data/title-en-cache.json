@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T13:10:44.738Z",
+  "updatedAt": "2026-08-19T18:54:28.021Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5322,10 +5322,9 @@
     "lessurvivantsduche|christophereveille": {
       "filmTitle": "LES SURVIVANTS DU CHE",
       "director": "Christophe Reveille",
-      "titleEn": "",
+      "titleEn": "Che Guevara: The Last Companions",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-19T13:13:24.125Z"
+      "checkedAt": "2026-08-19T18:57:13.147Z"
     },
     "lestourougesetlestoubleus|collectif": {
       "filmTitle": "Les Tourouges Et Les Toubleus",
@@ -6311,6 +6310,14 @@
       "tmdbPath": "/movie/33320",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "minotaure|andreizviaguintsev": {
+      "filmTitle": "Minotaure",
+      "director": "Andreï Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-19T18:57:13.147Z"
+    },
     "minuscule2lesmandibulesduboutdumonde|": {
       "filmTitle": "Minuscule 2 - Les Mandibules du Bout du Monde",
       "director": "",
@@ -6903,6 +6910,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/56521-palombella-rossa",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "pandapetitpanda|isaotakahata": {
+      "filmTitle": "Panda Petit Panda",
+      "director": "Isao Takahata",
+      "titleEn": "Panda! Go Panda!",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/695839",
+      "checkedAt": "2026-08-19T18:57:13.147Z"
     },
     "paprika|satoshikon": {
       "filmTitle": "Paprika",
@@ -9186,6 +9201,14 @@
       "titleEn": "War Requiem",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "westsidestory|": {
+      "filmTitle": "West Side Story",
+      "director": "",
+      "titleEn": "West Side Story",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/511809-west-side-story",
+      "checkedAt": "2026-08-19T18:57:13.147Z"
     },
     "whenthelightbreaks|runarrunarsson": {
       "filmTitle": "When The Light Breaks",
