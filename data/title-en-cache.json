@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T07:06:38.489Z",
+  "updatedAt": "2026-08-19T13:10:44.738Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -706,6 +706,14 @@
       "tmdbPath": "/movie/73245-bleach",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "bleachlefilm4hellverse|noriyukiabe": {
+      "filmTitle": "Bleach - Le Film 4 : Hell Verse",
+      "director": "Noriyuki Abe",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-19T13:13:24.125Z"
+    },
     "bleachmemoriesofnobody|noriyukiabe": {
       "filmTitle": "BLEACH : MEMORIES OF NOBODY",
       "director": "Noriyuki Abe",
@@ -967,7 +975,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-08-19T13:13:24.125Z"
     },
     "cassenoisettetheroyalballet|peterwrightjuliatrevelyanoman": {
       "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
@@ -1822,7 +1830,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-05T09:10:00.932Z"
+      "checkedAt": "2026-08-19T13:13:24.125Z"
     },
     "elmergantrylecharlatan|richardbrooks": {
       "filmTitle": "Elmer Gantry, le charlatan",
@@ -2442,6 +2450,20 @@
       "titleEn": "Harry Potter and the Prisoner of Azkaban",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-15T13:02:31.682Z"
+    },
+    "harrypotteretlesreliquesdelamortpartie1|davidyates": {
+      "filmTitle": "Harry Potter et les reliques de la mort - partie 1",
+      "director": "David Yates",
+      "titleEn": "Harry Potter and the Deathly Hallows - Part 1",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-19T13:13:24.125Z"
+    },
+    "harrypotteretlesreliquesdelamortpartie2|davidyates": {
+      "filmTitle": "Harry Potter et les reliques de la mort - partie 2",
+      "director": "David Yates",
+      "titleEn": "Harry Potter and the Deathly Hallows - Part 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-19T13:13:24.125Z"
     },
     "harrypotteretlordreduphenix|davidyates": {
       "filmTitle": "Harry Potter et l'Ordre du Phénix",
@@ -5297,6 +5319,14 @@
       "tmdbPath": "/movie/1666700-les-survivants-du-che",
       "checkedAt": "2026-08-19T01:57:30.946Z"
     },
+    "lessurvivantsduche|christophereveille": {
+      "filmTitle": "LES SURVIVANTS DU CHE",
+      "director": "Christophe Reveille",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-19T13:13:24.125Z"
+    },
     "lestourougesetlestoubleus|collectif": {
       "filmTitle": "Les Tourouges Et Les Toubleus",
       "director": "Collectif",
@@ -5631,7 +5661,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-05T09:10:00.932Z"
+      "checkedAt": "2026-08-19T13:13:24.125Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
@@ -7699,6 +7729,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/307-roma-citta-aperta",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "rose|markusschleinzer": {
+      "filmTitle": "ROSE",
+      "director": "Markus Schleinzer",
+      "titleEn": "Rose",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1176962-rose",
+      "checkedAt": "2026-08-19T13:13:24.125Z"
     },
     "rosemarysbaby|romanpolanski": {
       "filmTitle": "Rosemary's Baby",
