@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-19T18:54:28.021Z",
+  "updatedAt": "2026-08-20T01:52:41.391Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -493,7 +493,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-05T19:59:29.105Z"
+      "checkedAt": "2026-08-20T01:56:11.929Z"
     },
     "avantpremieresurprise|": {
       "filmTitle": "Avant-Première Surprise 👀",
@@ -1545,6 +1545,14 @@
       "titleEn": "Deliverance",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
+    "delivrenousdumal|valeriabaldangiovanniziberna": {
+      "filmTitle": "DELIVRE-NOUS DU MAL",
+      "director": "Valeria Baldan, Giovanni Ziberna",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-20T01:56:11.929Z"
     },
     "dersououzala|akirakurosawa": {
       "filmTitle": "DERSOU OUZALA",
@@ -2612,6 +2620,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/695721-the-hunger-games-the-ballad-of-songbirds-snakes",
       "checkedAt": "2026-08-04T14:43:14.042Z"
+    },
+    "hungergameslaballadeduserpentetdeloiseauchanteur|francislawrence": {
+      "filmTitle": "HUNGER GAMES: LA BALLADE DU SERPENT ET DE L'OISEAU CHANTEUR",
+      "director": "Francis Lawrence",
+      "titleEn": "The Hunger Games: The Ballad of Songbirds & Snakes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/695721-the-hunger-games-the-ballad-of-songbirds-snakes",
+      "checkedAt": "2026-08-20T01:56:11.929Z"
     },
     "hungergameslarevoltepartie1|francislawrence": {
       "filmTitle": "Hunger Games - La Révolte : Partie 1",
@@ -3788,6 +3804,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/4946-la-piscine",
       "checkedAt": "2026-07-31T14:39:16.810Z"
+    },
+    "laplanetedessinges|schaffnerfranklinj": {
+      "filmTitle": "La Planete Des Singes",
+      "director": "SCHAFFNER Franklin J",
+      "titleEn": "Planet of the Apes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/871-planet-of-the-apes",
+      "checkedAt": "2026-08-20T01:56:11.929Z"
     },
     "laplanetesauvage|lalouxrene": {
       "filmTitle": "La Planete Sauvage",
@@ -5990,7 +6014,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T03:42:56.819Z"
+      "checkedAt": "2026-08-20T01:56:11.929Z"
     },
     "madmaxfuryroad|georgemiller": {
       "filmTitle": "Mad Max: Fury Road",
@@ -7645,6 +7669,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/63688-retour-a-la-vie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "retrolesclassiquessurgrandecran|": {
+      "filmTitle": "Rétro : Les Classiques Sur Grand Écran",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-20T01:56:11.929Z"
     },
     "riobravo|howardhawks": {
       "filmTitle": "Rio Bravo",
