@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-20T07:07:15.991Z",
+  "updatedAt": "2026-08-20T13:11:51.246Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9076,6 +9076,13 @@
       "titleEn": "Moana",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "vampirezombiesfromspace|michaelstasko": {
+      "filmTitle": "Vampire Zombies... From Space!",
+      "director": "Michael Stasko",
+      "titleEn": "Vampire Zombies... From Space!",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-20T13:15:13.157Z"
     },
     "vanille|guillaumelorin": {
       "filmTitle": "Vanille",
