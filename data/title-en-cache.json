@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T01:58:25.357Z",
+  "updatedAt": "2026-08-21T13:12:17.287Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6266,6 +6266,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "memoiredefille|judithgodreche": {
+      "filmTitle": "Mémoire de fille",
+      "director": "Judith Godrèche",
+      "titleEn": "A Girl’s Story",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1514891-memoire-de-fille",
+      "checkedAt": "2026-08-21T13:14:57.903Z"
+    },
     "memoriesofmurder|bongjoonho": {
       "filmTitle": "Memories of Murder",
       "director": "Bong Joon Ho",
@@ -6763,6 +6771,13 @@
       "titleEn": "Nowhere",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "nymphomaniacvolume1|larsvontrier": {
+      "filmTitle": "Nymphomaniac - Volume 1",
+      "director": "Lars von Trier",
+      "titleEn": "Nymphomaniac : Volume I",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-21T13:14:57.903Z"
     },
     "oasisdontlookbackinanger|dylansouthernwilllovelace": {
       "filmTitle": "OASIS: DON'T LOOK BACK IN ANGER",
@@ -8394,6 +8409,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/846716",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "theholyboy|paolostrippoli": {
+      "filmTitle": "The Holy Boy",
+      "director": "Paolo Strippoli",
+      "titleEn": "The Holy Boy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1092936-la-valle-dei-sorrisi",
+      "checkedAt": "2026-08-21T13:14:57.903Z"
     },
     "thekingofnewyork|abelferrara": {
       "filmTitle": "The King of New York",
