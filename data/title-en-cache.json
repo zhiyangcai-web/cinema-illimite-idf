@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-21T18:57:31.980Z",
+  "updatedAt": "2026-08-22T01:51:30.534Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1022,6 +1022,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/3426-cesar-et-rosalie",
       "checkedAt": "2026-08-15T18:50:45.147Z"
+    },
+    "cestpaslataillequicompte127|": {
+      "filmTitle": "C'Est Pas La Taille Qui Compte  #127",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-22T01:54:41.685Z"
     },
     "challengers|lucaguadagnino": {
       "filmTitle": "CHALLENGERS",
@@ -4814,7 +4822,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-07T19:19:11.496Z"
+      "checkedAt": "2026-08-22T01:54:41.685Z"
     },
     "lesbansheesdinisherin|martinmcdonagh": {
       "filmTitle": "Les Banshees d'Inisherin",
@@ -5380,6 +5388,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1058054-the-smeds-and-the-smoos",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "lestourougesetlestoubleus|schettinialejosoderguitalfredocutlersamanthasnaddondanielrohledersonjatikunovavasilisa": {
+      "filmTitle": "Les Tourouges Et Les Toubleus",
+      "director": "SCHETTINI Alejo, SODERGUIT Alfredo, CUTLER Samantha, SNADDON Daniel, ROHLEDER Sonja, TIKUNOVA Vasilisa",
+      "titleEn": "The Smeds and the Smoos",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1058054-the-smeds-and-the-smoos",
+      "checkedAt": "2026-08-22T01:54:41.685Z"
     },
     "lestoutespetitescreatures|lucyizzard": {
       "filmTitle": "Les Toutes Petites Créatures",
@@ -6734,6 +6750,14 @@
       "tmdbPath": "/movie/1329071",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "notresalut|emmanuelmarre": {
+      "filmTitle": "Notre Salut",
+      "director": "Emmanuel Marre",
+      "titleEn": "A Man of His Time",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1318864-notre-salut",
+      "checkedAt": "2026-08-22T01:54:41.685Z"
+    },
     "nouslorchestre|philippebeziat": {
       "filmTitle": "Nous l'Orchestre",
       "director": "Philippe Béziat",
@@ -7701,6 +7725,14 @@
       "tmdbPath": "/movie/63688-retour-a-la-vie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "retouravant15heures|gaellepingle": {
+      "filmTitle": "Retour Avant 15 Heures",
+      "director": "Gaël Lépingle",
+      "titleEn": "Back Before 3 P.M.",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1633356-retour-avant-15-heures",
+      "checkedAt": "2026-08-22T01:54:41.685Z"
+    },
     "retrolesclassiquessurgrandecran|": {
       "filmTitle": "Rétro : Les Classiques Sur Grand Écran",
       "director": "",
@@ -8055,7 +8087,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-07T19:19:11.496Z"
+      "checkedAt": "2026-08-22T01:54:41.685Z"
     },
     "soleilvert|richardfleischer": {
       "filmTitle": "Soleil vert",
