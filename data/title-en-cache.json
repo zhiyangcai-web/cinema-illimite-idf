@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T13:03:19.824Z",
+  "updatedAt": "2026-08-23T18:49:10.254Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -195,6 +195,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1352304-adieu-monde-cruel",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "adieuphilippine|jacquesrozier": {
+      "filmTitle": "Adieu Philippine",
+      "director": "Jacques Rozier",
+      "titleEn": "Adieu Philippine",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/63880-adieu-philippine",
+      "checkedAt": "2026-08-23T18:51:10.707Z"
     },
     "affreuxsalesetmechants|ettorescola": {
       "filmTitle": "Affreux, sales et méchants",
