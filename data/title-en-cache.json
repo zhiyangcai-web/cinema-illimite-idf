@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T07:02:20.651Z",
+  "updatedAt": "2026-08-23T13:03:19.824Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2210,6 +2210,13 @@
       "source": "No confident TMDB match",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "gerry|gusvansant": {
+      "filmTitle": "Gerry",
+      "director": "Gus Van Sant",
+      "titleEn": "Gerry",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-23T13:05:22.427Z"
+    },
     "getout|jordanpeele": {
       "filmTitle": "Get Out",
       "director": "Jordan Peele",
@@ -3981,6 +3988,14 @@
       "titleEn": "The Tempest",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "latourdeglace|lucilehadzihalilovic": {
+      "filmTitle": "La Tour de glace",
+      "director": "Lucile Hadzihalilovic",
+      "titleEn": "The Ice Tower",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1143440-la-tour-de-glace",
+      "checkedAt": "2026-08-23T13:05:22.427Z"
     },
     "latrahisonsepayecash|philkarlson": {
       "filmTitle": "La Trahison se paye cash",
