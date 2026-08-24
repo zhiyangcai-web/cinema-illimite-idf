@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T01:58:34.809Z",
+  "updatedAt": "2026-08-24T13:14:36.583Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -249,6 +249,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "akira|katsuhirootomo": {
+      "filmTitle": "Akira",
+      "director": "Katsuhiro Ôtomo",
+      "titleEn": "Akira",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/149-akira",
+      "checkedAt": "2026-08-24T13:16:58.884Z"
+    },
     "alarecherchedemistergoodbar|richardbrooks": {
       "filmTitle": "A la recherche de Mister Goodbar",
       "director": "Richard Brooks",
@@ -369,6 +377,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/28-apocalypse-now",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "apocalypto|melgibson": {
+      "filmTitle": "Apocalypto",
+      "director": "Mel Gibson",
+      "titleEn": "Apocalypto",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1579-apocalypto",
+      "checkedAt": "2026-08-24T13:16:58.884Z"
     },
     "arco|ugobienvenu": {
       "filmTitle": "Arco",
@@ -6368,6 +6384,13 @@
       "tmdbPath": "/movie/11423",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "memoryofprincessmumbi|damienhauser": {
+      "filmTitle": "Memory Of Princess Mumbi",
+      "director": "Damien Hauser",
+      "titleEn": "Memory Of Princess Mumbi",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-24T13:16:58.884Z"
+    },
     "mercidetrevenu|alaincavalier": {
       "filmTitle": "Merci D'Être Venu",
       "director": "Alain Cavalier",
@@ -8159,6 +8182,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "siroccoetleroyaumedescourantsdair|benoitchieux": {
+      "filmTitle": "Sirocco et le royaume des courants d'air",
+      "director": "Benoît Chieux",
+      "titleEn": "Sirocco and the Kingdom of Winds",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/676696-sirocco-et-le-royaume-des-courants-d-air",
+      "checkedAt": "2026-08-24T13:16:58.884Z"
+    },
     "sitcom|ozonfrancois": {
       "filmTitle": "Sitcom",
       "director": "OZON François",
@@ -8489,6 +8520,13 @@
       "titleEn": "The Dark Knight Rises",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
+    "thedogstars|ridleyscott": {
+      "filmTitle": "The Dog Stars",
+      "director": "Ridley Scott",
+      "titleEn": "The Dog Stars",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-24T13:16:58.884Z"
     },
     "thedoomgeneration|greggaraki": {
       "filmTitle": "The Doom Generation",
