@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-24T19:00:54.519Z",
+  "updatedAt": "2026-08-25T01:53:25.156Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -820,6 +820,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "bobleflambeur|jeanpierremelville": {
+      "filmTitle": "Bob le flambeur",
+      "director": "Jean-Pierre Melville",
+      "titleEn": "Bob le Flambeur",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/26030-bob-le-flambeur",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "bodiesbodiesbodies|halinareijn": {
       "filmTitle": "Bodies Bodies Bodies",
       "director": "Halina Reijn",
@@ -923,6 +931,13 @@
       "titleEn": "Bullitt",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "bunnylakeadisparu|ottopreminger": {
+      "filmTitle": "Bunny Lake a disparu",
+      "director": "Otto Preminger",
+      "titleEn": "Bunny Lake Is Missing",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "byebyebresil|carlosdiegues": {
       "filmTitle": "Bye Bye Brésil",
@@ -1210,6 +1225,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/499-cleo-de-5-a-7",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "climax|gasparnoe": {
+      "filmTitle": "Climax",
+      "director": "Gaspar Noé",
+      "titleEn": "Climax",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/507076-climax",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "close|lukasdhont": {
       "filmTitle": "Close",
@@ -1574,10 +1597,9 @@
     "decorado|albertovaacutezquezii": {
       "filmTitle": "DECORADO",
       "director": "Alberto V&aacute;zquez (II)",
-      "titleEn": "",
+      "titleEn": "Decorado",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-24T19:03:48.303Z"
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "decorado|albertovazquez": {
       "filmTitle": "Decorado",
@@ -2855,6 +2877,13 @@
       "tmdbPath": "/movie/16869-inglourious-basterds",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "inherentvice|paulthomasanderson": {
+      "filmTitle": "Inherent Vice",
+      "director": "Paul Thomas Anderson",
+      "titleEn": "Inherent Vice",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "inlandempire|davidlynch": {
       "filmTitle": "Inland Empire",
       "director": "David Lynch",
@@ -3057,7 +3086,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-03T15:21:06.126Z"
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "jeandelalune|stephanscheschsarahclaraweber": {
       "filmTitle": "Jean de la Lune",
@@ -3300,6 +3329,14 @@
       "tmdbPath": "/movie/1365362-kyma-l-onde-mysterieuse",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "la7emecible|claudepinoteau": {
+      "filmTitle": "La 7ème cible",
+      "director": "Claude Pinoteau",
+      "titleEn": "The Seventh Target",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/70929-la-7eme-cible",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "labaiedesanges|jacquesdemy": {
       "filmTitle": "La Baie Des Anges",
       "director": "Jacques Demy",
@@ -3473,6 +3510,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-11T19:29:34.288Z"
     },
+    "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|alainmassonneaujeanjacqueshenry": {
+      "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
+      "director": "Alain Massonneau, Jean-Jacques Henry",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|jeanjacqueshenryalainmassonneau": {
       "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
       "director": "Jean-Jacques Henry, Alain Massonneau",
@@ -3480,6 +3525,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
+    "lacitedelindiciblepeur|jeanpierremocky": {
+      "filmTitle": "La Cité de l'indicible peur",
+      "director": "Jean-Pierre Mocky",
+      "titleEn": "The Big Scare",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/79758-la-grande-frousse",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "lacitedesdangers|robertaldrich": {
       "filmTitle": "La Cité des dangers",
@@ -3833,6 +3886,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/49361-non-si-sevizia-un-paperino",
       "checkedAt": "2026-08-05T09:10:00.932Z"
+    },
+    "lamainsurlagueulepeineperdue|harariarthur": {
+      "filmTitle": "La Main Sur La Gueule + Peine Perdue",
+      "director": "HARARI Arthur",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "lamantdouble|ozonfrancois": {
       "filmTitle": "L'Amant Double",
@@ -4545,6 +4606,14 @@
       "tmdbPath": "/movie/1314481-the-devil-wears-prada-2",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "ledoulos|jeanpierremelville": {
+      "filmTitle": "Le Doulos",
+      "director": "Jean-Pierre Melville",
+      "titleEn": "Le Doulos",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/20778-le-doulos",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "ledroitpeutilarreterlesguerres|": {
       "filmTitle": "Le droit peut-il arrêter les guerres ?",
       "director": "",
@@ -5136,6 +5205,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
+    "lesduellistes|ridleyscott": {
+      "filmTitle": "Les Duellistes",
+      "director": "Ridley Scott",
+      "titleEn": "The Duellists",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/19067-the-duellists",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "lesechosdupasse|maschaschilinski": {
       "filmTitle": "Les Échos du passé",
@@ -7115,6 +7192,14 @@
       "tmdbPath": "/movie/1447853-don-t-look-back-in-anger",
       "checkedAt": "2026-08-11T19:29:34.288Z"
     },
+    "oasisdontlookbackinanger|willlovelacedylansouthern": {
+      "filmTitle": "Oasis : Don't Look Back In Anger",
+      "director": "Will Lovelace, Dylan Southern",
+      "titleEn": "Oasis: Don't Look Back in Anger",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1447853-oasis-don-t-look-back-in-anger",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "obsession|briandepalma": {
       "filmTitle": "Obsession",
       "director": "Brian De Palma",
@@ -7521,6 +7606,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/29161-phenomena",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "philatelie|natalianazarova": {
+      "filmTitle": "Philatelie",
+      "director": "Natalia Nazarova",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "pickpocket|robertbresson": {
       "filmTitle": "PICKPOCKET",
@@ -7969,6 +8062,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "ran|akirakurosawa": {
+      "filmTitle": "Ran",
+      "director": "Akira Kurosawa",
+      "titleEn": "Ran",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11645",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "rashomon|akirakurosawa": {
       "filmTitle": "Rashômon",
@@ -8897,6 +8998,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "theopera|davidelivermorepaologepcucco": {
+      "filmTitle": "The Opera",
+      "director": "Davide Livermore, Paolo Gep Cucco",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-25T01:57:09.246Z"
+    },
     "theopera|paologepcucco": {
       "filmTitle": "The Opera!",
       "director": "PAOLO GEP CUCCO",
@@ -9634,7 +9743,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-10T19:20:17.668Z"
+      "checkedAt": "2026-08-25T01:57:09.246Z"
     },
     "visiteguidee|carolineroucouxhervethebault": {
       "filmTitle": "Visite guidée",
