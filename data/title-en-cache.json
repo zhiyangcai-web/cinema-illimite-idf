@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T13:12:38.241Z",
+  "updatedAt": "2026-08-25T18:58:36.712Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4069,6 +4069,14 @@
       "tmdbPath": "/movie/16306-la-planete-sauvage",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "laplusprecieusedesmarchandises|michelhazanavicius": {
+      "filmTitle": "La Plus Précieuse Des Marchandises",
+      "director": "Michel Hazanavicius",
+      "titleEn": "The Most Precious of Cargoes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/842859-la-plus-precieuse-des-marchandises",
+      "checkedAt": "2026-08-25T19:01:28.090Z"
+    },
     "lapoursuiteimpitoyable|arthurpenn": {
       "filmTitle": "La Poursuite impitoyable",
       "director": "Arthur Penn",
@@ -4455,6 +4463,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/75491-le-chat-du-rabbin",
       "checkedAt": "2026-08-25T13:15:23.350Z"
+    },
+    "lechatdurabbin|joannsfarantoinedelesvaux": {
+      "filmTitle": "Le Chat du Rabbin",
+      "director": "Joann Sfar, Antoine Delesvaux",
+      "titleEn": "The Rabbi's Cat",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/75491-le-chat-du-rabbin",
+      "checkedAt": "2026-08-25T19:01:28.090Z"
     },
     "lechateaudelaraignee|akirakurosawa": {
       "filmTitle": "Le château de l'araignée",
@@ -6176,6 +6192,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1449868-l-illusion-de-yakushima",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lillusionniste|sylvainchomet": {
+      "filmTitle": "L'Illusionniste",
+      "director": "Sylvain Chomet",
+      "titleEn": "The Illusionist",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/41201-l-illusionniste",
+      "checkedAt": "2026-08-25T19:01:28.090Z"
     },
     "liloetstitch|deandebloischrissanders": {
       "filmTitle": "LILO ET STITCH",
@@ -8015,6 +8039,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/394684-que-dios-nos-perdone",
       "checkedAt": "2026-08-09T19:05:15.459Z"
+    },
+    "queenbudapest|jaacutenoszsombolyai": {
+      "filmTitle": "QUEEN BUDAPEST",
+      "director": "J&aacute;nos Zsombolyai",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-25T19:01:28.090Z"
     },
     "quelabetemeure|claudechabrol": {
       "filmTitle": "Que la bête meure",
