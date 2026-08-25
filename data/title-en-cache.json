@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T07:09:46.732Z",
+  "updatedAt": "2026-08-25T13:12:38.241Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2466,6 +2466,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "hamletcomediefrancaise|corentinleconte": {
+      "filmTitle": "HAMLET (COMEDIE-FRANCAISE)",
+      "director": "Corentin Leconte",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
+    },
     "hamnet|chloezhao": {
       "filmTitle": "Hamnet",
       "director": "Chloé Zhao",
@@ -3023,6 +3031,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/41789-jacquot-de-nantes",
       "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
+    "jaiperdumoncorps|jeremyclapin": {
+      "filmTitle": "J'ai perdu mon corps",
+      "director": "Jérémy Clapin",
+      "titleEn": "I Lost My Body",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/586940-j-ai-perdu-mon-corps",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
     },
     "jairencontrelediable|kimjeewoon": {
       "filmTitle": "J'ai rencontré le Diable",
@@ -4245,6 +4261,13 @@
       "tmdbPath": "/movie/2614-innerspace",
       "checkedAt": "2026-08-08T13:16:03.222Z"
     },
+    "laventureinterieure|joedante": {
+      "filmTitle": "L'Aventure intérieure",
+      "director": "Joe Dante",
+      "titleEn": "Innerspace",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
+    },
     "laventurerevee|valeskagrisebach": {
       "filmTitle": "L Aventure Revee",
       "director": "Valeska Grisebach",
@@ -4425,6 +4448,14 @@
       "tmdbPath": "/movie/27431-il-gatto-a-nove-code",
       "checkedAt": "2026-07-29T19:48:12.519Z"
     },
+    "lechatdurabbin|antoinedelesvauxjoannsfar": {
+      "filmTitle": "Le Chat du Rabbin",
+      "director": "Antoine Delesvaux, Joann Sfar",
+      "titleEn": "The Rabbi's Cat",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/75491-le-chat-du-rabbin",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
+    },
     "lechateaudelaraignee|akirakurosawa": {
       "filmTitle": "Le château de l'araignée",
       "director": "Akira Kurosawa",
@@ -4559,6 +4590,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/643",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lecygneetlenfant|miyoungbaek": {
+      "filmTitle": "Le Cygne Et L'Enfant",
+      "director": "Mi-Young Baek",
+      "titleEn": "Le Cygne et l'enfant",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1747453-le-cygne-et-l-enfant",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
     },
     "ledahlianoir|briandepalma": {
       "filmTitle": "Le Dahlia noir",
@@ -5381,6 +5420,14 @@
       "tmdbPath": "/movie/1135094-les-grandes-vacances-de-cowboy-et-indien",
       "checkedAt": "2026-07-28T09:09:08.721Z"
     },
+    "lesgriffesdelanuit|wescraven": {
+      "filmTitle": "LES GRIFFES DE LA NUIT",
+      "director": "Wes Craven",
+      "titleEn": "A Nightmare on Elm Street",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/377-a-nightmare-on-elm-street",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
+    },
     "lesguerriersdelanuit|walterhill": {
       "filmTitle": "Les Guerriers de la nuit",
       "director": "Walter Hill",
@@ -5943,6 +5990,14 @@
       "tmdbPath": "/movie/1340206-tuner",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "leviticus|adrianchiarella": {
+      "filmTitle": "LEVITICUS",
+      "director": "Adrian Chiarella",
+      "titleEn": "Leviticus",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1564614-leviticus",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
+    },
     "levoleurdebicyclette|vittoriodesica": {
       "filmTitle": "Le Voleur de bicyclette",
       "director": "Vittorio De Sica",
@@ -6412,6 +6467,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-22T18:52:00.277Z"
+    },
+    "mafamilledesamourais|celiacatunda": {
+      "filmTitle": "Ma Famille De Samourais",
+      "director": "Celia Catunda",
+      "titleEn": "My Grandfather Is a Nihonjin",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1453589-eu-e-meu-avo-nihonjin",
+      "checkedAt": "2026-08-25T13:15:23.350Z"
     },
     "magnolia|paulthomasanderson": {
       "filmTitle": "Magnolia",
