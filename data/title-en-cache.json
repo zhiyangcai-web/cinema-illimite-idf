@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T13:17:38.185Z",
+  "updatedAt": "2026-08-26T20:04:52.284Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -698,6 +698,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/8265-bienvenue-chez-les-ch-tis",
       "checkedAt": "2026-08-08T19:02:00.489Z"
+    },
+    "billiemelody|christinepaillard": {
+      "filmTitle": "BILLIE MELODY",
+      "director": "Christine Paillard",
+      "titleEn": "Billie Melody",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1312311-billie-melody",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
     },
     "bird|andreaarnold": {
       "filmTitle": "Bird",
@@ -1415,6 +1423,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/64242-copie-conforme",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "cosifantuttetheroyalopera|netiajones": {
+      "filmTitle": "COSI FAN TUTTE (THE ROYAL OPERA)",
+      "director": "Netia Jones",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
     },
     "cosmos|germinalroaux": {
       "filmTitle": "Cosmos",
@@ -4701,6 +4717,14 @@
       "tmdbPath": "/movie/1314481-the-devil-wears-prada-2",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "ledocteurjivago|davidlean": {
+      "filmTitle": "Le Docteur Jivago",
+      "director": "David Lean",
+      "titleEn": "Doctor Zhivago",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/907-doctor-zhivago",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
+    },
     "ledoulos|jeanpierremelville": {
       "filmTitle": "Le Doulos",
       "director": "Jean-Pierre Melville",
@@ -5538,6 +5562,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1208117-les-heros-du-louvre",
       "checkedAt": "2026-08-19T01:57:30.946Z"
+    },
+    "leshirondellesdekaboul|eleagobbemevelleczaboubreitman": {
+      "filmTitle": "Les Hirondelles de Kaboul",
+      "director": "Eléa Gobbé-Mévellec, Zabou Breitman",
+      "titleEn": "The Swallows of Kabul",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/582881-les-hirondelles-de-kaboul",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
     },
     "leshommesdupresident|alanjpakula": {
       "filmTitle": "Les Hommes du Président",
@@ -7589,10 +7621,10 @@
     "paradise|jeremycomte": {
       "filmTitle": "Paradise",
       "director": "Jérémy Comte",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-12T19:30:26.848Z"
+      "titleEn": "Paradise",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1026933-paradise",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
     },
     "paranormalactivity|orenpeli": {
       "filmTitle": "PARANORMAL ACTIVITY",
@@ -8420,6 +8452,13 @@
       "tmdbPath": "/movie/31058-riso-amaro",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "robocop|paulverhoeven": {
+      "filmTitle": "Robocop",
+      "director": "Paul Verhoeven",
+      "titleEn": "RoboCop",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
+    },
     "roccoetsesfreres|luchinovisconti": {
       "filmTitle": "Rocco et ses frères",
       "director": "Luchino Visconti",
@@ -8645,6 +8684,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/43195-senso",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "septansdereflexion|billywilder": {
+      "filmTitle": "SEPT ANS DE REFLEXION",
+      "director": "Billy Wilder",
+      "titleEn": "The Seven Year Itch",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10653-the-seven-year-itch",
+      "checkedAt": "2026-08-26T20:07:38.782Z"
     },
     "seulelavie|adriangoiginger": {
       "filmTitle": "Seule La Vie",
