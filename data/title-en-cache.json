@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-25T18:58:36.712Z",
+  "updatedAt": "2026-08-26T01:59:15.712Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -908,6 +908,14 @@
       "titleEn": "Breaking the Waves",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "breverencontre|kiramouratova": {
+      "filmTitle": "Breve Rencontre",
+      "director": "Kira Mouratova",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "buenavistasocialclub|wenderswim": {
       "filmTitle": "Buena Vista Social Club",
@@ -2710,7 +2718,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-11T19:29:34.288Z"
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "honorableangelina|zampaluigui": {
       "filmTitle": "Honorable Angelina",
@@ -3524,7 +3532,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-11T19:29:34.288Z"
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|alainmassonneaujeanjacqueshenry": {
       "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
@@ -3540,7 +3548,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-11T19:29:34.288Z"
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "lacitedelindiciblepeur|jeanpierremocky": {
       "filmTitle": "La Cité de l'indicible peur",
@@ -4566,7 +4574,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-11T19:29:34.288Z"
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "lecontedelaprincessekaguya|isaotakahata": {
       "filmTitle": "Le Conte de la princesse Kaguya",
@@ -4793,6 +4801,14 @@
       "titleEn": "The Big Knife",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "legrandmechantrenardetautrescontes|benjaminrenner": {
+      "filmTitle": "Le Grand Mechant Renard Et Autres Contes",
+      "director": "Benjamin Renner",
+      "titleEn": "The Big Bad Fox and Other Tales",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/453191-le-grand-mechant-renard-et-autres-contes",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "leguepard|luchinovisconti": {
       "filmTitle": "Le Guépard",
@@ -5048,6 +5064,14 @@
       "titleEn": "Point Blank",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "lepontdelarivierekwai|davidlean": {
+      "filmTitle": "Le Pont De La Riviere Kwai",
+      "director": "David Lean",
+      "titleEn": "The Bridge on the River Kwai",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/826-the-bridge-on-the-river-kwai",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "leportraitdedoriangray|albertlewin": {
       "filmTitle": "Le Portrait de Dorian Gray",
@@ -5347,6 +5371,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-30T09:07:35.982Z"
+    },
+    "lesfilmslaureatsdufestivalgirogirocortoaparis|antonioromagnolilouisdouillezanastasiafalileieva": {
+      "filmTitle": "Les Films Lauréats du Festival GiroGiroCorto à Paris",
+      "director": "Antonio Romagnoli, Louis Douillez, Anastasia Falileieva",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "lesfilsdelhomme|alfonsocuaron": {
       "filmTitle": "Les Fils de l'homme",
@@ -6587,6 +6619,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/947520-mary-anning-chasseuse-de-fossiles",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "maryetmax|adamelliot": {
+      "filmTitle": "Mary et Max.",
+      "director": "Adam Elliot",
+      "titleEn": "Mary and Max",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/24238-mary-and-max",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "mash|robertaltman": {
       "filmTitle": "M.A.S.H.",
@@ -8620,6 +8660,14 @@
       "tmdbPath": "/movie/1466670-si-tu-penses-bien",
       "checkedAt": "2026-08-18T19:00:11.814Z"
     },
+    "sixmoisdanslamaisonroseetbleue|brunosantamariarazo": {
+      "filmTitle": "Six Mois Dans La Maison Rose Et Bleue",
+      "director": "Bruno Santamaría Razo",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
+    },
     "smile|parkerfinn": {
       "filmTitle": "Smile",
       "director": "Parker Finn",
@@ -9362,6 +9410,14 @@
       "titleEn": "The Molly Maguires",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "tributetojohncoltrane|": {
+      "filmTitle": "Tribute To John Coltrane",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-26T02:02:46.968Z"
     },
     "tricoteserrecrepu|hilleljoseph": {
       "filmTitle": "Tricote Serre Crepu",
