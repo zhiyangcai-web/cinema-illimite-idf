@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-26T20:04:52.284Z",
+  "updatedAt": "2026-08-27T09:52:37.736Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2185,7 +2185,7 @@
       "director": "Helen Walsh",
       "titleEn": "On the Sea",
       "source": "AlloCine original title",
-      "checkedAt": "2026-08-24T19:03:48.303Z"
+      "checkedAt": "2026-08-27T09:56:05.388Z"
     },
     "fargo|joelcoenethancoen": {
       "filmTitle": "Fargo",
@@ -2497,6 +2497,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "hairpaperwater|grauxnicolas": {
+      "filmTitle": "Hair Paper Water",
+      "director": "GRAUX Nicolas",
+      "titleEn": "Hair, Paper, Water...",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
+      "checkedAt": "2026-08-27T09:56:05.388Z"
     },
     "hamletcomediefrancaise|corentinleconte": {
       "filmTitle": "HAMLET (COMEDIE-FRANCAISE)",
@@ -4371,6 +4379,14 @@
       "tmdbPath": "/movie/88435",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lavieenreliefjacqueshenrilartigue|denisgaubert": {
+      "filmTitle": "La Vie en relief - Jacques Henri Lartigue",
+      "director": "Denis Gaubert",
+      "titleEn": "Jacques Henri Lartigue – La vie en relief",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1724781-jacques-henri-lartigue-la-vie-en-relief",
+      "checkedAt": "2026-08-27T09:56:05.388Z"
+    },
     "lavieestanous|jacquesbruniusjeanpaullechanoisjacquesbeckerpierreunikhenricartierbressonandrezwobadajeanrenoirmauricelime": {
       "filmTitle": "La Vie Est À Nous",
       "director": "Jacques Brunius, Jean-Paul Le Chanois, Jacques Becker, Pierre Unik, Henri Cartier-Bresson, André Zwobada, Jean Renoir, Maurice Lime",
@@ -4958,6 +4974,22 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1156125",
       "checkedAt": "2026-07-27T19:59:18.827Z"
+    },
+    "lemecanodelagenerale|busterkeatonclydebruckman": {
+      "filmTitle": "Le Mécano de la Générale",
+      "director": "Buster Keaton, Clyde Bruckman",
+      "titleEn": "The General",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/961-the-general",
+      "checkedAt": "2026-08-27T09:56:05.388Z"
+    },
+    "lemecanodelagenerale|clydebruckmanbusterkeaton": {
+      "filmTitle": "Le Mécano de la Générale",
+      "director": "Clyde Bruckman, Buster Keaton",
+      "titleEn": "The General",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/961-the-general",
+      "checkedAt": "2026-08-27T09:56:05.388Z"
     },
     "lemepris|jeanlucgodard": {
       "filmTitle": "Le Mépris",
@@ -8808,6 +8840,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-22T01:54:41.685Z"
     },
+    "soisbelleettaistoi|marcallegret": {
+      "filmTitle": "Sois Belle Et Tais Toi",
+      "director": "Marc Allégret",
+      "titleEn": "Be Beautiful and Shut Up",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/80543-sois-belle-et-tais-toi",
+      "checkedAt": "2026-08-27T09:56:05.388Z"
+    },
     "soleilvert|richardfleischer": {
       "filmTitle": "Soleil vert",
       "director": "Richard Fleischer",
@@ -9568,6 +9608,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1433339-tre-ciotole",
       "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
+    "troisadieuxdeisabelcoixetavantpremiereexceptionnelleenpresencedelequipedufilm|": {
+      "filmTitle": "Trois Adieux De Isabel Coixet   Avant-Première Exceptionnelle En Présence De L'Équipe Du Film !",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-27T09:56:05.388Z"
     },
     "tuezcharleyvarrick|donsiegel": {
       "filmTitle": "Tuez Charley Varrick!",
