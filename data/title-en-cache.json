@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T09:52:37.736Z",
+  "updatedAt": "2026-08-27T22:17:25.992Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -179,6 +179,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/101475-a-cavallo-della-tigre",
       "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
+    "adangerousmethod|davidcronenberg": {
+      "filmTitle": "A Dangerous Method",
+      "director": "David Cronenberg",
+      "titleEn": "A Dangerous Method",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/48231-a-dangerous-method",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "adieuaulangage|jeanlucgodard": {
       "filmTitle": "Adieu au Langage",
@@ -377,6 +385,14 @@
       "tmdbPath": "/movie/880-antonia",
       "checkedAt": "2026-07-25T14:05:31.028Z"
     },
+    "apocalypsenow|francisfordcoppola": {
+      "filmTitle": "Apocalypse Now",
+      "director": "Francis Ford Coppola",
+      "titleEn": "Apocalypse Now",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/28-apocalypse-now",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "apocalypsenowfinalcut|francisfordcoppola": {
       "filmTitle": "Apocalypse Now Final Cut",
       "director": "Francis Ford Coppola",
@@ -565,6 +581,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "avoixbasse|leylabouzid": {
+      "filmTitle": "À voix basse",
+      "director": "Leyla Bouzid",
+      "titleEn": "In a Whisper",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1119547-a-voix-basse",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "avoldoiseaux|": {
       "filmTitle": "A vol d'oiseaux",
@@ -1448,6 +1472,14 @@
       "tmdbPath": "/movie/974228",
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
+    "coupdecoeursurprise1afcaeseptembre2026|": {
+      "filmTitle": "Coup de coeur surprise 1 AFCAE Septembre 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "courtsmetragesdescaraibes|multiple": {
       "filmTitle": "Courts Métrages Des Caraïbes",
       "director": "multiple",
@@ -1902,6 +1934,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-18T01:54:33.034Z"
     },
+    "ducobuetlefantomedesaintpotache|eliesemoun": {
+      "filmTitle": "DUCOBU ET LE FANTOME DE SAINT POTACHE",
+      "director": "Elie Semoun",
+      "titleEn": "Ducobu et le fantôme de Saint-Potache",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1429581-ducobu-et-le-fantome-de-saint-potache",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
       "director": "Jérémie Renier",
@@ -2183,9 +2223,9 @@
     "facealamer|helenwalsh": {
       "filmTitle": "Face à la mer",
       "director": "Helen Walsh",
-      "titleEn": "On the Sea",
+      "titleEn": "On The Sea",
       "source": "AlloCine original title",
-      "checkedAt": "2026-08-27T09:56:05.388Z"
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "fargo|joelcoenethancoen": {
       "filmTitle": "Fargo",
@@ -2992,6 +3032,14 @@
       "titleEn": "Into The Wild",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "intouchables|erictoledano": {
+      "filmTitle": "Intouchables",
+      "director": "Eric Toledano",
+      "titleEn": "The Intouchables",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/77338-intouchables",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "intouchables|erictoledanooliviernakache": {
       "filmTitle": "Intouchables",
@@ -3951,6 +3999,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-14T13:46:59.477Z"
     },
+    "lalignebleue|mariedumora": {
+      "filmTitle": "La ligne bleue",
+      "director": "Marie Dumora",
+      "titleEn": "The Blue Line",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1493053-la-ligne-bleue",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "lalonguenuitdelexorcisme|luciofulci": {
       "filmTitle": "La Longue Nuit de l'exorcisme",
       "director": "Lucio Fulci",
@@ -4148,6 +4204,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "lapriereauxetoilesfilminacheve|marcelpagnol": {
+      "filmTitle": "La Prière aux étoiles (film inachevé)",
+      "director": "Marcel Pagnol",
+      "titleEn": "La Prière aux étoiles (film inachevé)",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1638392-la-priere-aux-etoiles-film-inacheve",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "laprovidenceetlaguitare|joaonicolau": {
       "filmTitle": "La Providence Et La Guitare",
@@ -5207,6 +5271,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-26T13:20:19.030Z"
     },
+    "leratscelerat|jeroenjaspaert": {
+      "filmTitle": "Le Rat scélérat",
+      "director": "Jeroen Jaspaert",
+      "titleEn": "The Highway Rat",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "leretour|andreizviaguintsev": {
       "filmTitle": "Le Retour",
       "director": "Andreï Zviaguintsev",
@@ -5930,6 +6001,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-08T19:02:00.489Z"
+    },
+    "lestriplettesdebelleville|sylvainchomet": {
+      "filmTitle": "Les triplettes de Belleville",
+      "director": "Sylvain Chomet",
+      "titleEn": "The Triplets of Belleville",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9662-les-triplettes-de-belleville",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "lestueurs|robertsiodmak": {
       "filmTitle": "Les Tueurs",
@@ -6692,6 +6771,14 @@
       "tmdbPath": "/movie/48831-ma-nuit-chez-maud",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "marcellecoquillageavecseschaussures|deanfleischercamp": {
+      "filmTitle": "Marcel, le Coquillage (avec ses chaussures)",
+      "director": "Dean Fleischer-Camp",
+      "titleEn": "Marcel the Shell with Shoes On",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/869626-marcel-the-shell-with-shoes-on",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "mariagealitalienne|vittoriodesica": {
       "filmTitle": "Mariage à l'Italienne",
       "director": "Vittorio De Sica",
@@ -6707,6 +6794,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1512207-ruffen-sjoormen-som-ikke-kunne-svomme",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "marsexpress|jeremieperin": {
+      "filmTitle": "Mars Express",
+      "director": "Jérémie Périn",
+      "titleEn": "Mars Express",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/586810-mars-express",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "marsupilami|philippelacheau": {
       "filmTitle": "MARSUPILAMI",
@@ -6894,6 +6989,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1514891-memoire-de-fille",
       "checkedAt": "2026-08-21T13:14:57.903Z"
+    },
+    "memoiresdunescargot|adamelliot": {
+      "filmTitle": "Mémoires d'un escargot",
+      "director": "Adam Elliot",
+      "titleEn": "Memoir of a Snail",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1064486-memoir-of-a-snail",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "memoriesofmurder|bongjoonho": {
       "filmTitle": "Memories of Murder",
@@ -8035,6 +8138,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/329865-arrival",
       "checkedAt": "2026-08-11T19:29:34.288Z"
+    },
+    "premiereslunes|melaniemelot": {
+      "filmTitle": "Premières lunes",
+      "director": "Mélanie Melot",
+      "titleEn": "Premières lunes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1606553-premieres-lunes",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "presentationexceptionnellefjord|": {
       "filmTitle": "Présentation Exceptionnelle - Fjord",
@@ -9407,6 +9518,14 @@
       "tmdbPath": "/movie/1316719",
       "checkedAt": "2026-08-10T19:20:17.668Z"
     },
+    "thewallstreetboy|uwagbaicharles": {
+      "filmTitle": "The Wall Street Boy",
+      "director": "UWAGBAI Charles",
+      "titleEn": "The Wall Street Boy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1166483-kipkemboi",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
     "theworldoflove|yoongaeun": {
       "filmTitle": "The World Of Love",
       "director": "Yoon Ga-eun",
@@ -9500,6 +9619,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1301059-dikkie-dik-en-de-verdwenen-knuffel",
       "checkedAt": "2026-08-22T13:04:12.863Z"
+    },
+    "tomlechatalarecherchedudoudouperdu|joostvandenboscherikverkerk": {
+      "filmTitle": "Tom Le Chat A La Recherche Du Doudou Perdu",
+      "director": "Joost van den Bosch, Erik Verkerk",
+      "titleEn": "Tummy Tom and the Lost Teddybear",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1301059-dikkie-dik-en-de-verdwenen-knuffel",
+      "checkedAt": "2026-08-27T22:20:51.917Z"
     },
     "tommyguns|carlosconceicao": {
       "filmTitle": "Tommy Guns",
