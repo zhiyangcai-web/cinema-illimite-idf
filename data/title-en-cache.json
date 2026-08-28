@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-27T22:17:25.992Z",
+  "updatedAt": "2026-08-28T11:26:34.161Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4358,6 +4358,14 @@
       "tmdbPath": "/movie/352345-la-tete-du-client",
       "checkedAt": "2026-08-24T19:03:48.303Z"
     },
+    "latortuerouge|michaeldudokdewit": {
+      "filmTitle": "La Tortue rouge",
+      "director": "Michael Dudok de Wit",
+      "titleEn": "The Red Turtle",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/337703-la-tortue-rouge",
+      "checkedAt": "2026-08-28T11:29:01.241Z"
+    },
     "latourdeglace|lucilehadzihalilovic": {
       "filmTitle": "La Tour de glace",
       "director": "Lucile Hadzihalilovic",
@@ -5710,7 +5718,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T03:42:56.819Z"
+      "checkedAt": "2026-08-28T11:29:01.241Z"
     },
     "lesmalaimes|heleneducrocq": {
       "filmTitle": "Les Mal-aimés",
@@ -6484,6 +6492,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "linvitation|oliviawilde": {
+      "filmTitle": "L'Invitation",
+      "director": "Olivia Wilde",
+      "titleEn": "The Invite",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-28T11:29:01.241Z"
+    },
     "littlefilmfestivalatelierpateamodeler|": {
       "filmTitle": "Little Film Festival : Atelier Pâte À Modeler",
       "director": "",
@@ -7167,6 +7182,14 @@
       "tmdbPath": "/movie/937746-io-capitano",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "mommy|xavierdolan": {
+      "filmTitle": "Mommy",
+      "director": "Xavier Dolan",
+      "titleEn": "Mommy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/265177-mommy",
+      "checkedAt": "2026-08-28T11:29:01.241Z"
+    },
     "monika|ingmarbergman": {
       "filmTitle": "Monika",
       "director": "Ingmar Bergman",
@@ -7330,6 +7353,14 @@
       "titleEn": "Network",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-30T14:36:40.647Z"
+    },
+    "neufmois|martameszaros": {
+      "filmTitle": "Neuf Mois",
+      "director": "Márta Mészáros",
+      "titleEn": "Nine Months",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/358954-kilenc-honap",
+      "checkedAt": "2026-08-28T11:29:01.241Z"
     },
     "newgroup|yutashimotsu": {
       "filmTitle": "New Group",
@@ -7525,6 +7556,13 @@
       "titleEn": "Nymphomaniac : Volume I",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-21T13:14:57.903Z"
+    },
+    "nymphomaniacvolume2|larsvontrier": {
+      "filmTitle": "Nymphomaniac - Volume 2",
+      "director": "Lars von Trier",
+      "titleEn": "Nymphomaniac : Volume II",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-28T11:29:01.241Z"
     },
     "oasisdontlookbackinanger|dylansouthernwilllovelace": {
       "filmTitle": "OASIS: DON'T LOOK BACK IN ANGER",
@@ -8678,7 +8716,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-07T19:19:11.496Z"
+      "checkedAt": "2026-08-28T11:29:01.241Z"
     },
     "ruecasesnegres|euzhanpalcy": {
       "filmTitle": "Rue Cases-Nègres",
