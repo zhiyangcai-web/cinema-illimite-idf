@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-28T11:26:34.161Z",
+  "updatedAt": "2026-08-28T22:22:45.245Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1486,7 +1486,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T13:46:59.477Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "cowboybebop|shinichirowatanabe": {
       "filmTitle": "Cowboy Bebop",
@@ -1742,6 +1742,14 @@
       "tmdbPath": "/movie/1464829",
       "checkedAt": "2026-07-28T19:57:25.455Z"
     },
+    "desgarconsdeprovince|gaellepingle": {
+      "filmTitle": "Des Garcons De Province",
+      "director": "Gaël Lépingle",
+      "titleEn": "Smalltown Boys",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/993558-des-garcons-de-province",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
     "desjoursetdesnuitsdanslaforet|satyajitray": {
       "filmTitle": "Des Jours Et Des Nuits Dans La Foret",
       "director": "Satyajit Ray",
@@ -1772,6 +1780,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1443774-deviens-genial",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "diamantbrut|agatheriedinger": {
+      "filmTitle": "Diamant brut",
+      "director": "Agathe Riedinger",
+      "titleEn": "Wild Diamond",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1108336-diamant-brut",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "diamantnoir|arthurharari": {
       "filmTitle": "Diamant Noir",
@@ -2281,6 +2297,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "finiderirelhumourpolitiqueaugardeavous|mateolarroqueclaramenaismilabranco": {
+      "filmTitle": "Fini De Rire ! L'Humour Politique Au Garde-À-Vous ?",
+      "director": "Matéo Larroque, Clara Menais, Mila Branco",
+      "titleEn": "FINI DE RIRE ! L'humour politique au garde-à-vous ?",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1720724-fini-de-rire-l-humour-politique-au-garde-a-vous",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
     "fist|normanjewison": {
       "filmTitle": "F.I.S.T.",
       "director": "Norman Jewison",
@@ -2583,7 +2607,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotter2etlachambredessecrets|chriscolumbus": {
       "filmTitle": "HARRY POTTER 2 - ET LA CHAMBRE DES SECRETS",
@@ -2591,7 +2615,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotter3etleprisonnierdazkaban|alfonsocuaroacuten": {
       "filmTitle": "HARRY POTTER 3 - ET LE PRISONNIER D'AZKABAN",
@@ -2599,7 +2623,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotter4etlacoupedefeu|mikenewell": {
       "filmTitle": "HARRY POTTER 4 - ET LA COUPE DE FEU",
@@ -2607,7 +2631,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotter5etlordreduphenix|davidyates": {
       "filmTitle": "HARRY POTTER 5 - ET L'ORDRE DU PHENIX",
@@ -2615,7 +2639,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotter6etleprincedesangmele|davidyates": {
       "filmTitle": "HARRY POTTER 6 - ET LE PRINCE DE SANG-MELE",
@@ -2623,7 +2647,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotter7etlesreliquesdelamortpart1|davidyates": {
       "filmTitle": "HARRY POTTER 7 - ET LES RELIQUES DE LA MORT PART 1",
@@ -2639,7 +2663,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "harrypotteralecoledessorciers|chriscolumbus": {
       "filmTitle": "Harry Potter à l'école des sorciers",
@@ -3997,7 +4021,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T13:46:59.477Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "lalignebleue|mariedumora": {
       "filmTitle": "La ligne bleue",
@@ -4341,7 +4365,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T13:46:59.477Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "latempete|derekjarman": {
       "filmTitle": "La Tempête",
@@ -5909,6 +5933,14 @@
       "tmdbPath": "/movie/1318335-les-rayons-et-les-ombres",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "lesreinesdudrame|alexislanglois": {
+      "filmTitle": "Les Reines du drame",
+      "director": "Alexis Langlois",
+      "titleEn": "Queens of Drama",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1001376-les-reines-du-drame",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
     "lesrussesarrivent|normanjewison": {
       "filmTitle": "Les Russes arrivent",
       "director": "Norman Jewison",
@@ -6669,6 +6701,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "lowexpectations|eivindlandsvik": {
+      "filmTitle": "Low Expectations",
+      "director": "Eivind Landsvik",
+      "titleEn": "Low Expectations",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1425487-lave-forventninger",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
     "lultimerazzia|stanleykubrick": {
       "filmTitle": "L'Ultime razzia",
       "director": "Stanley Kubrick",
@@ -6721,6 +6761,14 @@
       "titleEn": "Mad Max: Fury Road",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "mafamilleafghane|michaelapavlatova": {
+      "filmTitle": "Ma famille afghane",
+      "director": "Michaela Pavlátová",
+      "titleEn": "My Sunny Maad",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/831738-moje-slunce-mad",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "mafamilledesamourais|": {
       "filmTitle": "Ma Famille De Samourais",
@@ -7036,6 +7084,14 @@
       "tmdbPath": "/movie/1670563-merci-d-etre-venu",
       "checkedAt": "2026-08-22T18:52:00.277Z"
     },
+    "mespremiersclassiques|": {
+      "filmTitle": "Mes Premiers Classiques",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
     "messidor|alaintanner": {
       "filmTitle": "Messidor",
       "director": "Alain Tanner",
@@ -7321,7 +7377,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T13:46:59.477Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "naissancedespieuvres|sciammaceline": {
       "filmTitle": "Naissance Des Pieuvres",
@@ -7488,6 +7544,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-18T13:12:30.400Z"
+    },
+    "notredamebrule|jeanjacquesannaud": {
+      "filmTitle": "NOTRE-DAME BRULE",
+      "director": "Jean-Jacques Annaud",
+      "titleEn": "Notre-Dame on Fire",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/811596-notre-dame-brule",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "notrehistoirechroniquesducaire|abshawky": {
       "filmTitle": "Notre histoire - Chroniques du Caire ",
@@ -7830,6 +7894,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/563300-paris-au-mois-d-aout",
       "checkedAt": "2026-08-13T13:52:35.828Z"
+    },
+    "parislabelle|pierreprevert": {
+      "filmTitle": "Paris La Belle",
+      "director": "Pierre Prévert",
+      "titleEn": "Paris la belle",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/502301-paris-la-belle",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "paristexas|wenderswim": {
       "filmTitle": "Paris Texas",
@@ -8882,6 +8954,14 @@
       "tmdbPath": "/movie/1249152-vier-minus-drei",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "seulslespirates|lepinglegael": {
+      "filmTitle": "Seuls Les Pirates",
+      "director": "LEPINGLE Gael",
+      "titleEn": "The Time of the Pirates",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/534238-seuls-les-pirates",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
     "seulslesrebelles|daniellearbid": {
       "filmTitle": "Seuls Les Rebelles",
       "director": "Danielle Arbid",
@@ -9515,7 +9595,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "thething|johncarpenter": {
       "filmTitle": "The Thing",
@@ -9764,7 +9844,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-14T19:17:14.976Z"
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "troisadieux|isabelcoixet": {
       "filmTitle": "Trois Adieux",
@@ -9966,6 +10046,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/404-the-straight-story",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "unejolievallee|gaellepingle": {
+      "filmTitle": "Une Jolie Vallee",
+      "director": "Gael Lepingle",
+      "titleEn": "Une jolie vallée",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/359959-une-jolie-vallee",
+      "checkedAt": "2026-08-28T22:25:48.726Z"
     },
     "unejourneeparticuliere|ettorescola": {
       "filmTitle": "Une journée particulière",
