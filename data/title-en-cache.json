@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T07:06:47.575Z",
+  "updatedAt": "2026-08-29T16:44:28.648Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -651,6 +651,13 @@
       "titleEn": "Bait",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "bambi|davidkerrickhandjamesalgarsamuelarmstrong": {
+      "filmTitle": "Bambi",
+      "director": "David Kerrick Hand, James Algar, Samuel Armstrong",
+      "titleEn": "Bambi",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "bandeapart|jeanlucgodard": {
       "filmTitle": "Bande à Part",
@@ -1526,7 +1533,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-15T13:02:31.682Z"
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "crosswindlacroiseedesvents|marttihelde": {
       "filmTitle": "Crosswind - La Croisée Des Vents",
@@ -2214,6 +2221,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-24T19:03:48.303Z"
     },
+    "everytime|sandrawollner": {
+      "filmTitle": "Everytime",
+      "director": "Sandra Wollner",
+      "titleEn": "Everytime",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1655419-everytime",
+      "checkedAt": "2026-08-29T16:46:40.824Z"
+    },
     "evildeadburn|sebastienvanicek": {
       "filmTitle": "Evil Dead Burn",
       "director": "Sébastien Vaniček",
@@ -2520,7 +2535,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-15T13:02:31.682Z"
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "gouttesdeausurpierresbrulantes|francoisozon": {
       "filmTitle": "Gouttes D Eau Sur Pierres Brulantes",
@@ -3278,6 +3293,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1061798-jim-queen",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "jiraimourirdanslescarpates|antoinedemaximy": {
+      "filmTitle": "J’irai mourir dans les Carpates",
+      "director": "Antoine de Maximy",
+      "titleEn": "J'irai mourir dans les Carpates",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/719747-j-irai-mourir-dans-les-carpates",
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "joueuse|carolinebottaro": {
       "filmTitle": "Joueuse",
@@ -4101,7 +4124,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-15T13:02:31.682Z"
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "lamesseestfinie|nannimoretti": {
       "filmTitle": "La Messe est finie",
@@ -4429,6 +4452,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/14069",
       "checkedAt": "2026-08-26T13:20:19.030Z"
+    },
+    "laubergekynamkynaminn|leleon": {
+      "filmTitle": "L Auberge Ky Nam Ky Nam Inn",
+      "director": "LE Leon",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "laura|ottopreminger": {
       "filmTitle": "Laura",
@@ -7846,6 +7877,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/695839",
       "checkedAt": "2026-08-19T18:57:13.147Z"
+    },
+    "paniquetouscourts|vincentpatarstephaneaubier": {
+      "filmTitle": "Panique tous courts",
+      "director": "Vincent Patar, Stéphane Aubier",
+      "titleEn": "Panique tous courts",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1137465-panique-tous-courts",
+      "checkedAt": "2026-08-29T16:46:40.824Z"
     },
     "paprika|satoshikon": {
       "filmTitle": "Paprika",
