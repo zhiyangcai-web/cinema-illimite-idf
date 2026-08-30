@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T05:27:09.723Z",
+  "updatedAt": "2026-08-30T11:56:51.853Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1648,6 +1648,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1671548",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "decembre|lucasgallo": {
+      "filmTitle": "Décembre",
+      "director": "Lucas Gallo",
+      "titleEn": "December",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1565886-diciembre",
+      "checkedAt": "2026-08-30T11:58:54.389Z"
     },
     "decisiontoleave|parkchanwook": {
       "filmTitle": "Decision To Leave",
@@ -4514,6 +4522,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1442669-la-venus-electrique",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lavieaquatique|wesanderson": {
+      "filmTitle": "La Vie aquatique",
+      "director": "Wes Anderson",
+      "titleEn": "The Life Aquatic With Steve Zissou",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-30T11:58:54.389Z"
     },
     "laviedunefemme|charlinebourgeoistacquet": {
       "filmTitle": "La vie d'une femme",
@@ -7871,6 +7886,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "outrage|idalupino": {
+      "filmTitle": "Outrage",
+      "director": "Ida Lupino",
+      "titleEn": "Outrage",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-30T11:58:54.389Z"
+    },
     "pachamama|antinjuan": {
       "filmTitle": "Pachamama",
       "director": "ANTIN Juan",
@@ -9683,6 +9705,14 @@
       "titleEn": "The Rocky Horror Picture Show",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thesea|shaicarmelipollak": {
+      "filmTitle": "The Sea ",
+      "director": "Shai Carmeli-Pollak",
+      "titleEn": "The Sea",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1509676",
+      "checkedAt": "2026-08-30T11:58:54.389Z"
     },
     "theshadowofgreed|masonakay": {
       "filmTitle": "The Shadow Of Greed",
