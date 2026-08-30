@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T11:56:51.853Z",
+  "updatedAt": "2026-08-30T16:42:40.917Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5792,6 +5792,14 @@
       "tmdbPath": "/movie/582881-les-hirondelles-de-kaboul",
       "checkedAt": "2026-08-26T20:07:38.782Z"
     },
+    "leshirondellesdekaboul|zaboubreitmaneleagobbemevellec": {
+      "filmTitle": "Les Hirondelles de Kaboul",
+      "director": "Zabou Breitman, Eléa Gobbé-Mévellec",
+      "titleEn": "The Swallows of Kabul",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/582881-les-hirondelles-de-kaboul",
+      "checkedAt": "2026-08-30T16:44:43.331Z"
+    },
     "leshommesdupresident|alanjpakula": {
       "filmTitle": "Les Hommes du Président",
       "director": "Alan J. Pakula",
@@ -8089,6 +8097,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/2011-persepolis",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "persepolis|vincentparonnaudmarjanesatrapi": {
+      "filmTitle": "Persepolis",
+      "director": "Vincent Paronnaud, Marjane Satrapi",
+      "titleEn": "Persepolis",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2011-persepolis",
+      "checkedAt": "2026-08-30T16:44:43.331Z"
     },
     "persona|ingmarbergman": {
       "filmTitle": "Persona",
