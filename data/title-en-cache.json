@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T05:39:31.399Z",
+  "updatedAt": "2026-08-31T13:55:42.077Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -439,7 +439,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "asakoiii|ryusukehamaguchi": {
       "filmTitle": "ASAKO I&II",
@@ -580,7 +580,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "avoixbasse|leylabouzid": {
       "filmTitle": "À voix basse",
@@ -1382,7 +1382,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "commentraconterlaguerre|": {
       "filmTitle": "Comment raconter la guerre ?",
@@ -3018,7 +3018,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "inglouriousbasterds|quentintarantino": {
       "filmTitle": "Inglourious Basterds",
@@ -3597,23 +3597,23 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "labatailledegaullepartie1lagedefer|antoninbaudry": {
-      "filmTitle": "La Bataille de Gaulle - Partie 1 : L’âge de fer",
+      "filmTitle": "La Bataille De Gaulle - Partie 1 : L'Age De Fer",
       "director": "Antonin Baudry",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "labatailledegaullepartie2jecristonnom|antoninbaudry": {
-      "filmTitle": "LA BATAILLE DE GAULLE - PARTIE 2 : J'ECRIS TON NOM",
+      "filmTitle": "La Bataille De Gaulle - Partie 2 : J'Écris Ton Nom",
       "director": "Antonin Baudry",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "labayadereoperadeparis|juliencondemine": {
       "filmTitle": "LA BAYADERE (OPERA DE PARIS)",
@@ -4228,6 +4228,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lapetitefabriquedenuages|gildardosantoyodelcastillovladislavbayramgulovmarkcsmith": {
+      "filmTitle": "La Petite fabrique de nuages",
+      "director": "Gildardo Santoyo del Castillo, Vladislav Bayramgulov, Mark C. Smith",
+      "titleEn": "La petite fabrique de nuages",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/586407-la-petite-fabrique-de-nuages",
+      "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
     "lapetitetaupe|zdenekmiler": {
       "filmTitle": "La Petite Taupe",
       "director": "Zdeněk Miler",
@@ -4669,7 +4677,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lecercledespoetesdisparus|peterweir": {
       "filmTitle": "Le Cercle des poètes disparus",
@@ -4780,7 +4788,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lecon2refuserladocilite|": {
       "filmTitle": "Leçon 2 : refuser la docilité",
@@ -4788,7 +4796,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lecon3restercelibataire|": {
       "filmTitle": "Leçon 3 : rester célibataire",
@@ -4804,7 +4812,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "leconomiedelaguerre|": {
       "filmTitle": "L'économie de la guerre",
@@ -5449,7 +5457,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lesamisanimaux|evalindstrom": {
       "filmTitle": "Les amis animaux",
@@ -5539,13 +5547,20 @@
       "tmdbPath": "/movie/374016-enco",
       "checkedAt": "2026-08-02T03:57:31.176Z"
     },
+    "lescontrebandiers|padraicmckinley": {
+      "filmTitle": "Les Contrebandiers",
+      "director": "Padraic McKinley",
+      "titleEn": "The Weight",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
     "lescyclopesetregeantcanefaitpastout|": {
       "filmTitle": "Les cyclopes : être géant, ça ne fait pas tout !",
       "director": "",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lesdemoisellesderochefort|jacquesdemy": {
       "filmTitle": "Les Demoiselles de Rochefort",
@@ -5655,7 +5670,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lesfeuxdelarampe|charleschaplin": {
       "filmTitle": "Les feux de la rampe",
@@ -6096,7 +6111,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lessurvivantsduche|christophedimitrireveille": {
       "filmTitle": "Les Survivants Du Che",
@@ -6778,7 +6793,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "lostintranslation|sofiacoppola": {
       "filmTitle": "Lost in Translation",
@@ -7626,10 +7641,10 @@
     "nonnondanslespace|wassimboutalebjoutei": {
       "filmTitle": "Non-Non Dans L'Espace",
       "director": "Wassim Boutaleb Joutei",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "titleEn": "No-No Goes to Space",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1056274-non-non-dans-l-espace",
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "nonnondanslespacecinemapublicfilms2024|wassimboutalebjoutei": {
       "filmTitle": "Non Non Dans L Espace Cinema Public Films 2024",
@@ -7747,12 +7762,11 @@
       "checkedAt": "2026-08-28T11:29:01.241Z"
     },
     "oasisdontlookbackinanger|dylansouthernwilllovelace": {
-      "filmTitle": "OASIS: DON'T LOOK BACK IN ANGER",
+      "filmTitle": "Oasis: Don't Look Back In Anger",
       "director": "Dylan Southern, Will Lovelace",
-      "titleEn": "Don't Look Back in Anger",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1447853-don-t-look-back-in-anger",
-      "checkedAt": "2026-08-11T19:29:34.288Z"
+      "titleEn": "Oasis: Don't Look Back In Anger",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "oasisdontlookbackinanger|willlovelacedylansouthern": {
       "filmTitle": "Oasis : Don't Look Back In Anger",
@@ -8168,7 +8182,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "peutonseparerlhommedelartiste|": {
       "filmTitle": "Peut-on séparer l'homme de l’artiste ?",
@@ -8176,7 +8190,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "phantomoftheparadise|briandepalma": {
       "filmTitle": "Phantom of the paradise",
@@ -8318,6 +8332,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-18T13:12:30.400Z"
     },
+    "pomponourspetitesbaladesetgrandesaventures|matthieugaillard": {
+      "filmTitle": "Pompon Ours Petites Balades Et Grandes Aventures",
+      "director": "Matthieu Gaillard",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
     "portraitdelajeunefilleenfeu|celinesciamma": {
       "filmTitle": "Portrait de la jeune fille en feu",
       "director": "Céline Sciamma",
@@ -8356,7 +8378,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "pourquoitravaillonsnousautant|": {
       "filmTitle": "Pourquoi travaillons-nous autant ?",
@@ -8364,7 +8386,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "pourunepoigneededollars|sergioleone": {
       "filmTitle": "Pour une poignée de dollars",
@@ -8616,7 +8638,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T13:09:34.266Z"
+      "checkedAt": "2026-08-31T13:57:31.302Z"
     },
     "quetonregnevienneunehistoiredusatanismeenfrance|mathiasaverty": {
       "filmTitle": "Que Ton Règne Vienne - Une histoire du satanisme en France",
