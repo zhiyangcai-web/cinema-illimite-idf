@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-30T21:08:40.309Z",
+  "updatedAt": "2026-08-31T05:39:31.399Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6051,6 +6051,14 @@
       "tmdbPath": "/movie/577599-les-ritournelles-de-la-chouette",
       "checkedAt": "2026-08-30T05:30:09.629Z"
     },
+    "lesrouesdelavenir|charlottebrunierromainmercieux": {
+      "filmTitle": "Les Roues De L'Avenir",
+      "director": "Charlotte Brunier, Romain Mercieux",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-31T05:42:16.331Z"
+    },
     "lesrussesarrivent|normanjewison": {
       "filmTitle": "Les Russes arrivent",
       "director": "Norman Jewison",
@@ -10643,6 +10651,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/288990-hustruer-iii",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "wivescineclubanjabreien13|": {
+      "filmTitle": "Wives · Ciné-Club Anja Breien [1/3]",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-08-31T05:42:16.331Z"
     },
     "yellowletters|ilkercatak": {
       "filmTitle": " Yellow Letters ",
