@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T11:41:56.325Z",
+  "updatedAt": "2026-09-01T16:41:50.273Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -63,7 +63,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T13:12:30.400Z"
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "14hreallesmatinsmerveilleux|": {
       "filmTitle": "14h Real - Les Matins Merveilleux",
@@ -605,6 +605,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/78281-a-vendre",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "avengersendgame|joerussoanthonyrusso": {
+      "filmTitle": "AVENGERS : ENDGAME",
+      "director": "Joe Russo, Anthony Russo",
+      "titleEn": "Avengers: Endgame",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/299534-avengers-endgame",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "avengersendgameextended|anthonyrussojoerusso": {
       "filmTitle": "Avengers: Endgame Extended",
@@ -1218,6 +1226,22 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1536433-chicas-tristes",
       "checkedAt": "2026-07-21T14:28:11.531Z"
+    },
+    "chienbleu|collectif": {
+      "filmTitle": "Chien Bleu",
+      "director": "Collectif",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
+    "chienbleuetautresbelleshistoiresdelecoledesloisirs|collectif": {
+      "filmTitle": "Chien Bleu Et Autres Belles Histoires De L Ecole Des Loisirs",
+      "director": "Collectif",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "chienbleuetautresbelleshistoiresdelecoledesloisirs|ribotjeanchristophepochatdominiquevaneeckhoutsylvainlabordebenoit": {
       "filmTitle": "Chien Bleu Et Autres Belles Histoires De L'École Des Loisirs",
@@ -2075,6 +2099,14 @@
       "titleEn": "Moonstruck",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "ecrirelavieannieernauxraconteepardeslyceennesetdeslyceens|clairesimon": {
+      "filmTitle": "Écrire La Vie - Annie Ernaux Racontée Par Des Lycéennes Et Des Lycéens",
+      "director": "Claire Simon",
+      "titleEn": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1518673-ecrire-la-vie-annie-ernaux-racontee-par-des-lyceennes-et-des-lyceens",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "ecrireunebonnehistoirecasapprend|": {
       "filmTitle": "Écrire une bonne histoire, ça s’apprend",
@@ -3542,6 +3574,14 @@
       "titleEn": "... And Justice for All",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "justinlejuste|ericbarbier": {
+      "filmTitle": "Justin Le Juste",
+      "director": "Eric Barbier",
+      "titleEn": "Justin the Just",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1571687-justin-le-juste",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "karma|guillaumecanet": {
       "filmTitle": "KARMA",
@@ -6393,6 +6433,14 @@
       "tmdbPath": "/movie/577599-les-ritournelles-de-la-chouette",
       "checkedAt": "2026-08-30T05:30:09.629Z"
     },
+    "lesrochesrouges|brunodumont": {
+      "filmTitle": "Les Roches Rouges",
+      "director": "Bruno Dumont",
+      "titleEn": "Red Rocks",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1265831-les-roches-rouges",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
     "lesrouesdelavenir|charlottebrunierromainmercieux": {
       "filmTitle": "Les Roues De L'Avenir",
       "director": "Charlotte Brunier, Romain Mercieux",
@@ -7724,6 +7772,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-19T18:57:13.147Z"
     },
+    "minotaure|andreyzvyagintsev": {
+      "filmTitle": "Minotaure",
+      "director": "Andrey Zvyagintsev",
+      "titleEn": "Minotaur",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/848700-minotaure",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
     "minuscule2lesmandibulesduboutdumonde|": {
       "filmTitle": "Minuscule 2 - Les Mandibules du Bout du Monde",
       "director": "",
@@ -8020,6 +8076,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/588524-nina-et-le-secret-du-herisson",
       "checkedAt": "2026-07-21T14:28:11.531Z"
+    },
+    "nivueniconnue|marcfitoussi": {
+      "filmTitle": "Ni vue, ni connue",
+      "director": "Marc Fitoussi",
+      "titleEn": "All About Corinne",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1429592-ni-vue-ni-connue",
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "noise|kimsoojin": {
       "filmTitle": "Noise",
@@ -8785,7 +8849,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T13:12:30.400Z"
+      "checkedAt": "2026-09-01T16:44:41.563Z"
     },
     "pouletauvinaigre|claudechabrol": {
       "filmTitle": "Poulet au vinaigre",
