@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T16:41:50.273Z",
+  "updatedAt": "2026-09-01T21:03:53.253Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -87,7 +87,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T19:00:11.814Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "2001lodysseedelespace|stanleykubrick": {
       "filmTitle": "2001 : l'odyssée de l'espace",
@@ -621,6 +621,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
+    "avengersendgameextended|joerussoanthonyrusso": {
+      "filmTitle": "Avengers: Endgame Extended",
+      "director": "Joe Russo, Anthony Russo",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "avezvousenviededormir|": {
       "filmTitle": " Avez-vous envie de dormir ?",
@@ -5022,7 +5030,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "lecirque|charleschaplin": {
       "filmTitle": "Le Cirque",
@@ -5507,7 +5515,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T19:00:11.814Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "lemondealenvers|arnauddemuyncknoegarciaerwannhette": {
       "filmTitle": "Le Monde à l'envers",
@@ -5693,7 +5701,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T19:00:11.814Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "lepresidentetleneutre|": {
       "filmTitle": "Le président et le neutre",
@@ -7531,7 +7539,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T19:00:11.814Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "mastersofbooksaveclaurentmauvignier|": {
       "filmTitle": "Masters of Books avec Laurent Mauvignier",
@@ -7767,10 +7775,9 @@
     "minotaure|andreizviaguintsev": {
       "filmTitle": "Minotaure",
       "director": "Andreï Zviaguintsev",
-      "titleEn": "",
+      "titleEn": "Minotaur",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-19T18:57:13.147Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "minotaure|andreyzvyagintsev": {
       "filmTitle": "Minotaure",
@@ -8747,7 +8754,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T19:00:11.814Z"
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "piropiro|sungahminmiyoungbaek": {
       "filmTitle": "Piro Piro",
@@ -9604,6 +9611,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-17T01:58:13.800Z"
     },
+    "seancespeciale23septembre|": {
+      "filmTitle": "Séance Spéciale • 23 Septembre",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T21:06:51.921Z"
+    },
     "seancesstsme|": {
       "filmTitle": "Séances St-Sme",
       "director": "",
@@ -9666,6 +9681,14 @@
       "titleEn": "Se7en",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "sham|takashimiike": {
+      "filmTitle": "Sham",
+      "director": "Takashi Miike",
+      "titleEn": "Sham",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1423983",
+      "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "shana|lilapinell": {
       "filmTitle": "SHANA",
