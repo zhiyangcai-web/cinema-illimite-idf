@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-31T22:52:42.327Z",
+  "updatedAt": "2026-09-01T05:13:12.038Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -39,7 +39,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T01:54:33.034Z"
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "14hreal|": {
       "filmTitle": "14h Real",
@@ -1172,6 +1172,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-22T01:54:41.685Z"
     },
+    "cevieuxrevequibouge|alainguiraudie": {
+      "filmTitle": "Ce vieux rêve qui bouge",
+      "director": "Alain Guiraudie",
+      "titleEn": "That Old Dream That Moves",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/125844-ce-vieux-reve-qui-bouge",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
     "challengers|lucaguadagnino": {
       "filmTitle": "CHALLENGERS",
       "director": "Luca Guadagnino",
@@ -2019,7 +2027,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T01:54:33.034Z"
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "ducobuetlefantomedesaintpotache|eliesemoun": {
       "filmTitle": "DUCOBU ET LE FANTOME DE SAINT POTACHE",
@@ -2113,6 +2121,14 @@
       "titleEn": "Elmer Gantry",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
+    "elreino|rodrigosorogoyen": {
+      "filmTitle": "El Reino",
+      "director": "Rodrigo Sorogoyen",
+      "titleEn": "The Realm",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/517331-el-reino",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "elvis|bazluhrmann": {
       "filmTitle": "ELVIS",
@@ -2711,6 +2727,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1315405-hanami",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "happiness|kingvidor": {
+      "filmTitle": "Happiness",
+      "director": "King Vidor",
+      "titleEn": "Happiness",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "happytogether|wongkarwai": {
       "filmTitle": "Happy Together",
@@ -3989,10 +4012,9 @@
     "lafillecondor|alvaroolmostorrico": {
       "filmTitle": "La Fille Condor",
       "director": "Álvaro Olmos Torrico",
-      "titleEn": "",
+      "titleEn": "The Condor Daughter",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-20T19:03:51.229Z"
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "lafilledanslesnuages|philipperiche": {
       "filmTitle": "LA FILLE DANS LES NUAGES",
@@ -4154,10 +4176,10 @@
     "laisseznouslescles|yacinehelali": {
       "filmTitle": "Laissez-nous les clés",
       "director": "Yacine Helali",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-18T01:54:33.034Z"
+      "titleEn": "Laissez nous les clés",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1678181-laissez-nous-les-cles",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "lajetee|chrismarker": {
       "filmTitle": "La Jetée",
@@ -4292,6 +4314,14 @@
       "tmdbPath": "/movie/60732-la-messa-finita",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "lamiamericain|wimwenders": {
+      "filmTitle": "L'Ami américain",
+      "director": "Wim Wenders",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
     "lamome|dahanolivier": {
       "filmTitle": "La Mome",
       "director": "DAHAN Olivier",
@@ -4346,7 +4376,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-17T19:02:56.014Z"
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "lanuitduchasseur|charleslaughton": {
       "filmTitle": "La Nuit du chasseur",
@@ -4610,6 +4640,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/352345-la-tete-du-client",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "latetedunhomme|julienduvivier": {
+      "filmTitle": "La Tête d'un homme",
+      "director": "Julien Duvivier",
+      "titleEn": "A Man's Head",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/84248-la-tete-d-un-homme",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "latortuerouge|michaeldudokdewit": {
       "filmTitle": "La Tortue rouge",
@@ -5470,6 +5508,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "leonmorinpretre|jeanpierremelville": {
+      "filmTitle": "Léon Morin, prêtre",
+      "director": "Jean-Pierre Melville",
+      "titleEn": "Léon Morin, Priest",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/63892-leon-morin-pretre",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
     "leparrain|francisfordcoppola": {
       "filmTitle": "Le Parrain",
       "director": "Francis Ford Coppola",
@@ -5617,6 +5663,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-21T18:59:56.243Z"
     },
+    "leroidelevasion|alainguiraudie": {
+      "filmTitle": "Le Roi de l'évasion",
+      "director": "Alain Guiraudie",
+      "titleEn": "The King of Escape",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/43616-le-roi-de-l-evasion",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
     "leroietloiseau|paulgrimault": {
       "filmTitle": "Le Roi Et L'Oiseau",
       "director": "Paul Grimault",
@@ -5663,6 +5717,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
+    "lesamantsreguliers|philippegarrel": {
+      "filmTitle": "Les Amants Réguliers",
+      "director": "Philippe Garrel",
+      "titleEn": "Regular Lovers",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/45126-les-amants-reguliers",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "lesamisanimaux|evalindstrom": {
       "filmTitle": "Les amis animaux",
@@ -5909,6 +5971,13 @@
       "tmdbPath": "/movie/37608-the-new-centurions",
       "checkedAt": "2026-07-28T09:09:08.721Z"
     },
+    "lesforbansdelanuit|julesdassin": {
+      "filmTitle": "Les Forbans de la nuit",
+      "director": "Jules Dassin",
+      "titleEn": "Night and the City",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
     "lesfraisessauvages|ingmarbergman": {
       "filmTitle": "Les Fraises sauvages",
       "director": "Ingmar Bergman",
@@ -6042,6 +6111,14 @@
       "titleEn": "The Hateful Eight",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
+    "lesilencedelamer|jeanpierremelville": {
+      "filmTitle": "Le Silence de la mer",
+      "director": "Jean-Pierre Melville",
+      "titleEn": "The Silence of the Sea",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/40650-le-silence-de-la-mer",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "lesilencedesagneaux|jonathandemme": {
       "filmTitle": "Le Silence des agneaux",
@@ -6679,6 +6756,14 @@
       "tmdbPath": "/movie/129",
       "checkedAt": "2026-08-20T19:03:51.229Z"
     },
+    "levoyagedelapeur|idalupino": {
+      "filmTitle": "Le Voyage de la peur",
+      "director": "Ida Lupino",
+      "titleEn": "The Hitch-Hiker",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/41462-the-hitch-hiker",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
     "levoyagedetompouce|pojarbretislav": {
       "filmTitle": "Le Voyage De Tom Pouce",
       "director": "POJAR Bretislav",
@@ -6871,6 +6956,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "linconnudulac|alainguiraudie": {
+      "filmTitle": "L'inconnu du lac",
+      "director": "Alain Guiraudie",
+      "titleEn": "Stranger by the Lake",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/186992-l-inconnu-du-lac",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "linconnue|arthurharari": {
       "filmTitle": "L'inconnue",
@@ -8114,6 +8207,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/466272-once-upon-a-time-in-hollywood",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "onepiecefilmred|gorotaniguchi": {
+      "filmTitle": "One Piece Film - Red",
+      "director": "Goro Taniguchi",
+      "titleEn": "One Piece Film Red",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/900667-one-piece-film-red",
+      "checkedAt": "2026-09-01T05:17:01.710Z"
     },
     "onewomanonebra|nchoguvincho": {
       "filmTitle": "One Woman One Bra",
