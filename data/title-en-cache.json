@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T05:13:12.038Z",
+  "updatedAt": "2026-09-01T11:41:56.325Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -605,6 +605,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/78281-a-vendre",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "avengersendgameextended|anthonyrussojoerusso": {
+      "filmTitle": "Avengers: Endgame Extended",
+      "director": "Anthony Russo, Joe Russo",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "avezvousenviededormir|": {
       "filmTitle": " Avez-vous envie de dormir ?",
@@ -2878,6 +2886,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "heredite|ariaster": {
+      "filmTitle": "Hérédité",
+      "director": "Ari Aster",
+      "titleEn": "Hereditary",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "herprivatehell|nicolaswindingrefn": {
       "filmTitle": "Her Private Hell",
       "director": "Nicolas Winding Refn",
@@ -3954,6 +3969,13 @@
       "tmdbPath": "/movie/537655-la-fameuse-invasion-des-ours-en-sicile",
       "checkedAt": "2026-08-10T13:48:26.704Z"
     },
+    "lafamilleaddams|barrysonnenfeld": {
+      "filmTitle": "La Famille Addams",
+      "director": "Barry Sonnenfeld",
+      "titleEn": "The Addams Family",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "lafamillebelier|ericlartigau": {
       "filmTitle": "La Famille Bélier",
       "director": "Eric Lartigau",
@@ -4773,6 +4795,14 @@
       "tmdbPath": "/movie/45537-la-vie-est-a-nous",
       "checkedAt": "2026-08-07T19:19:11.496Z"
     },
+    "lavieestunlongfleuvetranquille|etiennechatiliez": {
+      "filmTitle": "La vie est un long fleuve tranquille",
+      "director": "Étienne Chatiliez",
+      "titleEn": "Life Is a Long Quiet River",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4271-la-vie-est-un-long-fleuve-tranquille",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "lavoixdaida|jasmilazbanic": {
       "filmTitle": "La Voix D'Aïda",
       "director": "Jasmila Žbanić",
@@ -5493,6 +5523,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T19:55:30.027Z"
     },
+    "lenigmedekasparhauser|wernerherzog": {
+      "filmTitle": "L'ENIGME DE KASPAR HAUSER",
+      "director": "Werner Herzog",
+      "titleEn": "The Enigma of Kaspar Hauser",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11710-jeder-fur-sich-und-gott-gegen-alle",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "lenlevement2023|marcobellocchio": {
       "filmTitle": "L'ENLEVEMENT (2023)",
       "director": "Marco Bellocchio",
@@ -6127,6 +6165,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lesindestructibles|bradbird": {
+      "filmTitle": "Les Indestructibles",
+      "director": "Brad Bird",
+      "titleEn": "The Incredibles",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "leslumieresdelaville|charleschaplin": {
       "filmTitle": "Les Lumières de la ville",
       "director": "Charles Chaplin",
@@ -6692,6 +6737,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1668499-le-vertige",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "levillagedemadeleine|juliebertuccelli": {
+      "filmTitle": "Le Village de Madeleine",
+      "director": "Julie Bertuccelli",
+      "titleEn": "Le Village de Madeleine",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1714964-le-village-de-madeleine",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "leviolent|nicholasray": {
       "filmTitle": "Le Violent",
@@ -7296,6 +7349,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/328083",
       "checkedAt": "2026-08-13T02:51:39.490Z"
+    },
+    "mameredieuetsylvievartan|kenscott": {
+      "filmTitle": "Ma Mère, Dieu et Sylvie Vartan",
+      "director": "Ken Scott",
+      "titleEn": "Once Upon My Mother",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1107215-ma-mere-dieu-et-sylvie-vartan",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "mammamia|phyllidalloyd": {
       "filmTitle": "MAMMA MIA",
@@ -8806,6 +8867,14 @@
       "tmdbPath": "/movie/8852-prince-of-darkness",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "princesetprincesses|michelocelot": {
+      "filmTitle": "Princes et princesses",
+      "director": "Michel Ocelot",
+      "titleEn": "Princes and Princesses",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/65592-princes-et-princesses",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "princesetprincesses|ocelotmichel": {
       "filmTitle": "Princes Et Princesses",
       "director": "OCELOT Michel",
@@ -8881,6 +8950,14 @@
       "titleEn": "Dressed to Kill",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "punku|juandanielfernandezmolero": {
+      "filmTitle": "Punku",
+      "director": "Juan Daniel Férnandez Molero",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "pusher|nicolaswindingrefn": {
       "filmTitle": "Pusher",
@@ -9161,6 +9238,14 @@
       "titleEn": "Requiem for a Dream",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "restervertical|alainguiraudie": {
+      "filmTitle": "Rester Vertical",
+      "director": "Alain Guiraudie",
+      "titleEn": "Staying Vertical",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/380622-rester-vertical",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "resurrection|bigan": {
       "filmTitle": "Resurrection",
@@ -10357,6 +10442,14 @@
       "tmdbPath": "/movie/1555871",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "toutsurmamere|pedroalmodovar": {
+      "filmTitle": "Tout sur ma mère",
+      "director": "Pedro Almodóvar",
+      "titleEn": "All About My Mother",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/99-todo-sobre-mi-madre",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
     "toxicafairytaleforgrownupstamoul|geethumohandas": {
       "filmTitle": "TOXIC - A FAIRY TALE FOR GROWN-UPS - TAMOUL",
       "director": "Geethu Mohandas",
@@ -10895,6 +10988,14 @@
       "titleEn": "Married to the Mob",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "viensjetemmene|alainguiraudie": {
+      "filmTitle": "Viens je t’emmène",
+      "director": "Alain Guiraudie",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "viesetmortsdemaxlinder|edwardporembny": {
       "filmTitle": "Vies et morts de Max Linder",
