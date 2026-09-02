@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T16:36:44.749Z",
+  "updatedAt": "2026-09-02T21:05:16.977Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1970,6 +1970,14 @@
       "tmdbPath": "/movie/113782-metti-una-sera-a-cena",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "ditesluiquejelaime|romanebohringer": {
+      "filmTitle": "DITES LUI QUE JE L'AIME",
+      "director": "Romane Bohringer",
+      "titleEn": "Tell Her That I Love Her",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1221719-dites-lui-que-je-l-aime",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
+    },
     "divorcealitalienne|pietrogermi": {
       "filmTitle": "Divorce à l'Italienne",
       "director": "Pietro Germi",
@@ -2665,6 +2673,14 @@
       "tmdbPath": "/movie/9323-ghost-in-the-shell",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "ghostintheshell1995|mamoruoshii": {
+      "filmTitle": "GHOST IN THE SHELL (1995)",
+      "director": "Mamoru Oshii",
+      "titleEn": "Ghost in the Shell",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9323-ghost-in-the-shell",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
+    },
     "gilda|charlesvidor": {
       "filmTitle": "Gilda",
       "director": "Charles Vidor",
@@ -2966,6 +2982,14 @@
       "titleEn": "Harry Potter and the Order of the Phoenix",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "hayat|zekidemirkubuz": {
+      "filmTitle": "HAYAT",
+      "director": "Zeki Demirkubuz",
+      "titleEn": "Life",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/710277-hayat",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
     },
     "heartofthebeast|davidayer": {
       "filmTitle": "HEART OF THE BEAST",
@@ -7816,6 +7840,14 @@
       "tmdbPath": "/movie/1657156-metisses-cinq-femmes-contre-un-crime-d-etat",
       "checkedAt": "2026-08-15T13:02:31.682Z"
     },
+    "metropolis|rintaro": {
+      "filmTitle": "METROPOLIS",
+      "director": "Rintaro",
+      "titleEn": "Metropolis",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9606",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
+    },
     "miamadre|nannimoretti": {
       "filmTitle": "Mia Madre",
       "director": "Nanni Moretti",
@@ -8000,6 +8032,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/22596-safety-last",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "monvoisintotoro|hayaomiyazaki": {
+      "filmTitle": "MON VOISIN TOTORO",
+      "director": "Hayao Miyazaki",
+      "titleEn": "My Neighbor Totoro",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/8392",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
     },
     "monvoyagedhiver|vincentdieutre": {
       "filmTitle": "Mon voyage d'hiver",
@@ -8944,6 +8984,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
+    "ponyosurlafalaise|hayaomiyazaki": {
+      "filmTitle": "PONYO SUR LA FALAISE",
+      "director": "Hayao Miyazaki",
+      "titleEn": "Ponyo",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/12429",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
     },
     "portraitdelajeunefilleenfeu|celinesciamma": {
       "filmTitle": "Portrait de la jeune fille en feu",
@@ -10132,6 +10180,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/6173-sur-mes-levres",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "suzume|makotoshinkai": {
+      "filmTitle": "SUZUME",
+      "director": "Makoto Shinkai",
+      "titleEn": "Suzume",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/916224",
+      "checkedAt": "2026-09-02T21:08:06.647Z"
     },
     "sympathyformrvengeance|parkchanwook": {
       "filmTitle": "Sympathy For Mr Vengeance",
