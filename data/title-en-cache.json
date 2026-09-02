@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T04:38:23.031Z",
+  "updatedAt": "2026-09-02T11:21:52.582Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2926,6 +2926,14 @@
       "titleEn": "Harry Potter and the Order of the Phoenix",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "heartofthebeast|davidayer": {
+      "filmTitle": "HEART OF THE BEAST",
+      "director": "David Ayer",
+      "titleEn": "Heart of the Beast",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1263337-heart-of-the-beast",
+      "checkedAt": "2026-09-02T11:24:50.580Z"
     },
     "heat|michaelmann": {
       "filmTitle": "Heat",
@@ -8440,6 +8448,13 @@
       "titleEn": "Outrage",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-30T11:58:54.389Z"
+    },
+    "outsiders|francisfordcoppola": {
+      "filmTitle": "Outsiders",
+      "director": "Francis Ford Coppola",
+      "titleEn": "The Outsiders",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-02T11:24:50.580Z"
     },
     "pachamama|antinjuan": {
       "filmTitle": "Pachamama",
