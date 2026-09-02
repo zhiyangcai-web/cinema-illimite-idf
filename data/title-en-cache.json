@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-01T21:03:53.253Z",
+  "updatedAt": "2026-09-02T04:38:23.031Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -95,6 +95,14 @@
       "titleEn": "2001: A Space Odyssey",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "202609coupdecoeursurpriseafcae1|undefined": {
+      "filmTitle": "2026 09 Coup De Coeur Surprise Afcae 1",
+      "director": "UNDEFINED",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T04:42:04.990Z"
     },
     "2soeurs|kimjeewoon": {
       "filmTitle": "2 soeurs",
@@ -596,7 +604,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-19T01:57:30.946Z"
+      "checkedAt": "2026-09-02T04:42:04.990Z"
     },
     "avendre|laetitiamasson": {
       "filmTitle": "À vendre",
@@ -2783,6 +2791,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-01T05:17:01.710Z"
     },
+    "happiness|toddsolondz": {
+      "filmTitle": "Happiness",
+      "director": "Todd Solondz",
+      "titleEn": "Happiness",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10683-happiness",
+      "checkedAt": "2026-09-02T04:42:04.990Z"
+    },
     "happytogether|wongkarwai": {
       "filmTitle": "Happy Together",
       "director": "Wong Kar-Wai",
@@ -4789,6 +4805,14 @@
       "tmdbPath": "/movie/1013822-das-getraumte-abenteuer",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lavenuedelavenir|cedricklapisch": {
+      "filmTitle": "La Venue De L'Avenir",
+      "director": "Cédric Klapisch",
+      "titleEn": "Colours of Time",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1235304-la-venue-de-l-avenir",
+      "checkedAt": "2026-09-02T04:42:04.990Z"
+    },
     "lavenuselectrique|pierresalvadori": {
       "filmTitle": "La Venus Electrique",
       "director": "Pierre Salvadori",
@@ -5709,7 +5733,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-19T01:57:30.946Z"
+      "checkedAt": "2026-09-02T04:42:04.990Z"
     },
     "leprive|robertaltman": {
       "filmTitle": "Le Privé",
@@ -9625,7 +9649,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-19T01:57:30.946Z"
+      "checkedAt": "2026-09-02T04:42:04.990Z"
     },
     "sebastiane|paulhumfressderekjarman": {
       "filmTitle": "Sebastiane",
@@ -10847,6 +10871,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/747681-une-vie-demente",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "uneviemanifeste|jeangabrielperiot": {
+      "filmTitle": "Une Vie Manifeste",
+      "director": "Jean-Gabriel Périot",
+      "titleEn": "A Life, A Manifesto",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1483908-une-vie-manifeste",
+      "checkedAt": "2026-09-02T04:42:04.990Z"
     },
     "unflic|jeanpierremelville": {
       "filmTitle": "Un Flic",
