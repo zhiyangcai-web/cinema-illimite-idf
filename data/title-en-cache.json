@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T11:21:52.582Z",
+  "updatedAt": "2026-09-02T16:36:44.749Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -590,6 +590,14 @@
       "tmdbPath": "/movie/47104",
       "checkedAt": "2026-07-21T19:55:30.027Z"
     },
+    "avantpremiere|": {
+      "filmTitle": "Avant-Première",
+      "director": "",
+      "titleEn": "Avant Premiere",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1069295-avant-premiere",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
     "avantpremiereexceptionnellesalvation|": {
       "filmTitle": "Avant-Première Exceptionnelle - Salvation",
       "director": "",
@@ -1148,7 +1156,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-19T13:13:24.125Z"
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "cassenoisettetheroyalballet|peterwrightjuliatrevelyanoman": {
       "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
@@ -1299,6 +1307,14 @@
       "tmdbPath": "/movie/11104",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "cineclub|": {
+      "filmTitle": "Ciné Club",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
     "cinegouterenfamille|": {
       "filmTitle": "Ciné-Goûter En Famille",
       "director": "",
@@ -1329,6 +1345,14 @@
       "titleEn": "Cinema Paradiso",
       "source": "No confident TMDB match",
       "checkedAt": "2026-08-22T18:52:00.277Z"
+    },
+    "cinequinze|": {
+      "filmTitle": "Cinéquinze",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "cinerosa2aout|": {
       "filmTitle": "Ciné Rosa • 2 Août",
@@ -1661,6 +1685,14 @@
       "titleEn": "Cutter's Way",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "cyclesetcineclubs|": {
+      "filmTitle": "Cycles Et Ciné-Clubs",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "damouretdeaufraiche|": {
       "filmTitle": "D'amour et d'eau fraîche",
@@ -2169,7 +2201,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-19T13:13:24.125Z"
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "elmergantrylecharlatan|richardbrooks": {
       "filmTitle": "Elmer Gantry, le charlatan",
@@ -2455,6 +2487,14 @@
       "titleEn": "Rear Window",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "festival|": {
+      "filmTitle": "Festival",
+      "director": "",
+      "titleEn": "Festival",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/77517-festival",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "finiderirelhumourpolitiqueaugardeavous|mateolarroqueclaramenaismilabranco": {
       "filmTitle": "Fini De Rire ! L'Humour Politique Au Garde-À-Vous ?",
@@ -3483,6 +3523,14 @@
       "titleEn": "Jeremiah Johnson",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "jeunepublic|": {
+      "filmTitle": "Jeune Public",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "jeuxdete|ingmarbergman": {
       "filmTitle": "Jeux d'été",
@@ -5393,6 +5441,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "legrandecranmusical|": {
+      "filmTitle": "Le Grand Ecran Musical",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
     "legrandmechantrenardetautrescontes|benjaminrenner": {
       "filmTitle": "Le Grand Mechant Renard Et Autres Contes",
       "director": "Benjamin Renner",
@@ -6957,7 +7013,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-19T13:13:24.125Z"
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
@@ -7090,6 +7146,14 @@
       "tmdbPath": "/movie/56978-incompreso-vita-col-figlio",
       "checkedAt": "2026-08-10T19:20:17.668Z"
     },
+    "linconnuducineclub|": {
+      "filmTitle": "L'Inconnu Du Ciné-Club",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
     "linconnuducineclub15septembre|": {
       "filmTitle": "L'Inconnu Du Ciné-Club • 15 Septembre",
       "director": "",
@@ -7134,6 +7198,14 @@
       "titleEn": "The Invite",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-28T11:29:01.241Z"
+    },
+    "litalieatraverssoncinema|": {
+      "filmTitle": "L'Italie À Travers Son Cinéma",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "litalieatraverssoncinema19septembre|": {
       "filmTitle": "L'Italie À Travers Son Cinéma • 19 Septembre",
@@ -8953,6 +9025,14 @@
       "tmdbPath": "/movie/1606553-premieres-lunes",
       "checkedAt": "2026-08-27T22:20:51.917Z"
     },
+    "presentation|": {
+      "filmTitle": "Présentation",
+      "director": "",
+      "titleEn": "Presentation",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/555121-presentation",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
     "presentationexceptionnellefjord|": {
       "filmTitle": "Présentation Exceptionnelle - Fjord",
       "director": "",
@@ -9650,6 +9730,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-17T01:58:13.800Z"
     },
+    "seancespeciale|": {
+      "filmTitle": "Séance Spéciale",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
     "seancespeciale23septembre|": {
       "filmTitle": "Séance Spéciale • 23 Septembre",
       "director": "",
@@ -9657,6 +9745,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-01T21:06:51.921Z"
+    },
+    "seancesspeciales|": {
+      "filmTitle": "Séances Spéciales",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-02T16:40:17.381Z"
     },
     "seancesstsme|": {
       "filmTitle": "Séances St-Sme",
