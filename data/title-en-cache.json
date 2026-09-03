@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-02T21:05:16.977Z",
+  "updatedAt": "2026-09-03T04:36:19.557Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1864,10 +1864,10 @@
     "delivrenousdumal|valeriabaldangiovanniziberna": {
       "filmTitle": "DELIVRE-NOUS DU MAL",
       "director": "Valeria Baldan, Giovanni Ziberna",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-20T01:56:11.929Z"
+      "titleEn": "Libera nos: Il trionfo sul male",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1731954-libera-nos-il-trionfo-sul-male",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
     },
     "dersououzala|akirakurosawa": {
       "filmTitle": "DERSOU OUZALA",
@@ -4630,6 +4630,14 @@
       "tmdbPath": "/movie/842859-la-plus-precieuse-des-marchandises",
       "checkedAt": "2026-08-25T19:01:28.090Z"
     },
+    "lapochapeankraj|monatusmelissandre": {
+      "filmTitle": "Lapo Chape + Ankraj",
+      "director": "MONATUS Mélissandre",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
+    },
     "lapointecourte|agnesvarda": {
       "filmTitle": "La Pointe Courte",
       "director": "Agnès Varda",
@@ -4753,6 +4761,14 @@
       "titleEn": "Scarlet Street",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "lasoifdelor|gerardoury": {
+      "filmTitle": "La Soif De L'Or",
+      "director": "Gérard Oury",
+      "titleEn": "The Thirst for Gold",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/51195-la-soif-de-l-or",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
     },
     "lasoifdumal|orsonwelles": {
       "filmTitle": "La Soif Du Mal",
@@ -6435,6 +6451,30 @@
       "tmdbPath": "/movie/19426-le-notti-di-cabiria",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "lesnuitsdelamedusasoiree12026|": {
+      "filmTitle": "Les Nuits De La Medusa Soiree 1 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
+    },
+    "lesnuitsdelamedusasoiree22026|": {
+      "filmTitle": "Les Nuits De La Medusa Soiree 2 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
+    },
+    "lesnuitsdelamedusasoiree32026|": {
+      "filmTitle": "Les Nuits De La Medusa Soiree 3 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
+    },
     "lesnuitsdelapleinelune|ericrohmer": {
       "filmTitle": "Les nuits de la pleine lune",
       "director": "Eric Rohmer",
@@ -7815,6 +7855,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1670563-merci-d-etre-venu",
       "checkedAt": "2026-08-22T18:52:00.277Z"
+    },
+    "mercilecourtunboutdecheminensemblegrandactionseptembre2026|": {
+      "filmTitle": "Merci Le Court Un Bout De Chemin Ensemble Grand Action Septembre 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T04:39:50.598Z"
     },
     "mespremiersclassiques|": {
       "filmTitle": "Mes Premiers Classiques",
