@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T11:18:09.163Z",
+  "updatedAt": "2026-09-03T16:27:27.559Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1096,6 +1096,14 @@
       "titleEn": "Dead Calm",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "camilleetiennexgiuliafois|": {
+      "filmTitle": "Camille Etienne x Giulia Foïs",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T16:30:03.879Z"
     },
     "capfarewell|vanjadalcantara": {
       "filmTitle": "Cap Farewell",
@@ -3397,6 +3405,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/947502-in-waves",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "irisbreyxgiuliafois|": {
+      "filmTitle": "Iris Brey x Giulia Foïs",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T16:30:03.879Z"
     },
     "irmaladouce|billywilder": {
       "filmTitle": "Irma La douce",
@@ -7818,6 +7834,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "melodieensoussol|": {
+      "filmTitle": "MELODIE EN SOUS-SOL",
+      "director": "",
+      "titleEn": "Any Number Can Win",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/22650-melodie-en-sous-sol",
+      "checkedAt": "2026-09-03T16:30:03.879Z"
+    },
     "melodiepouruntueur|jamestoback": {
       "filmTitle": "Mélodie pour un tueur",
       "director": "James Toback",
@@ -8354,6 +8378,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-26T13:20:19.030Z"
+    },
+    "norahamadixgiuliafois|": {
+      "filmTitle": "Nora Hamadi x Giulia Foïs",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-03T16:30:03.879Z"
     },
     "normandieniemen|jeandreville": {
       "filmTitle": "Normandie Niemen",
