@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T04:36:19.557Z",
+  "updatedAt": "2026-09-03T11:18:09.163Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3743,6 +3743,14 @@
       "tmdbPath": "/movie/666154-kayara",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "keikokishiunefemmelibre|pascalalexvincent": {
+      "filmTitle": "Keiko Kishi, une femme libre",
+      "director": "Pascal-Alex Vincent",
+      "titleEn": "Keiko Kishi, Eternally Rebellious",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1233702-keiko-kishi-une-femme-libre",
+      "checkedAt": "2026-09-03T11:21:04.598Z"
+    },
     "kikilapetitesorciere|hayaomiyazaki": {
       "filmTitle": "Kiki la petite sorcière",
       "director": "Hayao Miyazaki",
@@ -7188,6 +7196,13 @@
       "tmdbPath": "/movie/11544-lilo-stitch",
       "checkedAt": "2026-08-23T02:03:33.411Z"
     },
+    "lilostitch|deandebloischrissanders": {
+      "filmTitle": "Lilo & Stitch",
+      "director": "Dean DeBlois, Chris Sanders",
+      "titleEn": "Lilo & Stitch",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-03T11:21:04.598Z"
+    },
     "lilostitch|deanfleischercamp": {
       "filmTitle": "Lilo & Stitch",
       "director": "Dean Fleischer Camp",
@@ -8159,6 +8174,14 @@
       "titleEn": "Mutiny",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "mylenefarmeregregorelavantpremiere|francoishanss": {
+      "filmTitle": "MYLENE FARMER EGREGORE L'AVANT-PREMIERE",
+      "director": "Francois Hanss",
+      "titleEn": "Mylène Farmer : Égrégore - L'Avant-Première",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1738716-mylene-farmer-egregore-l-avant-premiere",
+      "checkedAt": "2026-09-03T11:21:04.598Z"
     },
     "myownprivateidaho|gusvansant": {
       "filmTitle": "My Own Private Idaho",
@@ -10923,6 +10946,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1488459-the-scarecrows-wedding",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "unanosinamor|anahiberneri": {
+      "filmTitle": "Un Año sin amor",
+      "director": "Anahi Berneri",
+      "titleEn": "A Year Without Love",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/203139-un-ano-sin-amor",
+      "checkedAt": "2026-09-03T11:21:04.598Z"
     },
     "unapresmididechien|sidneylumet": {
       "filmTitle": "Un après-midi de chien",
