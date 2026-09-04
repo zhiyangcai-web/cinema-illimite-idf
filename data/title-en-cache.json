@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T16:23:39.603Z",
+  "updatedAt": "2026-09-04T20:47:20.572Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1892,6 +1892,14 @@
       "tmdbPath": "/movie/1731954-libera-nos-il-trionfo-sul-male",
       "checkedAt": "2026-09-03T04:39:50.598Z"
     },
+    "dernierarretpourlebilletcirculaire|rousseaujeanclaude": {
+      "filmTitle": "Dernier Arret Pour Le Billet Circulaire",
+      "director": "ROUSSEAU Jean Claude",
+      "titleEn": "Last Stop for the Circular Ticket",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1614346-dernier-arret-pour-le-billet-circulaire",
+      "checkedAt": "2026-09-04T20:49:59.047Z"
+    },
     "dersououzala|akirakurosawa": {
       "filmTitle": "DERSOU OUZALA",
       "director": "Akira Kurosawa",
@@ -3697,6 +3705,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/4595-jour-de-fete",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "journaldufuturfmbannierfilmeparaarrietta|bonitzeragathe": {
+      "filmTitle": "Journal Du Futur + Fm Bannier Filmé Par A.arrietta",
+      "director": "BONITZER Agathe",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T20:49:59.047Z"
     },
     "jsajointsecurityarea|parkchanwook": {
       "filmTitle": "Jsa (joint Security Area)",
@@ -6016,7 +6032,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-21T18:59:56.243Z"
+      "checkedAt": "2026-09-04T20:49:59.047Z"
     },
     "leroidelevasion|alainguiraudie": {
       "filmTitle": "Le Roi de l'évasion",
@@ -6708,7 +6724,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-21T18:59:56.243Z"
+      "checkedAt": "2026-09-04T20:49:59.047Z"
     },
     "lespritdelaruche|victorerice": {
       "filmTitle": "L Esprit De La Ruche",
