@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-04T11:21:11.931Z",
+  "updatedAt": "2026-09-04T16:23:39.603Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -288,6 +288,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/149-akira",
       "checkedAt": "2026-08-24T13:16:58.884Z"
+    },
+    "alaingomisrendhommageakhadysylla|khadysylla": {
+      "filmTitle": "Alain Gomis rend hommage à Khady Sylla",
+      "director": "Khady Sylla",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
     },
     "alarecherchedemistergoodbar|richardbrooks": {
       "filmTitle": "A la recherche de Mister Goodbar",
@@ -2108,6 +2116,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-04T11:23:49.773Z"
     },
+    "dreamlandaucinema|puisladisparitiontragiquedesameredansunincendieterrencesouffredunepeurvisceraledufeulorsquilparvientfinalementasurmontercetraumatismeildecouvrequilestdevenuunlaquovoyageurraquounetrecapabledexplorerceroyaumeoniriquesanslimitesfaconneparlessongesougravechacunpeutdevelopperdespouvoirsextraordinaires": {
+      "filmTitle": "DREAMLAND AU CINEMA",
+      "director": "puis la disparition tragique de sa mere dans un incendie, Terrence souffre d'une peur viscerale du feu. Lorsqu'il parvient finalement a surmonter ce traumatisme, il decouvre qu'il est devenu un &laquo; voyageur &raquo;, un etre capable d'explorer ce royaume onirique sans limites, faconne par les songes, o&ugrave; chacun peut developper des pouvoirs extraordinaires.",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
+    },
     "drive|nicolaswindingrefn": {
       "filmTitle": "DRIVE",
       "director": "Nicolas Winding Refn",
@@ -3765,6 +3781,14 @@
       "tmdbPath": "/movie/1418998-karma",
       "checkedAt": "2026-08-26T13:20:19.030Z"
     },
+    "kateriacimetieredevie|khadydiopmamadousunugueye": {
+      "filmTitle": "Kateria / Cimetière de vie",
+      "director": "Khady Diop, Mamadou Sunu Gueye",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
+    },
     "katseyewildhearts|nadiahallgren": {
       "filmTitle": "KATSEYE : WILD HEARTS",
       "director": "Nadia Hallgren",
@@ -3852,6 +3876,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/79015-knock",
       "checkedAt": "2026-09-03T21:07:12.230Z"
+    },
+    "kraken|mohamedchabanetheojourdain": {
+      "filmTitle": "Kraken",
+      "director": "Mohamed Chabane, Théo Jourdain",
+      "titleEn": "Kraken",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1571766-kraken",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
     },
     "kraken|mohamedchabanetheojourdainrhodes": {
       "filmTitle": "Kraken",
@@ -5994,6 +6026,14 @@
       "tmdbPath": "/movie/43616-le-roi-de-l-evasion",
       "checkedAt": "2026-09-01T05:17:01.710Z"
     },
+    "leroidugame|ericjudor": {
+      "filmTitle": "LE ROI DU GAME",
+      "director": "Eric Judor",
+      "titleEn": "Le Roi du Game",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1505487-le-roi-du-game",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
+    },
     "leroietloiseau|paulgrimault": {
       "filmTitle": "Le Roi Et L'Oiseau",
       "director": "Paul Grimault",
@@ -6245,6 +6285,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-26T13:20:19.030Z"
+    },
+    "lesfablesdemonsieurrenard|lenavondohrenyawenzhengevanderushie": {
+      "filmTitle": "Les Fables de Monsieur Renard",
+      "director": "Lena von Döhren, Yawen Zheng, Evan Derushie",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
     },
     "lesfantastiqueslivresvolantsdemmorrislessmore|": {
       "filmTitle": "Les fantastiques livres volants de M Morris Lessmore",
@@ -8520,6 +8568,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-18T13:12:30.400Z"
     },
+    "notaprettypicture|marthacoolidge": {
+      "filmTitle": "Not a Pretty Picture",
+      "director": "Martha Coolidge",
+      "titleEn": "Not a Pretty Picture",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/432907-not-a-pretty-picture",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
+    },
     "notredamebrule|jeanjacquesannaud": {
       "filmTitle": "NOTRE-DAME BRULE",
       "director": "Jean-Jacques Annaud",
@@ -9341,6 +9397,14 @@
       "tmdbPath": "/movie/588917-princesse-dragon",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "professeuryamamotopartalaretraite|kazuhirosoda": {
+      "filmTitle": "Professeur Yamamoto part à la retraite",
+      "director": "Kazuhiro Sôda",
+      "titleEn": "Zero",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/665470-0",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
+    },
     "professionreporter|michelangeloantonioni": {
       "filmTitle": "Profession : reporter",
       "director": "Michelangelo Antonioni",
@@ -9661,6 +9725,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-11T19:29:34.288Z"
     },
+    "rencontreexceptionnellealaingomisxnellirvinpainter|": {
+      "filmTitle": "Rencontre exceptionnelle Alain Gomis x Nell Irvin Painter",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
+    },
     "rendezvous|ernstlubitsch": {
       "filmTitle": "Rendez-vous",
       "director": "Ernst Lubitsch",
@@ -9681,6 +9753,14 @@
       "titleEn": "Rental Family",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "reprisecourtmetragefidmarseille2026|rogersophiecretonpierreturquierzaubermanassia": {
+      "filmTitle": "Reprise Court Metrage Fid Marseille 2026",
+      "director": "ROGER Sophie, CRETON Pierre, TURQUIER ZAUBERMAN Assia",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T16:26:12.308Z"
     },
     "requiemforadream|darrenaronofsky": {
       "filmTitle": "Requiem for a Dream",
