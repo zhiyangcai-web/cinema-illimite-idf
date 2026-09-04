@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T21:04:23.070Z",
+  "updatedAt": "2026-09-04T11:21:11.931Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -801,6 +801,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/8265-bienvenue-chez-les-ch-tis",
       "checkedAt": "2026-08-08T19:02:00.489Z"
+    },
+    "bigamie|idalupino": {
+      "filmTitle": "Bigamie",
+      "director": "Ida Lupino",
+      "titleEn": "The Bigamist",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -1963,6 +1970,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "dirtydancing|emileardolino": {
+      "filmTitle": "Dirty Dancing",
+      "director": "Emile Ardolino",
+      "titleEn": "Dirty Dancing",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/88-dirty-dancing",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
     "disclosureday|stevenspielberg": {
       "filmTitle": "Disclosure Day",
       "director": "Steven Spielberg",
@@ -2084,6 +2099,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "dreamlandaucinema|": {
+      "filmTitle": "DREAMLAND AU CINEMA",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "drive|nicolaswindingrefn": {
       "filmTitle": "DRIVE",
@@ -2336,6 +2359,14 @@
       "source": "Previous showtimes",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "entrelesvagues|anaisvolpe": {
+      "filmTitle": "Entre les vagues",
+      "director": "Anaïs Volpé",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
     "entroncamento|pedrocabeleira": {
       "filmTitle": "Entroncamento",
       "director": "Pedro Cabeleira",
@@ -2412,6 +2443,14 @@
       "titleEn": "Weapons",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "evenement|": {
+      "filmTitle": "*evénement",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "everytime|sandrawollner": {
       "filmTitle": "Everytime",
@@ -2582,6 +2621,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/790-the-fog",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "forrestgump|robertzemeckis": {
+      "filmTitle": "Forrest Gump",
+      "director": "Robert Zemeckis",
+      "titleEn": "Forrest Gump",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "foulking|kimjeewoon": {
       "filmTitle": "Foul King",
@@ -3266,6 +3312,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "imgametamoulsoustitreanglais|nahashidayath": {
+      "filmTitle": "I'M GAME - TAMOUL - SOUS-TITRE ANGLAIS",
+      "director": "Nahas Hidayath",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
     "imitationgame|mortentyldum": {
       "filmTitle": "Imitation Game",
       "director": "Morten Tyldum",
@@ -3798,6 +3852,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/79015-knock",
       "checkedAt": "2026-09-03T21:07:12.230Z"
+    },
+    "kraken|mohamedchabanetheojourdainrhodes": {
+      "filmTitle": "Kraken",
+      "director": "Mohamed Chabane, Théo Jourdain Rhodes",
+      "titleEn": "Kraken",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1571766-kraken",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "kramercontrekramer|robertbenton": {
       "filmTitle": "Kramer contre Kramer",
@@ -4733,6 +4795,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "larevancheduneblonde|robertluketic": {
+      "filmTitle": "La Revanche d'une blonde",
+      "director": "Robert Luketic",
+      "titleEn": "Legally Blonde",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
     "lariviererouge|howardhawks": {
       "filmTitle": "La Rivière rouge",
       "director": "Howard Hawks",
@@ -5152,6 +5221,14 @@
       "tmdbPath": "/movie/75491-le-chat-du-rabbin",
       "checkedAt": "2026-08-25T19:01:28.090Z"
     },
+    "lechateauambulant|hayaomiyazaki": {
+      "filmTitle": "LE CHATEAU AMBULANT",
+      "director": "Hayao Miyazaki",
+      "titleEn": "Howl's Moving Castle",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4935",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
     "lechateaudelaraignee|akirakurosawa": {
       "filmTitle": "Le château de l'araignée",
       "director": "Akira Kurosawa",
@@ -5270,7 +5347,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-21T02:01:54.974Z"
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "lecrimeetaitpresqueparfait|alfredhitchcock": {
       "filmTitle": "Le Crime était presque parfait",
@@ -6813,6 +6890,14 @@
       "tmdbPath": "/movie/778-les-vacances-de-monsieur-hulot",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lesvaguesdanslesyeux|samuelsuffren": {
+      "filmTitle": "Les Vagues dans les yeux",
+      "director": "Samuel Suffren",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
     "lesvecesetaientfermesdelinterieur|patriceleconte": {
       "filmTitle": "Les Vécés étaient fermés de l'intérieur",
       "director": "Patrice Leconte",
@@ -7652,6 +7737,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/869626-marcel-the-shell-with-shoes-on",
       "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
+    "mardicasaignera|hugofregonese": {
+      "filmTitle": "Mardi, ça saignera !",
+      "director": "Hugo Fregonese",
+      "titleEn": "Black Tuesday",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/33224-black-tuesday",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "mariagealitalienne|vittoriodesica": {
       "filmTitle": "Mariage à l'Italienne",
@@ -10356,12 +10449,11 @@
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
     "teenagesexanddeathatcampmiasma|janeschoenbrun": {
-      "filmTitle": "Teenage Sex and Death at Camp Miasma",
+      "filmTitle": "Teenage Sex And Death At Camp Miasma",
       "director": "Jane Schoenbrun",
-      "titleEn": "Teenage Sex and Death at Camp Miasma",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1240889-teenage-sex-and-death-at-camp-miasma",
-      "checkedAt": "2026-08-05T14:36:42.580Z"
+      "titleEn": "Teenage Sex And Death At Camp Miasma",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-04T11:23:49.773Z"
     },
     "temoinacharge|billywilder": {
       "filmTitle": "Témoin à charge",
