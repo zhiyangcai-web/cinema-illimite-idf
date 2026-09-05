@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T15:16:41.663Z",
+  "updatedAt": "2026-09-05T20:23:58.036Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -785,6 +785,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "belle|mamoruhosoda": {
+      "filmTitle": "Belle",
+      "director": "Mamoru Hosoda",
+      "titleEn": "Belle",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/776305",
+      "checkedAt": "2026-09-05T20:26:26.605Z"
     },
     "belledejour|luisbunuel": {
       "filmTitle": "Belle de Jour",
@@ -5709,6 +5717,14 @@
       "tmdbPath": "/movie/1248217-der-held-vom-bahnhof-friedrichstrasse",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lehussardsurletoit|jeanpaulrappeneau": {
+      "filmTitle": "Le Hussard Sur Le Toit",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "The Horseman on the Roof",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11876-le-hussard-sur-le-toit",
+      "checkedAt": "2026-09-05T20:26:26.605Z"
+    },
     "lejardindesfinzicontini|vittoriodesica": {
       "filmTitle": "Le Jardin des Finzi-Contini",
       "director": "Vittorio De Sica",
@@ -5728,10 +5744,9 @@
     "lekid|charleschaplin": {
       "filmTitle": "Le Kid",
       "director": "Charles Chaplin",
-      "titleEn": "",
+      "titleEn": "The Kid",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-29T07:09:20.616Z"
+      "checkedAt": "2026-09-05T20:26:26.605Z"
     },
     "lekid|charliechaplin": {
       "filmTitle": "Le Kid",
@@ -6883,6 +6898,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "lestontonsflingueurs|lautnergeorges": {
+      "filmTitle": "Les Tontons Flingueurs",
+      "director": "LAUTNER Georges",
+      "titleEn": "Crooks in Clover",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/25253-les-tontons-flingueurs",
+      "checkedAt": "2026-09-05T20:26:26.605Z"
     },
     "lestourougesetlestoubleus|collectif": {
       "filmTitle": "Les Tourouges Et Les Toubleus",
@@ -9364,6 +9387,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
+    "pourquoinaimonsnouspasleslimites|": {
+      "filmTitle": "Pourquoi n’aimons-nous pas les limites ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-05T20:26:26.605Z"
     },
     "pourquoitravaillonsnousautant|": {
       "filmTitle": "Pourquoi travaillons-nous autant ?",
