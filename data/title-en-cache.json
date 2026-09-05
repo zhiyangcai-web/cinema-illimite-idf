@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T10:38:19.347Z",
+  "updatedAt": "2026-09-05T15:16:41.663Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1479,6 +1479,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/12395-thunderheart",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "coeursecret|fontenilletom": {
+      "filmTitle": "Coeur Secret",
+      "director": "FONTENILLE Tom",
+      "titleEn": "A Secret Heart",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1670396-coeur-secret",
+      "checkedAt": "2026-09-05T15:19:06.394Z"
     },
     "collapsefaceagaza|anateven": {
       "filmTitle": "Collapse (Face à Gaza)",
@@ -5622,7 +5630,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-22T13:04:12.863Z"
+      "checkedAt": "2026-09-05T15:19:06.394Z"
     },
     "legoutdusake|yasujiroozu": {
       "filmTitle": "LE GOUT DU SAKE",
@@ -5724,6 +5732,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-29T07:09:20.616Z"
+    },
+    "lekid|charliechaplin": {
+      "filmTitle": "Le Kid",
+      "director": "Charlie Chaplin",
+      "titleEn": "The Kid",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10098-the-kid",
+      "checkedAt": "2026-09-05T15:19:06.394Z"
     },
     "lelacdescygnesoperadeparis|isabellejulien": {
       "filmTitle": "LE LAC DES CYGNES (OPERA DE PARIS)",
@@ -9229,7 +9245,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-22T13:04:12.863Z"
+      "checkedAt": "2026-09-05T15:19:06.394Z"
     },
     "playtime|jacquestati": {
       "filmTitle": "Playtime",
@@ -11763,7 +11779,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-22T13:04:12.863Z"
+      "checkedAt": "2026-09-05T15:19:06.394Z"
     },
     "wakeinfright|tedkotcheff": {
       "filmTitle": "WAKE IN FRIGHT",
