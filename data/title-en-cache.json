@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T04:33:22.953Z",
+  "updatedAt": "2026-09-05T10:38:19.347Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1297,6 +1297,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
+    "chienbleuetautresbelleshistoiresdelecoledesloisirs|dominiquepochatjeanchristopheribotbenoitlaborde": {
+      "filmTitle": "Chien bleu et autres belles histoires de l'école des loisirs",
+      "director": "Dominique Pochat, Jean-Christophe Ribot, Benoît Laborde",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-05T10:40:56.104Z"
     },
     "chienbleuetautresbelleshistoiresdelecoledesloisirs|ribotjeanchristophepochatdominiquevaneeckhoutsylvainlabordebenoit": {
       "filmTitle": "Chien Bleu Et Autres Belles Histoires De L'École Des Loisirs",
@@ -6710,6 +6718,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lespetitsgourmands|": {
+      "filmTitle": "Les Petits Gourmands",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-05T10:40:56.104Z"
+    },
     "lespiratesdumetro|josephsargent": {
       "filmTitle": "Les Pirates du métro",
       "director": "Joseph Sargent",
@@ -7801,6 +7817,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/48831-ma-nuit-chez-maud",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "maquisards|christianphilibert": {
+      "filmTitle": "Maquisards",
+      "director": "Christian Philibert",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-05T10:40:56.104Z"
     },
     "marcellecoquillageavecseschaussures|deanfleischercamp": {
       "filmTitle": "Marcel, le Coquillage (avec ses chaussures)",
@@ -11035,6 +11059,14 @@
       "titleEn": "Totally F***ed Up",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T19:59:18.827Z"
+    },
+    "totoutard|jadwigakowalska": {
+      "filmTitle": "Tot Ou Tard",
+      "director": "Jadwiga Kowalska",
+      "titleEn": "Sooner or Later",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/184937-tot-ou-tard",
+      "checkedAt": "2026-09-05T10:40:56.104Z"
     },
     "toutcequelecielpermet|douglassirk": {
       "filmTitle": "Tout ce que le ciel permet",
