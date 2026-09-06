@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-05T20:23:58.036Z",
+  "updatedAt": "2026-09-06T04:42:36.629Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4599,6 +4599,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-25T01:57:09.246Z"
     },
+    "lamaisondenosreves|claudezidijr": {
+      "filmTitle": "LA MAISON DE NOS REVES",
+      "director": "Claude Zidi Jr.",
+      "titleEn": "La Maison de nos rêves",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1547995-la-maison-de-nos-reves",
+      "checkedAt": "2026-09-06T04:45:38.402Z"
+    },
     "lamantdouble|ozonfrancois": {
       "filmTitle": "L'Amant Double",
       "director": "OZON François",
@@ -4755,6 +4763,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/586407-la-petite-fabrique-de-nuages",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "lapetitesirene|johnmuskerronclements": {
+      "filmTitle": "LA PETITE SIRENE",
+      "director": "John Musker, Ron Clements",
+      "titleEn": "The Little Mermaid",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10144-the-little-mermaid",
+      "checkedAt": "2026-09-06T04:45:38.402Z"
     },
     "lapetitetaupe|zdenekmiler": {
       "filmTitle": "La Petite Taupe",
@@ -7966,7 +7982,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-23T02:03:33.411Z"
+      "checkedAt": "2026-09-06T04:45:38.402Z"
     },
     "mastersofbooksavecherveletellieretmanuelefior|": {
       "filmTitle": "Masters of Books avec Hervé Le Tellier et Manuele Fior",
@@ -9418,7 +9434,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-23T02:03:33.411Z"
+      "checkedAt": "2026-09-06T04:45:38.402Z"
     },
     "premiercontact|denisvilleneuve": {
       "filmTitle": "Premier Contact",
