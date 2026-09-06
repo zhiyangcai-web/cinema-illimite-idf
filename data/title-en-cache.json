@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T04:42:36.629Z",
+  "updatedAt": "2026-09-06T11:00:16.504Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1496,6 +1496,14 @@
       "tmdbPath": "/movie/1670396-coeur-secret",
       "checkedAt": "2026-09-05T15:19:06.394Z"
     },
+    "coeursecret|tomfontenille": {
+      "filmTitle": "Coeur secret",
+      "director": "Tom Fontenille",
+      "titleEn": "A Secret Heart",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1670396-coeur-secret",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
+    },
     "collapsefaceagaza|anateven": {
       "filmTitle": "Collapse (Face à Gaza)",
       "director": "Anat Even",
@@ -1939,6 +1947,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/9764",
       "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
+    "descrisdechirentlesilence|natachathiery": {
+      "filmTitle": "Des cris déchirent le silence",
+      "director": "Natacha Thiéry",
+      "titleEn": "Cries Tear Through the Silence",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1393602-des-cris-dechirent-le-silence",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "desfleurspourtokyo|": {
       "filmTitle": "Des Fleurs Pour Tokyo",
@@ -2560,6 +2576,14 @@
       "tmdbPath": "/movie/9799-the-fast-and-the-furious",
       "checkedAt": "2026-08-07T13:42:56.523Z"
     },
+    "fatherland|pawelpawlikowski": {
+      "filmTitle": "Fatherland",
+      "director": "Pawel Pawlikowski",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
+    },
     "fautedamour|andreiumlzviaguintsev": {
       "filmTitle": "FAUTE D'AMOUR",
       "director": "Andre&iuml; Zviaguintsev",
@@ -2606,6 +2630,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/77517-festival",
       "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
+    "fightclub|davidfincher": {
+      "filmTitle": "Fight Club",
+      "director": "David Fincher",
+      "titleEn": "Fight Club",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "finiderirelhumourpolitiqueaugardeavous|mateolarroqueclaramenaismilabranco": {
       "filmTitle": "Fini De Rire ! L'Humour Politique Au Garde-À-Vous ?",
@@ -2926,6 +2957,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
       "checkedAt": "2026-08-27T09:56:05.388Z"
+    },
+    "hairpaperwater|nicolasgrauxminhquytruong": {
+      "filmTitle": "Hair, Paper, Water…",
+      "director": "Nicolas Graux, Minh Quý Trương",
+      "titleEn": "Hair, Paper, Water...",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "hamletcomediefrancaise|corentinleconte": {
       "filmTitle": "HAMLET (COMEDIE-FRANCAISE)",
@@ -3789,7 +3828,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-23T07:05:12.154Z"
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "justepourunenuit|willgluck": {
       "filmTitle": "Juste pour une nuit",
@@ -9112,6 +9151,14 @@
       "tmdbPath": "/movie/10293-pauline-a-la-plage",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "peaudecochon|philippekaterine": {
+      "filmTitle": "Peau de cochon",
+      "director": "Philippe Katerine",
+      "titleEn": "Pigskin",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/207751-peau-de-cochon",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
+    },
     "permanentvacation|jarmuschjim": {
       "filmTitle": "Permanent Vacation",
       "director": "JARMUSCH Jim",
@@ -9702,7 +9749,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-23T07:05:12.154Z"
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "questcequelintelligenceducoeur|": {
       "filmTitle": "Qu’est-ce que l’intelligence du coeur ?",
@@ -9887,6 +9934,13 @@
       "titleEn": "Requiem for a Dream",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "residentevil|zachcregger": {
+      "filmTitle": "Resident Evil",
+      "director": "Zach Cregger",
+      "titleEn": "Resident Evil",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "restervertical|alainguiraudie": {
       "filmTitle": "Rester Vertical",
@@ -11787,6 +11841,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/76772-voici-le-temps-des-assassins",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "volaudessusdunniddecoucou|milosforman": {
+      "filmTitle": "Vol au-dessus d'un nid de coucou",
+      "director": "Milos Forman",
+      "titleEn": "One Flew Over the Cuckoo's Nest",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-06T11:02:28.849Z"
     },
     "voleurdebicyclette|vittoriodesica": {
       "filmTitle": "Voleur De Bicyclette",
