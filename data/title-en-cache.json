@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T11:00:16.504Z",
+  "updatedAt": "2026-09-06T20:26:08.196Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2110,6 +2110,14 @@
       "titleEn": "Dogville",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "doitonabolirlaprison|": {
+      "filmTitle": "Doit-on abolir la prison ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-06T20:28:21.526Z"
     },
     "donjonsdragonslhonneurdesvoleurs|jonathangoldsteinxiijohnfrancisdaley": {
       "filmTitle": "Donjons & Dragons : L'Honneur des voleurs",
