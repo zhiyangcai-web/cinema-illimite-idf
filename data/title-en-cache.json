@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T04:45:39.851Z",
+  "updatedAt": "2026-09-07T12:38:03.757Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -8,7 +8,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-21T02:01:54.974Z"
+      "checkedAt": "2026-09-07T12:40:44.553Z"
     },
     "120battementsparminute|robincampillo": {
       "filmTitle": "120 battements par minute",
@@ -2591,6 +2591,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/9799-the-fast-and-the-furious",
       "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
+    "fastfurious|robcohen": {
+      "filmTitle": "Fast & Furious",
+      "director": "Rob Cohen",
+      "titleEn": "The Fast and the Furious",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-07T12:40:44.553Z"
     },
     "fatherland|pawelpawlikowski": {
       "filmTitle": "Fatherland",
@@ -6444,6 +6451,13 @@
       "tmdbPath": "/movie/432068-le-sens-de-la-fete",
       "checkedAt": "2026-08-03T10:08:38.000Z"
     },
+    "lesensorceleuses2|susannebier": {
+      "filmTitle": "Les Ensorceleuses 2",
+      "director": "Susanne Bier",
+      "titleEn": "Practical Magic 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-07T12:40:44.553Z"
+    },
     "leseptiemesceau|ingmarbergman": {
       "filmTitle": "Le Septième Sceau",
       "director": "Ingmar Bergman",
@@ -8702,6 +8716,14 @@
       "tmdbPath": "/movie/1429592-ni-vue-ni-connue",
       "checkedAt": "2026-09-01T16:44:41.563Z"
     },
+    "noghostsongoodstreet|emibuchwald": {
+      "filmTitle": "No Ghosts on Good Street",
+      "director": "Emi Buchwald",
+      "titleEn": "No Ghosts on Good Street",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1433707-nie-ma-duchow-w-mieszkaniu-na-dobrej",
+      "checkedAt": "2026-09-07T12:40:44.553Z"
+    },
     "noise|kimsoojin": {
       "filmTitle": "Noise",
       "director": "Kim Soo-jin",
@@ -10780,6 +10802,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-04T11:23:49.773Z"
     },
+    "tellmewhatyoufeel|ukaszronduda": {
+      "filmTitle": "Tell Me What You Feel",
+      "director": "Łukasz Ronduda",
+      "titleEn": "Tell Me What You Feel",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1396045-powiedz-mi-co-czujesz",
+      "checkedAt": "2026-09-07T12:40:44.553Z"
+    },
     "temoinacharge|billywilder": {
       "filmTitle": "Témoin à charge",
       "director": "Billy Wilder",
@@ -11745,6 +11775,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1456349-un-simple-accident",
       "checkedAt": "2026-08-18T01:54:33.034Z"
+    },
+    "untiltheorchidblooms|polenly": {
+      "filmTitle": "Until The Orchid Blooms",
+      "director": "Polen Ly",
+      "titleEn": "Until the Orchid Blooms",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1370095-until-the-orchid-blooms",
+      "checkedAt": "2026-09-07T12:40:44.553Z"
     },
     "untramwaynommedesir|eliakazan": {
       "filmTitle": "Un Tramway nommé désir",
