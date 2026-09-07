@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T12:38:03.757Z",
+  "updatedAt": "2026-09-07T21:32:43.014Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1050,6 +1050,14 @@
       "titleEn": "Breaking the Waves",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "bref2rencontreaveclequipedulivre|": {
+      "filmTitle": "bref.2, rencontre avec l’équipe du livre",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-07T21:35:55.729Z"
     },
     "breverencontre|kiramouratova": {
       "filmTitle": "Breve Rencontre",
@@ -2446,6 +2454,14 @@
       "titleEn": "Entre Ciel et terre",
       "source": "Previous showtimes",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "entrelecieletlenfer|akirakurosawa": {
+      "filmTitle": "Entre Le Ciel Et L'Enfer",
+      "director": "Akira Kurosawa",
+      "titleEn": "High and Low",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/12493",
+      "checkedAt": "2026-09-07T21:35:55.729Z"
     },
     "entrelesvagues|anaisvolpe": {
       "filmTitle": "Entre les vagues",
@@ -5435,6 +5451,14 @@
       "tmdbPath": "/movie/57628-il-cammino-della-speranza",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "lecidcomediefrancaise|dominiquethiel": {
+      "filmTitle": "LE CID (COMEDIE-FRANCAISE)",
+      "director": "Dominique Thiel",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-07T21:35:55.729Z"
+    },
     "lecinequizdelepee|": {
       "filmTitle": "Le Ciné-Quiz De L'Epée 🔍",
       "director": "",
@@ -7990,6 +8014,14 @@
       "tmdbPath": "/movie/47796-mamma-roma",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "mandaaditamoul|pugazhendhimathimaran": {
+      "filmTitle": "MANDAADI - TAMOUL",
+      "director": "Pugazhendhi Mathimaran",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-07T21:35:55.729Z"
+    },
     "manuitchezmaud|ericrohmer": {
       "filmTitle": "Ma nuit chez Maud",
       "director": "Eric Rohmer",
@@ -8029,6 +8061,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/49687-matrimonio-all-italiana",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "mariemadeleine|gessicageneus": {
+      "filmTitle": "Marie Madeleine",
+      "director": "Gessica Généus",
+      "titleEn": "Marie Madeleine",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1660660-marie-madeleine",
+      "checkedAt": "2026-09-07T21:35:55.729Z"
     },
     "mariusetleroyaumedesmers|endreskandfer": {
       "filmTitle": "Marius Et Le Royaume Des Mers",
@@ -10297,6 +10337,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "sardar2tamoul|psmithran": {
+      "filmTitle": "SARDAR 2 - TAMOUL",
+      "director": "P.S. Mithran",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-07T21:35:55.729Z"
     },
     "scarface|briandepalma": {
       "filmTitle": "Scarface",
