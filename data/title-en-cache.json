@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-06T20:26:08.196Z",
+  "updatedAt": "2026-09-07T04:45:39.851Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1557,7 +1557,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-24T02:01:11.504Z"
+      "checkedAt": "2026-09-07T04:48:34.666Z"
     },
     "commentmieuxvivreaveclincertitude|": {
       "filmTitle": "Comment mieux vivre avec l'incertitude ?",
@@ -1756,6 +1756,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-02T16:40:17.381Z"
+    },
+    "cyranodebergerac|jeanpaulrappeneau": {
+      "filmTitle": "Cyrano de Bergerac",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "Cyrano de Bergerac",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11673-cyrano-de-bergerac",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
     },
     "damouretdeaufraiche|": {
       "filmTitle": "D'amour et d'eau fraîche",
@@ -3274,6 +3282,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-04T09:12:58.564Z"
     },
+    "hoteldunord|marcelcarne": {
+      "filmTitle": "Hôtel du Nord",
+      "director": "Marcel Carné",
+      "titleEn": "Hôtel du Nord",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/48369-hotel-du-nord",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
+    },
     "hotspot|dennishopper": {
       "filmTitle": "Hot Spot",
       "director": "Dennis Hopper",
@@ -3815,6 +3831,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/660120-verdens-verste-menneske",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "julietteoulaclefdessonges|marcelcarne": {
+      "filmTitle": "Juliette ou la Clef des Songes",
+      "director": "Marcel Carné",
+      "titleEn": "Juliette, or Key of Dreams",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/117239-juliette-ou-la-clef-des-songes",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
     },
     "jumanjibienvenuedanslajungle|jakekasdan": {
       "filmTitle": "Jumanji : Bienvenue dans la jungle",
@@ -5168,6 +5192,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-30T11:58:54.389Z"
     },
+    "laviedechateau|jeanpaulrappeneau": {
+      "filmTitle": "La Vie de château",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "A Matter of Resistance",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4194-la-vie-de-chateau",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
+    },
     "laviedunefemme|charlinebourgeoistacquet": {
       "filmTitle": "La vie d'une femme",
       "director": "Charline Bourgeois-Tacquet",
@@ -6113,6 +6145,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-13T13:52:35.828Z"
     },
+    "lequaidesbrumes|marcelcarne": {
+      "filmTitle": "Le Quai des brumes",
+      "director": "Marcel Carné",
+      "titleEn": "Port of Shadows",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/46326-le-quai-des-brumes",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
+    },
     "lequatuoracornes|ademuynckbbotellaegorgiardphecquet": {
       "filmTitle": "Le Quatuor A Cornes",
       "director": "A Demuynck, B Botella, E Gorgiard, P Hecquet",
@@ -6246,6 +6286,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-05T04:36:38.283Z"
+    },
+    "lesauvage|jeanpaulrappeneau": {
+      "filmTitle": "Le Sauvage",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "Lovers Like Us",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/76829-le-sauvage",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
     },
     "lesbansheesdinisherin|martinmcdonagh": {
       "filmTitle": "Les Banshees d'Inisherin",
@@ -6631,6 +6679,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-01T11:44:55.653Z"
     },
+    "lesjeunesloups|marcelcarne": {
+      "filmTitle": "Les Jeunes loups",
+      "director": "Marcel Carné",
+      "titleEn": "Young Wolves",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/467536-les-jeunes-loups",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
+    },
     "leslumieresdelaville|charleschaplin": {
       "filmTitle": "Les Lumières de la ville",
       "director": "Charles Chaplin",
@@ -6646,6 +6702,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/734548-les-mal-aimes",
       "checkedAt": "2026-08-01T13:59:33.428Z"
+    },
+    "lesmariesdelandeux|jeanpaulrappeneau": {
+      "filmTitle": "Les mariés de l'an deux",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "The Married Couple of the Year Two",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/4279-les-maries-de-l-an-deux",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
     },
     "lesmatinsmerveilleux|avrilbesson": {
       "filmTitle": "Les Matins Merveilleux",
@@ -11207,6 +11271,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1555871",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "toutfeutoutflamme|jeanpaulrappeneau": {
+      "filmTitle": "Tout feu tout flamme",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "All Fired Up",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/80587-tout-feu-tout-flamme",
+      "checkedAt": "2026-09-07T04:48:34.666Z"
     },
     "toutsurmamere|pedroalmodovar": {
       "filmTitle": "Tout sur ma mère",
