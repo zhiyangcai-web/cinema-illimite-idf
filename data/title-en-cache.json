@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T04:40:57.499Z",
+  "updatedAt": "2026-09-08T11:22:39.400Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -826,6 +826,14 @@
       "tmdbPath": "/movie/1193421-berlinguer-la-grande-ambizione",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "betweenrevolutions|vladpetri": {
+      "filmTitle": "Between Revolutions",
+      "director": "Vlad Petri",
+      "titleEn": "Between Revolutions",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1074757-intre-revolu-ii",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
+    },
     "bianca|nannimoretti": {
       "filmTitle": "Bianca",
       "director": "Nanni Moretti",
@@ -1384,6 +1392,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11104",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "cimetieredevie|khadydiopmamadousunugueye": {
+      "filmTitle": "Cimetière de vie",
+      "director": "Khady Diop, Mamadou Sunu Gueye",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
     },
     "cineclub|": {
       "filmTitle": "Ciné Club",
@@ -2298,6 +2314,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/48282-ecce-bombo",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "echosdelhistoireasiatique|": {
+      "filmTitle": "Échos de l'Histoire Asiatique",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
     },
     "eclairdelune|normanjewison": {
       "filmTitle": "Eclair de lune",
@@ -4833,6 +4857,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1407-la-mome",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "lamortvousvasibien|robertzemeckis": {
+      "filmTitle": "La Mort vous va si bien",
+      "director": "Robert Zemeckis",
+      "titleEn": "Death Becomes Her",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
     },
     "langeexterminateur|luisbunuel": {
       "filmTitle": "L'Ange exterminateur",
@@ -7633,7 +7664,15 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T07:13:21.508Z"
+      "checkedAt": "2026-09-08T11:26:32.486Z"
+    },
+    "lileauxesclaves|jimmyhendrickxjeremykewuan": {
+      "filmTitle": "L’île aux esclaves",
+      "director": "Jimmy Hendrickx, Jeremy Kewuan",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
     },
     "liledeblackmor|jeanfrancoislaguionie": {
       "filmTitle": "L'île de Black Mór",
@@ -8281,6 +8320,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "mastersofbookslanomalieavecherveletellier|": {
+      "filmTitle": "Masters of Books \"L'Anomalie\" avec Hervé Le Tellier",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
     },
     "mastersofcinemaavecandreizviaguintsev|": {
       "filmTitle": "Masters of Cinema avec Andreï Zviaguintsev",
@@ -10658,6 +10705,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "silver|nataliakoniarz": {
+      "filmTitle": "Silver",
+      "director": "Natalia Koniarz",
+      "titleEn": "Silver",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1352472-silver",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
+    },
     "siroccoetleroyaumedescourantsdair|benoitchieux": {
       "filmTitle": "Sirocco et le royaume des courants d'air",
       "director": "Benoît Chieux",
@@ -11020,6 +11075,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/29702-tenebre",
       "checkedAt": "2026-08-13T02:51:39.490Z"
+    },
+    "thealtarboys|piotrdomalewski": {
+      "filmTitle": "The Altar Boys",
+      "director": "Piotr Domalewski",
+      "titleEn": "The Altar Boys",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1383172-ministranci",
+      "checkedAt": "2026-09-08T11:26:32.486Z"
     },
     "theblackhouse|yoshimitsumorita": {
       "filmTitle": "The Black House",
