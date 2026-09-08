@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-07T21:32:43.014Z",
+  "updatedAt": "2026-09-08T04:40:57.499Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -551,6 +551,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-30T05:30:09.629Z"
     },
+    "aucunautrechoix|parkchanwook": {
+      "filmTitle": "Aucun autre choix",
+      "director": "Park Chan-Wook",
+      "titleEn": "No Other Choice",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/639988",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "audition|takashimiike": {
       "filmTitle": "AUDITION",
       "director": "Takashi Miike",
@@ -677,6 +685,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1094497-a-vol-d-oiseaux",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "avoldoiseaux|charliebelingabrielhenotlefevreemilyworms": {
+      "filmTitle": "A Vol D'Oiseaux",
+      "director": "Charlie Belin, Gabriel Hénot-Lefèvre, Emily Worms",
+      "titleEn": "À vol d’oiseaux",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1094497-a-vol-d-oiseaux",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "azuretasmar|michelocelot": {
       "filmTitle": "Azur et Asmar",
@@ -878,6 +894,13 @@
       "titleEn": "Blade Runner",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "bladerunner2049|denisvilleneuve": {
+      "filmTitle": "Blade Runner 2049",
+      "director": "Denis Villeneuve",
+      "titleEn": "Blade Runner 2049",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "bleachfadetoblack|noriyukiabe": {
       "filmTitle": "BLEACH : FADE TO BLACK",
@@ -3406,6 +3429,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "iletaitunefois|georgecukor": {
+      "filmTitle": "Il était une fois",
+      "director": "George Cukor",
+      "titleEn": "A Woman's Face",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "iletaitunefoisachelles|martinjauvat": {
       "filmTitle": "Il Était Une Fois À Chelles",
       "director": "Martin Jauvat",
@@ -3539,6 +3569,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/715385-interdit-aux-chiens-et-aux-italiens",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "interditauxchiensetauxitaliens|ughettoalain": {
+      "filmTitle": "Interdit Aux Chiens Et Aux Italiens",
+      "director": "UGHETTO Alain",
+      "titleEn": "No Dogs or Italians Allowed",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/715385-interdit-aux-chiens-et-aux-italiens",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "interstellar|christophernolan": {
       "filmTitle": "Interstellar",
@@ -3705,6 +3743,14 @@
       "tmdbPath": "/movie/925491-jardins-enchantes",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "jardinsenchantes|nastiavoroninaphoebewahlgalenfottandrealovelenavondohrendeborahcheyennecruchonjuditorosz": {
+      "filmTitle": "Jardins Enchantés",
+      "director": "Nastia Voronina, Phoebe Wahl, Galen Fott, Andrea Love, Lena von Döhren, Déborah Cheyenne Cruchon, Judit Orosz",
+      "titleEn": "Jardins enchantés",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/925491-jardins-enchantes",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "jaures|vincentdieutre": {
       "filmTitle": "Jaurès",
       "director": "Vincent Dieutre",
@@ -3719,7 +3765,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-24T19:03:48.303Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "jeandelalune|stephanschesch": {
       "filmTitle": "Jean De La Lune",
@@ -3775,6 +3821,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/47473-sommarlek",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "jeverraitoujoursvosvisages|jeanneherry": {
+      "filmTitle": "Je Verrai Toujours Vos Visages",
+      "director": "Jeanne Herry",
+      "titleEn": "All Your Faces",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1000492-je-verrai-toujours-vos-visages",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "jimqueen|marconguyennicolasathane": {
       "filmTitle": "Jim Queen",
@@ -4269,7 +4323,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T01:57:09.246Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|jeanjacqueshenryalainmassonneau": {
       "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
@@ -4691,7 +4745,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T01:57:09.246Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "lamaisondenosreves|claudezidijr": {
       "filmTitle": "LA MAISON DE NOS REVES",
@@ -4788,6 +4842,14 @@
       "tmdbPath": "/movie/29264-el-angel-exterminador",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "langerouge|yasuzomasumura": {
+      "filmTitle": "L'ANGE ROUGE",
+      "director": "Yasuzo Masumura",
+      "titleEn": "Red Angel",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/90560",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "lanirvana|hakimbougheraba": {
       "filmTitle": "La Nirvana",
       "director": "Hakim Bougheraba",
@@ -4826,6 +4888,14 @@
       "titleEn": "The Night of the Hunter",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lapampa|antoinechevrollier": {
+      "filmTitle": "La Pampa",
+      "director": "Antoine Chevrollier",
+      "titleEn": "Block Pass",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1001006-la-pampa",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "lapatpatrouillelasuperpatrouillelefilm|calbrunker": {
       "filmTitle": "LA PAT' PATROUILLE : LA SUPER PATROUILLE LE FILM",
@@ -4991,6 +5061,14 @@
       "titleEn": "Legally Blonde",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
+    "lariviere|tsaimingliang": {
+      "filmTitle": "La Rivière",
+      "director": "Tsai Ming-liang",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "lariviererouge|howardhawks": {
       "filmTitle": "La Rivière rouge",
@@ -6247,6 +6325,13 @@
       "tmdbPath": "/movie/8587-the-lion-king",
       "checkedAt": "2026-08-30T05:30:09.629Z"
     },
+    "leromandemildredpierce|michaelcurtiz": {
+      "filmTitle": "Le Roman de Mildred Pierce",
+      "director": "Michael Curtiz",
+      "titleEn": "Mildred Pierce",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "leroyaumedeschats|hiroyukimorita": {
       "filmTitle": "Le Royaume des chats",
       "director": "Hiroyuki Morita",
@@ -6970,6 +7055,14 @@
       "tmdbPath": "/movie/1318335-les-rayons-et-les-ombres",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "lesrebellesdudieuneon|tsaimingliang": {
+      "filmTitle": "Les Rebelles du dieu neon",
+      "director": "Tsai Ming-liang",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "lesreinesdudrame|alexislanglois": {
       "filmTitle": "Les Reines du drame",
       "director": "Alexis Langlois",
@@ -7346,6 +7439,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/43423",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "leventseleve|hayaomiyazaki": {
+      "filmTitle": "Le Vent Se Leve",
+      "director": "Hayao Miyazaki",
+      "titleEn": "The Wind Rises",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/149870",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "levertige|quentindupieux": {
       "filmTitle": "Le Vertige",
@@ -7887,6 +7988,14 @@
       "titleEn": "The Killing",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "lumierelaventurecontinue|thierryfremaux": {
+      "filmTitle": "Lumière l'aventure continue",
+      "director": "Thierry Frémaux",
+      "titleEn": "Lumière, Le Cinéma!",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/639590-lumiere-l-aventure-continue",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "luniversdejacquesdemy|agnesvarda": {
       "filmTitle": "L'Univers de Jacques Demy",
@@ -8842,7 +8951,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-18T13:12:30.400Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "notaprettypicture|marthacoolidge": {
       "filmTitle": "Not a Pretty Picture",
@@ -9111,6 +9220,14 @@
       "titleEn": "The Outsiders",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-02T11:24:50.580Z"
+    },
+    "ouverturedesaisonlido2026|": {
+      "filmTitle": "Ouverture De Saison Lido 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "pachamama|antinjuan": {
       "filmTitle": "Pachamama",
@@ -9417,7 +9534,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T01:57:09.246Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "pickpocket|robertbresson": {
       "filmTitle": "PICKPOCKET",
@@ -9513,6 +9630,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "policepython357|alaincorneau": {
+      "filmTitle": "Police Python 357",
+      "director": "Alain Corneau",
+      "titleEn": "Police Python 357",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/37455-police-python-357",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "pomponours|matthieugaillard": {
       "filmTitle": "POMPON OURS",
       "director": "Matthieu Gaillard",
@@ -9544,6 +9669,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/12429",
       "checkedAt": "2026-09-02T21:08:06.647Z"
+    },
+    "portierdenuit|lilianacavani": {
+      "filmTitle": "Portier de nuit",
+      "director": "Liliana Cavani",
+      "titleEn": "The Night Porter",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/26648-il-portiere-di-notte",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "portraitdelajeunefilleenfeu|celinesciamma": {
       "filmTitle": "Portrait de la jeune fille en feu",
@@ -9788,6 +9921,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11330-pusher-3",
       "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
+    "quandharryrencontresally|robreiner": {
+      "filmTitle": "Quand Harry rencontre Sally",
+      "director": "Rob Reiner",
+      "titleEn": "When Harry Met Sally",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "quandlamermonte|yolandemoreaugillesporte": {
       "filmTitle": "Quand La Mer Monte...",
@@ -11068,7 +11208,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T01:57:09.246Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "theopera|paologepcucco": {
       "filmTitle": "The Opera!",
@@ -11146,6 +11286,21 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
+    "thesubstance|coraliefargeat": {
+      "filmTitle": "The Substance",
+      "director": "Coralie Fargeat",
+      "titleEn": "The Substance",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
+    "theterrorizers|edwardyang": {
+      "filmTitle": "The Terrorizers",
+      "director": "Edward Yang",
+      "titleEn": "Terrorizers",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/78450",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "thething|johncarpenter": {
       "filmTitle": "The Thing",
@@ -11669,6 +11824,13 @@
       "tmdbPath": "/movie/42229-una-giornata-particolare",
       "checkedAt": "2026-08-11T07:41:41.621Z"
     },
+    "unenuitalopera|samwoodedmundgoulding": {
+      "filmTitle": "Une Nuit à l'opéra",
+      "director": "Sam Wood, Edmund Goulding",
+      "titleEn": "A Night at the Opera",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
     "uneteviolent|valeriozurlini": {
       "filmTitle": "Un été violent",
       "director": "Valerio Zurlini",
@@ -11700,6 +11862,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/42741-un-flic",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "unflicsurletoit|bowiderberg": {
+      "filmTitle": "Un flic sur le toit",
+      "director": "Bo Widerberg",
+      "titleEn": "Man on the Roof",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/25699-mannen-pa-taket",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "ungrandraccourci|armandfoeumlxclementdevilliers": {
       "filmTitle": "UN GRAND RACCOURCI",
@@ -11966,7 +12136,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T01:57:09.246Z"
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "visiteguidee|carolineroucouxhervethebault": {
       "filmTitle": "Visite guidée",
@@ -11983,6 +12153,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1365683-primavera",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "vivelamour|tsaimingliang": {
+      "filmTitle": "Vive l'amour",
+      "director": "Tsai Ming-liang",
+      "titleEn": "Vive L'Amour",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11985",
+      "checkedAt": "2026-09-08T04:44:43.845Z"
     },
     "vivresaviefilmendouzetableaux|jeanlucgodard": {
       "filmTitle": "Vivre sa vie: Film en douze tableaux",
