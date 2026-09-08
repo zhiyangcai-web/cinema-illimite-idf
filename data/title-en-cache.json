@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T11:22:39.400Z",
+  "updatedAt": "2026-09-08T16:40:09.473Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3058,7 +3058,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T13:15:23.350Z"
+      "checkedAt": "2026-09-08T16:43:53.900Z"
     },
     "hamnet|chloezhao": {
       "filmTitle": "Hamnet",
@@ -4762,6 +4762,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/49361-non-si-sevizia-un-paperino",
       "checkedAt": "2026-08-05T09:10:00.932Z"
+    },
+    "lamain|dannyphilippoumichaelphilippou": {
+      "filmTitle": "LA MAIN",
+      "director": "Danny Philippou, Michael Philippou",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T16:43:53.900Z"
     },
     "lamainsurlagueulepeineperdue|harariarthur": {
       "filmTitle": "La Main Sur La Gueule + Peine Perdue",
@@ -8177,6 +8185,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/48831-ma-nuit-chez-maud",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "maoussi|charlotteschiler": {
+      "filmTitle": "Maoussi",
+      "director": "Charlotte Schiøler",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-08T16:43:53.900Z"
     },
     "maquisards|christianphilibert": {
       "filmTitle": "Maquisards",
