@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T16:40:31.363Z",
+  "updatedAt": "2026-09-09T20:57:19.147Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1739,7 +1739,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T20:07:38.782Z"
+      "checkedAt": "2026-09-09T21:01:05.158Z"
     },
     "cosmos|germinalroaux": {
       "filmTitle": "Cosmos",
@@ -3084,6 +3084,14 @@
       "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
       "checkedAt": "2026-08-27T09:56:05.388Z"
     },
+    "hairpaperwater|minhquytruongnicolasgraux": {
+      "filmTitle": "Hair, Paper, Water...",
+      "director": "Minh Quý Trương, Nicolas Graux",
+      "titleEn": "Hair, Paper, Water...",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
+      "checkedAt": "2026-09-09T21:01:05.158Z"
+    },
     "hairpaperwater|nicolasgrauxminhquytruong": {
       "filmTitle": "Hair, Paper, Water…",
       "director": "Nicolas Graux, Minh Quý Trương",
@@ -3282,12 +3290,11 @@
       "checkedAt": "2026-09-02T21:08:06.647Z"
     },
     "heartofthebeast|davidayer": {
-      "filmTitle": "HEART OF THE BEAST",
+      "filmTitle": "Heart Of The Beast",
       "director": "David Ayer",
-      "titleEn": "Heart of the Beast",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1263337-heart-of-the-beast",
-      "checkedAt": "2026-09-02T11:24:50.580Z"
+      "titleEn": "Heart Of The Beast",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-09T21:01:05.158Z"
     },
     "heat|michaelmann": {
       "filmTitle": "Heat",
