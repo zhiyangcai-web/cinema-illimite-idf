@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T11:26:50.295Z",
+  "updatedAt": "2026-09-09T16:40:31.363Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3103,10 +3103,9 @@
     "hamletcomediefrancaise|corentinleconte": {
       "filmTitle": "HAMLET (COMEDIE-FRANCAISE)",
       "director": "Corentin Leconte",
-      "titleEn": "",
+      "titleEn": "Hamlet (Comédie-Française)",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-08T16:43:53.900Z"
+      "checkedAt": "2026-09-09T16:44:07.348Z"
     },
     "hamletcomediefrancaise|ivovanhovecorentinleconte": {
       "filmTitle": "Hamlet (Comédie-Française)",
@@ -4277,7 +4276,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T13:20:19.030Z"
+      "checkedAt": "2026-09-09T16:44:07.348Z"
     },
     "labatailledegaullejecristonnom|antoninbaudry": {
       "filmTitle": "La Bataille De Gaulle J Ecris Ton Nom",
@@ -6403,7 +6402,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T13:20:19.030Z"
+      "checkedAt": "2026-09-09T16:44:07.348Z"
     },
     "leratscelerat|jeroenjaspaert": {
       "filmTitle": "Le Rat scélérat",
@@ -7700,7 +7699,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T13:20:19.030Z"
+      "checkedAt": "2026-09-09T16:44:07.348Z"
     },
     "lexorciste|williamfriedkin": {
       "filmTitle": "L'Exorciste",
@@ -9086,7 +9085,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T13:20:19.030Z"
+      "checkedAt": "2026-09-09T16:44:07.348Z"
     },
     "norahamadixgiuliafois|": {
       "filmTitle": "Nora Hamadi x Giulia Foïs",
@@ -11522,7 +11521,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T13:20:19.030Z"
+      "checkedAt": "2026-09-09T16:44:07.348Z"
     },
     "thetrumanshow|peterweir": {
       "filmTitle": "The Truman Show",
