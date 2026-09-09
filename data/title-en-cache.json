@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T04:45:57.823Z",
+  "updatedAt": "2026-09-09T11:26:50.295Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1408,6 +1408,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/829-chinatown",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "chopinchopin|michalkwiecinski": {
+      "filmTitle": "Chopin, Chopin!",
+      "director": "Michal Kwiecinski",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "chroniquedunete|jeanrouchedgarmorin": {
       "filmTitle": "Chronique d'un été",
@@ -3100,6 +3108,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-08T16:43:53.900Z"
     },
+    "hamletcomediefrancaise|ivovanhovecorentinleconte": {
+      "filmTitle": "Hamlet (Comédie-Française)",
+      "director": "Ivo Van Hove, Corentin Leconte",
+      "titleEn": "Hamlet (Comédie-Française)",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1709002-hamlet-comedie-francaise",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
+    },
     "hamnet|chloezhao": {
       "filmTitle": "Hamnet",
       "director": "Chloé Zhao",
@@ -3391,6 +3407,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
+    "horizonsdelasiecontemporaine|": {
+      "filmTitle": "Horizons de l'Asie Contemporaine",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "hoteldunord|marcelcarne": {
       "filmTitle": "Hôtel du Nord",
@@ -3726,6 +3750,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/979-irreversible",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "islandofthewinds|yatinghsu": {
+      "filmTitle": "Island Of The Winds",
+      "director": "Ya-Ting Hsu",
+      "titleEn": "Island of the Winds",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1127662",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "itfollows|davidrobertmitchell": {
       "filmTitle": "It Follows",
@@ -4953,6 +4985,14 @@
       "tmdbPath": "/movie/4024-l-annee-derniere-a-marienbad",
       "checkedAt": "2026-08-04T09:12:58.564Z"
     },
+    "lanneedudragon|michaelcimino": {
+      "filmTitle": "L'Année du dragon",
+      "director": "Michael Cimino",
+      "titleEn": "Year of the Dragon",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11018-year-of-the-dragon",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
+    },
     "lanuee|justphilippot": {
       "filmTitle": "La Nuée",
       "director": "Just Philippot",
@@ -5678,7 +5718,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T07:13:17.796Z"
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "leconomiecommesportdecombat|": {
       "filmTitle": "L'économie comme sport de combat",
@@ -5976,6 +6016,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/453191-le-grand-mechant-renard-et-autres-contes",
       "checkedAt": "2026-08-26T02:02:46.968Z"
+    },
+    "legrandrestaurant|jacquesbesnard": {
+      "filmTitle": "Le Grand restaurant",
+      "director": "Jacques Besnard",
+      "titleEn": "The Restaurant",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/19548-le-grand-restaurant",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "leguepard|luchinovisconti": {
       "filmTitle": "Le Guépard",
@@ -10267,7 +10315,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T07:13:17.796Z"
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "reglementdecomptes|fritzlang": {
       "filmTitle": "Règlement de comptes",
@@ -11246,6 +11294,13 @@
       "tmdbPath": "/movie/1418811",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "thegoodboy|jankomasa": {
+      "filmTitle": "The Good Boy",
+      "director": "Jan Komasa",
+      "titleEn": "The Good Boy",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
+    },
     "thegoodsister|sarahmirofischer": {
       "filmTitle": "The Good Sister",
       "director": "Sarah Miro Fischer",
@@ -11641,6 +11696,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T19:59:18.827Z"
     },
+    "totalrecall|paulverhoeven": {
+      "filmTitle": "Total Recall",
+      "director": "Paul Verhoeven",
+      "titleEn": "Total Recall",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
+    },
     "totoutard|jadwigakowalska": {
       "filmTitle": "Tot Ou Tard",
       "director": "Jadwiga Kowalska",
@@ -11866,6 +11928,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/962772-un-champ-de-fraises-pour-l-eternite",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "unchantaveugle|stefanocanapanatachamuslera": {
+      "filmTitle": "Un Chant Aveugle",
+      "director": "Stefano Canapa, Natacha Muslera",
+      "titleEn": "Blind Song",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1633359-un-chant-aveugle",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "uncompagnondelonguedate|normanrene": {
       "filmTitle": "Un compagnon de longue date",
@@ -12137,6 +12207,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "unrenardsousunelunerose|mehrdadoskoueisorayaakhlaqi": {
+      "filmTitle": "Un renard sous une lune rose",
+      "director": "Mehrdad Oskouei, Soraya Akhlaqi",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
+    },
     "unroianewyork|charleschaplin": {
       "filmTitle": "Un Roi à New York",
       "director": "Charles Chaplin",
@@ -12242,6 +12320,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/48937-venezia-la-luna-e-tu",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "verity|michaelshowalter": {
+      "filmTitle": "VERITY",
+      "director": "Michael Showalter",
+      "titleEn": "Verity",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1283515-verity",
+      "checkedAt": "2026-09-09T11:29:49.347Z"
     },
     "vermigliooulamarieedesmontagnes|mauradelpero": {
       "filmTitle": "Vermiglio ou La Mariée des Montagnes",
