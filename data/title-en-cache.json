@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-08T16:40:09.473Z",
+  "updatedAt": "2026-09-09T04:45:57.823Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -325,6 +325,14 @@
       "titleEn": "Alien",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "aline|valerielemercier": {
+      "filmTitle": "ALINE",
+      "director": "Valerie Lemercier",
+      "titleEn": "Aline",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/498402-aline",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "allemagneanneezero|rosselliniroberto": {
       "filmTitle": "Allemagne Annee Zero",
@@ -1136,6 +1144,14 @@
       "tmdbPath": "/movie/42167-bye-bye-brasil",
       "checkedAt": "2026-07-21T19:55:30.027Z"
     },
+    "byhookorbycrook|harrydodgesilashoward": {
+      "filmTitle": "By Hook Or By Crook",
+      "director": "Harry Dodge, Silas Howard",
+      "titleEn": "By Hook or by Crook",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/212508-by-hook-or-by-crook",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
     "cadetdeaudouce|charlesfreisner": {
       "filmTitle": "Cadet D Eau Douce",
       "director": "Charles F. Reisner",
@@ -1212,6 +1228,14 @@
       "titleEn": "Carrie",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "cars|johnlasseter": {
+      "filmTitle": "CARS",
+      "director": "John Lasseter",
+      "titleEn": "Cars",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/920-cars",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "casablanca|michaelcurtiz": {
       "filmTitle": "Casablanca",
@@ -1297,6 +1321,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/125844-ce-vieux-reve-qui-bouge",
       "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
+    "cezanneetmoi|danielethompson": {
+      "filmTitle": "Cézanne Et Moi",
+      "director": "Danièle Thompson",
+      "titleEn": "Cezanne and I",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/382509-cezanne-et-moi",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "challengers|lucaguadagnino": {
       "filmTitle": "CHALLENGERS",
@@ -3052,6 +3084,14 @@
       "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
       "checkedAt": "2026-09-06T11:02:28.849Z"
     },
+    "hairpaperwater|nicolasgrauxtruongminhquy": {
+      "filmTitle": "Hair Paper Water",
+      "director": "Nicolas Graux, Truong Minh Quy",
+      "titleEn": "Hair, Paper, Water...",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
     "hamletcomediefrancaise|corentinleconte": {
       "filmTitle": "HAMLET (COMEDIE-FRANCAISE)",
       "director": "Corentin Leconte",
@@ -3342,7 +3382,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T02:02:46.968Z"
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "honorableangelina|zampaluigui": {
       "filmTitle": "Honorable Angelina",
@@ -4339,7 +4379,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T02:02:46.968Z"
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|alainmassonneaujeanjacqueshenry": {
       "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
@@ -4872,6 +4912,14 @@
       "titleEn": "Death Becomes Her",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-08T11:26:32.486Z"
+    },
+    "lanatureaucoeurdeleconomie|": {
+      "filmTitle": "La nature au coeur de l’économie",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "langeexterminateur|luisbunuel": {
       "filmTitle": "L'Ange exterminateur",
@@ -8749,6 +8797,14 @@
       "tmdbPath": "/movie/1211746",
       "checkedAt": "2026-08-14T13:46:59.477Z"
     },
+    "mortavenise|luchinovisconti": {
+      "filmTitle": "MORT A VENISE",
+      "director": "Luchino Visconti",
+      "titleEn": "Death in Venice",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/6619-morte-a-venezia",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
     "mortduncycliste|juanantoniobardem": {
       "filmTitle": "Mort d'un cycliste",
       "director": "Juan Antonio Bardem",
@@ -9701,6 +9757,14 @@
       "tmdbPath": "/movie/37455-police-python-357",
       "checkedAt": "2026-09-08T04:44:43.845Z"
     },
+    "poltergeist|tobehooper": {
+      "filmTitle": "POLTERGEIST",
+      "director": "Tobe Hooper",
+      "titleEn": "Poltergeist",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/609-poltergeist",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
     "pomponours|matthieugaillard": {
       "filmTitle": "POMPON OURS",
       "director": "Matthieu Gaillard",
@@ -10038,7 +10102,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T19:01:28.090Z"
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "quelabetemeure|claudechabrol": {
       "filmTitle": "Que la bête meure",
@@ -10652,6 +10716,14 @@
       "tmdbPath": "/movie/1249152-vier-minus-drei",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "seulleserpentsait|serorolivier": {
+      "filmTitle": "Seul Le Serpent Sait",
+      "director": "SÉROR Olivier",
+      "titleEn": "Only the Serpent Knows",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1708610-seul-le-serpent-sait",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
     "seulslespirates|lepinglegael": {
       "filmTitle": "Seuls Les Pirates",
       "director": "LEPINGLE Gael",
@@ -10756,10 +10828,10 @@
     "sixmoisdanslamaisonroseetbleue|brunosantamariarazo": {
       "filmTitle": "Six Mois Dans La Maison Rose Et Bleue",
       "director": "Bruno Santamaría Razo",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-08-26T02:02:46.968Z"
+      "titleEn": "Six Months in a Pink and Blue Building",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1025407-seis-meses-en-el-edificio-rosa-con-azul",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "smashpalace|rogerdonaldson": {
       "filmTitle": "Smash Palace",
@@ -11554,6 +11626,14 @@
       "tmdbPath": "/movie/1661932-siempre-soy-tu-animal-materno",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "tonierdmann|marenade": {
+      "filmTitle": "Toni Erdmann",
+      "director": "Maren Ade",
+      "titleEn": "Toni Erdmann",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/374475-toni-erdmann",
+      "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
     "totallyfedup|greggaraki": {
       "filmTitle": "Totally F***ed Up",
       "director": "Gregg Araki",
@@ -11660,7 +11740,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T02:02:46.968Z"
+      "checkedAt": "2026-09-09T04:49:47.693Z"
     },
     "tricoteserrecrepu|hilleljoseph": {
       "filmTitle": "Tricote Serre Crepu",
