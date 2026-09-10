@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T16:26:19.719Z",
+  "updatedAt": "2026-09-10T20:53:53.197Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2873,6 +2873,14 @@
       "tmdbPath": "/movie/52663",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "fragmentssurlagrace|vincentdieutre": {
+      "filmTitle": "Fragments sur la grâce",
+      "director": "Vincent Dieutre",
+      "titleEn": "Fragments sur la grâce",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/383004-fragments-sur-la-grace",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
+    },
     "frantz|francoisozon": {
       "filmTitle": "Frantz",
       "director": "François Ozon",
@@ -3836,6 +3844,13 @@
       "tmdbPath": "/movie/49797",
       "checkedAt": "2026-07-28T14:42:44.026Z"
     },
+    "jamesetlapechegeante|henryselick": {
+      "filmTitle": "James et la pêche géante",
+      "director": "Henry Selick",
+      "titleEn": "James and the Giant Peach",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
+    },
     "jananayagan|hvinoth": {
       "filmTitle": "Jana Nayagan",
       "director": "H. Vinoth",
@@ -4503,6 +4518,14 @@
       "titleEn": "The Cruise",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "ladamedeshanghai|orsonwelles": {
+      "filmTitle": "La Dame de Shanghai",
+      "director": "Orson Welles",
+      "titleEn": "The Lady from Shanghai",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3766-the-lady-from-shanghai",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
     },
     "ladamedeshanghai|wellesorson": {
       "filmTitle": "La Dame De Shanghai",
@@ -5856,6 +5879,14 @@
       "titleEn": "The Quiet Earth",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "ledestin|youssefchahine": {
+      "filmTitle": "Le Destin",
+      "director": "Youssef Chahine",
+      "titleEn": "Destiny",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/37673",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
     },
     "ledestindeyoussefchahinesuividunconcertconference|": {
       "filmTitle": "Le Destin De Youssef Chahine Suivi D’un Concert-Conférence",
@@ -7352,6 +7383,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "lestontonsflingueurs|georgeslautner": {
+      "filmTitle": "Les Tontons flingueurs",
+      "director": "Georges Lautner",
+      "titleEn": "Crooks in Clover",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/25253-les-tontons-flingueurs",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
     },
     "lestontonsflingueurs|lautnergeorges": {
       "filmTitle": "Les Tontons Flingueurs",
@@ -9694,6 +9733,13 @@
       "tmdbPath": "/movie/2993-una-sull-altra",
       "checkedAt": "2026-08-05T09:10:00.932Z"
     },
+    "peterpan|hamiltonluskeclydegeronimiwilfredjackson": {
+      "filmTitle": "Peter Pan",
+      "director": "Hamilton Luske, Clyde Geronimi, Wilfred Jackson",
+      "titleEn": "Peter Pan",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
+    },
     "petitemaman|sciammaceline": {
       "filmTitle": "Petite Maman",
       "director": "SCIAMMA Céline",
@@ -10722,6 +10768,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "sanstoitniloi|agnesvarda": {
+      "filmTitle": "Sans toit ni loi",
+      "director": "Agnès Varda",
+      "titleEn": "Vagabond",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/44018-sans-toit-ni-loi",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
+    },
     "sardar2tamoul|psmithran": {
       "filmTitle": "SARDAR 2 - TAMOUL",
       "director": "P.S. Mithran",
@@ -10987,6 +11041,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-22T01:54:41.685Z"
+    },
+    "soisbelleettaistoi|delphineseyrig": {
+      "filmTitle": "Sois belle et tais-toi!",
+      "director": "Delphine Seyrig",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-10T20:57:00.338Z"
     },
     "soisbelleettaistoi|marcallegret": {
       "filmTitle": "Sois Belle Et Tais Toi",
