@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T11:23:00.234Z",
+  "updatedAt": "2026-09-10T16:26:19.719Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -734,12 +734,11 @@
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
     "backroomstoutdoitdisparaitre|kaneparsons": {
-      "filmTitle": "BACKROOMS : TOUT DOIT DISPARAITRE",
+      "filmTitle": "Backrooms : tout doit disparaître",
       "director": "Kane Parsons",
-      "titleEn": "Backrooms",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1083381-backrooms",
-      "checkedAt": "2026-07-20T08:47:31.999Z"
+      "titleEn": "Backrooms: Everything Must Go Edition w/ Bonus Footage",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-10T16:30:07.959Z"
     },
     "baekdudaeganlecycledubonheur|": {
       "filmTitle": "BAEKDU DAEGAN : LE CYCLE DU BONHEUR",
@@ -6717,6 +6716,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "leselephantsdanslabrume|": {
+      "filmTitle": "LES ELEPHANTS DANS LA BRUME",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-10T16:30:07.959Z"
+    },
     "lesenfantsloupsameyuki|mamoruhosoda": {
       "filmTitle": "Les Enfants Loups, Ame & Yuki",
       "director": "Mamoru Hosoda",
@@ -7487,6 +7494,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/45000-les-visiteurs-du-soir",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "lesvoyagesdetereza|gabrielmascaro": {
+      "filmTitle": "Les Voyages De Tereza",
+      "director": "Gabriel Mascaro",
+      "titleEn": "The Blue Trail",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1172265-o-ultimo-azul",
+      "checkedAt": "2026-09-10T16:30:07.959Z"
     },
     "letempsdaimeretletempsdemourir|douglassirk": {
       "filmTitle": "Le Temps d'aimer et le temps de mourir",
@@ -12655,6 +12670,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T05:42:16.331Z"
+    },
+    "womanlifefreedomfilmfestival|": {
+      "filmTitle": "Woman Life Freedom Film Festival",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-10T16:30:07.959Z"
     },
     "yellowletters|ilkercatak": {
       "filmTitle": " Yellow Letters ",
