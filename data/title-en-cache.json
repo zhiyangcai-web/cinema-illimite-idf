@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T20:57:19.147Z",
+  "updatedAt": "2026-09-10T04:46:19.401Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2666,6 +2666,14 @@
       "tmdbPath": "/movie/1408208",
       "checkedAt": "2026-07-21T19:55:30.027Z"
     },
+    "exmachina|alexgarland": {
+      "filmTitle": "EX MACHINA",
+      "director": "Alex Garland",
+      "titleEn": "Ex Machina",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/264660-ex-machina",
+      "checkedAt": "2026-09-10T04:49:58.209Z"
+    },
     "eyeswideshut|stanleykubrick": {
       "filmTitle": "Eyes Wide Shut",
       "director": "Stanley Kubrick",
@@ -2763,6 +2771,14 @@
       "titleEn": "Fight Club",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-06T11:02:28.849Z"
+    },
+    "filsde|carlosabascalpeiro": {
+      "filmTitle": "Fils De",
+      "director": "Carlos Abascal Peiró",
+      "titleEn": "Prime Rush",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1197122-fils-de",
+      "checkedAt": "2026-09-10T04:49:58.209Z"
     },
     "finiderirelhumourpolitiqueaugardeavous|mateolarroqueclaramenaismilabranco": {
       "filmTitle": "Fini De Rire ! L'Humour Politique Au Garde-À-Vous ?",
@@ -10778,6 +10794,14 @@
       "tmdbPath": "/movie/1708610-seul-le-serpent-sait",
       "checkedAt": "2026-09-09T04:49:47.693Z"
     },
+    "seulleserpentsait|serorolivierverdetmartin": {
+      "filmTitle": "Seul Le Serpent Sait",
+      "director": "SÉROR Olivier, VERDET Martin",
+      "titleEn": "Only the Serpent Knows",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1708610-seul-le-serpent-sait",
+      "checkedAt": "2026-09-10T04:49:58.209Z"
+    },
     "seulslespirates|lepinglegael": {
       "filmTitle": "Seuls Les Pirates",
       "director": "LEPINGLE Gael",
@@ -12373,6 +12397,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1670436-virages",
       "checkedAt": "2026-08-20T19:03:51.229Z"
+    },
+    "virages|celinecarridroitalinesuter": {
+      "filmTitle": "Virages",
+      "director": "Céline Carridroit, Aline Suter",
+      "titleEn": "Summer Drift",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1670436-virages",
+      "checkedAt": "2026-09-10T04:49:58.209Z"
     },
     "virginsuicides|sofiacoppola": {
       "filmTitle": "Virgin suicides",
