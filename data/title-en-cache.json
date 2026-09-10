@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T04:46:19.401Z",
+  "updatedAt": "2026-09-10T11:23:00.234Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2034,6 +2034,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1614346-dernier-arret-pour-le-billet-circulaire",
       "checkedAt": "2026-09-04T20:49:59.047Z"
+    },
+    "derriereleparavent|ivanheidsieck": {
+      "filmTitle": "Derrière le paravent",
+      "director": "Ivan Heidsieck",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-10T11:26:44.246Z"
     },
     "dersououzala|akirakurosawa": {
       "filmTitle": "DERSOU OUZALA",
@@ -5985,6 +5993,14 @@
       "tmdbPath": "/movie/30020",
       "checkedAt": "2026-07-25T19:39:09.891Z"
     },
+    "legoutdesautres|agnesjaoui": {
+      "filmTitle": "Le Goût des autres",
+      "director": "Agnès Jaoui",
+      "titleEn": "The Taste of Others",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10697-le-gout-des-autres",
+      "checkedAt": "2026-09-10T11:26:44.246Z"
+    },
     "legoutducinemalepiment|": {
       "filmTitle": "Le Gout Du Cinema : Le Piment",
       "director": "",
@@ -7015,6 +7031,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-17T19:02:56.014Z"
     },
+    "lesmiserables|fredcavaye": {
+      "filmTitle": "Les Misérables",
+      "director": "Fred Cavayé",
+      "titleEn": "Les Misérables",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1241803-les-miserables",
+      "checkedAt": "2026-09-10T11:26:44.246Z"
+    },
     "lesmoissonsduciel|terrencemalick": {
       "filmTitle": "Les Moissons du ciel",
       "director": "Terrence Malick",
@@ -7227,6 +7251,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1001376-les-reines-du-drame",
       "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
+    "lesritournellesdelachouette|anaissorrentinofritsstandaertjeremiemazurek": {
+      "filmTitle": "Les Ritournelles de la Chouette",
+      "director": "Anaïs Sorrentino, Frits Standaert, Jérémie Mazurek",
+      "titleEn": "Les Ritournelles de la chouette",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/577599-les-ritournelles-de-la-chouette",
+      "checkedAt": "2026-09-10T11:26:44.246Z"
     },
     "lesritournellesdelachouette|anaiumlssorrentinofritsstandaertjeremiemazurek": {
       "filmTitle": "LES RITOURNELLES DE LA CHOUETTE",
@@ -12276,6 +12308,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/702-a-streetcar-named-desire",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "untriomphe|emmanuelcourcol": {
+      "filmTitle": "Un Triomphe",
+      "director": "Emmanuel Courcol",
+      "titleEn": "The Big Hit",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/712152-un-triomphe",
+      "checkedAt": "2026-09-10T11:26:44.246Z"
     },
     "unviolonsurletoit|normanjewison": {
       "filmTitle": "Un Violon sur le toit",
