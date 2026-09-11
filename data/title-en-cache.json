@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T11:25:01.046Z",
+  "updatedAt": "2026-09-11T16:30:41.712Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1487,6 +1487,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-02T16:40:17.381Z"
     },
+    "cinerelax|": {
+      "filmTitle": "Ciné Relax",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-11T16:33:32.278Z"
+    },
     "cinerosa2aout|": {
       "filmTitle": "Ciné Rosa • 2 Août",
       "director": "",
@@ -2376,6 +2384,14 @@
       "titleEn": "Moonstruck",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "ecrirelavie|clairesimon": {
+      "filmTitle": "Écrire la vie",
+      "director": "Claire Simon",
+      "titleEn": "Writing Life – Annie Ernaux Through the Eyes of High School Students",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1518673-ecrire-la-vie-annie-ernaux-racontee-par-des-lyceennes-et-des-lyceens",
+      "checkedAt": "2026-09-11T16:33:32.278Z"
     },
     "ecrirelavieannieernauxraconteepardeslyceennesetdeslyceens|clairesimon": {
       "filmTitle": "Écrire La Vie - Annie Ernaux Racontée Par Des Lycéennes Et Des Lycéens",
@@ -7058,7 +7074,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-28T11:29:01.241Z"
+      "checkedAt": "2026-09-11T16:33:32.278Z"
     },
     "lesmalaimes|heleneducrocq": {
       "filmTitle": "Les Mal-aimés",
@@ -8040,6 +8056,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1182935-l-inconnue",
       "checkedAt": "2026-07-27T10:12:29.113Z"
+    },
+    "lindaveutdupoulet|laudenbachsebastien": {
+      "filmTitle": "Linda Veut Du Poulet",
+      "director": "LAUDENBACH Sébastien",
+      "titleEn": "Chicken for Linda!",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/589026-linda-veut-du-poulet",
+      "checkedAt": "2026-09-11T16:33:32.278Z"
     },
     "linsoutenablelegeretedeletre|philipkaufman": {
       "filmTitle": "L'Insoutenable légèreté de l'être",
@@ -9186,6 +9210,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1433707-nie-ma-duchow-w-mieszkaniu-na-dobrej",
       "checkedAt": "2026-09-07T12:40:44.553Z"
+    },
+    "nogoodmen|shahrbanoosadat": {
+      "filmTitle": "No Good Men",
+      "director": "Shahrbanoo Sadat",
+      "titleEn": "No Good Men",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1241574-kabul-jan",
+      "checkedAt": "2026-09-11T16:33:32.278Z"
     },
     "noise|kimsoojin": {
       "filmTitle": "Noise",
@@ -10568,6 +10600,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/63688-retour-a-la-vie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "retouraucollege|antoinefromental": {
+      "filmTitle": "Retour Au Collège",
+      "director": "Antoine Fromental",
+      "titleEn": "Retour au collège",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1711917-retour-au-college",
+      "checkedAt": "2026-09-11T16:33:32.278Z"
     },
     "retouravant15heures|gaellepingle": {
       "filmTitle": "Retour Avant 15 Heures",
