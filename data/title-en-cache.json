@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T20:53:53.197Z",
+  "updatedAt": "2026-09-11T04:44:10.158Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -11045,10 +11045,9 @@
     "soisbelleettaistoi|delphineseyrig": {
       "filmTitle": "Sois belle et tais-toi!",
       "director": "Delphine Seyrig",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-10T20:57:00.338Z"
+      "titleEn": "Be Beautiful and Shut Up",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-11T04:47:45.165Z"
     },
     "soisbelleettaistoi|marcallegret": {
       "filmTitle": "Sois Belle Et Tais Toi",
@@ -12270,6 +12269,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-08T02:25:21.325Z"
+    },
+    "unhiverrusse|patricchiha": {
+      "filmTitle": "Un Hiver Russe",
+      "director": "Patric Chiha",
+      "titleEn": "A Russian Winter",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1599746-un-hiver-russe",
+      "checkedAt": "2026-09-11T04:47:45.165Z"
     },
     "unhommedanslafoule|eliakazan": {
       "filmTitle": "Un Homme dans la foule",
