@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T04:44:10.158Z",
+  "updatedAt": "2026-09-11T11:25:01.046Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4997,6 +4997,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-08T11:26:32.486Z"
     },
+    "lamuraille|callistomcnulty": {
+      "filmTitle": "La Muraille",
+      "director": "Callisto McNulty",
+      "titleEn": "The Other World",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1450256-la-muraille",
+      "checkedAt": "2026-09-11T11:28:43.478Z"
+    },
     "lanatureaucoeurdeleconomie|": {
       "filmTitle": "La nature au coeur de l’économie",
       "director": "",
@@ -5302,6 +5310,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-30T05:30:09.629Z"
+    },
+    "larueeverslor|charleschaplin": {
+      "filmTitle": "La Ruée vers l'or",
+      "director": "Charles Chaplin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-11T11:28:43.478Z"
     },
     "laruerouge|fritzlang": {
       "filmTitle": "La Rue rouge",
@@ -5903,6 +5919,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1314481-the-devil-wears-prada-2",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "lediscoursdunroi|tomhooper": {
+      "filmTitle": "Le Discours d'un roi",
+      "director": "Tom Hooper",
+      "titleEn": "The King's Speech",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-11T11:28:43.478Z"
     },
     "ledocteurjivago|davidlean": {
       "filmTitle": "Le Docteur Jivago",
@@ -6754,6 +6777,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-10T16:30:07.959Z"
+    },
+    "leselephantsdanslabrume|abinashbikramshah": {
+      "filmTitle": "LES ELEPHANTS DANS LA BRUME",
+      "director": "Abinash Bikram Shah",
+      "titleEn": "Elephants in the Fog",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1661926",
+      "checkedAt": "2026-09-11T11:28:43.478Z"
     },
     "lesenfantsloupsameyuki|mamoruhosoda": {
       "filmTitle": "Les Enfants Loups, Ame & Yuki",
@@ -8131,6 +8162,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/20345-l-uccello-dalle-piume-di-cristallo",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "lokiherosmechantoulesdeux|": {
+      "filmTitle": "Loki : héros, méchant… ou les deux ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-11T11:28:43.478Z"
     },
     "lola|jacquesdemy": {
       "filmTitle": "Lola",
