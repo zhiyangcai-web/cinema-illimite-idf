@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-11T16:30:41.712Z",
+  "updatedAt": "2026-09-12T04:38:33.585Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4885,7 +4885,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-28T22:25:48.726Z"
+      "checkedAt": "2026-09-12T04:42:05.655Z"
     },
     "lalignebleue|mariedumora": {
       "filmTitle": "La ligne bleue",
@@ -5386,7 +5386,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-28T22:25:48.726Z"
+      "checkedAt": "2026-09-12T04:42:05.655Z"
     },
     "latempete|derekjarman": {
       "filmTitle": "La Tempête",
@@ -6086,6 +6086,14 @@
       "tmdbPath": "/movie/50759",
       "checkedAt": "2026-07-23T14:36:31.346Z"
     },
+    "legrandbal|laetitiacarton": {
+      "filmTitle": "LE GRAND BAL",
+      "director": "Laetitia Carton",
+      "titleEn": "The Grand Ball",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/525427-le-grand-bal",
+      "checkedAt": "2026-09-12T04:42:05.655Z"
+    },
     "legrandbidule|raoulandre": {
       "filmTitle": "Le Grand bidule",
       "director": "Raoul André",
@@ -6518,6 +6526,14 @@
       "titleEn": "The Highway Rat",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
+    "lerendezvousducinequinze|": {
+      "filmTitle": "Le Rendez-Vous Du Cinéquinze",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-12T04:42:05.655Z"
     },
     "leretour|andreizviaguintsev": {
       "filmTitle": "Le Retour",
