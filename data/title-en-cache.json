@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T04:38:33.585Z",
+  "updatedAt": "2026-09-12T10:50:28.318Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -663,12 +663,11 @@
       "checkedAt": "2026-09-01T11:44:55.653Z"
     },
     "avengersendgameextended|joerussoanthonyrusso": {
-      "filmTitle": "Avengers: Endgame Extended",
+      "filmTitle": "Avengers : Endgame Extended",
       "director": "Joe Russo, Anthony Russo",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-01T21:06:51.921Z"
+      "titleEn": "Avengers Endgame: Encore",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-12T10:53:22.261Z"
     },
     "avezvousenviededormir|": {
       "filmTitle": " Avez-vous envie de dormir ?",
@@ -1495,6 +1494,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-11T16:33:32.278Z"
     },
+    "cinerosa|": {
+      "filmTitle": "Ciné Rosa",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-12T10:53:22.261Z"
+    },
     "cinerosa2aout|": {
       "filmTitle": "Ciné Rosa • 2 Août",
       "director": "",
@@ -1910,6 +1917,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/33802-dans-la-ville-blanche",
       "checkedAt": "2026-07-30T14:36:40.647Z"
+    },
+    "dansparis|christophehonore": {
+      "filmTitle": "Dans Paris",
+      "director": "Christophe Honoré",
+      "titleEn": "In Paris",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/14654-dans-paris",
+      "checkedAt": "2026-09-12T10:53:22.261Z"
     },
     "dao|alaingomis": {
       "filmTitle": "Dao",
@@ -5757,12 +5772,12 @@
       "checkedAt": "2026-09-01T21:06:51.921Z"
     },
     "lecirque|charleschaplin": {
-      "filmTitle": "Le Cirque",
+      "filmTitle": "LE CIRQUE",
       "director": "Charles Chaplin",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-29T07:09:20.616Z"
+      "checkedAt": "2026-09-12T10:53:22.261Z"
     },
     "lecologiedessentiments|alexandresteiger": {
       "filmTitle": "L Ecologie Des Sentiments",
@@ -8072,6 +8087,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1182935-l-inconnue",
       "checkedAt": "2026-07-27T10:12:29.113Z"
+    },
+    "lindaveutdupoulet|chiaramaltasebastienlaudenbach": {
+      "filmTitle": "Linda Veut Du Poulet !",
+      "director": "Chiara Malta, Sébastien Laudenbach",
+      "titleEn": "Chicken for Linda!",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/589026-linda-veut-du-poulet",
+      "checkedAt": "2026-09-12T10:53:22.261Z"
     },
     "lindaveutdupoulet|laudenbachsebastien": {
       "filmTitle": "Linda Veut Du Poulet",
@@ -11475,6 +11498,13 @@
       "titleEn": "The Christophers",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thecostofgrowth|thomasmaddens": {
+      "filmTitle": "The Cost of Growth",
+      "director": "Thomas Maddens",
+      "titleEn": "The Cost of Growth",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-12T10:53:22.261Z"
     },
     "thedarkknightlechevaliernoir|christophernolan": {
       "filmTitle": "The Dark Knight, Le Chevalier Noir",
