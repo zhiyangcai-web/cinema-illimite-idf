@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T10:50:28.318Z",
+  "updatedAt": "2026-09-12T20:34:50.695Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5464,7 +5464,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-29T16:46:40.824Z"
+      "checkedAt": "2026-09-12T20:37:25.321Z"
     },
     "laura|ottopreminger": {
       "filmTitle": "Laura",
@@ -9881,6 +9881,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "peutonetrejustequelquundebien|": {
+      "filmTitle": "Peut-on être \"juste quelqu’un de bien?\"",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-12T20:37:25.321Z"
     },
     "peutonreverdequiteautravail|": {
       "filmTitle": "Peut-on rêver d’équité au travail ?",
