@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T04:51:58.062Z",
+  "updatedAt": "2026-09-13T11:55:55.635Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -557,7 +557,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-30T05:30:09.629Z"
+      "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "aucunautrechoix|parkchanwook": {
       "filmTitle": "Aucun autre choix",
@@ -1446,6 +1446,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-08T11:26:32.486Z"
+    },
+    "cimetieredevie|mamadousunugueyekhadydiop": {
+      "filmTitle": "Cimetière de vie",
+      "director": "Mamadou Sunu Gueye, Khady Diop",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "cineclub|": {
       "filmTitle": "Ciné Club",
@@ -4268,6 +4276,14 @@
       "tmdbPath": "/movie/1571766-kraken",
       "checkedAt": "2026-09-04T11:23:49.773Z"
     },
+    "kraken|theojourdainmohamedchabane": {
+      "filmTitle": "Kraken",
+      "director": "Théo Jourdain, Mohamed Chabane",
+      "titleEn": "Kraken",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1571766-kraken",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
+    },
     "kramercontrekramer|robertbenton": {
       "filmTitle": "Kramer contre Kramer",
       "director": "Robert Benton",
@@ -4510,7 +4526,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T02:02:46.968Z"
+      "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "lacitedelindiciblepeur|jeanpierremocky": {
       "filmTitle": "La Cité de l'indicible peur",
@@ -5433,6 +5449,14 @@
       "titleEn": "The Tempest",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "laterredemongrandperepartie1lheritage|martinesposito": {
+      "filmTitle": "La Terre de mon grand-père (Partie 1 : L’Héritage)",
+      "director": "Martin Esposito",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "lateteduclient|jacquespoitrenaud": {
       "filmTitle": "La Tête du client",
@@ -8128,6 +8152,14 @@
       "tmdbPath": "/movie/589026-linda-veut-du-poulet",
       "checkedAt": "2026-09-11T16:33:32.278Z"
     },
+    "linnocence|hirokazukoreeda": {
+      "filmTitle": "L'Innocence",
+      "director": "Hirokazu Kore-eda",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
+    },
     "linsoutenablelegeretedeletre|philipkaufman": {
       "filmTitle": "L'Insoutenable légèreté de l'être",
       "director": "Philip Kaufman",
@@ -10786,6 +10818,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "romaelastica|bertrandmandico": {
+      "filmTitle": "Roma Elastica",
+      "director": "Bertrand Mandico",
+      "titleEn": "Roma elastica",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1302994-roma-elastica",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
+    },
     "romeoetjulietteoperadeparis|juliencondemine": {
       "filmTitle": "ROMEO ET JULIETTE (OPERA DE PARIS)",
       "director": "Julien Condemine",
@@ -11199,6 +11239,13 @@
       "titleEn": "Smile 2",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "society|brianyuzna": {
+      "filmTitle": "Society",
+      "director": "Brian Yuzna",
+      "titleEn": "Society",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "soireegaliambrunohenry|henrybruno": {
       "filmTitle": "Soiree Galiam Bruno Henry",
@@ -11619,6 +11666,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1418512-schwesterherz",
       "checkedAt": "2026-08-19T01:57:30.946Z"
+    },
+    "thegreatindiankitchen|jeobaby": {
+      "filmTitle": "The Great Indian Kitchen",
+      "director": "Jeo Baby",
+      "titleEn": "The Great Indian Kitchen",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/786064",
+      "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "thehand|wongkarwai": {
       "filmTitle": "The Hand",
