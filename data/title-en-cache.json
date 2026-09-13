@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-12T20:34:50.695Z",
+  "updatedAt": "2026-09-13T04:51:58.062Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1366,6 +1366,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
+    "chienbleuetautresbelleshistoires|dominiquepochatjeanchristopheribotbenoitlaborde": {
+      "filmTitle": "CHIEN BLEU ET AUTRES BELLES HISTOIRES",
+      "director": "Dominique Pochat, Jean-Christophe Ribot, Benoit Laborde",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-13T04:55:20.832Z"
     },
     "chienbleuetautresbelleshistoiresdelecoledesloisirs|collectif": {
       "filmTitle": "Chien Bleu Et Autres Belles Histoires De L Ecole Des Loisirs",
@@ -4712,7 +4720,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-29T20:59:20.273Z"
+      "checkedAt": "2026-09-13T04:55:20.832Z"
     },
     "lafontainefaitsoncinemalecorbeauetlerenard|collectif": {
       "filmTitle": "La Fontaine Fait Son Cinema, Le Corbeau Et Le Renard",
@@ -5257,6 +5265,14 @@
       "source": "No confident TMDB match",
       "checkedAt": "2026-08-18T07:08:55.877Z"
     },
+    "larabe|bensmailmalek": {
+      "filmTitle": "L Arabe",
+      "director": "BENSMAIL Malek",
+      "titleEn": "The Arab",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1001315-l-arabe",
+      "checkedAt": "2026-09-13T04:55:20.832Z"
+    },
     "laragazza|comenciniluigi": {
       "filmTitle": "La Ragazza",
       "director": "COMENCINI Luigi",
@@ -5402,6 +5418,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-12T04:42:05.655Z"
+    },
+    "latelierenchante|herminatyrlova": {
+      "filmTitle": "L'ATELIER ENCHANTE",
+      "director": "Hermina Tyrlova",
+      "titleEn": "L'Atelier enchanté",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/642709-l-atelier-enchante",
+      "checkedAt": "2026-09-13T04:55:20.832Z"
     },
     "latempete|derekjarman": {
       "filmTitle": "La Tempête",
@@ -9071,6 +9095,14 @@
       "tmdbPath": "/movie/72083-muerte-de-un-ciclista",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "mouriraibizaunfilmentroisetes|antonbalekdjian": {
+      "filmTitle": "Mourir A Ibiza (un Film En Trois Etes)",
+      "director": "Anton Balekdjian",
+      "titleEn": "Dying in Ibiza (A Film in Three Summers)",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/998007-mourir-a-ibiza-un-film-en-trois-etes",
+      "checkedAt": "2026-09-13T04:55:20.832Z"
+    },
     "mugangaceluiquisoigne|marieheleneroux": {
       "filmTitle": "Muganga - Celui qui soigne",
       "director": "Marie-Hélène Roux",
@@ -10329,6 +10361,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11330-pusher-3",
       "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
+    "putyoursoulonyourhandandwalk|sepidehfarsi": {
+      "filmTitle": "PUT YOUR SOUL ON YOUR HAND AND WALK",
+      "director": "Sepideh Farsi",
+      "titleEn": "Put Your Soul on Your Hand and Walk",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1465560-put-your-soul-on-your-hand-and-walk",
+      "checkedAt": "2026-09-13T04:55:20.832Z"
     },
     "quandharryrencontresally|robreiner": {
       "filmTitle": "Quand Harry rencontre Sally",
