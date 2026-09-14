@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-13T20:52:44.814Z",
+  "updatedAt": "2026-09-14T04:59:37.861Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -10269,6 +10269,14 @@
       "tmdbPath": "/movie/1318413-pressure",
       "checkedAt": "2026-08-08T02:25:21.325Z"
     },
+    "primetime|lanceoppenheim": {
+      "filmTitle": "Primetime",
+      "director": "Lance Oppenheim",
+      "titleEn": "Primetime",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1375441-primetime",
+      "checkedAt": "2026-09-14T05:02:46.326Z"
+    },
     "princedestenebres|johncarpenter": {
       "filmTitle": "Prince des ténèbres",
       "director": "John Carpenter",
@@ -10542,7 +10550,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-30T21:10:46.308Z"
+      "checkedAt": "2026-09-14T05:02:46.326Z"
     },
     "quiprotegeencoreletatdedroit|": {
       "filmTitle": "Qui protège encore l’État de droit ?",
@@ -11354,7 +11362,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T07:13:17.796Z"
+      "checkedAt": "2026-09-14T05:02:46.326Z"
     },
     "spidermanbrandnewday|destindanielcretton": {
       "filmTitle": "Spider-Man: Brand New Day",
