@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T04:59:37.861Z",
+  "updatedAt": "2026-09-14T12:52:29.365Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1398,6 +1398,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "chienbleuetautresbelleshistoiresdelecoledesloisirs|sylvainvaneeckhoutdominiquepochatjeanchristopheribotbenoitlaborde": {
+      "filmTitle": "Chien bleu et autres belles histoires de l'école des loisirs",
+      "director": "Sylvain Van Eeckhout, Dominique Pochat, Jean-Christophe Ribot, Benoit Laborde",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
     "chienpourrilavieaparis|davydurandvincentpatarstephaneaubier": {
       "filmTitle": "Chien Pourri, la vie à Paris !",
       "director": "Davy Durand, Vincent Patar, Stéphane Aubier",
@@ -1706,6 +1714,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "communsoleil|vincentbaggioni": {
+      "filmTitle": "Commun Soleil",
+      "director": "Vincent Baggioni",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
     },
     "contedete|ericrohmer": {
       "filmTitle": "Conte d'été",
@@ -3358,6 +3374,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T13:09:34.266Z"
     },
+    "hautesolitudejeanzayprisonnierpolitique|laurentveray": {
+      "filmTitle": "Haute solitude, Jean Zay prisonnier politique",
+      "director": "Laurent Veray",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
     "hayat|zekidemirkubuz": {
       "filmTitle": "HAYAT",
       "director": "Zeki Demirkubuz",
@@ -4588,6 +4612,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/3766-the-lady-from-shanghai",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "ladameduvendredi|howardhawks": {
+      "filmTitle": "La Dame du vendredi",
+      "director": "Howard Hawks",
+      "titleEn": "His Girl Friday",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
     },
     "ladernierepatiente|remibassaler": {
       "filmTitle": "LA DERNIERE PATIENTE",
@@ -7445,7 +7476,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T05:42:16.331Z"
+      "checkedAt": "2026-09-14T12:55:01.536Z"
     },
     "lesrussesarrivent|normanjewison": {
       "filmTitle": "Les Russes arrivent",
@@ -8094,6 +8125,13 @@
       "titleEn": "Carlito's Way",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "limpossiblemonsieurbebe|howardhawks": {
+      "filmTitle": "L'Impossible Monsieur Bébé",
+      "director": "Howard Hawks",
+      "titleEn": "Bringing up Baby",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
     },
     "lincompris|luigicomencini": {
       "filmTitle": "L'Incompris",
@@ -9882,6 +9920,14 @@
       "tmdbPath": "/movie/1538731-permis-de-detruire",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "perseigneautrement|romanedesmoutisemiliecosson": {
+      "filmTitle": "Perseigne - Autrement",
+      "director": "Romane des Moutis, Emilie Cosson",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
     "persepolis|marjanesatrapivincentparonnaud": {
       "filmTitle": "Persepolis",
       "director": "Marjane Satrapi, Vincent Paronnaud",
@@ -11446,6 +11492,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "supergrave|gregmottola": {
+      "filmTitle": "SuperGrave",
+      "director": "Greg Mottola",
+      "titleEn": "Superbad",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
     "supermariogalaxylefilm|aaronhorvathmichaeljelenic": {
       "filmTitle": "SUPER MARIO GALAXY, LE FILM",
       "director": "Aaron Horvath, Michael Jelenic",
@@ -12231,6 +12284,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "twolovers|jamesgray": {
+      "filmTitle": "Two Lovers",
+      "director": "James Gray",
+      "titleEn": "Two Lovers",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
     "ulysse|laetitiamasson": {
       "filmTitle": "Ulysse",
       "director": "Laetitia Masson",
@@ -12433,6 +12493,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/42229-una-giornata-particolare",
       "checkedAt": "2026-08-11T07:41:41.621Z"
+    },
+    "unemusiqueavivre|philippetabarly": {
+      "filmTitle": "Une musique à vivre",
+      "director": "Philippe Tabarly",
+      "titleEn": "Une musique à vivre",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1762162-une-musique-a-vivre",
+      "checkedAt": "2026-09-14T12:55:01.536Z"
     },
     "unenuitalopera|samwoodedmundgoulding": {
       "filmTitle": "Une Nuit à l'opéra",
