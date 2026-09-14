@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T12:52:29.365Z",
+  "updatedAt": "2026-09-14T21:51:21.099Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -141,6 +141,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/65-8-mile",
       "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "a2000metresdandriivka|mstyslavtchernov": {
+      "filmTitle": "A 2000 Metres D Andriivka",
+      "director": "Mstyslav Tchernov",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "abientotdeterevoir2|": {
       "filmTitle": "A bientot de te revoir - 2",
@@ -487,7 +495,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "asakoiii|ryusukehamaguchi": {
       "filmTitle": "ASAKO I&II",
@@ -674,7 +682,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "avoixbasse|leylabouzid": {
       "filmTitle": "À voix basse",
@@ -1065,6 +1073,13 @@
       "tmdbPath": "/movie/1517206-bouchra",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "bouledefeu|howardhawks": {
+      "filmTitle": "Boule de feu",
+      "director": "Howard Hawks",
+      "titleEn": "Ball of Fire",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "boulevardducrepuscule|billywilder": {
       "filmTitle": "Boulevard du crépuscule",
       "director": "Billy Wilder",
@@ -1374,6 +1389,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-13T04:55:20.832Z"
     },
+    "chienbleuetautresbelleshistoiresdelecoledesloisirs|benoitlabordejeanchristopheribotdominiquepochatsylvainvaneeckhout": {
+      "filmTitle": "Chien bleu et autres belles histoires de l'école des loisirs",
+      "director": "Benoit Laborde, Jean-Christophe Ribot, Dominique Pochat, Sylvain Van Eeckhout",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "chienbleuetautresbelleshistoiresdelecoledesloisirs|collectif": {
       "filmTitle": "Chien Bleu Et Autres Belles Histoires De L Ecole Des Loisirs",
       "director": "Collectif",
@@ -1667,6 +1690,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "commenthabiterlemonde|": {
+      "filmTitle": "Comment habiter le monde ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "commentinventerdautresimaginaires|": {
       "filmTitle": "Comment inventer d’autres imaginaires ?",
       "director": "",
@@ -1683,6 +1714,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-07T04:48:34.666Z"
     },
+    "commentmettreenuvresonemancipation|": {
+      "filmTitle": "Comment mettre en œuvre son émancipation ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "commentmieuxvivreaveclincertitude|": {
       "filmTitle": "Comment mieux vivre avec l'incertitude ?",
       "director": "",
@@ -1697,7 +1736,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "commentraconterlaguerre|": {
       "filmTitle": "Comment raconter la guerre ?",
@@ -2189,6 +2228,14 @@
       "titleEn": "Die My Love",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "digger|alejandrogonzalezinarritu": {
+      "filmTitle": "Digger",
+      "director": "Alejandro González Iñárritu",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "dirtydancing|emileardolino": {
       "filmTitle": "Dirty Dancing",
@@ -3177,6 +3224,14 @@
       "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
       "checkedAt": "2026-08-27T09:56:05.388Z"
     },
+    "hairpaperwater|minhquyacutetruongnicolasgraux": {
+      "filmTitle": "HAIR PAPER WATER",
+      "director": "Minh Qu&yacute; Trương, Nicolas Graux",
+      "titleEn": "Hair, Paper, Water...",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1510333-toc-gi-y-va-n-c",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "hairpaperwater|minhquytruongnicolasgraux": {
       "filmTitle": "Hair, Paper, Water...",
       "director": "Minh Quý Trương, Nicolas Graux",
@@ -3709,7 +3764,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "inglouriousbasterds|quentintarantino": {
       "filmTitle": "Inglourious Basterds",
@@ -3889,6 +3944,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1288059-i-want-your-sex",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "jacqueshenrilartiguelavieenrelief|denisgaubert": {
+      "filmTitle": "JACQUES HENRI LARTIGUE - LA VIE EN RELIEF",
+      "director": "Denis Gaubert",
+      "titleEn": "Jacques Henri Lartigue – La vie en relief",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1724781-jacques-henri-lartigue-la-vie-en-relief",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "jacquotdenantes|agnesvarda": {
       "filmTitle": "Jacquot de Nantes",
@@ -4179,6 +4242,14 @@
       "tmdbPath": "/movie/1571687-justin-le-juste",
       "checkedAt": "2026-09-01T16:44:41.563Z"
     },
+    "kaithitamoul|lokeshkanagaraj": {
+      "filmTitle": "KAITHI - TAMOUL",
+      "director": "Lokesh Kanagaraj",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "karma|guillaumecanet": {
       "filmTitle": "KARMA",
       "director": "Guillaume Canet",
@@ -4423,15 +4494,15 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "labatailledegaullepartie1lagedefer|antoninbaudry": {
-      "filmTitle": "La Bataille De Gaulle - Partie 1 : L'Age De Fer",
+      "filmTitle": "La Bataille de Gaulle - Partie 1 : L’âge de fer",
       "director": "Antonin Baudry",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "labatailledegaullepartie2jecristonnom|antoninbaudry": {
       "filmTitle": "La Bataille De Gaulle - Partie 2 : J'Écris Ton Nom",
@@ -4439,7 +4510,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "labayadereoperadeparis|juliencondemine": {
       "filmTitle": "LA BAYADERE (OPERA DE PARIS)",
@@ -5154,6 +5225,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-01T05:17:01.710Z"
     },
+    "lanuitadevorelemonde|dominiquerocher": {
+      "filmTitle": "La Nuit a dévoré le monde",
+      "director": "Dominique Rocher",
+      "titleEn": "The Night Eats the World",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/457955-la-nuit-a-devore-le-monde",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "lanuitduchasseur|charleslaughton": {
       "filmTitle": "La Nuit du chasseur",
       "director": "Charles Laughton",
@@ -5168,6 +5247,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1001006-la-pampa",
       "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
+    "laparolepeutelleliberer|": {
+      "filmTitle": "La parole peut-elle libérer ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lapatpatrouillelasuperpatrouillelefilm|calbrunker": {
       "filmTitle": "LA PAT' PATROUILLE : LA SUPER PATROUILLE LE FILM",
@@ -5752,7 +5839,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lecercledespoetesdisparus|peterweir": {
       "filmTitle": "Le Cercle des poètes disparus",
@@ -5887,7 +5974,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lecon3restercelibataire|": {
       "filmTitle": "Leçon 3 : rester célibataire",
@@ -5903,7 +5990,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "leconomiedelaguerre|": {
       "filmTitle": "L'économie de la guerre",
@@ -6712,7 +6799,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lesamantsreguliers|philippegarrel": {
       "filmTitle": "Les Amants Réguliers",
@@ -6753,6 +6840,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-05T04:36:38.283Z"
+    },
+    "lesautres|alejandroamenabar": {
+      "filmTitle": "Les Autres",
+      "director": "Alejandro Amenábar",
+      "titleEn": "The Others",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lesauvage|jeanpaulrappeneau": {
       "filmTitle": "Le Sauvage",
@@ -6831,7 +6925,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lesdemoisellesderochefort|jacquesdemy": {
       "filmTitle": "Les Demoiselles de Rochefort",
@@ -7249,6 +7343,14 @@
       "tmdbPath": "/movie/1598-cape-fear",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "lesnocesfunebres|mikejohnsontimburton": {
+      "filmTitle": "Les Noces funèbres",
+      "director": "Mike Johnson, Tim Burton",
+      "titleEn": "Corpse Bride",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3933-corpse-bride",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "lesnocesrouges|claudechabrol": {
       "filmTitle": "Les Noces rouges",
       "director": "Claude Chabrol",
@@ -7515,7 +7617,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "lessurvivantsduche|christophedimitrireveille": {
       "filmTitle": "Les Survivants Du Che",
@@ -9463,6 +9565,14 @@
       "tmdbPath": "/movie/811596-notre-dame-brule",
       "checkedAt": "2026-08-28T22:25:48.726Z"
     },
+    "notredamedeparisoperadeparis|myriamhoyer": {
+      "filmTitle": "NOTRE-DAME DE PARIS (OPERA DE PARIS)",
+      "director": "Myriam HOYER",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "notrehistoirechroniquesducaire|abshawky": {
       "filmTitle": "Notre histoire - Chroniques du Caire ",
       "director": "A. B. Shawky",
@@ -10013,7 +10123,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "peutonseparerlhommedelartiste|": {
       "filmTitle": "Peut-on séparer l'homme de l’artiste ?",
@@ -10021,7 +10131,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "phantomoftheparadise|briandepalma": {
       "filmTitle": "Phantom of the paradise",
@@ -10387,6 +10497,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "promisleciel|erigesehiri": {
+      "filmTitle": "Promis Le Ciel",
+      "director": "Erige Sehiri",
+      "titleEn": "Promised Sky",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1218412-promis-le-ciel",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "psychose|alfredhitchcock": {
       "filmTitle": "Psychose",
       "director": "Alfred Hitchcock",
@@ -10518,6 +10636,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-09T04:49:47.693Z"
     },
+    "quefairedenoscoleres|": {
+      "filmTitle": "Que faire de nos colères ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
     "quelabetemeure|claudechabrol": {
       "filmTitle": "Que la bête meure",
       "director": "Claude Chabrol",
@@ -10580,7 +10706,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "quetonregnevienneunehistoiredusatanismeenfrance|mathiasaverty": {
       "filmTitle": "Que Ton Règne Vienne - Une histoire du satanisme en France",
@@ -11169,6 +11295,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1708610-seul-le-serpent-sait",
       "checkedAt": "2026-09-10T04:49:58.209Z"
+    },
+    "seulslesangesontdesailes|howardhawks": {
+      "filmTitle": "Seuls les anges ont des ailes",
+      "director": "Howard Hawks",
+      "titleEn": "Only Angels Have Wings",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-14T21:54:23.782Z"
     },
     "seulslespirates|lepinglegael": {
       "filmTitle": "Seuls Les Pirates",
