@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T04:57:33.718Z",
+  "updatedAt": "2026-09-15T11:47:04.216Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -831,6 +831,14 @@
       "tmdbPath": "/movie/649-belle-de-jour",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "bellesfamilles|jeanpaulrappeneau": {
+      "filmTitle": "Belles familles",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "Families",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/348025-belles-familles",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "berlinguerlagrandeambition|andreasegre": {
       "filmTitle": "Berlinguer, la grande ambition",
       "director": "Andrea Segre",
@@ -1058,6 +1066,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "bonvoyage|jeanpaulrappeneau": {
+      "filmTitle": "Bon Voyage",
+      "director": "Jean-Paul Rappeneau",
+      "titleEn": "Bon Voyage",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/14652-bon-voyage",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "boogienights|paulthomasanderson": {
       "filmTitle": "Boogie Nights",
       "director": "Paul Thomas Anderson",
@@ -1117,6 +1133,22 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-26T02:02:46.968Z"
+    },
+    "btsworldtourariranginbuenosairesliveviewing|jungjaeha": {
+      "filmTitle": "BTS WORLD TOUR ARIRANG IN BUENOS AIRES LIVE VIEWING",
+      "director": "Jungjae Ha",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
+    "btsworldtourariranginsaopauloliveviewing|jungjaeha": {
+      "filmTitle": "BTS WORLD TOUR ARIRANG IN SAO PAULO LIVE VIEWING",
+      "director": "Jungjae Ha",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "buenavistasocialclub|wenderswim": {
       "filmTitle": "Buena Vista Social Club",
@@ -1234,6 +1266,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-15T05:01:18.483Z"
     },
+    "carol|toddhaynes": {
+      "filmTitle": "Carol",
+      "director": "Todd Haynes",
+      "titleEn": "Carol",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/258480-carol",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "carrieaubaldudiable|briandepalma": {
       "filmTitle": "Carrie au bal du diable",
       "director": "Brian De Palma",
@@ -1263,6 +1303,14 @@
       "titleEn": "Casino",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "casquedor|jacquesbecker": {
+      "filmTitle": "Casque d'or",
+      "director": "Jacques Becker",
+      "titleEn": "Casque d'Or",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/68822-casque-d-or",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "cassenoisettetheroyalballet|peterwright": {
       "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
@@ -2284,6 +2332,14 @@
       "tmdbPath": "/movie/1221719-dites-lui-que-je-l-aime",
       "checkedAt": "2026-09-02T21:08:06.647Z"
     },
+    "divisiondaysscreening|": {
+      "filmTitle": "DIVISION DAYS SCREENING",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "divorcealitalienne|pietrogermi": {
       "filmTitle": "Divorce à l'Italienne",
       "director": "Pietro Germi",
@@ -2445,7 +2501,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T05:17:01.710Z"
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "ducobuetlefantomedesaintpotache|eliesemoun": {
       "filmTitle": "DUCOBU ET LE FANTOME DE SAINT POTACHE",
@@ -2698,6 +2754,13 @@
       "tmdbPath": "/movie/1188761-entroncamento",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "eraserhead|davidlynch": {
+      "filmTitle": "Eraserhead",
+      "director": "David Lynch",
+      "titleEn": "Eraserhead",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "eraserhead|lynchdavid": {
       "filmTitle": "Eraserhead",
       "director": "LYNCH David",
@@ -2819,6 +2882,14 @@
       "titleEn": "On The Sea",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
+    "falbalas|jacquesbecker": {
+      "filmTitle": "Falbalas",
+      "director": "Jacques Becker",
+      "titleEn": "Paris Frills",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/121128-falbalas",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "fargo|joelcoenethancoen": {
       "filmTitle": "Fargo",
@@ -5255,7 +5326,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T05:17:01.710Z"
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "lanuitadevorelemonde|dominiquerocher": {
       "filmTitle": "La Nuit a dévoré le monde",
@@ -7061,6 +7132,14 @@
       "tmdbPath": "/movie/1661926",
       "checkedAt": "2026-09-11T11:28:43.478Z"
     },
+    "lesenfantsduparadis|marcelcarne": {
+      "filmTitle": "Les Enfants du Paradis",
+      "director": "Marcel Carné",
+      "titleEn": "Children of Paradise",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2457-les-enfants-du-paradis",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "lesenfantsloupsameyuki|mamoruhosoda": {
       "filmTitle": "Les Enfants Loups, Ame & Yuki",
       "director": "Mamoru Hosoda",
@@ -7564,6 +7643,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-04T20:49:59.047Z"
     },
+    "lesportesdelanuit|marcelcarne": {
+      "filmTitle": "Les Portes de la nuit",
+      "director": "Marcel Carné",
+      "titleEn": "Gates of the Night",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/60799-les-portes-de-la-nuit",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "lespritdelaruche|victorerice": {
       "filmTitle": "L Esprit De La Ruche",
       "director": "Victor Erice",
@@ -7941,6 +8028,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1466662-le-triangle-d-or",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "letrou|jacquesbecker": {
+      "filmTitle": "Le Trou",
+      "director": "Jacques Becker",
+      "titleEn": "Le Trou",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/29259-le-trou",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "letthesummernevercomeagain|koberidzealexandre": {
       "filmTitle": "Let The Summer Never Come Again",
@@ -10640,7 +10735,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T11:44:55.653Z"
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "pusher|nicolaswindingrefn": {
       "filmTitle": "Pusher",
@@ -10752,6 +10847,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/78803-que-les-gros-salaires-levent-le-doigt",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "quelquesjoursanagi|kojifukada": {
+      "filmTitle": "Quelques jours à Nagi",
+      "director": "Kôji Fukada",
+      "titleEn": "Nagi Notes",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1448971",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "quelquesmotsdamour|rudirosenberg": {
       "filmTitle": "QUELQUES MOTS D'AMOUR",
@@ -11176,6 +11279,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/42115-rue-cases-negres",
       "checkedAt": "2026-08-05T19:59:29.105Z"
+    },
+    "ruedelestrapade|jacquesbecker": {
+      "filmTitle": "Rue de l'Estrapade",
+      "director": "Jacques Becker",
+      "titleEn": "Rue de l'estrapade",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/255511-rue-de-l-estrapade",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "ruemalaga|maryamtouzani": {
       "filmTitle": "Rue Málaga",
@@ -12349,6 +12460,13 @@
       "tmdbPath": "/movie/374475-toni-erdmann",
       "checkedAt": "2026-09-09T04:49:47.693Z"
     },
+    "tonnerredefeu|johnbadham": {
+      "filmTitle": "Tonnerre de feu",
+      "director": "John Badham",
+      "titleEn": "Blue Thunder",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
     "totallyfedup|greggaraki": {
       "filmTitle": "Totally F***ed Up",
       "director": "Gregg Araki",
@@ -12370,6 +12488,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/184937-tot-ou-tard",
       "checkedAt": "2026-09-05T10:40:56.104Z"
+    },
+    "touchezpasaugrisbi|jacquesbecker": {
+      "filmTitle": "Touchez pas au grisbi",
+      "director": "Jacques Becker",
+      "titleEn": "Touchez Pas au Grisbi",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/27430-touchez-pas-au-grisbi",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "toutcequelecielpermet|douglassirk": {
       "filmTitle": "Tout ce que le ciel permet",
@@ -12587,6 +12713,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1510335-un-balcon-a-limoges",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "unbonpetitsoldat|stephanebrize": {
+      "filmTitle": "UN BON PETIT SOLDAT",
+      "director": "Stephane Brize",
+      "titleEn": "A Good Little Soldier",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1430815-un-bon-petit-soldat",
+      "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "unchampdefraisespourleternite|alainraoust": {
       "filmTitle": "Un Champ De Fraises Pour L Eternite",
