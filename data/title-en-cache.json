@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T17:01:55.040Z",
+  "updatedAt": "2026-09-15T21:23:30.384Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4996,6 +4996,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lafranceconversationsavecelom|alaingomis": {
+      "filmTitle": "L'Afrance / Conversations avec Elom",
+      "director": "Alain Gomis",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T21:26:59.523Z"
+    },
     "lafrappe|juliengasparoliveri": {
       "filmTitle": "La Frappe",
       "director": "Julien Gaspar-Oliveri",
@@ -6623,7 +6631,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T21:06:51.921Z"
+      "checkedAt": "2026-09-15T21:26:59.523Z"
     },
     "lemondealenvers|arnauddemuyncknoegarciaerwannhette": {
       "filmTitle": "Le Monde à l'envers",
@@ -7107,6 +7115,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/26793-les-diables",
       "checkedAt": "2026-09-15T17:05:06.912Z"
+    },
+    "lesdiables|kenrussell": {
+      "filmTitle": "LES DIABLES",
+      "director": "Ken Russell",
+      "titleEn": "The Devils",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/31767-the-devils",
+      "checkedAt": "2026-09-15T21:26:59.523Z"
     },
     "lesdimanches|alaudaruizdeazua": {
       "filmTitle": "Les Dimanches",
@@ -8664,6 +8680,14 @@
       "tmdbPath": "/movie/1244492",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "lookback2024|": {
+      "filmTitle": "LOOK BACK (2024)",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T21:26:59.523Z"
+    },
     "lorieparty2026aucinema|tristancarne": {
       "filmTitle": "LORIE PARTY 2026 AU CINEMA",
       "director": "Tristan Carne",
@@ -9613,10 +9637,9 @@
     "newyork1997|johncarpenter": {
       "filmTitle": "New York 1997",
       "director": "John Carpenter",
-      "titleEn": "Escape from New York",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1103-escape-from-new-york",
-      "checkedAt": "2026-07-20T08:38:51.835Z"
+      "titleEn": "Escape From New York",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T21:26:59.523Z"
     },
     "niagara|henryhathaway": {
       "filmTitle": "Niagara",
@@ -11692,6 +11715,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-13T11:58:30.054Z"
     },
+    "soireedebat|": {
+      "filmTitle": "Soirée Débat",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T21:26:59.523Z"
+    },
     "soireegaliambrunohenry|henrybruno": {
       "filmTitle": "Soiree Galiam Bruno Henry",
       "director": "HENRY Bruno",
@@ -11745,6 +11776,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-04T20:01:22.056Z"
+    },
+    "soudees|miroshnichenkoanastasiya": {
+      "filmTitle": "Soudees",
+      "director": "MIROSHNICHENKO Anastasiya",
+      "titleEn": "Welded Together",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1411007-soudees",
+      "checkedAt": "2026-09-15T21:26:59.523Z"
     },
     "soundtracktoacoupdetat|johangrimonprez": {
       "filmTitle": "Soundtrack to a Coup d'État",
