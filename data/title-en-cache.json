@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T11:47:04.216Z",
+  "updatedAt": "2026-09-15T17:01:55.040Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1427,7 +1427,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T16:44:41.563Z"
+      "checkedAt": "2026-09-15T17:05:06.912Z"
     },
     "chienbleuetautresbelleshistoires|dominiquepochatjeanchristopheribotbenoitlaborde": {
       "filmTitle": "CHIEN BLEU ET AUTRES BELLES HISTOIRES",
@@ -1451,7 +1451,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T16:44:41.563Z"
+      "checkedAt": "2026-09-15T17:05:06.912Z"
     },
     "chienbleuetautresbelleshistoiresdelecoledesloisirs|dominiquepochatjeanchristopheribotbenoitlaborde": {
       "filmTitle": "Chien bleu et autres belles histoires de l'école des loisirs",
@@ -1880,6 +1880,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/64242-copie-conforme",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "coraline|henryselick": {
+      "filmTitle": "CORALINE",
+      "director": "Henry Selick",
+      "titleEn": "Coraline",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/14836-coraline",
+      "checkedAt": "2026-09-15T17:05:06.912Z"
     },
     "cosifantuttetheroyalopera|netiajones": {
       "filmTitle": "COSI FAN TUTTE (THE ROYAL OPERA)",
@@ -3695,6 +3703,13 @@
       "tmdbPath": "/movie/422-8",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "huitheuresdesursis|carolreed": {
+      "filmTitle": "Huit Heures de sursis",
+      "director": "Carol Reed",
+      "titleEn": "Odd Man Out",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T17:05:06.912Z"
+    },
     "hungergames|garyross": {
       "filmTitle": "Hunger Games",
       "director": "Gary Ross",
@@ -4889,6 +4904,14 @@
       "tmdbPath": "/movie/43766",
       "checkedAt": "2026-07-29T03:45:48.893Z"
     },
+    "laffairecollective|alexandernanau": {
+      "filmTitle": "L'AFFAIRE COLLECTIVE",
+      "director": "Alexander Nanau",
+      "titleEn": "Collective",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/618363-colectiv",
+      "checkedAt": "2026-09-15T17:05:06.912Z"
+    },
     "laffairethomascrown|normanjewison": {
       "filmTitle": "L'Affaire Thomas Crown",
       "director": "Norman Jewison",
@@ -5121,6 +5144,14 @@
       "titleEn": "The Piano",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "lalegendedebaahubalilepopeedirectorscut|ssrajamouli": {
+      "filmTitle": "LA LEGENDE DE BAAHUBALI, L'EPOPEE - DIRECTOR'S CUT",
+      "director": "S.S. Rajamouli",
+      "titleEn": "Bāhubali: The Epic",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1511417-bahubali-the-epic",
+      "checkedAt": "2026-09-15T17:05:06.912Z"
     },
     "lalicorneaumoyenageoncroyaitquelleexistaitvraiment|": {
       "filmTitle": "La licorne : au Moyen Âge, on croyait qu’elle existait vraiment ! ",
@@ -7068,6 +7099,14 @@
       "titleEn": "The Misfits",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "lesdiables|": {
+      "filmTitle": "LES DIABLES",
+      "director": "",
+      "titleEn": "The Devils",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/26793-les-diables",
+      "checkedAt": "2026-09-15T17:05:06.912Z"
     },
     "lesdimanches|alaudaruizdeazua": {
       "filmTitle": "Les Dimanches",
@@ -10202,6 +10241,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-15T05:01:18.483Z"
     },
+    "pekingoperablues|tsuihark": {
+      "filmTitle": "PEKING OPERA BLUES",
+      "director": "Tsui Hark",
+      "titleEn": "Peking Opera Blues",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/39776",
+      "checkedAt": "2026-09-15T17:05:06.912Z"
+    },
     "permanentvacation|jarmuschjim": {
       "filmTitle": "Permanent Vacation",
       "director": "JARMUSCH Jim",
@@ -10523,7 +10570,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-01T16:44:41.563Z"
+      "checkedAt": "2026-09-15T17:05:06.912Z"
     },
     "pouletauvinaigre|claudechabrol": {
       "filmTitle": "Poulet au vinaigre",
