@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-14T21:51:21.099Z",
+  "updatedAt": "2026-09-15T04:57:33.718Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -156,7 +156,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "abientotdeterevoiralexandralamy|": {
       "filmTitle": "A bientot de te revoir : Alexandra Lamy",
@@ -164,7 +164,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "abittersweetlife|kimjeewoon": {
       "filmTitle": "A bittersweet life",
@@ -1232,7 +1232,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "carrieaubaldudiable|briandepalma": {
       "filmTitle": "Carrie au bal du diable",
@@ -1301,7 +1301,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "certainslaimentchaud|billywilder": {
       "filmTitle": "Certains l'aiment chaud",
@@ -1419,7 +1419,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "chienbleuetautresbelleshistoiresdelecoledesloisirs|sylvainvaneeckhoutdominiquepochatjeanchristopheribotbenoitlaborde": {
       "filmTitle": "Chien bleu et autres belles histoires de l'école des loisirs",
@@ -1562,7 +1562,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "citizenfour|laurapoitras": {
       "filmTitle": "Citizenfour",
@@ -1682,13 +1682,29 @@
       "tmdbPath": "/movie/1715709-comete",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "comingofagecourtsmetragesdesjeunesauteurssinophoneseance3festivalallersretours2026|divers": {
+      "filmTitle": "Coming Of Age Courts Metrages Des Jeunes Auteurs Sinophone Seance 3 Festival Allers Retours 2026",
+      "director": "Divers",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
+    "comingofagecourtsmetragesdesjeunesauteurssinophoneseance4festivalallersretours2026|divers": {
+      "filmTitle": "Coming Of Age Courts Metrages Des Jeunes Auteurs Sinophone Seance 4 Festival Allers Retours 2026",
+      "director": "Divers",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
     "commentagircontrelasilenciationdesenfants|": {
       "filmTitle": "Comment agir contre la silenciation des enfants ?",
       "director": "",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "commenthabiterlemonde|": {
       "filmTitle": "Comment habiter le monde ?",
@@ -1704,7 +1720,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "commentjugerlesenfants|": {
       "filmTitle": "Comment juger les enfants ?",
@@ -1728,7 +1744,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "commentpenserlelongtermesansraterlepresent|": {
       "filmTitle": "Comment penser le long terme sans rater le présent ?",
@@ -1744,7 +1760,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "commentsortirduchacunpoursoi|": {
       "filmTitle": "Comment sortir du chacun pour soi ?",
@@ -1752,7 +1768,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "communsoleil|vincentbaggioni": {
       "filmTitle": "Commun Soleil",
@@ -1863,7 +1879,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "cowboybeboplefilm|shinichirowatanabeyoshiyukitakei": {
       "filmTitle": "Cowboy Bebop, le film",
@@ -2500,7 +2516,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "ecritsurduvent|douglassirk": {
       "filmTitle": "Ecrit sur du vent",
@@ -2848,7 +2864,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "fautiltoujoursfaireavec|": {
       "filmTitle": "Faut-il toujours “faire avec” ?",
@@ -2856,7 +2872,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "fautilvraimentsadapter|": {
       "filmTitle": "Faut-il vraiment “s’adapter” ?",
@@ -3102,7 +3118,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "gloria|margheritavicario": {
       "filmTitle": "Gloria!",
@@ -3465,7 +3481,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "heredite|ariaster": {
       "filmTitle": "Hérédité",
@@ -3536,7 +3552,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "holafrida|andrekadikarinevezina": {
       "filmTitle": "HOLA FRIDA",
@@ -3663,6 +3679,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11298-the-howling",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "ichithekiller|takashimiike": {
+      "filmTitle": "Ichi the killer",
+      "director": "Takashi Miike",
+      "titleEn": "Ichi the Killer",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/9696-1",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "icibrigadecriminelle|donsiegel": {
       "filmTitle": "Ici brigade criminelle",
@@ -4046,7 +4070,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-25T01:57:09.246Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "jeandelalune|stephanscheschsarahclaraweber": {
       "filmTitle": "Jean de la Lune",
@@ -4518,7 +4542,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "laboum|claudepinoteau": {
       "filmTitle": "La Boum",
@@ -4581,7 +4605,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lachevaucheefantastique|johnford": {
       "filmTitle": "La Chevauchée fantastique",
@@ -4652,6 +4676,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/83389",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "lacondition|jeromebonnell": {
+      "filmTitle": "LA CONDITION",
+      "director": "Jerome Bonnell",
+      "titleEn": "The Arrangement",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1119548-la-condition",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lacosa|nannimoretti": {
       "filmTitle": "La Cosa",
@@ -4995,7 +5027,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lalaland|damienchazelle": {
       "filmTitle": "La La Land",
@@ -5248,6 +5280,14 @@
       "tmdbPath": "/movie/1001006-la-pampa",
       "checkedAt": "2026-09-08T04:44:43.845Z"
     },
+    "lapanthererose|blakeedwards": {
+      "filmTitle": "La Panthère Rose",
+      "director": "Blake Edwards",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
     "laparolepeutelleliberer|": {
       "filmTitle": "La parole peut-elle libérer ?",
       "director": "",
@@ -5309,7 +5349,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lapiscine|jacquesderay": {
       "filmTitle": "La Piscine",
@@ -5357,7 +5397,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lapoursuiteimpitoyable|arthurpenn": {
       "filmTitle": "La Poursuite impitoyable",
@@ -5412,7 +5452,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-04T03:42:56.819Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "laragazza|luigicomencini": {
       "filmTitle": "La Ragazza",
@@ -5613,7 +5653,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-07-28T03:41:27.507Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "latraverseedutemps|mamoruhosoda": {
       "filmTitle": "La Traversée du temps",
@@ -6145,7 +6185,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lefabuleuxdestindameliepoulain|jeanpierrejeunet": {
       "filmTitle": "Le Fabuleux destin d'Amélie Poulain",
@@ -6786,6 +6826,14 @@
       "tmdbPath": "/movie/273248-the-hateful-eight",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "lesacrifice|andreitarkovsky": {
+      "filmTitle": "Le Sacrifice",
+      "director": "Andreï Tarkovsky",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
     "lesaffranchis|martinscorsese": {
       "filmTitle": "Les Affranchis",
       "director": "Martin Scorsese",
@@ -6895,6 +6943,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/5528-les-choristes",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "leschosesdelavie|sautetclaude": {
+      "filmTitle": "Les Choses De La Vie",
+      "director": "SAUTET Claude",
+      "titleEn": "The Things of Life",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3423-les-choses-de-la-vie",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lescontesdecanterbury|pierpaolopasolini": {
       "filmTitle": "Les Contes de Canterbury",
@@ -7436,7 +7492,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lesoiseaux|alfredhitchcock": {
       "filmTitle": "Les Oiseaux",
@@ -7640,7 +7696,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lestontonsflingueurs|georgeslautner": {
       "filmTitle": "Les Tontons flingueurs",
@@ -7727,6 +7783,14 @@
       "titleEn": "The Killers",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-01T19:37:32.631Z"
+    },
+    "lesud|victorerice": {
+      "filmTitle": "Le Sud",
+      "director": "Victor Erice",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lesvacancesdegoloetritchie|martinfougerolahmedhamidi": {
       "filmTitle": "LES VACANCES DE GOLO ET RITCHIE",
@@ -8018,7 +8082,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "levoyagedechihiro|hayaomiyazaki": {
       "filmTitle": "LE VOYAGE DE CHIHIRO",
@@ -8267,6 +8331,13 @@
       "tmdbPath": "/movie/186992-l-inconnu-du-lac",
       "checkedAt": "2026-09-01T05:17:01.710Z"
     },
+    "linconnudunordexpress|alfredhitchcock": {
+      "filmTitle": "L'Inconnu du Nord-Express",
+      "director": "Alfred Hitchcock",
+      "titleEn": "Strangers on a train",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
     "linconnue|arthurharari": {
       "filmTitle": "L'inconnue",
       "director": "Arthur Harari",
@@ -8372,7 +8443,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "lodyssee|christophernolan": {
       "filmTitle": "L'Odyssée",
@@ -8590,7 +8661,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-20T01:56:11.929Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "madmaxfuryroad|georgemiller": {
       "filmTitle": "Mad Max: Fury Road",
@@ -8743,6 +8814,13 @@
       "tmdbPath": "/movie/1512207-ruffen-sjoormen-som-ikke-kunne-svomme",
       "checkedAt": "2026-07-28T14:42:44.026Z"
     },
+    "markdixondetective|ottopreminger": {
+      "filmTitle": "Mark Dixon, détective",
+      "director": "Otto Preminger",
+      "titleEn": "Where the Sidewalk Ends",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
     "marsexpress|jeremieperin": {
       "filmTitle": "Mars Express",
       "director": "Jérémie Périn",
@@ -8828,7 +8906,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "mastersofbooksavecmaggienelson|": {
       "filmTitle": "Masters of Books avec Maggie Nelson",
@@ -9435,7 +9513,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "ninaetlesecretduherisson|alaingagnoljeanloupfelicioli": {
       "filmTitle": "Nina Et Le Secret Du Hérisson",
@@ -10006,6 +10084,14 @@
       "tmdbPath": "/movie/10293-pauline-a-la-plage",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "peaudane|jacquesdemy": {
+      "filmTitle": "Peau d'âne",
+      "director": "Jacques Demy",
+      "titleEn": "Donkey Skin",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/5590-peau-d-ane",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
     "peaudecochon|philippekaterine": {
       "filmTitle": "Peau de cochon",
       "director": "Philippe Katerine",
@@ -10013,6 +10099,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/207751-peau-de-cochon",
       "checkedAt": "2026-09-06T11:02:28.849Z"
+    },
+    "pechemortel|johnmstahl": {
+      "filmTitle": "Pêché mortel",
+      "director": "John M. Stahl",
+      "titleEn": "Leave Her to Heaven",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "permanentvacation|jarmuschjim": {
       "filmTitle": "Permanent Vacation",
@@ -10099,7 +10192,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "peutonencorecroireademain|": {
       "filmTitle": "Peut-on encore croire à demain ?",
@@ -10107,7 +10200,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "peutonetrejustequelquundebien|": {
       "filmTitle": "Peut-on être \"juste quelqu’un de bien?\"",
@@ -10674,7 +10767,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "questcequelajusticesociale|": {
       "filmTitle": "Qu’est-ce que la justice sociale ?",
@@ -10682,7 +10775,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "questcequeletatdumondefaitaleconomie|": {
       "filmTitle": "Qu'est-ce que l'état du monde fait à l'économie ?",
@@ -10698,7 +10791,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "questcequetrebiendanssapeau|": {
       "filmTitle": "Qu’est-ce qu’être bien dans sa peau ?",
@@ -10730,7 +10823,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "quoideneufpussycat|clivedonner": {
       "filmTitle": "Quoi de neuf, Pussycat ?",
@@ -11019,7 +11112,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "romeria|carlasimon": {
       "filmTitle": "Romería",
@@ -11105,7 +11198,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "saccharine|natalieerikajames": {
       "filmTitle": "Saccharine",
@@ -12438,7 +12531,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T22:56:26.422Z"
+      "checkedAt": "2026-09-15T05:01:18.483Z"
     },
     "umbertod|sicavittorio": {
       "filmTitle": "Umberto D",
