@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T11:38:59.228Z",
+  "updatedAt": "2026-09-16T17:00:07.979Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1326,7 +1326,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "cassenoisettetheroyalballet|peterwrightjuliatrevelyanoman": {
       "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
@@ -1542,12 +1542,12 @@
       "checkedAt": "2026-09-13T11:58:30.054Z"
     },
     "cineclub|": {
-      "filmTitle": "Ciné Club",
+      "filmTitle": "Ciné-Club",
       "director": "",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "cinegouterenfamille|": {
       "filmTitle": "Ciné-Goûter En Famille",
@@ -1586,7 +1586,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "cinerelax|": {
       "filmTitle": "Ciné Relax",
@@ -2006,7 +2006,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "cyranodebergerac|jeanpaulrappeneau": {
       "filmTitle": "Cyrano de Bergerac",
@@ -2277,6 +2277,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1315772-minions-monsters",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "detectiveconanlangedechudelasphalte|takahirohasui": {
+      "filmTitle": "DETECTIVE CONAN : L'ANGE DECHU DE L'ASPHALTE",
+      "director": "Takahiro Hasui",
+      "titleEn": "Detective Conan: Fallen Angel of the Highway",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1545621",
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "deviensgenial|leograndperret": {
       "filmTitle": "Deviens Génial",
@@ -2627,7 +2635,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "elmergantrylecharlatan|richardbrooks": {
       "filmTitle": "Elmer Gantry, le charlatan",
@@ -5428,6 +5436,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/457955-la-nuit-a-devore-le-monde",
       "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
+    "lanuitdelaglisse2026thecall|thierrydonard": {
+      "filmTitle": "LA NUIT DE LA GLISSE 2026 - THE CALL",
+      "director": "Thierry Donard",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "lanuitduchasseur|charleslaughton": {
       "filmTitle": "La Nuit du chasseur",
@@ -8371,7 +8387,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
@@ -8624,7 +8640,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "litalieatraverssoncinema19septembre|": {
       "filmTitle": "L'Italie À Travers Son Cinéma • 19 Septembre",
@@ -10200,6 +10216,14 @@
       "tmdbPath": "/movie/695839",
       "checkedAt": "2026-08-19T18:57:13.147Z"
     },
+    "panique|julienduvivier": {
+      "filmTitle": "Panique",
+      "director": "Julien Duvivier",
+      "titleEn": "Panic",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/43462-panique",
+      "checkedAt": "2026-09-16T17:03:40.019Z"
+    },
     "paniquetouscourts|vincentpatarstephaneaubier": {
       "filmTitle": "Panique tous courts",
       "director": "Vincent Patar, Stéphane Aubier",
@@ -11220,6 +11244,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-04T16:26:12.308Z"
     },
+    "reprisepalmareslesnuitsmedgrandaction2026|": {
+      "filmTitle": "Reprise Palmares Les Nuits Med Grand Action 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T17:03:40.019Z"
+    },
     "requiemforadream|darrenaronofsky": {
       "filmTitle": "Requiem for a Dream",
       "director": "Darren Aronofsky",
@@ -11581,7 +11613,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "seancespeciale23septembre|": {
       "filmTitle": "Séance Spéciale • 23 Septembre",
@@ -11597,7 +11629,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-16T17:03:40.019Z"
     },
     "seancesstsme|": {
       "filmTitle": "Séances St-Sme",
