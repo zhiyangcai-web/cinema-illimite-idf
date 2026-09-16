@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T17:00:07.979Z",
+  "updatedAt": "2026-09-16T21:20:37.556Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -157,6 +157,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
+    "abientotdeterevoir3|": {
+      "filmTitle": "A bientot de te revoir - 3",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T21:24:18.455Z"
     },
     "abientotdeterevoiralexandralamy|": {
       "filmTitle": "A bientot de te revoir : Alexandra Lamy",
@@ -394,6 +402,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/915935-anatomie-d-une-chute",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "andalucia|alaingomis": {
+      "filmTitle": "Andalucia",
+      "director": "Alain Gomis",
+      "titleEn": "Andalucia",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/62746-andalucia",
+      "checkedAt": "2026-09-16T21:24:18.455Z"
     },
     "angelodanslaforetmysterieuse|vincentparonnaudalexisducord": {
       "filmTitle": "Angelo Dans La Foret Mysterieuse",
@@ -1580,6 +1596,14 @@
       "source": "No confident TMDB match",
       "checkedAt": "2026-08-22T18:52:00.277Z"
     },
+    "cinemasautochtonesaubresil|rahalfred": {
+      "filmTitle": "Cinémas Autochtones Au Brésil",
+      "director": "RAHAL Fred",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T21:24:18.455Z"
+    },
     "cinequinze|": {
       "filmTitle": "Cinéquinze",
       "director": "",
@@ -2379,6 +2403,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/68718-django-unchained",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "dmitrichostakovitchdschsymphonien13|grigoriiilugdin": {
+      "filmTitle": "Dmitri Chostakovitch Dsch Symphonie N13",
+      "director": "Grigorii Ilugdin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T21:24:18.455Z"
     },
     "docteurfolamour|stanleykubrick": {
       "filmTitle": "Docteur Folamour",
@@ -10231,6 +10263,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1137465-panique-tous-courts",
       "checkedAt": "2026-08-29T16:46:40.824Z"
+    },
+    "panoramacorselesnuitsmedgrandaction2026|": {
+      "filmTitle": "Panorama Corse Les Nuits Med Grand Action 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T21:24:18.455Z"
     },
     "paprika|satoshikon": {
       "filmTitle": "Paprika",
