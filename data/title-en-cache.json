@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-15T21:23:30.384Z",
+  "updatedAt": "2026-09-16T04:52:15.950Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4094,6 +4094,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-10T20:57:00.338Z"
     },
+    "jamesmcneillwhistler|davidbickerstaff": {
+      "filmTitle": "James Mcneill Whistler",
+      "director": "David Bickerstaff",
+      "titleEn": "James McNeill Whistler",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1739735-james-mcneill-whistler",
+      "checkedAt": "2026-09-16T04:55:57.531Z"
+    },
     "jananayagan|hvinoth": {
       "filmTitle": "Jana Nayagan",
       "director": "H. Vinoth",
@@ -5043,6 +5051,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/374331-solan-og-ludvig-herfra-til-flaklypa",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "lagrandeillusion|jeanrenoir": {
+      "filmTitle": "La Grande Illusion",
+      "director": "Jean Renoir",
+      "titleEn": "Grand Illusion",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/777-la-grande-illusion",
+      "checkedAt": "2026-09-16T04:55:57.531Z"
     },
     "lagrandelessive|jeanpierremocky": {
       "filmTitle": "La Grande lessive",
@@ -6632,6 +6648,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-15T21:26:59.523Z"
+    },
+    "lemondealendroit|sylviemeyer": {
+      "filmTitle": "Le Monde A L Endroit",
+      "director": "Sylvie Meyer",
+      "titleEn": "Le Monde à l'endroit",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1757520-le-monde-a-l-endroit",
+      "checkedAt": "2026-09-16T04:55:57.531Z"
     },
     "lemondealenvers|arnauddemuyncknoegarciaerwannhette": {
       "filmTitle": "Le Monde à l'envers",
@@ -8390,6 +8414,14 @@
       "tmdbPath": "/movie/1465063-forgotten-island",
       "checkedAt": "2026-08-12T07:57:06.083Z"
     },
+    "liliomfi|karolymakk": {
+      "filmTitle": "Liliomfi",
+      "director": "Karoly Makk",
+      "titleEn": "Lily Boy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/191428-liliomfi",
+      "checkedAt": "2026-09-16T04:55:57.531Z"
+    },
     "lilith|robertrossen": {
       "filmTitle": "Lilith",
       "director": "Robert Rossen",
@@ -8687,6 +8719,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-15T21:26:59.523Z"
+    },
+    "lookback2024|kiyotakaoshiyama": {
+      "filmTitle": "LOOK BACK (2024)",
+      "director": "Kiyotaka Oshiyama",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-16T04:55:57.531Z"
     },
     "lorieparty2026aucinema|tristancarne": {
       "filmTitle": "LORIE PARTY 2026 AU CINEMA",
