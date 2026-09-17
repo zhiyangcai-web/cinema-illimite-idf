@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-16T21:20:37.556Z",
+  "updatedAt": "2026-09-17T04:55:55.045Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1556,6 +1556,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-13T11:58:30.054Z"
+    },
+    "cinebar|": {
+      "filmTitle": "Ciné-Bar",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "cineclub|": {
       "filmTitle": "Ciné-Club",
@@ -3890,6 +3898,14 @@
       "tmdbPath": "/movie/336-giu-la-testa",
       "checkedAt": "2026-08-10T13:48:26.704Z"
     },
+    "ilfautsauverlesoldatryan|spielbergsteven": {
+      "filmTitle": "Il Faut Sauver Le Soldat Ryan",
+      "director": "SPIELBERG Steven",
+      "titleEn": "Saving Private Ryan",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/857-saving-private-ryan",
+      "checkedAt": "2026-09-17T04:59:29.360Z"
+    },
     "ilresteencoredemain|paolacortellesi": {
       "filmTitle": "Il reste encore demain",
       "director": "Paola Cortellesi",
@@ -4265,7 +4281,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-02T16:40:17.381Z"
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "jeuxdete|ingmarbergman": {
       "filmTitle": "Jeux d'été",
@@ -5601,7 +5617,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T04:39:50.598Z"
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "lapointecourte|agnesvarda": {
       "filmTitle": "La Pointe Courte",
@@ -7711,7 +7727,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T04:39:50.598Z"
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "lesnuitsdelamedusasoiree22026|": {
       "filmTitle": "Les Nuits De La Medusa Soiree 2 2026",
@@ -7719,7 +7735,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T04:39:50.598Z"
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "lesnuitsdelamedusasoiree32026|": {
       "filmTitle": "Les Nuits De La Medusa Soiree 3 2026",
@@ -7727,7 +7743,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T04:39:50.598Z"
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "lesnuitsdelapleinelune|ericrohmer": {
       "filmTitle": "Les nuits de la pleine lune",
@@ -9376,7 +9392,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T04:39:50.598Z"
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "mespremiersclassiques|": {
       "filmTitle": "Mes Premiers Classiques",
@@ -9642,6 +9658,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/72083-muerte-de-un-ciclista",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "motyrorencontreavecdescineastesautochtonesdubresil|rahalfred": {
+      "filmTitle": "Motyrõ : Rencontre Avec Des Cinéastes Autochtones Du Brésil",
+      "director": "RAHAL Fred",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-17T04:59:29.360Z"
     },
     "mouriraibizaunfilmentroisetes|antonbalekdjian": {
       "filmTitle": "Mourir A Ibiza (un Film En Trois Etes)",
