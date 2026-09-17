@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T11:45:12.905Z",
+  "updatedAt": "2026-09-17T17:01:56.419Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -304,6 +304,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/149-akira",
       "checkedAt": "2026-08-24T13:16:58.884Z"
+    },
+    "alaingomisinvitelecentreyennenga|abdallahsallmamadousambabaldemalikaadamagassamayorombayekivuruhorahozaramadiopsafitouthianghosambasy": {
+      "filmTitle": "Alain Gomis invite Le Centre Yennenga",
+      "director": "Abdallah Sall, Mamadou Samba Balde, Malika Adama Gassama, Yoro Mbaye, Kivu Ruhorahoza, Rama Diop, Safitou Thiangho, Samba Sy",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-17T17:03:29.592Z"
     },
     "alaingomisrendhommageakhadysylla|khadysylla": {
       "filmTitle": "Alain Gomis rend hommage à Khady Sylla",
@@ -1264,7 +1272,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T16:30:03.879Z"
+      "checkedAt": "2026-09-17T17:03:29.592Z"
     },
     "capfarewell|vanjadalcantara": {
       "filmTitle": "Cap Farewell",
@@ -4099,7 +4107,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T16:30:03.879Z"
+      "checkedAt": "2026-09-17T17:03:29.592Z"
     },
     "irmaladouce|billywilder": {
       "filmTitle": "Irma La douce",
@@ -9946,7 +9954,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-03T16:30:03.879Z"
+      "checkedAt": "2026-09-17T17:03:29.592Z"
     },
     "normandieniemen|jeandreville": {
       "filmTitle": "Normandie Niemen",
