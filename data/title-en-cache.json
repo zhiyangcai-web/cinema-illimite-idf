@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T04:55:55.045Z",
+  "updatedAt": "2026-09-17T11:45:12.905Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1149,6 +1149,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-07T21:35:55.729Z"
+    },
+    "breverencontre|davidlean": {
+      "filmTitle": "Brève Rencontre",
+      "director": "David Lean",
+      "titleEn": "Brief Encounter",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-17T11:48:07.598Z"
     },
     "breverencontre|kiramouratova": {
       "filmTitle": "Breve Rencontre",
@@ -3743,6 +3750,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-09T11:29:49.347Z"
     },
+    "horssatan|brunodumont": {
+      "filmTitle": "Hors Satan",
+      "director": "Bruno Dumont",
+      "titleEn": "Outside Satan",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/89456-hors-satan",
+      "checkedAt": "2026-09-17T11:48:07.598Z"
+    },
     "hoteldunord|marcelcarne": {
       "filmTitle": "Hôtel du Nord",
       "director": "Marcel Carné",
@@ -6132,6 +6147,14 @@
       "tmdbPath": "/movie/1309373-le-chant-des-forets",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "lechantdesoliviers|alexcamilleri": {
+      "filmTitle": "Le Chant des oliviers",
+      "director": "Alex Camilleri",
+      "titleEn": "Zejtune",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1611903-zejtune",
+      "checkedAt": "2026-09-17T11:48:07.598Z"
+    },
     "lechataneufqueues|darioargento": {
       "filmTitle": "Le Chat à neuf queues",
       "director": "Dario Argento",
@@ -8146,6 +8169,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/84079-a-time-to-love-and-a-time-to-die",
       "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
+    "letombeaudalexandre|chrismarker": {
+      "filmTitle": "Le Tombeau d'Alexandre",
+      "director": "Chris Marker",
+      "titleEn": "The Last Bolshevik",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/98498-le-tombeau-d-alexandre",
+      "checkedAt": "2026-09-17T11:48:07.598Z"
     },
     "letombeaudeslucioles|isaotakahata": {
       "filmTitle": "Le Tombeau Des Lucioles",
