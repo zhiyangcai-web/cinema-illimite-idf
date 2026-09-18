@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-18T11:19:26.091Z",
+  "updatedAt": "2026-09-18T16:26:32.988Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -319,7 +319,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-04T16:26:12.308Z"
+      "checkedAt": "2026-09-18T16:28:05.179Z"
     },
     "alarecherchedemistergoodbar|richardbrooks": {
       "filmTitle": "A la recherche de Mister Goodbar",
@@ -379,6 +379,14 @@
       "titleEn": "Father's Little Dividend",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T13:09:34.266Z"
+    },
+    "alwayslalisa|suekimii": {
+      "filmTitle": "ALWAYS LALISA",
+      "director": "Sue Kim (II)",
+      "titleEn": "Always Lalisa",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1489932-always-lalisa",
+      "checkedAt": "2026-09-18T16:28:05.179Z"
     },
     "amelieetlametaphysiquedestubes|lianechohanmailysvallade": {
       "filmTitle": "Amelie Et La Metaphysique Des Tubes",
@@ -6329,7 +6337,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-04T11:23:49.773Z"
+      "checkedAt": "2026-09-18T16:28:05.179Z"
     },
     "lecrimeetaitpresqueparfait|alfredhitchcock": {
       "filmTitle": "Le Crime était presque parfait",
