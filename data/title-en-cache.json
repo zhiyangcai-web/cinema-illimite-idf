@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-17T21:24:41.083Z",
+  "updatedAt": "2026-09-18T11:19:26.091Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6829,6 +6829,14 @@
       "tmdbPath": "/movie/1711490-le-monde-a-l-envers",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lemoutondesada|oumarfallhouleymatoudiogodiallopapebounamalopy": {
+      "filmTitle": "Le mouton de Sada",
+      "director": "Oumar Fall, Houleymatou Diogo Diallo, Pape Bounama Lopy",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-18T11:20:54.320Z"
+    },
     "lempriseducrime|lewismilestone": {
       "filmTitle": "L'Emprise du crime",
       "director": "Lewis Milestone",
@@ -8154,6 +8162,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-04T11:23:49.773Z"
     },
+    "lesvampirespourquoicesbuveursdesangsontilssifascinants|": {
+      "filmTitle": "Les vampires : pourquoi ces buveurs de sang sont-ils si fascinants ?  ",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-18T11:20:54.320Z"
+    },
     "lesvecesetaientfermesdelinterieur|patriceleconte": {
       "filmTitle": "Les Vécés étaient fermés de l'intérieur",
       "director": "Patrice Leconte",
@@ -9071,6 +9087,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/328083",
       "checkedAt": "2026-08-13T02:51:39.490Z"
+    },
+    "malfaisante|robsavage": {
+      "filmTitle": "MALFAISANTE",
+      "director": "Rob Savage",
+      "titleEn": "Other Mommy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1400837-other-mommy",
+      "checkedAt": "2026-09-18T11:20:54.320Z"
     },
     "mameredieuetsylvievartan|kenscott": {
       "filmTitle": "Ma Mère, Dieu et Sylvie Vartan",
