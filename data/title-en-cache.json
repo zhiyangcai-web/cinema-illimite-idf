@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-18T16:26:32.988Z",
+  "updatedAt": "2026-09-18T20:55:53.094Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2556,7 +2556,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-04T16:26:12.308Z"
+      "checkedAt": "2026-09-18T20:57:19.124Z"
     },
     "drive|nicolaswindingrefn": {
       "filmTitle": "DRIVE",
@@ -3061,6 +3061,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "felicite|alaingomis": {
+      "filmTitle": "Félicité",
+      "director": "Alain Gomis",
+      "titleEn": "Félicité",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/436340-felicite",
+      "checkedAt": "2026-09-18T20:57:19.124Z"
     },
     "fenetresurcour|alfredhitchcock": {
       "filmTitle": "Fenêtre sur cour",
@@ -7059,7 +7067,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-04T20:49:59.047Z"
+      "checkedAt": "2026-09-18T20:57:19.124Z"
     },
     "leroidelevasion|alainguiraudie": {
       "filmTitle": "Le Roi de l'évasion",
@@ -7884,7 +7892,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-04T20:49:59.047Z"
+      "checkedAt": "2026-09-18T20:57:19.124Z"
     },
     "lesportesdelanuit|marcelcarne": {
       "filmTitle": "Les Portes de la nuit",
@@ -11356,7 +11364,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-04T16:26:12.308Z"
+      "checkedAt": "2026-09-18T20:57:19.124Z"
     },
     "rendezvous|ernstlubitsch": {
       "filmTitle": "Rendez-vous",
