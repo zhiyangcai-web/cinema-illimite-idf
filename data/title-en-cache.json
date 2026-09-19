@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T15:54:42.135Z",
+  "updatedAt": "2026-09-19T20:43:30.398Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2269,6 +2269,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1731954-libera-nos-il-trionfo-sul-male",
       "checkedAt": "2026-09-03T04:39:50.598Z"
+    },
+    "dequoiestfaitenotreliberte|": {
+      "filmTitle": "De quoi est faite notre liberté ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-19T20:44:51.461Z"
     },
     "dernierarretpourlebilletcirculaire|rousseaujeanclaude": {
       "filmTitle": "Dernier Arret Pour Le Billet Circulaire",
@@ -7745,6 +7753,14 @@
       "tmdbPath": "/movie/3933-corpse-bride",
       "checkedAt": "2026-09-14T21:54:23.782Z"
     },
+    "lesnocesfunebres|timburtonmikejohnson": {
+      "filmTitle": "Les Noces funèbres",
+      "director": "Tim Burton, Mike Johnson",
+      "titleEn": "Corpse Bride",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3933-corpse-bride",
+      "checkedAt": "2026-09-19T20:44:51.461Z"
+    },
     "lesnocesrouges|claudechabrol": {
       "filmTitle": "Les Noces rouges",
       "director": "Claude Chabrol",
@@ -10885,7 +10901,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-05T20:26:26.605Z"
+      "checkedAt": "2026-09-19T20:44:51.461Z"
     },
     "pourquoitravaillonsnousautant|": {
       "filmTitle": "Pourquoi travaillons-nous autant ?",
@@ -11472,6 +11488,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-20T01:56:11.929Z"
+    },
+    "rewindandplay|alaingomis": {
+      "filmTitle": "Rewind and Play",
+      "director": "Alain Gomis",
+      "titleEn": "Rewind & Play",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/928004-rewind-play",
+      "checkedAt": "2026-09-19T20:44:51.461Z"
     },
     "riobravo|howardhawks": {
       "filmTitle": "Rio Bravo",
