@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T11:28:06.401Z",
+  "updatedAt": "2026-09-20T20:51:07.321Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2511,7 +2511,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-06T20:28:21.526Z"
+      "checkedAt": "2026-09-20T20:52:30.499Z"
     },
     "donjonsdragonslhonneurdesvoleurs|jonathangoldsteinxiijohnfrancisdaley": {
       "filmTitle": "Donjons & Dragons : L'Honneur des voleurs",
@@ -5783,6 +5783,14 @@
       "titleEn": "Legally Blonde",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
+    "larevolutionpassetelleparlassiette|": {
+      "filmTitle": "La révolution passe-t-elle par l’assiette ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-20T20:52:30.499Z"
     },
     "lariviere|tsaimingliang": {
       "filmTitle": "La Rivière",
