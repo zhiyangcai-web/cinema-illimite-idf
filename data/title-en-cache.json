@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-20T04:56:25.905Z",
+  "updatedAt": "2026-09-20T11:28:06.401Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -312,6 +312,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-17T17:03:29.592Z"
+    },
+    "alaingomisinvitelecentreyennenga|sambasysafitouthianghoramadiopkivuruhorahozayorombayemalikaadamagassamamamadousambabaldeabdallahsall": {
+      "filmTitle": "Alain Gomis invite Le Centre Yennenga",
+      "director": "Samba Sy, Safitou Thiangho, Rama Diop, Kivu Ruhorahoza, Yoro Mbaye, Malika Adama Gassama, Mamadou Samba Balde, Abdallah Sall",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-20T11:29:32.956Z"
     },
     "alaingomisrendhommageakhadysylla|khadysylla": {
       "filmTitle": "Alain Gomis rend hommage à Khady Sylla",
@@ -4477,7 +4485,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-06T11:02:28.849Z"
+      "checkedAt": "2026-09-20T11:29:32.956Z"
     },
     "justepourunenuit|willgluck": {
       "filmTitle": "Juste pour une nuit",
@@ -4997,6 +5005,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11051-the-last-temptation-of-christ",
       "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
+    "ladernierevague|peterweir": {
+      "filmTitle": "LA DERNIERE VAGUE",
+      "director": "Peter Weir",
+      "titleEn": "The Last Wave",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/72277-the-last-wave",
+      "checkedAt": "2026-09-20T11:29:32.956Z"
     },
     "ladolcevita|federicofellini": {
       "filmTitle": "La Dolce Vita",
@@ -6876,6 +6892,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-18T11:20:54.320Z"
+    },
+    "lemoutondesada|papebounamalopyhouleymatoudiogodiallooumarfall": {
+      "filmTitle": "Le mouton de Sada",
+      "director": "Pape Bounama Lopy, Houleymatou Diogo Diallo, Oumar Fall",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-20T11:29:32.956Z"
     },
     "lempriseducrime|lewismilestone": {
       "filmTitle": "L'Emprise du crime",
@@ -11264,7 +11288,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-06T11:02:28.849Z"
+      "checkedAt": "2026-09-20T11:29:32.956Z"
     },
     "questcequelintelligenceducoeur|": {
       "filmTitle": "Qu’est-ce que l’intelligence du coeur ?",
@@ -13239,6 +13263,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-18T07:08:55.877Z"
+    },
+    "uneetoileestnee|georgecukor": {
+      "filmTitle": "UNE ETOILE EST NEE",
+      "director": "George Cukor",
+      "titleEn": "A Star Is Born",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/3111-a-star-is-born",
+      "checkedAt": "2026-09-20T11:29:32.956Z"
     },
     "unehistoirevraie|davidlynch": {
       "filmTitle": "Une Histoire Vraie",
