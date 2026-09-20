@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-19T20:43:30.398Z",
+  "updatedAt": "2026-09-20T04:56:25.905Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4652,6 +4652,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "kuboetlarmuremagique|travisknight": {
+      "filmTitle": "KUBO ET L'ARMURE MAGIQUE",
+      "director": "Travis Knight",
+      "titleEn": "Kubo and the Two Strings",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/313297-kubo-and-the-two-strings",
+      "checkedAt": "2026-09-20T04:57:51.253Z"
+    },
     "kungfumaster|agnesvarda": {
       "filmTitle": "Kung-Fu Master",
       "director": "Agnès Varda",
@@ -7446,6 +7454,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-26T13:20:19.030Z"
     },
+    "lesextraordinairesaventuresdemorph|merlincrossingham": {
+      "filmTitle": "LES EXTRAORDINAIRES AVENTURES DE MORPH",
+      "director": "Merlin Crossingham",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-20T04:57:51.253Z"
+    },
     "lesfablesdemonsieurrenard|lenavondohrenyawenzhengevanderushie": {
       "filmTitle": "Les Fables de Monsieur Renard",
       "director": "Lena von Döhren, Yawen Zheng, Evan Derushie",
@@ -9308,7 +9324,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-06T04:45:38.402Z"
+      "checkedAt": "2026-09-20T04:57:51.253Z"
     },
     "mastersofbooksavecherveletellieretmanuelefior|": {
       "filmTitle": "Masters of Books avec Hervé Le Tellier et Manuele Fior",
@@ -9665,6 +9681,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/832-m-eine-stadt-sucht-einen-morder",
       "checkedAt": "2026-07-28T09:09:08.721Z"
+    },
+    "mochy|jeremiedegrusonyanisbelaid": {
+      "filmTitle": "MOCHY",
+      "director": "Jeremie Degruson, Yanis Belaid",
+      "titleEn": "Yugly",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1218069-yugly",
+      "checkedAt": "2026-09-20T04:57:51.253Z"
     },
     "moicapitaine|matteogarrone": {
       "filmTitle": "Moi capitaine",
@@ -10925,7 +10949,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-06T04:45:38.402Z"
+      "checkedAt": "2026-09-20T04:57:51.253Z"
     },
     "premiercontact|denisvilleneuve": {
       "filmTitle": "Premier Contact",
