@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T04:59:22.099Z",
+  "updatedAt": "2026-09-21T12:52:36.428Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -11367,6 +11367,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/4584-sense-and-sensibility",
       "checkedAt": "2026-07-28T14:42:44.026Z"
+    },
+    "raisonetsentiments|georgiaoakley": {
+      "filmTitle": "Raison et sentiments",
+      "director": "Georgia Oakley",
+      "titleEn": "Sense and Sensibility",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1503762-sense-and-sensibility",
+      "checkedAt": "2026-09-21T12:54:00.851Z"
     },
     "raisonetsentiments1995|anglee": {
       "filmTitle": "RAISON ET SENTIMENTS (1995)",
