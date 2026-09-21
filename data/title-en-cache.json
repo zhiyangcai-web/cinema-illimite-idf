@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T12:52:36.428Z",
+  "updatedAt": "2026-09-21T22:00:00.585Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1180,7 +1180,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-07T21:35:55.729Z"
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "breverencontre|davidlean": {
       "filmTitle": "Brève Rencontre",
@@ -2403,6 +2403,14 @@
       "titleEn": "Die My Love",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "digger|alejandrogonzaacutelezintildeaacuterritu": {
+      "filmTitle": "DIGGER",
+      "director": "Alejandro Gonz&aacute;lez I&ntilde;&aacute;rritu",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "digger|alejandrogonzalezinarritu": {
       "filmTitle": "Digger",
@@ -3806,6 +3814,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-09T11:29:49.347Z"
     },
+    "horspistesinviteluniversiteparis1larbreenmouvement|": {
+      "filmTitle": "Hors Pistes invite l'Université Paris 1 : l'arbre en mouvement",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-21T22:01:28.705Z"
+    },
     "horssatan|brunodumont": {
       "filmTitle": "Hors Satan",
       "director": "Bruno Dumont",
@@ -4802,6 +4818,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
+    "labelleetlabete1946|jeancocteau": {
+      "filmTitle": "LA BELLE ET LA BETE (1946)",
+      "director": "Jean Cocteau",
+      "titleEn": "Beauty and the Beast",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/648-la-belle-et-la-bete",
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "laboum|claudepinoteau": {
       "filmTitle": "La Boum",
@@ -6297,7 +6321,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-07T21:35:55.729Z"
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "lecinequizdelepee|": {
       "filmTitle": "Le Ciné-Quiz De L'Epée 🔍",
@@ -9214,7 +9238,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-07T21:35:55.729Z"
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "manuitchezmaud|ericrohmer": {
       "filmTitle": "Ma nuit chez Maud",
@@ -9444,6 +9468,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/26356-medea",
       "checkedAt": "2026-08-11T07:41:41.621Z"
+    },
+    "meesayamurukku2|hiphoptamizhaadhi": {
+      "filmTitle": "MEESAYA MURUKKU 2",
+      "director": "Hiphop Tamizha Adhi",
+      "titleEn": "Meesaya Murukku 2",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1538457-2",
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "mektoubmylovecantodue|abdellatifkechiche": {
       "filmTitle": "Mektoub my Love : Canto Due",
@@ -12661,6 +12693,14 @@
       "tmdbPath": "/movie/5335-teorema",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "theparadisetamoul|srikanthodela": {
+      "filmTitle": "THE PARADISE - TAMOUL",
+      "director": "Srikanth Odela",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-21T22:01:28.705Z"
+    },
     "theplague|charliepolinger": {
       "filmTitle": "The Plague",
       "director": "Charlie Polinger",
@@ -13124,6 +13164,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/2769-an-american-in-paris",
       "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
+    "unamourdepouvantail|jeroenjaspaertsamanthacutler": {
+      "filmTitle": "Un amour d'épouvantail",
+      "director": "Jeroen Jaspaert, Samantha Cutler",
+      "titleEn": "The Scarecrows' Wedding",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1488459-the-scarecrows-wedding",
+      "checkedAt": "2026-09-21T22:01:28.705Z"
     },
     "unamourdepouvantail|samanthacutlerjeroenjaspaert": {
       "filmTitle": "Un amour d’épouvantail",
