@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T05:00:08.576Z",
+  "updatedAt": "2026-09-22T11:42:33.185Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6465,6 +6465,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "ledernierdesjuifs|noedebre": {
+      "filmTitle": "LE DERNIER DES JUIFS",
+      "director": "Noe Debre",
+      "titleEn": "A Nice Jewish Boy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/958855-le-dernier-des-juifs",
+      "checkedAt": "2026-09-22T11:44:15.717Z"
+    },
     "ledernierdesmohicans|michaelmann": {
       "filmTitle": "Le Dernier des Mohicans",
       "director": "Michael Mann",
@@ -7801,6 +7809,14 @@
       "tmdbPath": "/movie/1241803-les-miserables",
       "checkedAt": "2026-09-10T11:26:44.246Z"
     },
+    "lesmiserables2019|ladjly": {
+      "filmTitle": "LES MISERABLES (2019)",
+      "director": "Ladj Ly",
+      "titleEn": "Les Misérables",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/586863-les-miserables",
+      "checkedAt": "2026-09-22T11:44:15.717Z"
+    },
     "lesmoissonsduciel|terrencemalick": {
       "filmTitle": "Les Moissons du ciel",
       "director": "Terrence Malick",
@@ -8407,6 +8423,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/443033",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "lettreafranco|alejandroamenaacutebar": {
+      "filmTitle": "LETTRE A FRANCO",
+      "director": "Alejandro Amen&aacute;bar",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-22T11:44:15.717Z"
     },
     "lettreamomo|okiurahiroyuki": {
       "filmTitle": "Lettre A Momo",
@@ -9412,7 +9436,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-08T11:26:32.486Z"
+      "checkedAt": "2026-09-22T11:44:15.717Z"
     },
     "mastersofcinemaavecandreizviaguintsev|": {
       "filmTitle": "Masters of Cinema avec Andreï Zviaguintsev",
@@ -10495,6 +10519,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-16T21:24:18.455Z"
     },
+    "papicha|mouniameddour": {
+      "filmTitle": "PAPICHA",
+      "director": "Mounia Meddour",
+      "titleEn": "Papicha",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/592807-papicha",
+      "checkedAt": "2026-09-22T11:44:15.717Z"
+    },
     "paprika|satoshikon": {
       "filmTitle": "Paprika",
       "director": "Satoshi Kon",
@@ -11046,6 +11078,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-28T19:57:25.455Z"
+    },
+    "presque|bernardcampanalexandrejollien": {
+      "filmTitle": "PRESQUE",
+      "director": "Bernard Campan, Alexandre Jollien",
+      "titleEn": "Beautiful Minds",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/757999-presque",
+      "checkedAt": "2026-09-22T11:44:15.717Z"
     },
     "pressure|anthonymaras": {
       "filmTitle": "PRESSURE",
