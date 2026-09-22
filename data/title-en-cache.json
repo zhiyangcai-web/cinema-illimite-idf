@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-21T22:00:00.585Z",
+  "updatedAt": "2026-09-22T05:00:08.576Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4318,10 +4318,10 @@
     "jeandelalune|sarahclaraweberstephanschesch": {
       "filmTitle": "Jean de la Lune",
       "director": "Sarah Clara Weber, Stephan Schesch",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-08T04:44:43.845Z"
+      "titleEn": "Moon Man",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/135832-der-mondmann",
+      "checkedAt": "2026-09-22T05:01:57.350Z"
     },
     "jeandelalune|stephanschesch": {
       "filmTitle": "Jean De La Lune",
@@ -5817,12 +5817,12 @@
       "checkedAt": "2026-09-20T20:52:30.499Z"
     },
     "lariviere|tsaimingliang": {
-      "filmTitle": "La Rivière",
+      "filmTitle": "LA RIVIERE",
       "director": "Tsai Ming-liang",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-08T04:44:43.845Z"
+      "checkedAt": "2026-09-22T05:01:57.350Z"
     },
     "lariviererouge|howardhawks": {
       "filmTitle": "La Rivière rouge",
@@ -8028,7 +8028,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-08T04:44:43.845Z"
+      "checkedAt": "2026-09-22T05:01:57.350Z"
     },
     "lesreinesdudrame|alexislanglois": {
       "filmTitle": "Les Reines du drame",
@@ -12662,12 +12662,12 @@
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
     "theopera|davidelivermorepaologepcucco": {
-      "filmTitle": "The Opera",
+      "filmTitle": "The Opera!",
       "director": "Davide Livermore, Paolo Gep Cucco",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-08T04:44:43.845Z"
+      "titleEn": "The Opera! Arias for an Eclipse",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1261049-the-opera-arie-per-un-eclissi",
+      "checkedAt": "2026-09-22T05:01:57.350Z"
     },
     "theopera|paologepcucco": {
       "filmTitle": "The Opera!",
