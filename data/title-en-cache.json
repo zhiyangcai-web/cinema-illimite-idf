@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T21:21:33.381Z",
+  "updatedAt": "2026-09-23T04:48:01.776Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4578,6 +4578,14 @@
       "tmdbPath": "/movie/4595-jour-de-fete",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "journaldufuturfmbanierfilmeparaarrietta|bonitzeragathearriettaadolpho": {
+      "filmTitle": "Journal Du Futur + F.-M. Banier Filmé Par A. Arrietta",
+      "director": "BONITZER Agathe, ARRIETTA Adolpho",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-23T04:51:52.042Z"
+    },
     "journaldufuturfmbannierfilmeparaarrietta|bonitzeragathe": {
       "filmTitle": "Journal Du Futur + Fm Bannier Filmé Par A.arrietta",
       "director": "BONITZER Agathe",
@@ -5055,7 +5063,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-09T04:49:47.693Z"
+      "checkedAt": "2026-09-23T04:51:52.042Z"
     },
     "lacinemathequeidealedesbanlieuesdumondeinvitelacinemathequedegrenoble2|alainmassonneaujeanjacqueshenry": {
       "filmTitle": "La Cinémathèque idéale des banlieues du monde invite la Cinémathèque de Grenoble #2",
@@ -5722,7 +5730,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-09T04:49:47.693Z"
+      "checkedAt": "2026-09-23T04:51:52.042Z"
     },
     "langeexterminateur|luisbunuel": {
       "filmTitle": "L'Ange exterminateur",
@@ -11687,7 +11695,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-09T04:49:47.693Z"
+      "checkedAt": "2026-09-23T04:51:52.042Z"
     },
     "quefairedenoscoleres|": {
       "filmTitle": "Que faire de nos colères ?",
@@ -13363,6 +13371,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-22T17:02:29.303Z"
+    },
+    "todoescarcel|encisocachafeiroeloy": {
+      "filmTitle": "Todo Es Carcel",
+      "director": "ENCISO CACHAFEIRO Eloy",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-23T04:51:52.042Z"
     },
     "tokyogodfathers|satoshikonshogofuruya": {
       "filmTitle": "Tokyo Godfathers",
