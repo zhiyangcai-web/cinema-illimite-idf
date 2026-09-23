@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T04:48:01.776Z",
+  "updatedAt": "2026-09-23T11:41:20.551Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1532,6 +1532,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/602424-chantage",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "chantonssouslapluie|stanleydonengenekelly": {
+      "filmTitle": "Chantons sous la pluie",
+      "director": "Stanley Donen, Gene Kelly",
+      "titleEn": "Singin' in the Rain",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-23T11:44:14.106Z"
     },
     "charlieetleskangourous|katewoods": {
       "filmTitle": "Charlie et les kangourous",
@@ -3398,6 +3405,14 @@
       "titleEn": "Gerry",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-23T13:05:22.427Z"
+    },
+    "gervaise|reneclement": {
+      "filmTitle": "Gervaise",
+      "director": "René Clément",
+      "titleEn": "Gervaise",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/52726-gervaise",
+      "checkedAt": "2026-09-23T11:44:14.106Z"
     },
     "getout|jordanpeele": {
       "filmTitle": "Get Out",
@@ -6609,7 +6624,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-09T11:29:49.347Z"
+      "checkedAt": "2026-09-23T11:44:14.106Z"
     },
     "leconomiecommesportdecombat|": {
       "filmTitle": "L'économie comme sport de combat",
@@ -11642,6 +11657,13 @@
       "tmdbPath": "/movie/1465560-put-your-soul-on-your-hand-and-walk",
       "checkedAt": "2026-09-13T04:55:20.832Z"
     },
+    "putyoursoulonyourhandandwalk|sepidehfarsifatmahassona": {
+      "filmTitle": "Put Your Soul on Your Hand and Walk",
+      "director": "Sepideh Farsi, Fatma Hassona",
+      "titleEn": "Put Your Soul on Your Hand and Walk",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-23T11:44:14.106Z"
+    },
     "quandharryrencontresally|robreiner": {
       "filmTitle": "Quand Harry rencontre Sally",
       "director": "Rob Reiner",
@@ -11793,6 +11815,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-14T05:02:46.326Z"
     },
+    "quietesvouspollymaggoo|williamklein": {
+      "filmTitle": "Qui êtes-vous Polly Maggoo ?",
+      "director": "William Klein",
+      "titleEn": "Who Are You, Polly Maggoo?",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/66953-qui-etes-vous-polly-maggoo",
+      "checkedAt": "2026-09-23T11:44:14.106Z"
+    },
     "quiprotegeencoreletatdedroit|": {
       "filmTitle": "Qui protège encore l’État de droit ?",
       "director": "",
@@ -11884,7 +11914,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-09T11:29:49.347Z"
+      "checkedAt": "2026-09-23T11:44:14.106Z"
     },
     "reglementdecomptes|fritzlang": {
       "filmTitle": "Règlement de comptes",
@@ -12744,6 +12774,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/410051-stranger-than-paradise",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "streetfighter|kitaosakurai": {
+      "filmTitle": "STREET FIGHTER",
+      "director": "Kitao Sakurai",
+      "titleEn": "Street Fighter",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1153576-street-fighter",
+      "checkedAt": "2026-09-23T11:44:14.106Z"
     },
     "stromboli|robertorossellini": {
       "filmTitle": "Stromboli",
