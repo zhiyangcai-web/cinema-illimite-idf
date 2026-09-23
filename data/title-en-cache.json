@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T11:41:20.551Z",
+  "updatedAt": "2026-09-23T17:05:06.482Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -765,6 +765,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/299534-avengers-endgame",
       "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
+    "avengersendgameextended|": {
+      "filmTitle": "AVENGERS : ENDGAME EXTENDED",
+      "director": "",
+      "titleEn": "Avengers Endgame - Encore",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1777311-avengers-endgame-extended",
+      "checkedAt": "2026-09-23T17:07:52.155Z"
     },
     "avengersendgameextended|anthonyrussojoerusso": {
       "filmTitle": "Avengers: Endgame Extended",
@@ -8276,6 +8284,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lespeceexplosive|saraharnold": {
+      "filmTitle": "L'ESPECE EXPLOSIVE",
+      "director": "Sarah Arnold",
+      "titleEn": "Too Many Beasts",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1001405-l-espece-explosive",
+      "checkedAt": "2026-09-23T17:07:52.155Z"
+    },
     "lespetitsgourmands|": {
       "filmTitle": "Les Petits Gourmands",
       "director": "",
@@ -10256,6 +10272,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-17T04:59:29.360Z"
     },
+    "moulin|laacuteszloacutenemes": {
+      "filmTitle": "MOULIN",
+      "director": "L&aacute;szl&oacute; Nemes",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-23T17:07:52.155Z"
+    },
     "mouriraibizaunfilmentroisetes|antonbalekdjian": {
       "filmTitle": "Mourir A Ibiza (un Film En Trois Etes)",
       "director": "Anton Balekdjian",
@@ -11876,6 +11900,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "rammsteinliveinmexicocity|": {
+      "filmTitle": "RAMMSTEIN - LIVE IN MEXICO CITY",
+      "director": "",
+      "titleEn": "Rammstein - Live in Mexico City",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1753205-rammstein-live-in-mexico-city",
+      "checkedAt": "2026-09-23T17:07:52.155Z"
     },
     "ran|akirakurosawa": {
       "filmTitle": "Ran",
