@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-23T21:31:46.367Z",
+  "updatedAt": "2026-09-24T04:55:17.049Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -363,10 +363,9 @@
     "aliceaupaysdesmerveilles|christopherwheeldon": {
       "filmTitle": "ALICE AU PAYS DES MERVEILLES",
       "director": "Christopher Wheeldon",
-      "titleEn": "",
+      "titleEn": "Alice in Wonderland",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-23T21:34:31.931Z"
+      "checkedAt": "2026-09-24T04:58:48.660Z"
     },
     "aliceaupaysdesmerveilles|timburton": {
       "filmTitle": "Alice au Pays des Merveilles",
@@ -1021,6 +1020,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "birdman|alejandrogonzalezinarritu": {
+      "filmTitle": "Birdman",
+      "director": "Alejandro González Iñárritu",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-24T04:58:48.660Z"
+    },
     "biutiful|alejandrogonzalezinarritu": {
       "filmTitle": "Biutiful",
       "director": "Alejandro González Iñárritu",
@@ -1346,6 +1353,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "cafeculturelmarilynmonroe|": {
+      "filmTitle": "Cafe Culturel Marilyn Monroe",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-24T04:58:48.660Z"
     },
     "calamityuneenfancedemarthajanecannary|chayeremi": {
       "filmTitle": "Calamity Une Enfance De Martha Jane Cannary",
@@ -7102,6 +7117,14 @@
       "tmdbPath": "/movie/1156125",
       "checkedAt": "2026-07-27T19:59:18.827Z"
     },
+    "lemecanodelageneral|keatonbuster": {
+      "filmTitle": "Le Mecano De La General",
+      "director": "KEATON Buster",
+      "titleEn": "The General",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/961-the-general",
+      "checkedAt": "2026-09-24T04:58:48.660Z"
+    },
     "lemecanodelagenerale|busterkeatonclydebruckman": {
       "filmTitle": "Le Mécano de la Générale",
       "director": "Buster Keaton, Clyde Bruckman",
@@ -7544,6 +7567,14 @@
       "titleEn": "Goodfellas",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "lesailesdudesir|wenderswim": {
+      "filmTitle": "Les Ailes Du Desir",
+      "director": "WENDERS Wim",
+      "titleEn": "Wings of Desire",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/144-der-himmel-uber-berlin",
+      "checkedAt": "2026-09-24T04:58:48.660Z"
     },
     "lesalimentsontilsunenationalite|": {
       "filmTitle": "Les aliments ont-ils une nationalité ?",
@@ -11917,6 +11948,14 @@
       "tmdbPath": "/movie/1753205-rammstein-live-in-mexico-city",
       "checkedAt": "2026-09-23T17:07:52.155Z"
     },
+    "rammsteinliveinmexicocity|pauldugdale": {
+      "filmTitle": "RAMMSTEIN - LIVE IN MEXICO CITY",
+      "director": "Paul Dugdale",
+      "titleEn": "Rammstein - Live in Mexico City",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1753205-rammstein-live-in-mexico-city",
+      "checkedAt": "2026-09-24T04:58:48.660Z"
+    },
     "ran|akirakurosawa": {
       "filmTitle": "Ran",
       "director": "Akira Kurosawa",
@@ -13310,6 +13349,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/67736-therese-raquin",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "therevenant|alejandrogonzalezinarritu": {
+      "filmTitle": "The Revenant",
+      "director": "Alejandro González Iñárritu",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-24T04:58:48.660Z"
     },
     "therockyhorrorpictureshow|jimsharman": {
       "filmTitle": "The Rocky Horror Picture Show",
