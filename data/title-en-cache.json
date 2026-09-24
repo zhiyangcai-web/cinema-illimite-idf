@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T11:49:56.504Z",
+  "updatedAt": "2026-09-24T17:13:58.217Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -7679,6 +7679,14 @@
       "tmdbPath": "/movie/1472829-les-caprices-de-l-enfant-roi",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lescendresdutemps|wongkarwai": {
+      "filmTitle": "Les Cendres du temps",
+      "director": "Wong Kar-Wai",
+      "titleEn": "Ashes of Time",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/40751",
+      "checkedAt": "2026-09-24T17:16:54.778Z"
+    },
     "leschoristes|christophebarratier": {
       "filmTitle": "Les Choristes",
       "director": "Christophe Barratier",
@@ -11507,6 +11515,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-31T13:57:31.302Z"
+    },
+    "poursuitesdanslanuit|jacquestourneur": {
+      "filmTitle": "Poursuites dans la nuit",
+      "director": "Jacques Tourneur",
+      "titleEn": "Nightfall",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/34667-nightfall",
+      "checkedAt": "2026-09-24T17:16:54.778Z"
     },
     "pourunepoigneededollars|sergioleone": {
       "filmTitle": "Pour une poignée de dollars",
