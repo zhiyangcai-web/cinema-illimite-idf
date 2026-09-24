@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T04:55:17.049Z",
+  "updatedAt": "2026-09-24T11:49:56.504Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9016,6 +9016,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-21T19:55:30.027Z"
+    },
+    "lhommealaferrari|dinorisi": {
+      "filmTitle": "L'Homme à la Ferrari",
+      "director": "Dino Risi",
+      "titleEn": "The Tiger and the Pussycat",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/92572-il-tigre",
+      "checkedAt": "2026-09-24T11:52:56.226Z"
     },
     "lhommequitualibertyvalance|johnford": {
       "filmTitle": "L'Homme qui tua Liberty Valance",
