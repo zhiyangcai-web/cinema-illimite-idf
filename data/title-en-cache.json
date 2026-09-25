@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T11:54:11.029Z",
+  "updatedAt": "2026-09-25T17:14:39.991Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -935,6 +935,14 @@
       "tmdbPath": "/movie/451618-barbara",
       "checkedAt": "2026-09-25T11:57:10.228Z"
     },
+    "barcazou|paulnouhet": {
+      "filmTitle": "Barça Zou",
+      "director": "Paul Nouhet",
+      "titleEn": "Rewind Barcelona",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1670376-barca-zou",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
+    },
     "barrylyndon|stanleykubrick": {
       "filmTitle": "Barry Lyndon",
       "director": "Stanley Kubrick",
@@ -1525,6 +1533,14 @@
       "tmdbPath": "/movie/901121",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "cendres|plazaoier": {
+      "filmTitle": "Cendres",
+      "director": "PLAZA Oier",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
+    },
     "cequelecapitalismefaitanotresante|": {
       "filmTitle": "Ce que le capitalisme fait à notre santé",
       "director": "",
@@ -1803,7 +1819,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-11T16:33:32.278Z"
+      "checkedAt": "2026-09-25T17:17:24.484Z"
     },
     "cinerosa|": {
       "filmTitle": "Ciné Rosa",
@@ -4160,6 +4176,14 @@
       "titleEn": "Private Hell 36",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-02T13:59:15.516Z"
+    },
+    "icihavelvousmentendez|jancarekpetr": {
+      "filmTitle": "Ici Havel Vous M'Entendez",
+      "director": "JANCAREK Petr",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
     },
     "idhayammuralitamoul|aakashbaskaran": {
       "filmTitle": "IDHAYAM MURALI - TAMOUL",
@@ -7313,6 +7337,14 @@
       "tmdbPath": "/movie/61231-le-mur-de-l-atlantique",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "lemysterelucylost|olivierclert": {
+      "filmTitle": "LE MYSTERE LUCY LOST",
+      "director": "Olivier Clert",
+      "titleEn": "Lucy Lost",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1217954-lucy-lost",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
+    },
     "lenferdelacorruption|abrahampolonsky": {
       "filmTitle": "L'Enfer de la corruption",
       "director": "Abraham Polonsky",
@@ -7406,6 +7438,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/441130-wolfwalkers",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "lepeupleloup|tommmoorerossstewart": {
+      "filmTitle": "Le Peuple Loup",
+      "director": "Tomm Moore, Ross Stewart",
+      "titleEn": "Wolfwalkers",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/441130-wolfwalkers",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
     },
     "lepharaonlesauvageetlaprincesse|ocelotmichel": {
       "filmTitle": "Le Pharaon, Le Sauvage Et La Princesse",
@@ -8187,7 +8227,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-11T16:33:32.278Z"
+      "checkedAt": "2026-09-25T17:17:24.484Z"
     },
     "lesmalaimes|heleneducrocq": {
       "filmTitle": "Les Mal-aimés",
@@ -10688,6 +10728,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-09T16:44:07.348Z"
     },
+    "nope|jordanpeele": {
+      "filmTitle": "Nope",
+      "director": "Jordan Peele",
+      "titleEn": "Nope",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
+    },
     "norahamadixgiuliafois|": {
       "filmTitle": "Nora Hamadi x Giulia Foïs",
       "director": "",
@@ -11170,6 +11217,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/563300-paris-au-mois-d-aout",
       "checkedAt": "2026-08-13T13:52:35.828Z"
+    },
+    "pariscontrelesdiscricourtsmetrages|": {
+      "filmTitle": "PARIS CONTRE LES DISCRI' ! (COURTS METRAGES)",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
     },
     "parislabelle|pierreprevert": {
       "filmTitle": "Paris La Belle",
@@ -12911,6 +12966,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1411007-soudees",
       "checkedAt": "2026-09-15T21:26:59.523Z"
+    },
+    "soulevements|thomaslacoste": {
+      "filmTitle": "Soulevements",
+      "director": "Thomas Lacoste",
+      "titleEn": "Uprising",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1510913-soulevements",
+      "checkedAt": "2026-09-25T17:17:24.484Z"
     },
     "soundtracktoacoupdetat|johangrimonprez": {
       "filmTitle": "Soundtrack to a Coup d'État",
