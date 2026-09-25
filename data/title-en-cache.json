@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T17:14:39.991Z",
+  "updatedAt": "2026-09-25T21:36:53.476Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1315,6 +1315,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-26T02:02:46.968Z"
+    },
+    "brokenvoices|provaznikondrej": {
+      "filmTitle": "Broken Voices",
+      "director": "PROVAZNIK Ondrej",
+      "titleEn": "Broken Voices",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1483477-sbormistr",
+      "checkedAt": "2026-09-25T21:39:41.967Z"
     },
     "btsworldtourariranginbuenosairesliveviewing|jungjaeha": {
       "filmTitle": "BTS WORLD TOUR ARIRANG IN BUENOS AIRES LIVE VIEWING",
