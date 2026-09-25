@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-24T17:13:58.217Z",
+  "updatedAt": "2026-09-25T05:00:42.508Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1819,6 +1819,14 @@
       "titleEn": "Citizen Kane",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "citoyenhavel|janekmiroslavkouteckypavel": {
+      "filmTitle": "Citoyen Havel",
+      "director": "JANEK Miroslav, KOUTECKY Pavel",
+      "titleEn": "Citizen Havel",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/54346-obcan-havel",
+      "checkedAt": "2026-09-25T05:04:08.488Z"
     },
     "cityonfire|ringolam": {
       "filmTitle": "City On Fire",
@@ -7835,6 +7843,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/2457-les-enfants-du-paradis",
       "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
+    "lesenfantsloupsameetyuki|mamoruhosoda": {
+      "filmTitle": "LES ENFANTS LOUPS, AME ET YUKI",
+      "director": "Mamoru Hosoda",
+      "titleEn": "Wolf Children",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/110420",
+      "checkedAt": "2026-09-25T05:04:08.488Z"
     },
     "lesenfantsloupsameyuki|mamoruhosoda": {
       "filmTitle": "Les Enfants Loups, Ame & Yuki",
