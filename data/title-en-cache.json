@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T05:00:42.508Z",
+  "updatedAt": "2026-09-25T11:54:11.029Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -157,6 +157,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-14T21:54:23.782Z"
+    },
+    "abicyclette|mathiasmlekuz": {
+      "filmTitle": "À bicyclette !",
+      "director": "Mathias Mlekuz",
+      "titleEn": "Ride Away",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1321412-a-bicyclette",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "abientotdeterevoir2|": {
       "filmTitle": "A bientot de te revoir - 2",
@@ -560,6 +568,14 @@
       "tmdbPath": "/movie/32117-aprile",
       "checkedAt": "2026-08-24T19:03:48.303Z"
     },
+    "aquoisertildesennuyer|": {
+      "filmTitle": "À quoi sert-il de s'ennuyer ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
     "arco|ugobienvenu": {
       "filmTitle": "Arco",
       "director": "Ugo Bienvenu",
@@ -910,6 +926,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/266082-bande-de-filles",
       "checkedAt": "2026-07-22T19:48:02.905Z"
+    },
+    "barbara|mathieuamalric": {
+      "filmTitle": "Barbara",
+      "director": "Mathieu Amalric",
+      "titleEn": "Barbara",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/451618-barbara",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "barrylyndon|stanleykubrick": {
       "filmTitle": "Barry Lyndon",
@@ -2144,6 +2168,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-27T22:20:51.917Z"
+    },
+    "coupdecoeursurprise2afcaeoctobre2026|": {
+      "filmTitle": "Coup de coeur surprise 2 AFCAE Octobre 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "courtsmetragescosmix|": {
       "filmTitle": "Courts Metrages Cosmix",
@@ -3579,6 +3611,14 @@
       "tmdbPath": "/movie/12480-gouttes-d-eau-sur-pierres-brulantes",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "grandir|geraldinedoignon": {
+      "filmTitle": "Grandir",
+      "director": "Géraldine Doignon",
+      "titleEn": "Grandir",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1668835-grandir",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
     "grandparis|martinjauvat": {
       "filmTitle": "Grand Paris",
       "director": "Martin Jauvat",
@@ -3847,6 +3887,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
+    "hautlescoeurs|solveiganspach": {
+      "filmTitle": "Haut les coeurs!",
+      "director": "Solveig Anspach",
+      "titleEn": "Battle Cries",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/79268-haut-les-coeurs",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "hayat|zekidemirkubuz": {
       "filmTitle": "HAYAT",
@@ -5904,6 +5952,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lapetiteboutiquedeshorreurs|frankoz": {
+      "filmTitle": "La Petite Boutique des horreurs",
+      "director": "Frank Oz",
+      "titleEn": "Little Shop of Horrors",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
     "lapetitefabriquedenuages|gildardosantoyodelcastillovladislavbayramgulovmarkcsmith": {
       "filmTitle": "La Petite fabrique de nuages",
       "director": "Gildardo Santoyo del Castillo, Vladislav Bayramgulov, Mark C. Smith",
@@ -6138,7 +6193,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-11T11:28:43.478Z"
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "laruerouge|fritzlang": {
       "filmTitle": "La Rue rouge",
@@ -8521,6 +8576,14 @@
       "source": "No confident TMDB match",
       "checkedAt": "2026-08-19T18:57:13.147Z"
     },
+    "lestempsmodernes|charleschaplin": {
+      "filmTitle": "Les Temps modernes",
+      "director": "Charles Chaplin",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
     "lestempsmodernes|charliechaplin": {
       "filmTitle": "Les Temps Modernes",
       "director": "Charlie Chaplin",
@@ -9393,7 +9456,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-11T11:28:43.478Z"
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "lola|jacquesdemy": {
       "filmTitle": "Lola",
@@ -9488,6 +9551,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/68606",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "lourseetloiseau|mariecaudryaurorepeuffierninabisyarina": {
+      "filmTitle": "L'Ourse et l'oiseau",
+      "director": "Marie Caudry, Aurore Peuffier, Nina Bisyarina",
+      "titleEn": "The Bear and the Bird",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1318328-l-ourse-et-l-oiseau",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "love|gasparnoe": {
       "filmTitle": "Love",
@@ -9983,6 +10054,14 @@
       "titleEn": "Fingers",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "melpomene|charlottedauphin": {
+      "filmTitle": "Melpomène",
+      "director": "Charlotte Dauphin",
+      "titleEn": "Melpomène",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1688089-melpomene",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "memento|christophernolan": {
       "filmTitle": "Memento",
@@ -10747,6 +10826,14 @@
       "titleEn": "Nymphomaniac : Volume II",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-28T11:29:01.241Z"
+    },
+    "nyotalesenfantslumiere|vanessakabwelaidrissgabel": {
+      "filmTitle": "Nyota, les enfants lumière",
+      "director": "Vanessa Kabwela, Idriss Gabel",
+      "titleEn": "Nyota",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1654199-nyota",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "oasisdontlookbackinanger|dylansouthernwilllovelace": {
       "filmTitle": "Oasis: Don't Look Back In Anger",
@@ -12018,6 +12105,14 @@
       "titleEn": "Ready Player One",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "reanimator|stuartgordon": {
+      "filmTitle": "Re-Animator",
+      "director": "Stuart Gordon",
+      "titleEn": "Re-Animator",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1694-re-animator",
+      "checkedAt": "2026-09-25T11:57:10.228Z"
     },
     "reds|warrenbeatty": {
       "filmTitle": "Reds",
