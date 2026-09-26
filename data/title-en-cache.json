@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-26T05:02:27.906Z",
+  "updatedAt": "2026-09-26T11:28:10.060Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1835,7 +1835,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-12T10:53:22.261Z"
+      "checkedAt": "2026-09-26T11:31:00.188Z"
     },
     "cinerosa2aout|": {
       "filmTitle": "Ciné Rosa • 2 Août",
@@ -2748,6 +2748,14 @@
       "titleEn": "Donnie Darko",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "doraemonetlechateausousmarin|tetsuoyajima": {
+      "filmTitle": "Doraemon et le Château sous-marin",
+      "director": "Tetsuo Yajima",
+      "titleEn": "Doraemon the Movie: New Nobita and the Castle of the Undersea Devil",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1542261",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
     },
     "dotherightthing|spikelee": {
       "filmTitle": "Do the Right Thing",
@@ -6718,7 +6726,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-12T10:53:22.261Z"
+      "checkedAt": "2026-09-26T11:31:00.188Z"
     },
     "lecologiedessentiments|alexandresteiger": {
       "filmTitle": "L Ecologie Des Sentiments",
@@ -7096,6 +7104,14 @@
       "tmdbPath": "/movie/453191-le-grand-mechant-renard-et-autres-contes",
       "checkedAt": "2026-08-26T02:02:46.968Z"
     },
+    "legrandmechantrenardetautrescontes|benjaminrennerpatrickimbert": {
+      "filmTitle": "Le Grand Méchant Renard et autres contes",
+      "director": "Benjamin Renner, Patrick Imbert",
+      "titleEn": "The Big Bad Fox and Other Tales",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/453191-le-grand-mechant-renard-et-autres-contes",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
+    },
     "legrandrestaurant|jacquesbesnard": {
       "filmTitle": "Le Grand restaurant",
       "director": "Jacques Besnard",
@@ -7438,6 +7454,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/147402-le-pays-d-ou-je-viens",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "lepetitmondedeleo|giuliogianini": {
+      "filmTitle": "Le Petit Monde De Leo",
+      "director": "Giulio Gianini",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
     },
     "lepetitmondedeleo5contesdelionni|giuliogianini": {
       "filmTitle": "Le Petit monde de Leo: 5 contes de Lionni",
@@ -9772,6 +9796,14 @@
       "tmdbPath": "/movie/58383-le-mani-sulla-citta",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "maineocean|jacquesrozier": {
+      "filmTitle": "Maine Océan",
+      "director": "Jacques Rozier",
+      "titleEn": "Maine-Ocean Express",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/63663-maine-ocean",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
+    },
     "maintheme|yoshimitsumorita": {
       "filmTitle": "Main Theme",
       "director": "Yoshimitsu Morita",
@@ -11842,6 +11874,14 @@
       "tmdbPath": "/movie/1218412-promis-le-ciel",
       "checkedAt": "2026-09-14T21:54:23.782Z"
     },
+    "prosecution|farazshariat": {
+      "filmTitle": "Prosecution",
+      "director": "Faraz Shariat",
+      "titleEn": "Prosecution",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1599784-staatsschutz",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
+    },
     "psychose|alfredhitchcock": {
       "filmTitle": "Psychose",
       "director": "Alfred Hitchcock",
@@ -12711,6 +12751,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/42241-sebastiane",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "secretsetmensonges|mikeleigh": {
+      "filmTitle": "Secrets et mensonges",
+      "director": "Mike Leigh",
+      "titleEn": "Secrets and Lies",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
     },
     "senso|luchinovisconti": {
       "filmTitle": "Senso",
@@ -14255,6 +14302,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-22T17:02:29.303Z"
     },
+    "uneplacepourpierrot|helenemedigue": {
+      "filmTitle": "Une place pour Pierrot",
+      "director": "Hélène Medigue",
+      "titleEn": "A Place for Pierrot",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1151269-une-place-pour-pierrot",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
+    },
     "uneteviolent|valeriozurlini": {
       "filmTitle": "Un été violent",
       "director": "Valerio Zurlini",
@@ -14844,6 +14899,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11878",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "yukuetlafleurdelhimalaya|arnauddemuynckremidurin": {
+      "filmTitle": "Yuku et la fleur de l’Himalaya",
+      "director": "Arnaud Demuynck, Rémi Durin",
+      "titleEn": "Yuku and the Himalayan Flower",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/947704-yuku-et-la-fleur-de-l-himalaya",
+      "checkedAt": "2026-09-26T11:31:00.188Z"
     },
     "zabriskiepoint|michelangeloantonioni": {
       "filmTitle": "Zabriskie Point",
