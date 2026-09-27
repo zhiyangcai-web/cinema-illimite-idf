@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T05:21:33.308Z",
+  "updatedAt": "2026-09-27T12:06:21.618Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -676,7 +676,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-13T11:58:30.054Z"
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "atueteteetaclochepied|": {
       "filmTitle": "À Tue-Tête Et À Cloche-Pied",
@@ -1748,7 +1748,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-13T11:58:30.054Z"
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "cinebar|": {
       "filmTitle": "Ciné-Bar",
@@ -2518,6 +2518,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1614346-dernier-arret-pour-le-billet-circulaire",
       "checkedAt": "2026-09-04T20:49:59.047Z"
+    },
+    "dernieratout|jacquesbecker": {
+      "filmTitle": "Dernier Atout",
+      "director": "Jacques Becker",
+      "titleEn": "The Trump Card",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/85764-dernier-atout",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "derriereleparavent|ivanheidsieck": {
       "filmTitle": "Derrière le paravent",
@@ -5253,7 +5261,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-13T11:58:30.054Z"
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "lacitedelindiciblepeur|jeanpierremocky": {
       "filmTitle": "La Cité de l'indicible peur",
@@ -5747,6 +5755,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1511417-bahubali-the-epic",
       "checkedAt": "2026-09-15T17:05:06.912Z"
+    },
+    "lalegendedebaahubalilepopeeversiondirectorscut|ssrajamouli": {
+      "filmTitle": "La Légende de Baahubali, l'épopée - version Director's Cut",
+      "director": "S.S. Rajamouli",
+      "titleEn": "Bāhubali: The Epic",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1511417-bahubali-the-epic",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "lalicorneaumoyenageoncroyaitquelleexistaitvraiment|": {
       "filmTitle": "La licorne : au Moyen Âge, on croyait qu’elle existait vraiment ! ",
@@ -6523,6 +6539,14 @@
       "tmdbPath": "/movie/728118-quo-vadis-aida",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "lavraiefamille|fabiengorgeart": {
+      "filmTitle": "La Vraie famille",
+      "director": "Fabien Gorgeart",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
+    },
     "lavventura|michelangeloantonioni": {
       "filmTitle": "L'Avventura",
       "director": "Michelangelo Antonioni",
@@ -7199,6 +7223,14 @@
       "tmdbPath": "/movie/4789-il-giardino-dei-finzi-contini",
       "checkedAt": "2026-07-31T03:55:22.927Z"
     },
+    "lejouretlheure|reneclement": {
+      "filmTitle": "Le Jour et l'heure",
+      "director": "René Clément",
+      "titleEn": "The Day and the Hour",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/78222-le-jour-et-l-heure",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
+    },
     "lejourseleve|marcelcarne": {
       "filmTitle": "Le Jour se lève",
       "director": "Marcel Carné",
@@ -7299,6 +7331,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/266-le-mepris",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lemeurtrier|claudeautantlara": {
+      "filmTitle": "Le Meurtrier",
+      "director": "Claude Autant-Lara",
+      "titleEn": "Le Meurtrier",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "leministeredelapeur|fritzlang": {
       "filmTitle": "Le Ministère de la peur",
@@ -7838,6 +7877,14 @@
       "tmdbPath": "/movie/1787-les-biches",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "lesbonnescauses|christianjaque": {
+      "filmTitle": "Les Bonnes Causes",
+      "director": "Christian-Jaque",
+      "titleEn": "Don't Tempt the Devil",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/82950-les-bonnes-causes",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
+    },
     "lesbonnesfemmes|claudechabrol": {
       "filmTitle": "Les Bonnes femmes",
       "director": "Claude Chabrol",
@@ -8081,6 +8128,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "lesfelins|reneclement": {
+      "filmTitle": "Les Félins",
+      "director": "René Clément",
+      "titleEn": "Joy House",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/38421-les-felins",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "lesfemmesferaientellesmieux|": {
       "filmTitle": "Les femmes feraient-elles mieux ?",
@@ -8332,6 +8387,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "lesmaudits|reneclement": {
+      "filmTitle": "Les Maudits",
+      "director": "René Clément",
+      "titleEn": "The Damned",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/87245-les-maudits",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "lesmerveilles|alicerohrwacher": {
       "filmTitle": "Les Merveilles",
@@ -10214,6 +10277,14 @@
       "tmdbPath": "/movie/1064486-memoir-of-a-snail",
       "checkedAt": "2026-08-27T22:20:51.917Z"
     },
+    "memories|kojimorimototensaiokamurakatsuhirootomo": {
+      "filmTitle": "Memories",
+      "director": "Koji Morimoto, Tensai Okamura, Katsuhiro Ôtomo",
+      "titleEn": "Memories",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/42994-memories",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
+    },
     "memoriesofmurder|bongjoonho": {
       "filmTitle": "Memories of Murder",
       "director": "Bong Joon Ho",
@@ -10469,6 +10540,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/427-mon-oncle",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "monsieurripois|reneclement": {
+      "filmTitle": "Monsieur Ripois",
+      "director": "René Clément",
+      "titleEn": "Monsieur Ripois",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/163333-monsieur-ripois",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "monstrescie|petedocter": {
       "filmTitle": "Monstres & Cie",
@@ -11298,6 +11377,14 @@
       "tmdbPath": "/movie/496243",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "pardonneznosoffenses|roberthossein": {
+      "filmTitle": "Pardonnez nos offenses",
+      "director": "Robert Hossein",
+      "titleEn": "Forgive Our Trespasses",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/533403-pardonnez-nos-offenses",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
+    },
     "parisaumoisdaout|pierregranierdeferre": {
       "filmTitle": "Paris au mois d'août",
       "director": "Pierre Granier-Deferre",
@@ -11532,6 +11619,14 @@
       "titleEn": "Phantom of the Paradise",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "phantomsofjuly|julianradlmaier": {
+      "filmTitle": "Phantoms of July",
+      "director": "Julian Radlmaier",
+      "titleEn": "Phantoms of July",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1426965-sehnsucht-in-sangerhausen",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "phantomthread|paulthomasanderson": {
       "filmTitle": "Phantom Thread",
@@ -12673,6 +12768,14 @@
       "tmdbPath": "/movie/1401106-kurtulus",
       "checkedAt": "2026-07-30T14:36:40.647Z"
     },
+    "sanguine|marionlecorroller": {
+      "filmTitle": "Sanguine",
+      "director": "Marion Le Corroller",
+      "titleEn": "Species",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1468846-sanguine",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
+    },
     "sanjuro|akirakurosawa": {
       "filmTitle": "Sanjuro",
       "director": "Akira Kurosawa",
@@ -13558,6 +13661,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/254320-the-lobster",
       "checkedAt": "2026-08-07T13:42:56.523Z"
+    },
+    "themachinist|bradanderson": {
+      "filmTitle": "The Machinist",
+      "director": "Brad Anderson",
+      "titleEn": "The Machinist",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-27T12:08:57.990Z"
     },
     "themask|chuckrussell": {
       "filmTitle": "THE MASK",
