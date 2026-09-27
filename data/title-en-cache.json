@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-27T16:59:56.750Z",
+  "updatedAt": "2026-09-27T21:22:33.436Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -8356,6 +8356,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-25T17:17:24.484Z"
     },
+    "lesmagnetiques|cardonavincent": {
+      "filmTitle": "Les Magnetiques",
+      "director": "CARDONA Vincent",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-27T21:25:00.487Z"
+    },
     "lesmalaimes|heleneducrocq": {
       "filmTitle": "Les Mal-aimés",
       "director": "Hélène Ducrocq",
@@ -10299,7 +10307,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-13T20:55:17.619Z"
+      "checkedAt": "2026-09-27T21:25:00.487Z"
     },
     "memoryofprincessmumbi|damienhauser": {
       "filmTitle": "Memory Of Princess Mumbi",
@@ -11744,6 +11752,14 @@
       "titleEn": "Fail Safe",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "poison|toddhaynes": {
+      "filmTitle": "Poison",
+      "director": "Todd Haynes",
+      "titleEn": "Poison",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/47620-poison",
+      "checkedAt": "2026-09-27T21:25:00.487Z"
     },
     "policepython357|alaincorneau": {
       "filmTitle": "Police Python 357",
