@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T14:00:28.242Z",
+  "updatedAt": "2026-09-28T23:18:27.988Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -156,7 +156,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "abicyclette|mathiasmlekuz": {
       "filmTitle": "À bicyclette !",
@@ -685,6 +685,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-22T21:24:59.178Z"
+    },
+    "aucoeurdelavie|motamelody": {
+      "filmTitle": "Au Coeur De La Vie",
+      "director": "MOTA Melody",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "aucunautrechoix|parkchanwook": {
       "filmTitle": "Aucun autre choix",
@@ -2047,7 +2055,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "commentinventerdautresimaginaires|": {
       "filmTitle": "Comment inventer d’autres imaginaires ?",
@@ -2087,7 +2095,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "commentraconterlaguerre|": {
       "filmTitle": "Comment raconter la guerre ?",
@@ -2836,6 +2844,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "dreamingwalls|mayaduverdieramelievanelmbt": {
+      "filmTitle": "Dreaming Walls",
+      "director": "Maya Duverdier, Amélie van Elmbt",
+      "titleEn": "Dreaming Walls",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/916427-dreaming-walls-inside-the-chelsea-hotel",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
     "dreamlandaucinema|": {
       "filmTitle": "DREAMLAND AU CINEMA",
       "director": "",
@@ -3002,6 +3018,14 @@
       "tmdbPath": "/movie/9063-forbrydelsens-element",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "elena|andreizviaguintsev": {
+      "filmTitle": "Elena",
+      "director": "Andreï Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
     "elephantman|davidlynch": {
       "filmTitle": "Elephant Man",
       "director": "David Lynch",
@@ -3056,6 +3080,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/115301-enamorada",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "encorps|klapischcedric": {
+      "filmTitle": "En Corps",
+      "director": "KLAPISCH Cédric",
+      "titleEn": "Rise",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/771077-en-corps",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "enfantsdepalestinedeuxhistoiresdecisjordanie|mohamedmesbahshaymaawawdeh": {
       "filmTitle": "Enfants de Palestine – Deux histoires de Cisjordanie",
@@ -3340,6 +3372,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-06T11:02:28.849Z"
     },
+    "faussenote|alexandrearcady": {
+      "filmTitle": "FAUSSE NOTE",
+      "director": "Alexandre Arcady",
+      "titleEn": "Fausse note",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1520954-fausse-note",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
     "fautedamour|andreiumlzviaguintsev": {
       "filmTitle": "FAUTE D'AMOUR",
       "director": "Andre&iuml; Zviaguintsev",
@@ -3347,6 +3387,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-06T14:39:13.235Z"
+    },
+    "fautedamour|andreizviaguintsev": {
+      "filmTitle": "Faute D'Amour",
+      "director": "Andreï Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "fautilavoirpeurdesjeuxvideos|": {
       "filmTitle": "Faut-il avoir peur des jeux vidéos ?",
@@ -4381,7 +4429,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "inglouriousbasterds|quentintarantino": {
       "filmTitle": "Inglourious Basterds",
@@ -5158,15 +5206,15 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "labatailledegaullepartie1lagedefer|antoninbaudry": {
-      "filmTitle": "La Bataille de Gaulle - Partie 1 : L’âge de fer",
+      "filmTitle": "La Bataille de Gaulle - partie 1 : L'Âge de Fer",
       "director": "Antonin Baudry",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "labatailledegaullepartie2jecristonnom|antoninbaudry": {
       "filmTitle": "La Bataille De Gaulle - Partie 2 : J'Écris Ton Nom",
@@ -5174,7 +5222,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "labayadereoperadeparis|juliencondemine": {
       "filmTitle": "LA BAYADERE (OPERA DE PARIS)",
@@ -6054,7 +6102,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lapatpatrouillelasuperpatrouillelefilm|calbrunker": {
       "filmTitle": "LA PAT' PATROUILLE : LA SUPER PATROUILLE LE FILM",
@@ -6345,6 +6393,21 @@
       "tmdbPath": "/movie/1480-touch-of-evil",
       "checkedAt": "2026-08-04T03:42:56.819Z"
     },
+    "lasorcieredanslesairs|maxlangjanlachauer": {
+      "filmTitle": "La Sorcière dans les airs",
+      "director": "Max Lang, Jan Lachauer",
+      "titleEn": "Room on the Broom",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
+    "lasorcieredanslesairslesfilmsdupreau|maxlang": {
+      "filmTitle": "La Sorciere Dans Les Airs Les Films Du Preau",
+      "director": "Max Lang",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
     "lastrada|federicofellini": {
       "filmTitle": "La Strada",
       "director": "Federico Fellini",
@@ -6617,6 +6680,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T19:55:30.027Z"
     },
+    "lebannissement|andreizviaguintsev": {
+      "filmTitle": "Le Bannissement",
+      "director": "Andreï Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
     "lebergeretlesours|maxkeegan": {
       "filmTitle": "Le Berger Et Les Ours",
       "director": "Max Keegan",
@@ -6694,7 +6765,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lecercledespoetesdisparus|peterweir": {
       "filmTitle": "Le Cercle des poètes disparus",
@@ -6853,7 +6924,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lecon3restercelibataire|": {
       "filmTitle": "Leçon 3 : rester célibataire",
@@ -6869,7 +6940,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "leconomiedelaguerre|": {
       "filmTitle": "L'économie de la guerre",
@@ -7726,7 +7797,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-26T13:20:19.030Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lerobotsauvage|chrissanders": {
       "filmTitle": "Le Robot Sauvage",
@@ -7835,7 +7906,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lesamantsreguliers|philippegarrel": {
       "filmTitle": "Les Amants Réguliers",
@@ -8001,7 +8072,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lesdemoisellesderochefort|jacquesdemy": {
       "filmTitle": "Les Demoiselles de Rochefort",
@@ -8789,7 +8860,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "lessurvivantsduche|christophedimitrireveille": {
       "filmTitle": "Les Survivants Du Che",
@@ -9184,6 +9255,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1668499-le-vertige",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "leviathan|andreizviaguintsev": {
+      "filmTitle": "Léviathan",
+      "director": "Andreï Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "levillagedemadeleine|juliebertuccelli": {
       "filmTitle": "Le Village de Madeleine",
@@ -11035,7 +11114,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "notrehistoirechroniquesducaire|abshawky": {
       "filmTitle": "Notre histoire - Chroniques du Caire ",
@@ -11674,7 +11753,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "peutonseparerlhommedelartiste|": {
       "filmTitle": "Peut-on séparer l'homme de l’artiste ?",
@@ -12240,7 +12319,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "quelabetemeure|claudechabrol": {
       "filmTitle": "Que la bête meure",
@@ -12312,7 +12391,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T21:54:23.782Z"
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "quetonregnevienneunehistoiredusatanismeenfrance|mathiasaverty": {
       "filmTitle": "Que Ton Règne Vienne - Une histoire du satanisme en France",
@@ -12616,6 +12695,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/928004-rewind-play",
       "checkedAt": "2026-09-19T20:44:51.461Z"
+    },
+    "ricardoetlapeinture|barbetschroeder": {
+      "filmTitle": "RICARDO ET LA PEINTURE",
+      "director": "Barbet Schroeder",
+      "titleEn": "Ricardo and Painting",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/999257-ricardo-et-la-peinture",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "rienafoutre|emmanuelmarrejulielecoustre": {
       "filmTitle": "Rien à foutre",
@@ -13090,6 +13177,14 @@
       "tmdbPath": "/movie/1712586-sia-nostalgic-for-the-present",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "sigmatamoul|jasonsanjay": {
+      "filmTitle": "SIGMA - TAMOUL",
+      "director": "Jason Sanjay",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
     "silentfriend|ildikoenyedi": {
       "filmTitle": "Silent Friend",
       "director": "Ildiko Enyedi",
@@ -13414,6 +13509,22 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-28T14:03:29.559Z"
+    },
+    "superasticot|jachammansarahscrimgeour": {
+      "filmTitle": "Superasticot",
+      "director": "Jac Hamman, Sarah Scrimgeour",
+      "titleEn": "Superworm",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/912802-superworm",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
+    "superasticot|sarahscrimgeourjachamman": {
+      "filmTitle": "Superasticot",
+      "director": "Sarah Scrimgeour, Jac Hamman",
+      "titleEn": "Superworm",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/912802-superworm",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "supergirl|craiggillespie": {
       "filmTitle": "Supergirl",
@@ -15052,6 +15163,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/26405-wake-in-fright",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "wallaceetgromitlesinventuriers|nickpark": {
+      "filmTitle": "Wallace Et Gromit Les Inventuriers",
+      "director": "Nick Park",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T23:22:01.230Z"
     },
     "walle|andrewstanton": {
       "filmTitle": "WALL-E",
