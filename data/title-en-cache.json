@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T05:27:46.961Z",
+  "updatedAt": "2026-09-28T14:00:28.242Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -781,6 +781,14 @@
       "tmdbPath": "/movie/78281-a-vendre",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "avengersdoomsday|anthonyrussojoerusso": {
+      "filmTitle": "Avengers : Doomsday",
+      "director": "Anthony Russo, Joe Russo",
+      "titleEn": "Avengers: Doomsday",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1003596-avengers-doomsday",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
+    },
     "avengersendgame|joerussoanthonyrusso": {
       "filmTitle": "AVENGERS : ENDGAME",
       "director": "Joe Russo, Anthony Russo",
@@ -1051,6 +1059,13 @@
       "titleEn": "Bird",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "bird|clinteastwood": {
+      "filmTitle": "Bird",
+      "director": "Clint Eastwood",
+      "titleEn": "Bird",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "birdman|alejandrogonzalezinarritu": {
       "filmTitle": "Birdman",
@@ -1455,6 +1470,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/207724",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "carmenloiseaurebelle|sebastienlaudenbach": {
+      "filmTitle": "Carmen, l’oiseau rebelle",
+      "director": "Sébastien Laudenbach",
+      "titleEn": "Love Is a Gypsy Child: A Carmen Story",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1061821-prends-garde-a-toi",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "carmentheroyalopera|damianomichieletto": {
       "filmTitle": "CARMEN (THE ROYAL OPERA)",
@@ -3954,11 +3977,11 @@
     },
     "hautesolitudejeanzayprisonnierpolitique|laurentveray": {
       "filmTitle": "Haute solitude, Jean Zay prisonnier politique",
-      "director": "Laurent Veray",
+      "director": "Laurent Véray",
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-14T12:55:01.536Z"
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "hautlescoeurs|solveiganspach": {
       "filmTitle": "Haut les coeurs!",
@@ -4020,6 +4043,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/481432-lazzaro-felice",
       "checkedAt": "2026-08-03T20:02:32.577Z"
+    },
+    "hijamat|nadersaeivar": {
+      "filmTitle": "Hijamat",
+      "director": "Nader Saeivar",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "hiroshimamonamour|alainresnais": {
       "filmTitle": "Hiroshima, mon amour",
@@ -7917,6 +7948,14 @@
       "tmdbPath": "/movie/40751",
       "checkedAt": "2026-09-24T17:16:54.778Z"
     },
+    "leschantsdemandrin|rabahameurzaimeche": {
+      "filmTitle": "Les Chants de Mandrin",
+      "director": "Rabah Ameur-Zaïmeche",
+      "titleEn": "Smugglers' Songs",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/99398-les-chants-de-mandrin",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
+    },
     "leschoristes|christophebarratier": {
       "filmTitle": "Les Choristes",
       "director": "Christophe Barratier",
@@ -9633,6 +9672,14 @@
       "tmdbPath": "/movie/15916",
       "checkedAt": "2026-09-22T17:02:29.303Z"
     },
+    "loeuvreinvisible|avriltembouretvladimirrodionov": {
+      "filmTitle": "L'Oeuvre invisible",
+      "director": "Avril Tembouret, Vladimir Rodionov",
+      "titleEn": "L'Œuvre invisible",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1443572-l-oeuvre-invisible",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
+    },
     "loiseauauplumagedecristal|darioargento": {
       "filmTitle": "L'Oiseau au plumage de cristal",
       "director": "Dario Argento",
@@ -10416,6 +10463,14 @@
       "titleEn": "Migration",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "mikusumodan|toshizofujiwara": {
+      "filmTitle": "Mikusu Modan",
+      "director": "Toshizo Fujiwara",
+      "titleEn": "The Longing",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1418516",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "milleniumleshommesquinaimaientpaslesfemmes|davidfincher": {
       "filmTitle": "Millenium : Les hommes qui n’aimaient pas les femmes",
@@ -13322,6 +13377,14 @@
       "tmdbPath": "/movie/4173-stromboli-terra-di-dio",
       "checkedAt": "2026-07-20T08:38:51.835Z"
     },
+    "suceursdesangunecomediemarxistedevampires|julianradlmaier": {
+      "filmTitle": "Suceurs de sang, une comédie marxiste de vampires",
+      "director": "Julian Radlmaier",
+      "titleEn": "Bloodsuckers",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/633811-blutsauger",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
+    },
     "suddenfear|davidmiller": {
       "filmTitle": "Sudden Fear",
       "director": "David Miller",
@@ -13343,6 +13406,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/28874",
       "checkedAt": "2026-08-26T13:20:19.030Z"
+    },
+    "superasticot|": {
+      "filmTitle": "Superasticot",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "supergirl|craiggillespie": {
       "filmTitle": "Supergirl",
@@ -14941,6 +15012,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/219-volver",
       "checkedAt": "2026-08-11T02:32:19.607Z"
+    },
+    "voyageadeux|stanleydonen": {
+      "filmTitle": "Voyage à deux",
+      "director": "Stanley Donen",
+      "titleEn": "Two for the Road",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/5767-two-for-the-road",
+      "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "voyageauboutdelenfer|michaelcimino": {
       "filmTitle": "Voyage au bout de l'enfer",
