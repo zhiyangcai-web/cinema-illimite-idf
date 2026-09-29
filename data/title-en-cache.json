@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T12:56:45.199Z",
+  "updatedAt": "2026-09-29T22:18:15.033Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -135,6 +135,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-02T04:42:04.990Z"
+    },
+    "202610coupdecoeursurpriseafcae1|": {
+      "filmTitle": "2026 10 Coup De Coeur Surprise Afcae 1",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "2soeurs|kimjeewoon": {
       "filmTitle": "2 soeurs",
@@ -2400,6 +2408,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-29T13:00:27.215Z"
     },
+    "crimeetchatiment|georgeslampin": {
+      "filmTitle": "Crime et Chatiment",
+      "director": "Georges Lampin",
+      "titleEn": "Crime and Punishment",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/60967-crime-et-chatiment",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
+    },
     "crisetchuchotements|ingmarbergman": {
       "filmTitle": "Cris et chuchotements",
       "director": "Ingmar Bergman",
@@ -2740,6 +2756,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/993558-des-garcons-de-province",
       "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
+    "desir|jasnyvojtech": {
+      "filmTitle": "Desir",
+      "director": "JASNY Vojtech",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "desjoursetdesnuitsdanslaforet|satyajitray": {
       "filmTitle": "Des Jours Et Des Nuits Dans La Foret",
@@ -5334,6 +5358,14 @@
       "tmdbPath": "/movie/47429-kung-fu-master",
       "checkedAt": "2026-08-17T19:02:56.014Z"
     },
+    "kurak|erkedzhumakmatova": {
+      "filmTitle": "Kurak",
+      "director": "Erke Dzhumakmatova",
+      "titleEn": "Kurak",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1434116",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
+    },
     "kwaidan|masakikobayashi": {
       "filmTitle": "Kwaïdan",
       "director": "Masaki Kobayashi",
@@ -5881,7 +5913,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-15T21:26:59.523Z"
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "lafranceestelleingouvernable|stephaniekaimdenisjeambar": {
       "filmTitle": "La France Est-Elle Ingouvernable?",
@@ -6395,6 +6427,14 @@
       "tmdbPath": "/movie/712401-la-petite-taupe-aime-la-nature",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "lapetitetaupeaimelanature|zdenekmiler": {
+      "filmTitle": "La Petite Taupe Aime La Nature",
+      "director": "Zdeněk Miler",
+      "titleEn": "La Petite taupe aime la nature",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/712401-la-petite-taupe-aime-la-nature",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
+    },
     "laphysiquequantiquechangeratellelemonde|": {
       "filmTitle": "La physique quantique changera-t-elle le monde ?",
       "director": "",
@@ -6536,6 +6576,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-22T05:01:57.350Z"
+    },
+    "larivierealenvers|paulleluc": {
+      "filmTitle": "La Rivière À L'Envers",
+      "director": "Paul Leluc",
+      "titleEn": "The Upside Down River",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1742360-la-riviere-a-l-envers",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "lariviererouge|howardhawks": {
       "filmTitle": "La Rivière rouge",
@@ -10168,7 +10216,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-31T13:57:31.302Z"
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "lostintranslation|sofiacoppola": {
       "filmTitle": "Lost in Translation",
@@ -11228,6 +11276,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/81",
       "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
+    "naza|yuvalabrahamrachelszor": {
+      "filmTitle": "Naza",
+      "director": "Yuval Abraham, Rachel Szor",
+      "titleEn": "NAZA",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1755291-naza",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "network|sidneylumet": {
       "filmTitle": "Network",
@@ -12345,7 +12401,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-15T17:05:06.912Z"
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "pouletauvinaigre|claudechabrol": {
       "filmTitle": "Poulet au vinaigre",
@@ -12362,6 +12418,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "pourquoihavel|jasnyvojtech": {
+      "filmTitle": "Pourquoi Havel ?",
+      "director": "JASNY Vojtech",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "pourquoinaimonsnouspasleslimites|": {
       "filmTitle": "Pourquoi n’aimons-nous pas les limites ?",
@@ -15325,6 +15389,14 @@
       "titleEn": "Fiddler on the Roof",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "uspalmese|marcomanettiantoniomanetti": {
+      "filmTitle": "U.s. Palmese",
+      "director": "Marco Manetti, Antonio Manetti",
+      "titleEn": "U.S. Palmese",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1130056-u-s-palmese",
+      "checkedAt": "2026-09-29T22:22:08.221Z"
     },
     "usualsuspects|bryansinger": {
       "filmTitle": "Usual Suspects",
