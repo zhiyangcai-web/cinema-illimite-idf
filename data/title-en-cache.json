@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T05:35:57.540Z",
+  "updatedAt": "2026-09-30T12:38:38.864Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -361,6 +361,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "ailleurs|gintszilbalodis": {
+      "filmTitle": "Ailleurs",
+      "director": "Gints Zilbalodis",
+      "titleEn": "Away",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/597398-projam",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
+    },
     "akira|katsuhirootomo": {
       "filmTitle": "Akira",
       "director": "Katsuhiro Ôtomo",
@@ -452,6 +460,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/498402-aline",
       "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
+    "allegropastell|annaroller": {
+      "filmTitle": "Allegro Pastell",
+      "director": "Anna Roller",
+      "titleEn": "Allegro Pastell",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1303657-allegro-pastell",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "allemagneanneezero|rosselliniroberto": {
       "filmTitle": "Allemagne Annee Zero",
@@ -3943,6 +3959,14 @@
       "tmdbPath": "/movie/1297842-goat",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "godzillaminusone|takashiyamazaki": {
+      "filmTitle": "Godzilla Minus One",
+      "director": "Takashi Yamazaki",
+      "titleEn": "Godzilla Minus One",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/940721-1-0",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
+    },
     "goodbyedragoninn|tsaimingliang": {
       "filmTitle": "Goodbye, Dragon Inn",
       "director": "Tsai Ming-liang",
@@ -4268,6 +4292,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T13:09:34.266Z"
     },
+    "harveymilk|gusvansant": {
+      "filmTitle": "Harvey Milk",
+      "director": "Gus Van Sant",
+      "titleEn": "Milk",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
+    },
     "hautesolitudejeanzayprisonnierpolitique|laurentveray": {
       "filmTitle": "Haute solitude, Jean Zay prisonnier politique",
       "director": "Laurent Véray",
@@ -4579,6 +4610,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "if|lindsayanderson": {
+      "filmTitle": "If....",
+      "director": "Lindsay Anderson",
+      "titleEn": "if....",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/14794-if",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "ilasuffidunenuit|emanuellebidou": {
       "filmTitle": "Il A Suffi D'Une Nuit",
@@ -5366,12 +5405,11 @@
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
     "kuboetlarmuremagique|travisknight": {
-      "filmTitle": "KUBO ET L'ARMURE MAGIQUE",
+      "filmTitle": "Kubo et l'armure magique",
       "director": "Travis Knight",
-      "titleEn": "Kubo and the Two Strings",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/313297-kubo-and-the-two-strings",
-      "checkedAt": "2026-09-20T04:57:51.253Z"
+      "titleEn": "Kubo And The Two Strings",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "kungfumaster|agnesvarda": {
       "filmTitle": "Kung-Fu Master",
@@ -5656,6 +5694,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/83389",
       "checkedAt": "2026-07-20T08:32:35.381Z"
+    },
+    "lacommuneparis1871|peterwatkins": {
+      "filmTitle": "La Commune (Paris 1871)",
+      "director": "Peter Watkins",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "lacondition|jeromebonnell": {
       "filmTitle": "LA CONDITION",
@@ -6033,6 +6079,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1397364-la-grazia",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "laguerredesboutons|yvesrobert": {
+      "filmTitle": "La Guerre des boutons",
+      "director": "Yves Robert",
+      "titleEn": "War of the Buttons",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/10421-la-guerre-des-boutons",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "lagueuledelautre|pierretchernia": {
       "filmTitle": "La Gueule de l'autre",
@@ -8007,6 +8061,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/441130-wolfwalkers",
       "checkedAt": "2026-09-25T17:17:24.484Z"
+    },
+    "lepeuplemigrateur|jacquesperrinjacquescluzaudmicheldebats": {
+      "filmTitle": "Le peuple migrateur",
+      "director": "Jacques Perrin, Jacques Cluzaud, Michel Debats",
+      "titleEn": "Winged Migration",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/11516-le-peuple-migrateur",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "lepharaonlesauvageetlaprincesse|ocelotmichel": {
       "filmTitle": "Le Pharaon, Le Sauvage Et La Princesse",
@@ -10970,6 +11032,14 @@
       "tmdbPath": "/movie/33320",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "minotaure|andreiumlzviaguintsev": {
+      "filmTitle": "MINOTAURE",
+      "director": "Andre&iuml; Zviaguintsev",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
+    },
     "minotaure|andreizviaguintsev": {
       "filmTitle": "Minotaure",
       "director": "Andreï Zviaguintsev",
@@ -11408,6 +11478,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1429592-ni-vue-ni-connue",
       "checkedAt": "2026-09-01T16:44:41.563Z"
+    },
+    "noelamillerspoint|tylertaormina": {
+      "filmTitle": "Noël à Miller’s Point",
+      "director": "Tyler Taormina",
+      "titleEn": "Christmas Eve In Miller’s Point",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "noghostsongoodstreet|emibuchwald": {
       "filmTitle": "No Ghosts on Good Street",
@@ -12892,6 +12969,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-15T05:01:18.483Z"
     },
+    "quivitencore|nicolaswadimoff": {
+      "filmTitle": "Qui vit encore",
+      "director": "Nicolas Wadimoff",
+      "titleEn": "Who Is Still Alive",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1520514-qui-vit-encore",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
+    },
     "quoideneufpussycat|clivedonner": {
       "filmTitle": "Quoi de neuf, Pussycat ?",
       "director": "Clive Donner",
@@ -14125,6 +14210,14 @@
       "tmdbPath": "/movie/106380",
       "checkedAt": "2026-07-21T08:49:45.509Z"
     },
+    "talonsaiguilles|pedroalmodovar": {
+      "filmTitle": "Talons Aiguilles",
+      "director": "Pedro Almodóvar",
+      "titleEn": "High Heels",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/8222-tacones-lejanos",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
+    },
     "tangerine|seanbaker": {
       "filmTitle": "Tangerine",
       "director": "Sean Baker",
@@ -14358,6 +14451,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1295400-den-sidste-viking",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thelastwaltz|martinscorsese": {
+      "filmTitle": "The Last Waltz",
+      "director": "Martin Scorsese",
+      "titleEn": "The Last Waltz",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "thelmaetlouise|ridleyscott": {
       "filmTitle": "Thelma et Louise",
@@ -15604,7 +15704,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T11:42:18.802Z"
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "vivaldietmoi|damianomichieletto": {
       "filmTitle": "Vivaldi Et Moi",
@@ -15731,6 +15831,14 @@
       "titleEn": "War Requiem",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "welcomeinviennapartie2santafe|axelcorti": {
+      "filmTitle": "Welcome in Vienna - Partie 2 : Santa Fe",
+      "director": "Axel Corti",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T12:41:52.201Z"
     },
     "westindies|medhondo": {
       "filmTitle": "West Indies",
