@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T12:38:38.864Z",
+  "updatedAt": "2026-09-30T22:18:24.634Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -144,6 +144,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-29T22:22:08.221Z"
     },
+    "202610coupdecoeursurpriseafcae2|undefined": {
+      "filmTitle": "2026 10 Coup De Coeur Surprise Afcae 2",
+      "director": "UNDEFINED",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "2soeurs|kimjeewoon": {
       "filmTitle": "2 soeurs",
       "director": "Kim Jee-Woon",
@@ -220,7 +228,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T21:24:18.455Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "abientotdeterevoiralexandralamy|": {
       "filmTitle": "A bientot de te revoir : Alexandra Lamy",
@@ -569,6 +577,14 @@
       "tmdbPath": "/movie/1443589-animo-rigolo",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "annaetlesloups|sauracarlos": {
+      "filmTitle": "Anna Et Les Loups",
+      "director": "SAURA Carlos",
+      "titleEn": "Anna and the Wolves",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/107287-ana-y-los-lobos",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "anniecolere|blandinelenoir": {
       "filmTitle": "ANNIE COLERE",
       "director": "Blandine Lenoir",
@@ -868,6 +884,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "avantpremierepoison|toddhaynes": {
+      "filmTitle": "Avant-Premiere Poison",
+      "director": "Todd Haynes",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "avantpremieresurprise|": {
       "filmTitle": "Avant-Première Surprise 👀",
@@ -1659,7 +1683,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T17:03:40.019Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "cassenoisettetheroyalballet|peterwrightjuliatrevelyanoman": {
       "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
@@ -2424,6 +2448,14 @@
       "tmdbPath": "/movie/11299",
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
+    "criacuervos|sauracarlos": {
+      "filmTitle": "Cria Cuervos",
+      "director": "SAURA Carlos",
+      "titleEn": "Cria!",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/51857-cria-cuervos",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "crimeetchatiment|akikaurismaki": {
       "filmTitle": "Crime et châtiment",
       "director": "Aki Kaurismäki",
@@ -2941,7 +2973,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T21:24:18.455Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "docteurfolamour|stanleykubrick": {
       "filmTitle": "Docteur Folamour",
@@ -2980,6 +3012,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-20T20:52:30.499Z"
+    },
+    "dongiovannioperadeparis|louisaproske": {
+      "filmTitle": "DON GIOVANNI (OPERA DE PARIS)",
+      "director": "Louisa Proske",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "donjonsdragonslhonneurdesvoleurs|jonathangoldsteinxiijohnfrancisdaley": {
       "filmTitle": "Donjons & Dragons : L'Honneur des voleurs",
@@ -3239,6 +3279,14 @@
       "tmdbPath": "/movie/1955-the-elephant-man",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "elisavidamia|sauracarlos": {
+      "filmTitle": "Elisa Vida Mia",
+      "director": "SAURA Carlos",
+      "titleEn": "Elisa, My Life",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/114337-elisa-vida-mia",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "ellesdeux|martameszaros": {
       "filmTitle": "Elles deux",
       "director": "Márta Mészáros",
@@ -3253,7 +3301,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T17:03:40.019Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "elmergantrylecharlatan|richardbrooks": {
       "filmTitle": "Elmer Gantry, le charlatan",
@@ -5610,6 +5658,14 @@
       "tmdbPath": "/movie/11447-la-stanza-del-figlio",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "lachasse|sauracarlos": {
+      "filmTitle": "La Chasse",
+      "director": "SAURA Carlos",
+      "titleEn": "The Hunt",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/114333-la-caza",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "lachassecruising|williamfriedkin": {
       "filmTitle": "La Chasse - Cruising",
       "director": "William Friedkin",
@@ -6584,6 +6640,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "lapriereauxetoiles|marcelpagnol": {
+      "filmTitle": "LA PRIERE AUX ETOILES",
+      "director": "Marcel Pagnol",
+      "titleEn": "La Prière aux étoiles",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/776906-la-priere-aux-etoiles",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "lapriereauxetoilesfilminacheve|marcelpagnol": {
       "filmTitle": "La Prière aux étoiles (film inachevé)",
       "director": "Marcel Pagnol",
@@ -6769,6 +6833,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
+    "lasticomiss|": {
+      "filmTitle": "La Sticomiss",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "lastrada|federicofellini": {
       "filmTitle": "La Strada",
@@ -7904,6 +7976,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1711490-le-monde-a-l-envers",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lemondealenvers|collectif": {
+      "filmTitle": "Le Monde A L Envers",
+      "director": "Collectif",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "lemondealenvers|tristanfranciastephanieyangchunerwannhettenoegarciapascalehecquetarnauddemuynck": {
       "filmTitle": "Le monde à l'envers",
@@ -9845,7 +9925,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T17:03:40.019Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
@@ -10523,6 +10603,14 @@
       "tmdbPath": "/movie/328083",
       "checkedAt": "2026-08-13T02:51:39.490Z"
     },
+    "maisondepoupee|loseyjoseph": {
+      "filmTitle": "Maison De Poupee",
+      "director": "LOSEY Joseph",
+      "titleEn": "A Doll's House",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/230361-a-doll-s-house",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
     "malfaisante|robsavage": {
       "filmTitle": "MALFAISANTE",
       "director": "Rob Savage",
@@ -10530,6 +10618,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1400837-other-mommy",
       "checkedAt": "2026-09-18T11:20:54.320Z"
+    },
+    "malika|": {
+      "filmTitle": "MALIKA",
+      "director": "",
+      "titleEn": "Malika",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1562691-malika",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "mameredieuetsylvievartan|kenscott": {
       "filmTitle": "Ma Mère, Dieu et Sylvie Vartan",
@@ -10578,6 +10674,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-22T17:02:29.303Z"
+    },
+    "maoussi|charlotteschioler": {
+      "filmTitle": "Maoussi",
+      "director": "Charlotte Schioler",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "maquisards|christianphilibert": {
       "filmTitle": "Maquisards",
@@ -10696,6 +10800,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1400214-maspalomas",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "masterclasstoddhaynessuiviedepoison|": {
+      "filmTitle": "Masterclass Todd Haynes Suivie De Poison",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "mastersofbooksavecamelienothomb|": {
       "filmTitle": "Masters of Books avec Amélie Nothomb",
@@ -11035,10 +11147,9 @@
     "minotaure|andreiumlzviaguintsev": {
       "filmTitle": "MINOTAURE",
       "director": "Andre&iuml; Zviaguintsev",
-      "titleEn": "",
+      "titleEn": "Minotaur",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-30T12:41:52.201Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "minotaure|andreizviaguintsev": {
       "filmTitle": "Minotaure",
@@ -11385,6 +11496,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/81",
       "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
+    "naza|rachelszoryuvalabraham": {
+      "filmTitle": "Naza",
+      "director": "Rachel Szor, Yuval Abraham",
+      "titleEn": "NAZA",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1755291-naza",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "naza|yuvalabrahamrachelszor": {
       "filmTitle": "Naza",
@@ -11981,7 +12100,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T21:24:18.455Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "papicha|mouniameddour": {
       "filmTitle": "PAPICHA",
@@ -12990,7 +13109,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-08-23T02:03:33.411Z"
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "ragingbull|martinscorsese": {
       "filmTitle": "Raging Bull",
@@ -15737,6 +15856,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/47211-deprisa-deprisa",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "vivrevite|sauracarlos": {
+      "filmTitle": "Vivre Vite",
+      "director": "SAURA Carlos",
+      "titleEn": "Faster, Faster",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/47211-deprisa-deprisa",
+      "checkedAt": "2026-09-30T22:22:30.447Z"
     },
     "voiciletempsdesassassins|julienduvivier": {
       "filmTitle": "Voici le temps des assassins",
