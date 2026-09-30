@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-29T22:18:15.033Z",
+  "updatedAt": "2026-09-30T05:35:57.540Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2344,6 +2344,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-22T17:02:29.303Z"
     },
+    "coupdecoeursurprise1afcaeoctobre2026|": {
+      "filmTitle": "Coup de coeur surprise 1 AFCAE Octobre 2026",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
+    },
     "coupdecoeursurprise1afcaeseptembre2026|": {
       "filmTitle": "Coup de coeur surprise 1 AFCAE Septembre 2026",
       "director": "",
@@ -2403,10 +2411,9 @@
     "crimeetchatiment|akikaurismaki": {
       "filmTitle": "Crime et châtiment",
       "director": "Aki Kaurismäki",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-29T13:00:27.215Z"
+      "titleEn": "Crime and Punishment",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
     },
     "crimeetchatiment|georgeslampin": {
       "filmTitle": "Crime et Chatiment",
@@ -2764,6 +2771,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-29T22:22:08.221Z"
+    },
+    "desirdeau|mohammadvaezi": {
+      "filmTitle": "Désir d’Eau",
+      "director": "Mohammad Vaezi",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
     },
     "desjoursetdesnuitsdanslaforet|satyajitray": {
       "filmTitle": "Des Jours Et Des Nuits Dans La Foret",
@@ -3641,6 +3656,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/436340-felicite",
       "checkedAt": "2026-09-18T20:57:19.124Z"
+    },
+    "femmesrestantes|shoshshlam": {
+      "filmTitle": "Femmes restantes",
+      "director": "Shosh Shlam",
+      "titleEn": "Leftover Women",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/597613-leftover-women",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
     },
     "fenetresurcour|alfredhitchcock": {
       "filmTitle": "Fenêtre sur cour",
@@ -7703,6 +7726,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "leluthier|yianniskostavaras": {
+      "filmTitle": "Le Luthier",
+      "director": "Yiannis Kostavaras",
+      "titleEn": "The Luthier",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1453387",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
+    },
     "lemaitredukabuki|sangillee": {
       "filmTitle": "Le Maître du Kabuki",
       "director": "Sang-il Lee",
@@ -8782,6 +8813,14 @@
       "titleEn": "The Incredibles",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
+    "lesjeunesamants|carinetardieu": {
+      "filmTitle": "Les Jeunes amants",
+      "director": "Carine Tardieu",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
     },
     "lesjeunesloups|marcelcarne": {
       "filmTitle": "Les Jeunes loups",
@@ -14177,6 +14216,14 @@
       "titleEn": "The Christophers",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "thecine1|": {
+      "filmTitle": "Thé Ciné 1",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-09-30T05:40:05.206Z"
     },
     "thecostofgrowth|thomasmaddens": {
       "filmTitle": "The Cost of Growth",
