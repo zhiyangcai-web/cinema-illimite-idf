@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-30T22:18:24.634Z",
+  "updatedAt": "2026-10-01T05:59:36.607Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -797,6 +797,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/639988",
       "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
+    "audeladupapier|oanasuteukhintirian": {
+      "filmTitle": "Au-delà du papier",
+      "director": "Oana Suteu Khintirian",
+      "titleEn": "Beyond Paper",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1093650-beyond-paper",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "audition|takashimiike": {
       "filmTitle": "AUDITION",
@@ -1793,6 +1801,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "cheminsdinclusion|topsachalidisfanis": {
+      "filmTitle": "Chemins D Inclusion",
+      "director": "TOPSACHALIDIS Fanis",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
     "chicastristes|fernandatovar": {
       "filmTitle": "Chicas Tristes",
       "director": "Fernanda Tovar",
@@ -2161,6 +2177,14 @@
       "titleEn": "Collateral",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-22T17:02:29.303Z"
+    },
+    "collisionschasseursdasteroides|": {
+      "filmTitle": "Collisions, chasseurs d'astéroïdes",
+      "director": "",
+      "titleEn": "Collisions, Life and Death from Outer Space",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1369621-collisions-chasseurs-d-asteroides",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "colony|sanghoyeon": {
       "filmTitle": "Colony",
@@ -2935,6 +2959,14 @@
       "tmdbPath": "/movie/113782-metti-una-sera-a-cena",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "ditesluiquejelaime|ilanzerrouki": {
+      "filmTitle": "Dites Lui Que Je L Aime",
+      "director": "Ilan Zerrouki",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
     "ditesluiquejelaime|romanebohringer": {
       "filmTitle": "DITES LUI QUE JE L'AIME",
       "director": "Romane Bohringer",
@@ -3144,7 +3176,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-15T11:50:43.408Z"
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "ducobuetlefantomedesaintpotache|eliesemoun": {
       "filmTitle": "DUCOBU ET LE FANTOME DE SAINT POTACHE",
@@ -5783,6 +5815,14 @@
       "tmdbPath": "/movie/168735-la-cosa",
       "checkedAt": "2026-08-03T15:21:06.126Z"
     },
+    "lacousineangelique|sauracarlos": {
+      "filmTitle": "La Cousine Angelique",
+      "director": "SAURA Carlos",
+      "titleEn": "Cousin Angelica",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/54236-la-prima-angelica",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
     "lacroisiere|bennettmiller": {
       "filmTitle": "La Croisière",
       "director": "Bennett Miller",
@@ -6387,6 +6427,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-08T11:26:32.486Z"
     },
+    "lamouche|davidcronenberg": {
+      "filmTitle": "La Mouche",
+      "director": "David Cronenberg",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
     "lamuraille|callistomcnulty": {
       "filmTitle": "La Muraille",
       "director": "Callisto McNulty",
@@ -6473,7 +6521,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T17:03:40.019Z"
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "lanuitduchasseur|charleslaughton": {
       "filmTitle": "La Nuit du chasseur",
@@ -7980,10 +8028,9 @@
     "lemondealenvers|collectif": {
       "filmTitle": "Le Monde A L Envers",
       "director": "Collectif",
-      "titleEn": "",
+      "titleEn": "Le Monde à l'envers",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-30T22:22:30.447Z"
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "lemondealenvers|tristanfranciastephanieyangchunerwannhettenoegarciapascalehecquetarnauddemuynck": {
       "filmTitle": "Le monde à l'envers",
@@ -8972,6 +9019,14 @@
       "tmdbPath": "/movie/467536-les-jeunes-loups",
       "checkedAt": "2026-09-07T04:48:34.666Z"
     },
+    "leslumieresdelaville|chaplincharlie": {
+      "filmTitle": "Les Lumieres De La Ville",
+      "director": "CHAPLIN Charlie",
+      "titleEn": "City Lights",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/901-city-lights",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
     "leslumieresdelaville|charleschaplin": {
       "filmTitle": "Les Lumières de la ville",
       "director": "Charles Chaplin",
@@ -9588,6 +9643,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1172265-o-ultimo-azul",
       "checkedAt": "2026-09-10T16:30:07.959Z"
+    },
+    "lesyeuxsansvisage|georgesfranju": {
+      "filmTitle": "Les Yeux Sans Visage",
+      "director": "Georges Franju",
+      "titleEn": "Eyes Without a Face",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/31417-les-yeux-sans-visage",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "letempsdaimeretletempsdemourir|douglassirk": {
       "filmTitle": "Le Temps d'aimer et le temps de mourir",
@@ -10522,7 +10585,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-15T05:01:18.483Z"
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "madgod|philtippet": {
       "filmTitle": "Mad God",
@@ -11370,7 +11433,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-17T04:59:29.360Z"
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "moulin|laacuteszloacutenemes": {
       "filmTitle": "MOULIN",
@@ -13279,7 +13342,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-16T17:03:40.019Z"
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "requiemforadream|darrenaronofsky": {
       "filmTitle": "Requiem for a Dream",
@@ -13326,6 +13389,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1711917-retour-au-college",
       "checkedAt": "2026-09-11T16:33:32.278Z"
+    },
+    "retouraucollege|fromentalantoine": {
+      "filmTitle": "Retour Au College",
+      "director": "FROMENTAL Antoine",
+      "titleEn": "Retour au collège",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1711917-retour-au-college",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "retouravant15heures|gaellepingle": {
       "filmTitle": "Retour Avant 15 Heures",
@@ -13847,6 +13918,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1477104-shaun-the-sheep-the-beast-of-mossy-bottom",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "shaunlemoutonlabeeetedhalloween|stevecoxmatthewwalker": {
+      "filmTitle": "Shaun Le Mouton La Beeete D Halloween",
+      "director": "Steve Cox, Matthew Walker",
+      "titleEn": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1477104-shaun-the-sheep-the-beast-of-mossy-bottom",
+      "checkedAt": "2026-10-01T06:03:26.385Z"
     },
     "shining|stanleykubrick": {
       "filmTitle": "Shining",
