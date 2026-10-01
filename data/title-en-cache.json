@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T05:59:36.607Z",
+  "updatedAt": "2026-10-01T13:21:04.179Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1615,6 +1615,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "carloacutisthemillennialsaint|lucasalmaso": {
+      "filmTitle": "CARLO ACUTIS - THE MILLENNIAL SAINT",
+      "director": "Luca Salmaso",
+      "titleEn": "Carlo Acutis: The Millennial Saint",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1634864-carlo-acutis-the-millennial-saint",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
+    },
     "carmendekawachi|seijunsuzuki": {
       "filmTitle": "Carmen de Kawachi",
       "director": "Seijun Suzuki",
@@ -1980,6 +1988,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-23T03:50:14.530Z"
+    },
+    "cinemadeipiccolimonpremierfestival|bulgheroniluciagrecomicheledoninimichelarinaldikatyalastregocristinatestafrancescogianniniluzzatiluzzatiemanuele": {
+      "filmTitle": "Cinema Dei Piccoli Mon Premier Festival",
+      "director": "BULGHERONI Lucia, GRECO Michele, DONINI Michela, RINALDI Katya, LASTREGO Cristina, TESTA Francesco, GIANNINI Luzzati, LUZZATI Emanuele",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
     },
     "cinemaparadiso|giuseppetornatore": {
       "filmTitle": "Cinema Paradiso",
@@ -2712,6 +2728,13 @@
       "tmdbPath": "/movie/1210268-el-deshielo",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "dejouerleloto|rosswhitaker": {
+      "filmTitle": "Déjouer le loto",
+      "director": "Ross Whitaker",
+      "titleEn": "Beat the Lotto",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
+    },
     "delacomediefrancaise|bertrandusclatetmartindarondeau": {
       "filmTitle": "De La Comedie Francaise",
       "director": "Bertrand USCLAT et Martin DARONDEAU",
@@ -2962,10 +2985,9 @@
     "ditesluiquejelaime|ilanzerrouki": {
       "filmTitle": "Dites Lui Que Je L Aime",
       "director": "Ilan Zerrouki",
-      "titleEn": "",
+      "titleEn": "Tell Her That I Love Her",
       "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-10-01T06:03:26.385Z"
+      "checkedAt": "2026-10-01T13:25:00.116Z"
     },
     "ditesluiquejelaime|romanebohringer": {
       "filmTitle": "DITES LUI QUE JE L'AIME",
@@ -4581,6 +4603,14 @@
       "titleEn": "The Hot Spot",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "howtobenormal|florianpochlatko": {
+      "filmTitle": "How to be normal",
+      "director": "Florian Pochlatko",
+      "titleEn": "How to Be Normal and the Oddness of the Other World",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1373976-how-to-be-normal-and-the-oddness-of-the-other-world",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
     },
     "hugocabret|martinscorsese": {
       "filmTitle": "Hugo Cabret",
@@ -8281,6 +8311,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-13T13:52:35.828Z"
     },
+    "leproces|orsonwelles": {
+      "filmTitle": "Le Procès",
+      "director": "Orson Welles",
+      "titleEn": "The Trial",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
+    },
     "lequaidesbrumes|marcelcarne": {
       "filmTitle": "Le Quai des brumes",
       "director": "Marcel Carné",
@@ -8832,6 +8869,14 @@
       "tmdbPath": "/movie/37608-the-new-centurions",
       "checkedAt": "2026-07-28T09:09:08.721Z"
     },
+    "lesfollesinventionsdembricolo|charleybowersharoldmiller": {
+      "filmTitle": "Les Folles Inventions De M. Bricolo",
+      "director": "Charley Bowers*, Harold Miller",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
+    },
     "lesforbansdelanuit|julesdassin": {
       "filmTitle": "Les Forbans de la nuit",
       "director": "Jules Dassin",
@@ -9030,10 +9075,9 @@
     "leslumieresdelaville|charleschaplin": {
       "filmTitle": "Les Lumières de la ville",
       "director": "Charles Chaplin",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-25T17:17:24.484Z"
+      "titleEn": "City Lights",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
     },
     "lesmagnetiques|cardonavincent": {
       "filmTitle": "Les Magnetiques",
@@ -11505,6 +11549,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/676670-mu-yi-la-legende-du-village-des-femmes",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "myfatherandqaddafi|jihank": {
+      "filmTitle": "My Father and Qaddafi",
+      "director": "Jihan K",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-01T13:25:00.116Z"
     },
     "mylenefarmeregregorelavantpremiere|francoishanss": {
       "filmTitle": "MYLENE FARMER EGREGORE L'AVANT-PREMIERE",
