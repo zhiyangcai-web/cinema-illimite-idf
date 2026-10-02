@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-02T12:40:10.762Z",
+  "updatedAt": "2026-10-02T22:16:30.425Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -415,7 +415,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-18T16:28:05.179Z"
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "alarecherchedemistergoodbar|richardbrooks": {
       "filmTitle": "A la recherche de Mister Goodbar",
@@ -453,6 +453,14 @@
       "titleEn": "Alice in Wonderland",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "alicecomedies2|waltdisney": {
+      "filmTitle": "Alice comedies 2",
+      "director": "Walt Disney",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "aliceetlemaire|nicolaspariser": {
       "filmTitle": "Alice Et Le Maire",
@@ -1980,6 +1988,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-27T12:08:57.990Z"
     },
+    "cineattacceuxquitiennentlalaisse|": {
+      "filmTitle": "Ciné-Attac - Ceux Qui Tiennent La Laisse",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "cinebar|": {
       "filmTitle": "Ciné-Bar",
       "director": "",
@@ -2351,6 +2367,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-14T12:55:01.536Z"
+    },
+    "congoboy|rafikifariala": {
+      "filmTitle": "Congo Boy",
+      "director": "Rafiki Fariala",
+      "titleEn": "Congo Boy",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1666683-congo-boy",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "contedete|ericrohmer": {
       "filmTitle": "Conte d'été",
@@ -3012,6 +3036,14 @@
       "titleEn": "Disclosure Day",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "discount|louisjulienpetit": {
+      "filmTitle": "DISCOUNT",
+      "director": "Louis-Julien Petit",
+      "titleEn": "Discount",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/313055-discount",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "disonsunsoiradiner|giuseppepatronigriffi": {
       "filmTitle": "Disons, un soir à dîner",
@@ -5057,6 +5089,14 @@
       "tmdbPath": "/movie/1288059-i-want-your-sex",
       "checkedAt": "2026-07-27T15:17:54.180Z"
     },
+    "jacketnancylesplusbelleshistoiresdeqblake|massimofenatigerritbekers": {
+      "filmTitle": "Jack et Nancy Les plus belles histoires de Q Blake",
+      "director": "Massimo Fenati, Gerrit Bekers",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "jacobetleschiensquiparlent|edmundsjansons": {
       "filmTitle": "Jacob et les chiens qui parlent",
       "director": "Edmunds Jansons",
@@ -6812,6 +6852,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "lareinedesneiges|jenniferleechrisbuck": {
+      "filmTitle": "La reine des neiges",
+      "director": "Jennifer Lee, Chris Buck",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "larevancheduneblonde|robertluketic": {
       "filmTitle": "La Revanche d'une blonde",
       "director": "Robert Luketic",
@@ -7555,7 +7603,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-18T16:28:05.179Z"
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "lecrimeetaitpresqueparfait|alfredhitchcock": {
       "filmTitle": "Le Crime était presque parfait",
@@ -8389,6 +8437,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-09T16:44:07.348Z"
     },
+    "lequipedesecours|janiscimermanis": {
+      "filmTitle": "L'équipe de secours",
+      "director": "Janis Cimermanis",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "lequipedesecoursenroutepourlaventure|janiscimermanis": {
       "filmTitle": "L'Equipe de secours, en route pour l'aventure !",
       "director": "Janis Cimermanis",
@@ -8433,7 +8489,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-18T20:57:19.124Z"
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "leroidelevasion|alainguiraudie": {
       "filmTitle": "Le Roi de l'évasion",
@@ -8924,6 +8980,14 @@
       "tmdbPath": "/movie/37608-the-new-centurions",
       "checkedAt": "2026-07-28T09:09:08.721Z"
     },
+    "lesfollesinventionsdembricolo|charlesrbowers": {
+      "filmTitle": "Les folles inventions de M. Bricolo",
+      "director": "Charles R. Bowers",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "lesfollesinventionsdembricolo|charleybowersharoldmiller": {
       "filmTitle": "Les Folles Inventions De M. Bricolo",
       "director": "Charley Bowers*, Harold Miller",
@@ -9409,7 +9473,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-18T20:57:19.124Z"
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "lesportesdelanuit|marcelcarne": {
       "filmTitle": "Les Portes de la nuit",
@@ -9758,6 +9822,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/84079-a-time-to-love-and-a-time-to-die",
       "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
+    "letempsdesanimaux|vincentchabloz": {
+      "filmTitle": "Le temps des animaux",
+      "director": "Vincent Chabloz",
+      "titleEn": "Derborence The Age of Animals",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1735045-derborence-le-temps-des-animaux",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "letombeaudalexandre|chrismarker": {
       "filmTitle": "Le Tombeau d'Alexandre",
@@ -10789,6 +10861,14 @@
       "tmdbPath": "/movie/1562691-malika",
       "checkedAt": "2026-09-30T22:22:30.447Z"
     },
+    "malika|mouniameddour": {
+      "filmTitle": "MALIKA",
+      "director": "Mounia Meddour",
+      "titleEn": "Malika",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1562691-malika",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "mameredieuetsylvievartan|kenscott": {
       "filmTitle": "Ma Mère, Dieu et Sylvie Vartan",
       "director": "Ken Scott",
@@ -11025,6 +11105,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
+    },
+    "mastersofcinemaaveclukasdhont|": {
+      "filmTitle": "Masters of Cinema avec Lukas Dhont",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "mastersoffoodavecmorysacko|": {
       "filmTitle": "Masters of Food avec Mory Sacko",
@@ -11556,6 +11644,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-23T17:07:52.155Z"
     },
+    "moulin|laszlonemes": {
+      "filmTitle": "Moulin",
+      "director": "László Nemes",
+      "titleEn": "Moulin",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1437925-moulin",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "mouriraibizaunfilmentroisetes|antonbalekdjian": {
       "filmTitle": "Mourir A Ibiza (un Film En Trois Etes)",
       "director": "Anton Balekdjian",
@@ -12000,6 +12096,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "nuitcherie|liabertels": {
+      "filmTitle": "Nuit Cherie",
+      "director": "Lia Bertels",
+      "titleEn": "Sweet Night",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/641700-nuit-cherie",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "nymphomaniacvolume1|larsvontrier": {
       "filmTitle": "Nymphomaniac - Volume 1",
       "director": "Lars von Trier",
@@ -12294,6 +12398,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-30T22:22:30.447Z"
     },
+    "papaougravetes|basilemonnotsamybouyssie": {
+      "filmTitle": "PAPA O&Ugrave; T'ES ?",
+      "director": "Basile Monnot, Samy Bouyssie",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
     "papicha|mouniameddour": {
       "filmTitle": "PAPICHA",
       "director": "Mounia Meddour",
@@ -12405,6 +12517,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/51808-paris-vu-par",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "patetmatdemenagent|marekbenes": {
+      "filmTitle": "Pat et Mat déménagent !",
+      "director": "Marek Beneš",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "patgarrettetbillylekid|sampeckinpah": {
       "filmTitle": "Pat Garrett et Billy le Kid",
@@ -12569,6 +12689,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-29T05:50:38.985Z"
+    },
+    "peutonechapperalautorite|": {
+      "filmTitle": "Peut-on échapper à l’autorité ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "peutonechapperalautoritetristangarcia|": {
       "filmTitle": "Peut-on échapper à l’autorité ? Tristan Garcia",
@@ -13434,7 +13562,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-18T20:57:19.124Z"
+      "checkedAt": "2026-10-02T22:20:58.781Z"
     },
     "rendezvous|ernstlubitsch": {
       "filmTitle": "Rendez-vous",
