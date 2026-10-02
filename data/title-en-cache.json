@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-01T22:43:05.528Z",
+  "updatedAt": "2026-10-02T05:41:54.971Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1678,6 +1678,14 @@
       "tmdbPath": "/movie/920-cars",
       "checkedAt": "2026-09-09T04:49:47.693Z"
     },
+    "carteblanchetristangarciapeutonechapperalautorite|": {
+      "filmTitle": "Carte Blanche Tristan Garcia : Peut-on échapper à l’autorité ?",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T05:45:38.044Z"
+    },
     "casablanca|michaelcurtiz": {
       "filmTitle": "Casablanca",
       "director": "Michael Curtiz",
@@ -2617,6 +2625,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/429458-dyrene-i-hakkebakkeskogen",
       "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
+    "danslaviejemesuisperdu|regisblanchardfrancoisebouard": {
+      "filmTitle": "Dans la vie je me suis perdu",
+      "director": "Régis Blanchard, Françoise Bouard",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T05:45:38.044Z"
     },
     "danslavilleblanche|alaintanner": {
       "filmTitle": "Dans la ville blanche",
@@ -15787,6 +15803,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1456349-un-simple-accident",
       "checkedAt": "2026-08-18T01:54:33.034Z"
+    },
+    "unsoupirdanslanuit|edouardpradeldelamaze": {
+      "filmTitle": "Un soupir dans la nuit",
+      "director": "Edouard Pradel De Lamaze",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-02T05:45:38.044Z"
     },
     "untiltheorchidblooms|polenly": {
       "filmTitle": "Until The Orchid Blooms",
