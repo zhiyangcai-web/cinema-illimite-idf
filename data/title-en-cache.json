@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T05:22:00.413Z",
+  "updatedAt": "2026-10-03T11:42:34.650Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4748,10 +4748,9 @@
     "hungergameslembrasement|francislawrence": {
       "filmTitle": "Hunger Games - L'embrasement",
       "director": "Francis Lawrence",
-      "titleEn": "The Hunger Games: Catching Fire",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/101299-the-hunger-games-catching-fire",
-      "checkedAt": "2026-08-06T14:39:13.235Z"
+      "titleEn": "The Hunger Games - Catching Fire",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-03T11:45:19.278Z"
     },
     "hurlements|joedante": {
       "filmTitle": "HURLEMENTS",
@@ -8026,6 +8025,13 @@
       "tmdbPath": "/movie/67378-una-storia-moderna-l-ape-regina",
       "checkedAt": "2026-09-29T13:00:27.215Z"
     },
+    "lelivredelajungle|wolfgangreitherman": {
+      "filmTitle": "Le Livre de la jungle",
+      "director": "Wolfgang Reitherman",
+      "titleEn": "The Jungle Book",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-03T11:45:19.278Z"
+    },
     "lelongcheminduretour|aptedmichael": {
       "filmTitle": "Le Long Chemin Du Retour",
       "director": "APTED Michael",
@@ -11152,6 +11158,14 @@
       "titleEn": "The Matrix",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "mayrig|henriverneuil": {
+      "filmTitle": "Mayrig",
+      "director": "Henri Verneuil",
+      "titleEn": "Mother",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/151227-mayrig",
+      "checkedAt": "2026-10-03T11:45:19.278Z"
     },
     "meangirlsparty|": {
       "filmTitle": "Mean Girls Party 🎀",
@@ -16089,6 +16103,13 @@
       "titleEn": "Moana",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "vampirevousavezditvampire|tomhollandii": {
+      "filmTitle": "Vampire, vous avez dit vampire ?",
+      "director": "Tom Holland (II)",
+      "titleEn": "Fright Night",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-03T11:45:19.278Z"
     },
     "vampirezombiesfromspace|michaelstasko": {
       "filmTitle": "Vampire Zombies... From Space!",
