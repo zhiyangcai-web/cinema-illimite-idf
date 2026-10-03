@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T11:42:34.650Z",
+  "updatedAt": "2026-10-03T16:19:59.775Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1188,6 +1188,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/348025-belles-familles",
       "checkedAt": "2026-09-15T11:50:43.408Z"
+    },
+    "bellissima|luchinovisconti": {
+      "filmTitle": "Bellissima",
+      "director": "Luchino Visconti",
+      "titleEn": "Bellissima",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/43372-bellissima",
+      "checkedAt": "2026-10-03T16:22:35.456Z"
     },
     "berlinguerlagrandeambition|andreasegre": {
       "filmTitle": "Berlinguer, la grande ambition",
@@ -2703,7 +2711,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-19T15:55:58.790Z"
+      "checkedAt": "2026-10-03T16:22:35.456Z"
     },
     "darkwaters|toddhaynes": {
       "filmTitle": "DARK WATERS",
@@ -3270,6 +3278,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
+    "dua|blertabasholli": {
+      "filmTitle": "Dua",
+      "director": "Blerta Basholli",
+      "titleEn": "Dua",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1472825-dua",
+      "checkedAt": "2026-10-03T16:22:35.456Z"
     },
     "ducobuetlefantomedesaintpotache|eliesemoun": {
       "filmTitle": "DUCOBU ET LE FANTOME DE SAINT POTACHE",
@@ -13357,6 +13373,14 @@
       "tmdbPath": "/movie/78803-que-les-gros-salaires-levent-le-doigt",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "quelmondeaprestrump|francoiszaidi": {
+      "filmTitle": "QUEL MONDE APRES TRUMP ?",
+      "director": "Francois Zaidi",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-03T16:22:35.456Z"
+    },
     "quelquesjoursanagi|kojifukada": {
       "filmTitle": "Quelques jours à Nagi",
       "director": "Kôji Fukada",
@@ -14305,6 +14329,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1025407-seis-meses-en-el-edificio-rosa-con-azul",
       "checkedAt": "2026-09-09T04:49:47.693Z"
+    },
+    "sleepyhollow|timburton": {
+      "filmTitle": "SLEEPY HOLLOW",
+      "director": "Tim Burton",
+      "titleEn": "Sleepy Hollow",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/2668-sleepy-hollow",
+      "checkedAt": "2026-10-03T16:22:35.456Z"
     },
     "smashpalace|rogerdonaldson": {
       "filmTitle": "Smash Palace",
@@ -16345,7 +16377,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-19T15:55:58.790Z"
+      "checkedAt": "2026-10-03T16:22:35.456Z"
     },
     "wakeinfright|tedkotcheff": {
       "filmTitle": "WAKE IN FRIGHT",
