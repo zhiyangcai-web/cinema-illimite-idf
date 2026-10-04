@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T05:57:43.055Z",
+  "updatedAt": "2026-10-04T12:25:03.646Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -415,7 +415,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T11:29:32.956Z"
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "alaingomisrendhommageakhadysylla|khadysylla": {
       "filmTitle": "Alain Gomis rend hommage à Khady Sylla",
@@ -4034,6 +4034,13 @@
       "tmdbPath": "/movie/377263-frantz",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "funnypeople|juddapatow": {
+      "filmTitle": "Funny People",
+      "director": "Judd Apatow",
+      "titleEn": "Funny People",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
+    },
     "garance|jeanneherry": {
       "filmTitle": "GARANCE",
       "director": "Jeanne Herry",
@@ -4163,6 +4170,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "gloriamundi|robertguediguian": {
+      "filmTitle": "Gloria Mundi",
+      "director": "Robert Guédiguian",
+      "titleEn": "Gloria Mundi",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/572521-gloria-mundi",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "goatreverplushaut|tyreedillihay": {
       "filmTitle": "GOAT : REVER PLUS HAUT",
@@ -4855,6 +4870,14 @@
       "tmdbPath": "/movie/1595305-il-a-suffi-d-une-nuit",
       "checkedAt": "2026-09-22T17:02:29.303Z"
     },
+    "ildivo|paolosorrentino": {
+      "filmTitle": "Il Divo",
+      "director": "Paolo Sorrentino",
+      "titleEn": "Il Divo",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/8832-il-divo",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
+    },
     "iletaitunefois|georgecukor": {
       "filmTitle": "Il était une fois",
       "director": "George Cukor",
@@ -5465,7 +5488,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T11:29:32.956Z"
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "justepourunenuit|willgluck": {
       "filmTitle": "Juste pour une nuit",
@@ -5662,6 +5685,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1434116",
       "checkedAt": "2026-09-29T22:22:08.221Z"
+    },
+    "kusamainfinity|heatherlenz": {
+      "filmTitle": "Kusama : Infinity",
+      "director": "Heather Lenz",
+      "titleEn": "Kusama: Infinity",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/490794-kusama-infinity",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "kwaidan|masakikobayashi": {
       "filmTitle": "Kwaïdan",
@@ -6441,6 +6472,14 @@
       "tmdbPath": "/movie/1511417-bahubali-the-epic",
       "checkedAt": "2026-09-27T12:08:57.990Z"
     },
+    "lalibertaddoble|lisandroalonso": {
+      "filmTitle": "La libertad doble",
+      "director": "Lisandro Alonso",
+      "titleEn": "Double Freedom",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1387981-la-libertad-doble",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
+    },
     "lalicorneaumoyenageoncroyaitquelleexistaitvraiment|": {
       "filmTitle": "La licorne : au Moyen Âge, on croyait qu’elle existait vraiment ! ",
       "director": "",
@@ -6590,6 +6629,14 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-10-01T06:03:26.385Z"
+    },
+    "lamourflou|romanebohringerphilipperebbot": {
+      "filmTitle": "L'Amour flou",
+      "director": "Romane Bohringer, Philippe Rebbot",
+      "titleEn": "L'Amour flou",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/539228-l-amour-flou",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "lamuraille|callistomcnulty": {
       "filmTitle": "La Muraille",
@@ -8249,7 +8296,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T11:29:32.956Z"
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "lempriseducrime|lewismilestone": {
       "filmTitle": "L'Emprise du crime",
@@ -13467,7 +13514,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T11:29:32.956Z"
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "questcequelintelligenceducoeur|": {
       "filmTitle": "Qu’est-ce que l’intelligence du coeur ?",
@@ -13617,6 +13664,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1694-re-animator",
       "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
+    "recherchesusandesesperement|susanseidelman": {
+      "filmTitle": "Recherche Susan désespérément",
+      "director": "Susan Seidelman",
+      "titleEn": "Desperately Seeking Susan",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-04T12:27:57.521Z"
     },
     "reds|warrenbeatty": {
       "filmTitle": "Reds",
