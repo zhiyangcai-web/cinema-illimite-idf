@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-03T21:20:52.181Z",
+  "updatedAt": "2026-10-04T05:57:43.055Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -339,6 +339,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/19413-brutti-sporchi-e-cattivi",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "afidaifilm|aljafarikamal": {
+      "filmTitle": "A Fidai Film",
+      "director": "ALJAFARI Kamal",
+      "titleEn": "A Fidai Film",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/1274777-a-fidai-film",
+      "checkedAt": "2026-10-04T06:01:17.523Z"
     },
     "afterhours|martinscorsese": {
       "filmTitle": "After Hours",
@@ -1576,6 +1584,14 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-25T01:57:09.246Z"
     },
+    "butterflyjam|": {
+      "filmTitle": "Butterfly Jam",
+      "director": "Кантемир Балагов",
+      "titleEn": "Butterfly Jam",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/920647-butterfly-jam",
+      "checkedAt": "2026-10-04T06:01:17.523Z"
+    },
     "byebyebresil|carlosdiegues": {
       "filmTitle": "Bye Bye Brésil",
       "director": "Carlos Diegues",
@@ -2193,6 +2209,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/30017",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "coco|leeunkrich": {
+      "filmTitle": "COCO",
+      "director": "Lee Unkrich",
+      "titleEn": "Coco",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/354912-coco",
+      "checkedAt": "2026-10-04T06:01:17.523Z"
     },
     "cocotte|gyorgypalfi": {
       "filmTitle": "Cocotte",
@@ -4627,6 +4651,14 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1245399-hola-frida",
       "checkedAt": "2026-07-26T04:00:14.352Z"
+    },
+    "homemoviecinemaaufemininengagepratiquesdiscourstheories|": {
+      "filmTitle": "Home Movie Cinema Au Feminin Engage Pratiques Discours Theories",
+      "director": "",
+      "titleEn": "",
+      "source": "No confident TMDB match",
+      "tmdbPath": "",
+      "checkedAt": "2026-10-04T06:01:17.523Z"
     },
     "homestories|evatrobisch": {
       "filmTitle": "Home Stories",
@@ -8506,6 +8538,14 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-28T23:22:01.230Z"
     },
+    "lerevedegalileo|fabiennecolletgilalkabetzghislainavrillon": {
+      "filmTitle": "LE REVE DE GALILEO",
+      "director": "Fabienne Collet, Gil Alkabetz, Ghislain Avrillon",
+      "titleEn": "Le Rêve de Galileo",
+      "source": "TMDB English page",
+      "tmdbPath": "/movie/217614-le-reve-de-galileo",
+      "checkedAt": "2026-10-04T06:01:17.523Z"
+    },
     "lerobotsauvage|chrissanders": {
       "filmTitle": "Le Robot Sauvage",
       "director": "Chris Sanders",
@@ -8944,7 +8984,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T04:57:51.253Z"
+      "checkedAt": "2026-10-04T06:01:17.523Z"
     },
     "lesfablesdemonsieurrenard|lenavondohrenyawenzhengevanderushie": {
       "filmTitle": "Les Fables de Monsieur Renard",
@@ -11102,7 +11142,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T04:57:51.253Z"
+      "checkedAt": "2026-10-04T06:01:17.523Z"
     },
     "mastersofbooksavecherveletellieretmanuelefior|": {
       "filmTitle": "Masters of Books avec Hervé Le Tellier et Manuele Fior",
@@ -13081,7 +13121,7 @@
       "titleEn": "",
       "source": "No confident TMDB match",
       "tmdbPath": "",
-      "checkedAt": "2026-09-20T04:57:51.253Z"
+      "checkedAt": "2026-10-04T06:01:17.523Z"
     },
     "premiercontact|denisvilleneuve": {
       "filmTitle": "Premier Contact",
