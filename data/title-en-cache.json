@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T12:25:03.646Z",
+  "updatedAt": "2026-10-05T14:45:20.883Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1529,6 +1529,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-26T02:02:46.968Z"
+    },
+    "brokenenglish|janepollardiainforsyth": {
+      "filmTitle": "Broken English",
+      "director": "Jane Pollard, Iain Forsyth",
+      "titleEn": "Broken English",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-05T14:47:54.923Z"
     },
     "brokenvoices|provaznikondrej": {
       "filmTitle": "Broken Voices",
@@ -4602,6 +4609,13 @@
       "titleEn": "The Hidden",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "highlander|russellmulcahy": {
+      "filmTitle": "Highlander",
+      "director": "Russell Mulcahy",
+      "titleEn": "Highlander",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-05T14:47:54.923Z"
     },
     "hijamat|nadersaeivar": {
       "filmTitle": "Hijamat",
@@ -9702,6 +9716,13 @@
       "titleEn": "Paths of Glory",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "lesseptmercenaires|johnsturges": {
+      "filmTitle": "Les Sept mercenaires",
+      "director": "John Sturges",
+      "titleEn": "The Magnificent Seven",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-05T14:47:54.923Z"
     },
     "lessilencesderiyad|haifaaalmansour": {
       "filmTitle": "Les Silences De Riyad",
@@ -15159,6 +15180,13 @@
       "titleEn": "The Naked Kiss",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "theneondemon|nicolaswindingrefn": {
+      "filmTitle": "The Neon Demon",
+      "director": "Nicolas Winding Refn",
+      "titleEn": "The Neon Demon",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-05T14:47:54.923Z"
     },
     "theoffence|sidneylumet": {
       "filmTitle": "The Offence",
