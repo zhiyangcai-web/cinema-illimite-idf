@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T14:45:20.883Z",
+  "updatedAt": "2026-10-06T00:05:15.416Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1269,10 +1269,9 @@
     "birdman|alejandrogonzalezinarritu": {
       "filmTitle": "Birdman",
       "director": "Alejandro González Iñárritu",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-24T04:58:48.660Z"
+      "titleEn": "Birdman",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T00:09:13.919Z"
     },
     "biutiful|alejandrogonzalezinarritu": {
       "filmTitle": "Biutiful",
@@ -1598,6 +1597,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/920647-butterfly-jam",
       "checkedAt": "2026-10-04T06:01:17.523Z"
+    },
+    "butterflyjam|kantemirbalagov": {
+      "filmTitle": "BUTTERFLY JAM",
+      "director": "Kantemir Balagov",
+      "titleEn": "Butterfly Jam",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-06T00:09:13.919Z"
     },
     "byebyebresil|carlosdiegues": {
       "filmTitle": "Bye Bye Brésil",
@@ -2821,6 +2827,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1061771-decorado",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "deepend|jerzyskolimowski": {
+      "filmTitle": "Deep End",
+      "director": "Jerzy Skolimowski",
+      "titleEn": "Deep End",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T00:09:13.919Z"
     },
     "degel|manuelamartelli": {
       "filmTitle": "Dégel",
@@ -4383,6 +4396,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1315405-hanami",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "hantise|georgecukor": {
+      "filmTitle": "Hantise",
+      "director": "George Cukor",
+      "titleEn": "Gaslight",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T00:09:13.919Z"
     },
     "happiness|kingvidor": {
       "filmTitle": "Happiness",
@@ -13046,6 +13066,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/47620-poison",
       "checkedAt": "2026-09-27T21:25:00.487Z"
+    },
+    "policefederalelosangeles|williamfriedkin": {
+      "filmTitle": "Police Fédérale, Los Angeles",
+      "director": "William Friedkin",
+      "titleEn": "To Live and Die in L.A.",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T00:09:13.919Z"
     },
     "policepython357|alaincorneau": {
       "filmTitle": "Police Python 357",
