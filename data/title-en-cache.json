@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T00:05:15.416Z",
+  "updatedAt": "2026-10-06T06:24:49.676Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3347,6 +3347,13 @@
       "tmdbPath": "/movie/76685-du-mouron-pour-les-petits-oiseaux",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "dune|davidlynch": {
+      "filmTitle": "Dune",
+      "director": "David Lynch",
+      "titleEn": "Dune",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T06:28:47.427Z"
+    },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
       "director": "Jérémie Renier",
@@ -4053,6 +4060,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/377263-frantz",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "frenchconnection|williamfriedkin": {
+      "filmTitle": "French Connection",
+      "director": "William Friedkin",
+      "titleEn": "The French Connection",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T06:28:47.427Z"
     },
     "funnypeople|juddapatow": {
       "filmTitle": "Funny People",
@@ -8814,6 +8828,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/674324-the-banshees-of-inisherin",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "lesbasfondsnewyorkais|samuelfuller": {
+      "filmTitle": "Les Bas-fonds new-yorkais",
+      "director": "Samuel Fuller",
+      "titleEn": "Underworld U.S.A.",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T06:28:47.427Z"
     },
     "lesbiches|claudechabrol": {
       "filmTitle": "Les Biches",
