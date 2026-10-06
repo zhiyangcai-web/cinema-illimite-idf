@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T06:24:49.676Z",
+  "updatedAt": "2026-10-06T18:24:22.093Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3766,6 +3766,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-22T17:02:29.303Z"
     },
+    "everybodydigsbillevans|grantgee": {
+      "filmTitle": "Everybody Digs Bill Evans",
+      "director": "Grant Gee",
+      "titleEn": "Everybody Digs Bill Evans",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T18:27:45.274Z"
+    },
     "everytime|sandrawollner": {
       "filmTitle": "Everytime",
       "director": "Sandra Wollner",
@@ -4432,6 +4439,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/10683-happiness",
       "checkedAt": "2026-09-02T04:42:04.990Z"
+    },
+    "happinesstherapy|davidorussell": {
+      "filmTitle": "Happiness Therapy",
+      "director": "David O. Russell",
+      "titleEn": "Silver Linings Playbook",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T18:27:45.274Z"
     },
     "happytogether|wongkarwai": {
       "filmTitle": "Happy Together",
@@ -5206,6 +5220,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1288059-i-want-your-sex",
       "checkedAt": "2026-07-27T15:17:54.180Z"
+    },
+    "iwasateenagesexpistol|andrerelisnickmead": {
+      "filmTitle": "I Was a Teenage Sex Pistol",
+      "director": "Andre Relis, Nick Mead",
+      "titleEn": "I Was a Teenage Sex Pistol",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T18:27:45.274Z"
     },
     "jacketnancylesplusbelleshistoiresdeqblake|massimofenatigerritbekers": {
       "filmTitle": "Jack et Nancy Les plus belles histoires de Q Blake",
@@ -14429,6 +14450,27 @@
       "titleEn": "The Shining",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "shrek|andrewadamsonvickyjenson": {
+      "filmTitle": "Shrek",
+      "director": "Andrew Adamson, Vicky Jenson",
+      "titleEn": "Shrek",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T18:27:45.274Z"
+    },
+    "shrek2|andrewadamsonkellyasburyconradvernon": {
+      "filmTitle": "Shrek 2",
+      "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+      "titleEn": "Shrek 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T18:27:45.274Z"
+    },
+    "shrekletroisieme|chrismilleriiramanhui": {
+      "filmTitle": "Shrek le troisième",
+      "director": "Chris Miller (II), Raman Hui",
+      "titleEn": "Shrek the Third",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-06T18:27:45.274Z"
     },
     "shutterisland|martinscorsese": {
       "filmTitle": "SHUTTER ISLAND",
