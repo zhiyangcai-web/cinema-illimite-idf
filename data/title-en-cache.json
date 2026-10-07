@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-06T18:24:22.093Z",
+  "updatedAt": "2026-10-07T06:03:57.630Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -12288,6 +12288,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1297641-vem-ar-vem",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "nousvoilagrands|stinawirsenlindahamback": {
+      "filmTitle": "Nous voilà grands !",
+      "director": "Stina Wirsén, Linda Hambäck",
+      "titleEn": "Who's Who",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-07T06:08:00.093Z"
     },
     "nouveauxcopainsapuffinrock|jeremypurcell": {
       "filmTitle": "Nouveaux copains à Puffin Rock",
