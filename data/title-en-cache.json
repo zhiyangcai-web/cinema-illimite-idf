@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-07T13:28:40.723Z",
+  "updatedAt": "2026-10-08T06:09:07.229Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -15840,6 +15840,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
+    "unamericainaparis|": {
+      "filmTitle": "Un Americain A Paris",
+      "director": "",
+      "titleEn": "An American in Paris",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-08T06:12:50.938Z"
     },
     "unamericainaparis|vincenteminnelli": {
       "filmTitle": "Un Américain à Paris",
