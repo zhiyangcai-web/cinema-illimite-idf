@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T06:09:07.229Z",
+  "updatedAt": "2026-10-08T23:22:56.289Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -14458,12 +14458,11 @@
       "checkedAt": "2026-09-29T13:00:27.215Z"
     },
     "shaunlemoutonlabeeetedhalloween|stevecoxmatthewwalker": {
-      "filmTitle": "Shaun Le Mouton La Beeete D Halloween",
+      "filmTitle": "Shaun le Mouton : La Bêêête d'Halloween",
       "director": "Steve Cox, Matthew Walker",
-      "titleEn": "Shaun the Sheep: The Beast of Mossy Bottom",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1477104-shaun-the-sheep-the-beast-of-mossy-bottom",
-      "checkedAt": "2026-10-01T06:03:26.385Z"
+      "titleEn": "Shaun The Sheep: The Beast Of Mossy Bottom",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-08T23:26:54.909Z"
     },
     "shining|stanleykubrick": {
       "filmTitle": "Shining",
