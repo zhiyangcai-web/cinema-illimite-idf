@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-08T23:22:56.289Z",
+  "updatedAt": "2026-10-09T06:12:51.958Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4019,6 +4019,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/823219-straume",
       "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
+    "flush|gregorymorin": {
+      "filmTitle": "Flush",
+      "director": "Grégory Morin",
+      "titleEn": "Flush",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-09T06:17:02.564Z"
     },
     "flush|gregorymorinii": {
       "filmTitle": "Flush",
