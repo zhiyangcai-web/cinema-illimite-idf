@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T06:12:51.958Z",
+  "updatedAt": "2026-10-09T13:22:24.861Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -11950,6 +11950,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/676670-mu-yi-la-legende-du-village-des-femmes",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "mybeautifulboy|felixvangroeningen": {
+      "filmTitle": "My Beautiful Boy",
+      "director": "Felix Van Groeningen",
+      "titleEn": "Beautiful Boy",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-09T13:25:04.731Z"
     },
     "myfatherandqaddafi|jihank": {
       "filmTitle": "My Father and Qaddafi",
