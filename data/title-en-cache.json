@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T13:22:24.861Z",
+  "updatedAt": "2026-10-09T22:40:44.550Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4742,6 +4742,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1245399-hola-frida",
       "checkedAt": "2026-07-26T04:00:14.352Z"
+    },
+    "holdingliat|brandonkramer": {
+      "filmTitle": "Holding Liat",
+      "director": "Brandon Kramer",
+      "titleEn": "Holding Liat",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-09T22:44:22.578Z"
     },
     "homemoviecinemaaufemininengagepratiquesdiscourstheories|": {
       "filmTitle": "Home Movie Cinema Au Feminin Engage Pratiques Discours Theories",
@@ -11873,6 +11880,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-10-01T06:03:26.385Z"
     },
+    "moulin|": {
+      "filmTitle": "MOULIN",
+      "director": "",
+      "titleEn": "Moulin",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-09T22:44:22.578Z"
+    },
     "moulin|laacuteszloacutenemes": {
       "filmTitle": "MOULIN",
       "director": "L&aacute;szl&oacute; Nemes",
@@ -12019,6 +12033,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/81",
       "checkedAt": "2026-07-31T03:55:22.927Z"
+    },
+    "naza|": {
+      "filmTitle": "NAZA",
+      "director": "",
+      "titleEn": "NAZA",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-09T22:44:22.578Z"
     },
     "naza|rachelszoryuvalabraham": {
       "filmTitle": "Naza",
