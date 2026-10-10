@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-09T22:40:44.550Z",
+  "updatedAt": "2026-10-10T12:35:56.724Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -465,10 +465,9 @@
     "alicecomedies2|waltdisney": {
       "filmTitle": "Alice comedies 2",
       "director": "Walt Disney",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-10-02T22:20:58.781Z"
+      "titleEn": "Alice comedies 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-10T12:38:33.380Z"
     },
     "aliceetlemaire|nicolaspariser": {
       "filmTitle": "Alice Et Le Maire",
@@ -6397,6 +6396,13 @@
       "tmdbPath": "/movie/137106-the-lego-movie",
       "checkedAt": "2026-09-29T13:00:27.215Z"
     },
+    "lagrandeaventurelego|phillordchristophermiller": {
+      "filmTitle": "La Grande Aventure Lego",
+      "director": "Phil Lord, Christopher Miller",
+      "titleEn": "The Lego Movie",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-10T12:38:33.380Z"
+    },
     "lagrandebellezza|paolosorrentino": {
       "filmTitle": "La Grande Bellezza",
       "director": "Paolo Sorrentino",
@@ -9737,6 +9743,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-22T05:01:57.350Z"
     },
+    "lesrecommencements|isabelleingoldvivianneperelmuter": {
+      "filmTitle": "Les Recommencements",
+      "director": "Isabelle Ingold, Vivianne Perelmuter",
+      "titleEn": "Les Recommencements",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-10T12:38:33.380Z"
+    },
     "lesreinesdudrame|alexislanglois": {
       "filmTitle": "Les Reines du drame",
       "director": "Alexis Langlois",
@@ -12629,6 +12642,13 @@
       "tmdbPath": "/movie/691214-pacifiction-tourment-sur-les-iles",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "paddington|paulking": {
+      "filmTitle": "Paddington",
+      "director": "Paul King",
+      "titleEn": "Paddington",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-10T12:38:33.380Z"
+    },
     "paisa|rosselliniroberto": {
       "filmTitle": "Paisa",
       "director": "ROSSELLINI Roberto",
@@ -14777,6 +14797,13 @@
       "tmdbPath": "/movie/32015-soy-cuba",
       "checkedAt": "2026-07-28T03:41:27.507Z"
     },
+    "soyezsympasrembobinez|michelgondry": {
+      "filmTitle": "Soyez sympas, rembobinez",
+      "director": "Michel Gondry",
+      "titleEn": "Be Kind Rewind",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-10T12:38:33.380Z"
+    },
     "soyonsfous|quentinperez": {
       "filmTitle": "Soyons Fous",
       "director": "Quentin Perez",
@@ -15447,6 +15474,13 @@
       "titleEn": "The Substance",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
+    "thesweeteast|seanpricewilliams": {
+      "filmTitle": "The Sweet East",
+      "director": "Sean Price Williams",
+      "titleEn": "The Sweet East",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-10T12:38:33.380Z"
     },
     "theterrorizers|edwardyang": {
       "filmTitle": "The Terrorizers",
