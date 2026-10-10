@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-10T12:35:56.724Z",
+  "updatedAt": "2026-10-10T21:46:56.927Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -14796,6 +14796,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/32015-soy-cuba",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "soyezsympasrembobinez|gondrymichel": {
+      "filmTitle": "Soyez Sympas, Rembobinez",
+      "director": "GONDRY Michel",
+      "titleEn": "Be Kind Rewind",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-10T21:49:52.643Z"
     },
     "soyezsympasrembobinez|michelgondry": {
       "filmTitle": "Soyez sympas, rembobinez",
