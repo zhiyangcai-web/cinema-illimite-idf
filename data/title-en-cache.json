@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T12:54:40.448Z",
+  "updatedAt": "2026-10-11T22:00:30.473Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6724,6 +6724,13 @@
       "tmdbPath": "/movie/1407-la-mome",
       "checkedAt": "2026-08-17T13:09:34.266Z"
     },
+    "lamortauxtrousses|alfredhitchcock": {
+      "filmTitle": "La Mort aux trousses",
+      "director": "Alfred Hitchcock",
+      "titleEn": "North by Northwest",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-11T22:03:05.230Z"
+    },
     "lamortvousvasibien|robertzemeckis": {
       "filmTitle": "La Mort vous va si bien",
       "director": "Robert Zemeckis",
@@ -9454,6 +9461,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/369784-les-malheurs-de-sophie",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "lesmalheursdesophie|jeanclaudebrialy": {
+      "filmTitle": "Les Malheurs de Sophie",
+      "director": "Jean-Claude Brialy",
+      "titleEn": "Sophie's Misfortunes",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-11T22:03:05.230Z"
     },
     "lesmariesdelandeux|jeanpaulrappeneau": {
       "filmTitle": "Les mariés de l'an deux",
@@ -15022,6 +15036,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-26T21:15:05.693Z"
+    },
+    "surlesquais|eliakazan": {
+      "filmTitle": "Sur les quais",
+      "director": "Elia Kazan",
+      "titleEn": "On the Waterfront",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-11T22:03:05.230Z"
     },
     "surmeslevres|jacquesaudiard": {
       "filmTitle": "Sur mes lèvres",
