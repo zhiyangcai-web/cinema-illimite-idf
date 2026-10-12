@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T22:00:30.473Z",
+  "updatedAt": "2026-10-12T06:02:23.056Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -8430,12 +8430,11 @@
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
     "lemysterelucylost|olivierclert": {
-      "filmTitle": "LE MYSTERE LUCY LOST",
+      "filmTitle": "Le Mystère Lucy Lost",
       "director": "Olivier Clert",
-      "titleEn": "Lucy Lost",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1217954-lucy-lost",
-      "checkedAt": "2026-09-25T17:17:24.484Z"
+      "titleEn": "Le Mystère Lucy Lost",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-12T06:05:50.240Z"
     },
     "lenferdelacorruption|abrahampolonsky": {
       "filmTitle": "L'Enfer de la corruption",
@@ -14001,6 +14000,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/63688-retour-a-la-vie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "retouraucollege|": {
+      "filmTitle": "Retour Au College",
+      "director": "",
+      "titleEn": "Retour au collège",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-12T06:05:50.240Z"
     },
     "retouraucollege|antoinefromental": {
       "filmTitle": "Retour Au Collège",
