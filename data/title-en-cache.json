@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T06:02:23.056Z",
+  "updatedAt": "2026-10-12T15:31:25.533Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3578,6 +3578,13 @@
       "tmdbPath": "/movie/1729288-enfants-de-palestine-deux-histoires-de-cisjordanie",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "englouti|brianduffield": {
+      "filmTitle": "Englouti",
+      "director": "Brian Duffield",
+      "titleEn": "Whalefall",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-12T15:34:24.805Z"
+    },
     "engrenages|davidmamet": {
       "filmTitle": "Engrenages",
       "director": "David Mamet",
@@ -7154,6 +7161,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-30T05:30:09.629Z"
+    },
+    "larriviste|alexanderpayne": {
+      "filmTitle": "L'Arriviste",
+      "director": "Alexander Payne",
+      "titleEn": "Election",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-12T15:34:24.805Z"
     },
     "larueeverslor|charleschaplin": {
       "filmTitle": "La Ruée vers l'or",
@@ -12810,6 +12824,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/563300-paris-au-mois-d-aout",
       "checkedAt": "2026-08-13T13:52:35.828Z"
+    },
+    "parisblues|martinritt": {
+      "filmTitle": "Paris Blues",
+      "director": "Martin Ritt",
+      "titleEn": "Paris Blues",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-12T15:34:24.805Z"
     },
     "pariscontrelesdiscricourtsmetrages|": {
       "filmTitle": "PARIS CONTRE LES DISCRI' ! (COURTS METRAGES)",
