@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-12T15:31:25.533Z",
+  "updatedAt": "2026-10-13T22:47:45.342Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2630,6 +2630,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/60967-crime-et-chatiment",
       "checkedAt": "2026-09-29T22:22:08.221Z"
+    },
+    "crisetchuchotements|bergmaningmar": {
+      "filmTitle": "Cris Et Chuchotements",
+      "director": "BERGMAN Ingmar",
+      "titleEn": "Cries and Whispers",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
     },
     "crisetchuchotements|ingmarbergman": {
       "filmTitle": "Cris et chuchotements",
@@ -5442,6 +5449,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-17T04:59:29.360Z"
     },
+    "jeuxdete|bergmaningmar": {
+      "filmTitle": "Jeux D Ete",
+      "director": "BERGMAN Ingmar",
+      "titleEn": "Summer Interlude",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
+    },
     "jeuxdete|ingmarbergman": {
       "filmTitle": "Jeux d'été",
       "director": "Ingmar Bergman",
@@ -7068,6 +7082,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "lareinedesneiges|chrisbuckjenniferlee": {
+      "filmTitle": "La Reine des neiges",
+      "director": "Chris Buck, Jennifer Lee",
+      "titleEn": "Frozen",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
     },
     "lareinedesneiges|jenniferleechrisbuck": {
       "filmTitle": "La reine des neiges",
@@ -9145,6 +9166,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-07T12:40:44.553Z"
     },
+    "leseptiemesceau|bergmaningmar": {
+      "filmTitle": "Le Septieme Sceau",
+      "director": "BERGMAN Ingmar",
+      "titleEn": "The Seventh Seal",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
+    },
     "leseptiemesceau|ingmarbergman": {
       "filmTitle": "Le Septième Sceau",
       "director": "Ingmar Bergman",
@@ -9255,6 +9283,13 @@
       "titleEn": "Night and the City",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-01T05:17:01.710Z"
+    },
+    "lesfraisessauvages|bergmaningmar": {
+      "filmTitle": "Les Fraises Sauvages",
+      "director": "BERGMAN Ingmar",
+      "titleEn": "Wild Strawberries",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
     },
     "lesfraisessauvages|ingmarbergman": {
       "filmTitle": "Les Fraises sauvages",
@@ -11630,6 +11665,13 @@
       "tmdbPath": "/movie/9606",
       "checkedAt": "2026-09-02T21:08:06.647Z"
     },
+    "meurtresencascade|jonathandemme": {
+      "filmTitle": "Meurtres en cascade",
+      "director": "Jonathan Demme",
+      "titleEn": "The Last Embrace",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
+    },
     "miamadre|nannimoretti": {
       "filmTitle": "Mia Madre",
       "director": "Nanni Moretti",
@@ -12973,6 +13015,13 @@
       "tmdbPath": "/movie/2011-persepolis",
       "checkedAt": "2026-08-30T16:44:43.331Z"
     },
+    "persona|bergmaningmar": {
+      "filmTitle": "Persona",
+      "director": "BERGMAN Ingmar",
+      "titleEn": "Persona",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
+    },
     "persona|ingmarbergman": {
       "filmTitle": "Persona",
       "director": "Ingmar Bergman",
@@ -13884,6 +13933,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1694-re-animator",
       "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
+    "rebelle|markandrewsstevepurcellbrendachapman": {
+      "filmTitle": "Rebelle",
+      "director": "Mark Andrews, Steve Purcell, Brenda Chapman",
+      "titleEn": "Brave",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-13T22:51:48.993Z"
     },
     "recherchesusandesesperement|susanseidelman": {
       "filmTitle": "Recherche Susan désespérément",
