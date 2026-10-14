@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T11:57:10.571Z",
+  "updatedAt": "2026-10-14T17:14:06.802Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -14151,6 +14151,13 @@
       "titleEn": "Back to the Future",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-14T12:00:36.498Z"
+    },
+    "retourverslefutur|zemeckisrobert": {
+      "filmTitle": "Retour Vers Le Futur",
+      "director": "ZEMECKIS Robert",
+      "titleEn": "Back to the Future",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-14T17:18:10.598Z"
     },
     "retrolesclassiquessurgrandecran|": {
       "filmTitle": "Rétro : Les Classiques Sur Grand Écran",
