@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T04:57:21.474Z",
+  "updatedAt": "2026-10-14T11:57:10.571Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -7957,6 +7957,13 @@
       "tmdbPath": "/movie/1314481-the-devil-wears-prada-2",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "ledictateur|charleschaplin": {
+      "filmTitle": "Le Dictateur",
+      "director": "Charles Chaplin",
+      "titleEn": "The Great Dictator",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-14T12:00:36.498Z"
+    },
     "lediscoursdunroi|tomhooper": {
       "filmTitle": "Le Discours d'un roi",
       "director": "Tom Hooper",
@@ -14139,12 +14146,11 @@
       "checkedAt": "2026-09-29T13:00:27.215Z"
     },
     "retourverslefutur|robertzemeckis": {
-      "filmTitle": "Retour Vers Le Futur",
+      "filmTitle": "Retour vers le futur",
       "director": "Robert Zemeckis",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-22T17:02:29.303Z"
+      "titleEn": "Back to the Future",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-14T12:00:36.498Z"
     },
     "retrolesclassiquessurgrandecran|": {
       "filmTitle": "Rétro : Les Classiques Sur Grand Écran",
