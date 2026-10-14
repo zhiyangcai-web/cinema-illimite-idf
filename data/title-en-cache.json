@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-13T22:47:45.342Z",
+  "updatedAt": "2026-10-14T04:57:21.474Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -7634,6 +7634,13 @@
       "tmdbPath": "/movie/11657-le-cercle-rouge",
       "checkedAt": "2026-08-17T19:02:56.014Z"
     },
+    "lechantdelamer|mooretomm": {
+      "filmTitle": "Le Chant De La Mer",
+      "director": "MOORE Tomm",
+      "titleEn": "Song of the Sea",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-14T05:01:34.102Z"
+    },
     "lechantdelamer|tommmoore": {
       "filmTitle": "Le Chant De La Mer",
       "director": "Tomm Moore",
@@ -8153,6 +8160,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/453191-le-grand-mechant-renard-et-autres-contes",
       "checkedAt": "2026-09-26T11:31:00.188Z"
+    },
+    "legrandmechantrenardetautrescontes|rennerbenjamin": {
+      "filmTitle": "Le Grand Mechant Renard Et Autres Contes",
+      "director": "RENNER Benjamin",
+      "titleEn": "The Big Bad Fox and Other Tales",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-14T05:01:34.102Z"
     },
     "legrandrestaurant|jacquesbesnard": {
       "filmTitle": "Le Grand restaurant",
@@ -13933,6 +13947,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1694-re-animator",
       "checkedAt": "2026-09-25T11:57:10.228Z"
+    },
+    "rebelle|markandrewsbrendachapman": {
+      "filmTitle": "Rebelle",
+      "director": "Mark Andrews, Brenda Chapman",
+      "titleEn": "Brave",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-14T05:01:34.102Z"
     },
     "rebelle|markandrewsstevepurcellbrendachapman": {
       "filmTitle": "Rebelle",
