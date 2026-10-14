@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T17:14:06.802Z",
+  "updatedAt": "2026-10-14T21:43:08.018Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5800,6 +5800,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/47429-kung-fu-master",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "kungfupanda|markosbornejohnstevenson": {
+      "filmTitle": "Kung Fu Panda",
+      "director": "Mark Osborne, John Stevenson",
+      "titleEn": "Kung Fu Panda",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-14T21:46:36.401Z"
     },
     "kurak|erkedzhumakmatova": {
       "filmTitle": "Kurak",
