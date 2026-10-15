@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-14T21:43:08.018Z",
+  "updatedAt": "2026-10-15T11:33:38.526Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -15700,6 +15700,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1316719",
       "checkedAt": "2026-08-10T19:20:17.668Z"
+    },
+    "thevisit|mnightshyamalan": {
+      "filmTitle": "The Visit",
+      "director": "M. Night Shyamalan",
+      "titleEn": "The Visit",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-15T11:37:06.544Z"
     },
     "thewallstreetboy|uwagbaicharles": {
       "filmTitle": "The Wall Street Boy",
