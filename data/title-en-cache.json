@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T11:28:11.423Z",
+  "updatedAt": "2026-10-16T21:12:36.762Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9067,6 +9067,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-28T23:22:01.230Z"
+    },
+    "lesdemoisellesderochefort|demyjacques": {
+      "filmTitle": "Les Demoiselles De Rochefort",
+      "director": "DEMY Jacques",
+      "titleEn": "The Young Girls of Rochefort",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-16T21:15:57.512Z"
     },
     "lesdemoisellesderochefort|jacquesdemy": {
       "filmTitle": "Les Demoiselles de Rochefort",
