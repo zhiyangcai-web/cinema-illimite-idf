@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-15T11:33:38.526Z",
+  "updatedAt": "2026-10-16T11:28:11.423Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6979,6 +6979,13 @@
       "tmdbPath": "/movie/4946-la-piscine",
       "checkedAt": "2026-07-31T14:39:16.810Z"
     },
+    "laplanetedessinges|franklinjschaffner": {
+      "filmTitle": "LA PLANETE DES SINGES",
+      "director": "Franklin J. Schaffner",
+      "titleEn": "Planet of the Apes",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-16T11:31:24.564Z"
+    },
     "laplanetedessinges|schaffnerfranklinj": {
       "filmTitle": "La Planete Des Singes",
       "director": "SCHAFFNER Franklin J",
@@ -10506,12 +10513,11 @@
       "checkedAt": "2026-07-20T20:00:48.385Z"
     },
     "lhistoiredemanontheroyalballet|kennethmacmillan": {
-      "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
+      "filmTitle": "L’Histoire de Manon (The Royal Ballet)",
       "director": "Kenneth MacMillan",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-30T22:22:30.447Z"
+      "titleEn": "Royal Ballet and Opera: Manon",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-16T11:31:24.564Z"
     },
     "lhistoiredemanontheroyalballet|nicholasgeorgiadis": {
       "filmTitle": "L'HISTOIRE DE MANON (THE ROYAL BALLET)",
@@ -11489,6 +11495,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "matilda|dannydevito": {
+      "filmTitle": "Matilda",
+      "director": "Danny DeVito",
+      "titleEn": "Matilda",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-16T11:31:24.564Z"
     },
     "matrix|lanawachowskilillywachowski": {
       "filmTitle": "Matrix",
