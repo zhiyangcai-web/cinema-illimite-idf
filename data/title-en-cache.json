@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T15:37:57.389Z",
+  "updatedAt": "2026-10-17T20:38:36.342Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -10741,6 +10741,20 @@
       "tmdbPath": "/movie/1182935-l-inconnue",
       "checkedAt": "2026-07-27T10:12:29.113Z"
     },
+    "lindaveutdupoulet|": {
+      "filmTitle": "Linda veut du poulet !",
+      "director": "",
+      "titleEn": "Chicken for Linda!",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-17T20:41:35.725Z"
+    },
+    "lindaveutdupoulet|chiaramalta": {
+      "filmTitle": "Linda Veut Du Poulet",
+      "director": "Chiara Malta",
+      "titleEn": "Chicken for Linda!",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-17T20:41:35.725Z"
+    },
     "lindaveutdupoulet|chiaramaltasebastienlaudenbach": {
       "filmTitle": "Linda Veut Du Poulet !",
       "director": "Chiara Malta, Sébastien Laudenbach",
@@ -12150,6 +12164,13 @@
       "titleEn": "Mystic River",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "nadja|michaelalmereyda": {
+      "filmTitle": "Nadja",
+      "director": "Michael Almereyda",
+      "titleEn": "Nadja",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-17T20:41:35.725Z"
     },
     "nailsman|sheriyatwana": {
       "filmTitle": "Nail S Man",
