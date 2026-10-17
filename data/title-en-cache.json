@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-16T21:12:36.762Z",
+  "updatedAt": "2026-10-17T15:37:57.389Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4912,10 +4912,9 @@
     "hungergameslarevoltepartie2|francislawrence": {
       "filmTitle": "Hunger Games - La Révolte : Partie 2",
       "director": "Francis Lawrence",
-      "titleEn": "The Hunger Games: Mockingjay - Part 2",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/131634-the-hunger-games-mockingjay-part-2",
-      "checkedAt": "2026-08-06T14:39:13.235Z"
+      "titleEn": "The Hunger Games - Mockingjay: Part 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-17T15:40:51.243Z"
     },
     "hungergameslembrasement|francislawrence": {
       "filmTitle": "Hunger Games - L'embrasement",
@@ -11950,6 +11949,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/585-monsters-inc",
       "checkedAt": "2026-09-22T17:02:29.303Z"
+    },
+    "monstrescie|petedocterdavidsilvermanleeunkrich": {
+      "filmTitle": "Monstres & Cie",
+      "director": "Pete Docter, David Silverman, Lee Unkrich",
+      "titleEn": "Monsters, Inc.",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-17T15:40:51.243Z"
     },
     "monteladessus|fredcnewmeyersamtaylor": {
       "filmTitle": "Monte Là-Dessus",
