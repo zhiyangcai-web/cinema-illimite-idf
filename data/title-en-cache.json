@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-17T20:38:36.342Z",
+  "updatedAt": "2026-10-18T11:10:41.614Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2503,6 +2503,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/14836-coraline",
       "checkedAt": "2026-09-15T17:05:06.912Z"
+    },
+    "coraline15emeanniversaire|henryselick": {
+      "filmTitle": "Coraline 15ème Anniversaire",
+      "director": "Henry Selick",
+      "titleEn": "Coraline 15th Anniversary 3D",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-18T11:13:51.403Z"
     },
     "cosifantuttemetropolitanopera|phelimmcdermott": {
       "filmTitle": "Così fan tutte (Metropolitan Opera)",
@@ -6768,10 +6775,9 @@
     "lamouche|davidcronenberg": {
       "filmTitle": "La Mouche",
       "director": "David Cronenberg",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-10-01T06:03:26.385Z"
+      "titleEn": "The Fly",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-18T11:13:51.403Z"
     },
     "lamourflou|romanebohringerphilipperebbot": {
       "filmTitle": "L'Amour flou",
@@ -16249,6 +16255,13 @@
       "titleEn": "Under The Silver Lake",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-11T12:57:17.215Z"
+    },
+    "undertheskin|jonathanglazer": {
+      "filmTitle": "Under the Skin",
+      "director": "Jonathan Glazer",
+      "titleEn": "Under the Skin",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-18T11:13:51.403Z"
     },
     "undertone|iantuason": {
       "filmTitle": "Undertone",
