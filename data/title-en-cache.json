@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T04:44:55.241Z",
+  "updatedAt": "2026-10-19T13:22:23.768Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9502,6 +9502,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-01T11:44:55.653Z"
     },
+    "lesinnocents|jackclayton": {
+      "filmTitle": "Les Innocents",
+      "director": "Jack Clayton",
+      "titleEn": "The Innocents",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-19T13:25:31.242Z"
+    },
     "lesjeunesamants|carinetardieu": {
       "filmTitle": "Les Jeunes amants",
       "director": "Carine Tardieu",
@@ -11220,6 +11227,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/328083",
       "checkedAt": "2026-08-13T02:51:39.490Z"
+    },
+    "maisondepoupee|josephlosey": {
+      "filmTitle": "Maison de poupée",
+      "director": "Joseph Losey",
+      "titleEn": "A Doll's House",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-19T13:25:31.242Z"
     },
     "maisondepoupee|loseyjoseph": {
       "filmTitle": "Maison De Poupee",
@@ -14581,6 +14595,13 @@
       "tmdbPath": "/movie/133919-scener-ur-ett-aktenskap",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "scream|wescraven": {
+      "filmTitle": "Scream",
+      "director": "Wes Craven",
+      "titleEn": "Scream",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-19T13:25:31.242Z"
+    },
     "seanceexceptionnelledegeldemanuelamartelli|": {
       "filmTitle": "Séance Exceptionnelle -  Degel, De Manuela Martelli",
       "director": "",
@@ -14803,6 +14824,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1352472-silver",
       "checkedAt": "2026-09-08T11:26:32.486Z"
+    },
+    "simetierre|marylambert": {
+      "filmTitle": "Simetierre",
+      "director": "Mary Lambert",
+      "titleEn": "Pet Sematary",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-19T13:25:31.242Z"
     },
     "siroccoetleroyaumedescourantsdair|benoitchieux": {
       "filmTitle": "Sirocco et le royaume des courants d'air",
