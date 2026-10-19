@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T13:22:23.768Z",
+  "updatedAt": "2026-10-19T22:22:55.429Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3387,6 +3387,13 @@
       "titleEn": "Dune",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-06T06:28:47.427Z"
+    },
+    "dune|denisvilleneuve": {
+      "filmTitle": "DUNE",
+      "director": "Denis Villeneuve",
+      "titleEn": "Dune",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-19T22:27:03.680Z"
     },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
@@ -17058,6 +17065,13 @@
       "titleEn": "Who's that Knocking at My Door",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "wicker|alexhustonfischereleanorwilson": {
+      "filmTitle": "Wicker",
+      "director": "Alex Huston Fischer, Eleanor Wilson",
+      "titleEn": "Wicker",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-19T22:27:03.680Z"
     },
     "winnielourson|stephenjandersondonhall": {
       "filmTitle": "Winnie l'ourson",
