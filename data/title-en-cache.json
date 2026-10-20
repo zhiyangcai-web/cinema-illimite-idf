@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-19T22:22:55.429Z",
+  "updatedAt": "2026-10-20T04:54:23.990Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -483,6 +483,13 @@
       "titleEn": "Alien",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "alienlehuitiemepassager|scottridley": {
+      "filmTitle": "Alien Le Huitieme Passager",
+      "director": "SCOTT Ridley",
+      "titleEn": "Alien",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-20T04:58:28.282Z"
     },
     "aline|valerielemercier": {
       "filmTitle": "ALINE",
@@ -10248,6 +10255,13 @@
       "tmdbPath": "/movie/133840-l-etrange-monsieur-victor",
       "checkedAt": "2026-08-07T13:42:56.523Z"
     },
+    "letrangenoeldemjack|henryselick": {
+      "filmTitle": "L'Etrange Noël de M. Jack",
+      "director": "Henry Selick",
+      "titleEn": "The Nightmare Before Christmas",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-20T04:58:28.282Z"
+    },
     "letranger|francoisozon": {
       "filmTitle": "L’Étranger",
       "director": "François Ozon",
@@ -11611,6 +11625,13 @@
       "titleEn": "Melancholia",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "melancholia|vontrierlars": {
+      "filmTitle": "Melancholia",
+      "director": "VON TRIER Lars",
+      "titleEn": "Melancholia",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-20T04:58:28.282Z"
     },
     "melimelo|": {
       "filmTitle": "Meli Melo",
@@ -14594,6 +14615,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "scenesdelavieconjugale|bergmaningmar": {
+      "filmTitle": "Scenes De La Vie Conjugale",
+      "director": "BERGMAN Ingmar",
+      "titleEn": "Scenes from a Marriage",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-20T04:58:28.282Z"
+    },
     "scenesdelavieconjugale|ingmarbergman": {
       "filmTitle": "Scènes de la vie conjugale",
       "director": "Ingmar Bergman",
@@ -17072,6 +17100,13 @@
       "titleEn": "Wicker",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-19T22:27:03.680Z"
+    },
+    "wicker|eleanorwilsonalexhustonfischer": {
+      "filmTitle": "Wicker",
+      "director": "Eleanor Wilson, Alex Huston Fischer",
+      "titleEn": "Wicker",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-20T04:58:28.282Z"
     },
     "winnielourson|stephenjandersondonhall": {
       "filmTitle": "Winnie l'ourson",
