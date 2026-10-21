@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-20T21:39:18.764Z",
+  "updatedAt": "2026-10-21T11:53:58.422Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4208,6 +4208,13 @@
       "titleEn": "The Dead",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-20T21:42:36.514Z"
+    },
+    "georgemichaelthefaithtour|andymorahandavidaustin": {
+      "filmTitle": "George Michael: The Faith Tour",
+      "director": "Andy Morahan, David Austin",
+      "titleEn": "George Michael: The Faith Tour",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-21T11:57:59.775Z"
     },
     "gerry|gusvansant": {
       "filmTitle": "Gerry",
