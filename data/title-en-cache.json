@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T11:57:02.756Z",
+  "updatedAt": "2026-10-22T17:13:20.001Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -15846,6 +15846,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-28T22:25:48.726Z"
+    },
+    "thesocialreckoning|aaronsorkin": {
+      "filmTitle": "The Social Reckoning",
+      "director": "Aaron Sorkin",
+      "titleEn": "The Social Reckoning",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-22T17:16:50.477Z"
     },
     "thesubstance|coraliefargeat": {
       "filmTitle": "The Substance",
