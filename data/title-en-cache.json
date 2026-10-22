@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-21T11:53:58.422Z",
+  "updatedAt": "2026-10-22T04:52:38.801Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -10138,6 +10138,13 @@
       "tmdbPath": "/movie/63681-les-tricheurs",
       "checkedAt": "2026-08-31T22:56:26.422Z"
     },
+    "lestriplettesdebelleville|": {
+      "filmTitle": "Les Triplettes De Belleville",
+      "director": "",
+      "titleEn": "The Triplets of Belleville",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-22T04:56:42.572Z"
+    },
     "lestriplettesdebelleville|sylvainchomet": {
       "filmTitle": "Les triplettes de Belleville",
       "director": "Sylvain Chomet",
@@ -13940,6 +13947,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
+    "querelle|rainerwernerfassbinder": {
+      "filmTitle": "Querelle",
+      "director": "Rainer Werner Fassbinder",
+      "titleEn": "Querelle",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-22T04:56:42.572Z"
     },
     "questcequelajusticesociale|": {
       "filmTitle": "Qu’est-ce que la justice sociale ?",
