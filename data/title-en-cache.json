@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-22T17:13:20.001Z",
+  "updatedAt": "2026-10-23T17:11:23.477Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3307,6 +3307,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "dracula|todbrowning": {
+      "filmTitle": "Dracula",
+      "director": "Tod Browning",
+      "titleEn": "Dracula",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T17:15:08.801Z"
+    },
     "dreamingwalls|mayaduverdieramelievanelmbt": {
       "filmTitle": "Dreaming Walls",
       "director": "Maya Duverdier, Amélie van Elmbt",
@@ -4150,6 +4157,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/377263-frantz",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "freddychapitre1lesgriffesdelanuit|wescraven": {
+      "filmTitle": "Freddy - Chapitre 1 : Les Griffes de la Nuit",
+      "director": "Wes Craven",
+      "titleEn": "A Nightmare on Elm Street",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T17:15:08.801Z"
     },
     "frenchconnection|williamfriedkin": {
       "filmTitle": "French Connection",
@@ -5516,6 +5530,13 @@
       "titleEn": "Jeremiah Johnson",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "jesuschristsuperstar|normanjewison": {
+      "filmTitle": "Jesus Christ Superstar",
+      "director": "Norman Jewison",
+      "titleEn": "Jesus Christ Superstar",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T17:15:08.801Z"
     },
     "jeunepublic|": {
       "filmTitle": "Jeune Public",
