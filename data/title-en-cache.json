@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T17:11:23.477Z",
+  "updatedAt": "2026-10-23T21:26:30.346Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1750,6 +1750,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "carrielavengeance|kimberlypeirce": {
+      "filmTitle": "Carrie, la vengeance",
+      "director": "Kimberly Peirce",
+      "titleEn": "Carrie",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
+    },
     "cars|johnlasseter": {
       "filmTitle": "CARS",
       "director": "John Lasseter",
@@ -2012,6 +2019,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-09T11:29:49.347Z"
+    },
+    "christine|johncarpenter": {
+      "filmTitle": "Christine",
+      "director": "John Carpenter",
+      "titleEn": "Christine",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
     },
     "chroniquedunete|jeanrouchedgarmorin": {
       "filmTitle": "Chronique d'un été",
@@ -2628,6 +2642,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11299",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "creepshow|georgearomero": {
+      "filmTitle": "Creepshow",
+      "director": "George A. Romero",
+      "titleEn": "Creepshow",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
     },
     "criacuervos|sauracarlos": {
       "filmTitle": "Cria Cuervos",
@@ -3401,6 +3422,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/76685-du-mouron-pour-les-petits-oiseaux",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "dune|": {
+      "filmTitle": "DUNE",
+      "director": "",
+      "titleEn": "Dune",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
     },
     "dune|davidlynch": {
       "filmTitle": "Dune",
@@ -10804,6 +10832,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
     },
+    "limperatricerouge|josefvonsternberg": {
+      "filmTitle": "L'Impératrice rouge",
+      "director": "Josef von Sternberg",
+      "titleEn": "The Scarlet Empress",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
+    },
     "limpossiblemonsieurbebe|howardhawks": {
       "filmTitle": "L'Impossible Monsieur Bébé",
       "director": "Howard Hawks",
@@ -10917,6 +10952,13 @@
       "titleEn": "Dirty Harry",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "linvasiondesprofanateurs|philipkaufman": {
+      "filmTitle": "L'Invasion des profanateurs",
+      "director": "Philip Kaufman",
+      "titleEn": "Invasion of the Body Snatchers",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
     },
     "linvitation|oliviawilde": {
       "filmTitle": "L'Invitation",
@@ -12006,6 +12048,13 @@
       "titleEn": "Imitation of life",
       "source": "Previous showtimes",
       "checkedAt": "2026-10-19T04:48:33.044Z"
+    },
+    "misery|robreiner": {
+      "filmTitle": "Misery",
+      "director": "Rob Reiner",
+      "titleEn": "Misery",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
     },
     "missmermaid|paulinebrunneretmarionverle": {
       "filmTitle": "Miss Mermaid",
@@ -15110,6 +15159,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-22T17:02:29.303Z"
+    },
+    "sosfantomes|ivanreitman": {
+      "filmTitle": "S.O.S. Fantômes",
+      "director": "Ivan Reitman",
+      "titleEn": "Ghostbusters",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-23T21:29:28.441Z"
     },
     "soudain|ryusukehamaguchi": {
       "filmTitle": "Soudain",
