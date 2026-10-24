@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23T21:26:30.346Z",
+  "updatedAt": "2026-10-24T11:05:45.869Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5007,12 +5007,11 @@
       "checkedAt": "2026-08-04T14:43:14.042Z"
     },
     "hungergameslaballadeduserpentetdeloiseauchanteur|francislawrence": {
-      "filmTitle": "HUNGER GAMES: LA BALLADE DU SERPENT ET DE L'OISEAU CHANTEUR",
+      "filmTitle": "Hunger Games: la Ballade du serpent et de l'oiseau chanteur",
       "director": "Francis Lawrence",
-      "titleEn": "The Hunger Games: The Ballad of Songbirds & Snakes",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/695721-the-hunger-games-the-ballad-of-songbirds-snakes",
-      "checkedAt": "2026-08-20T01:56:11.929Z"
+      "titleEn": "The Hunger Games: The Ballad of Songbirds and Snakes",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-24T11:08:55.637Z"
     },
     "hungergameslarevoltepartie1|francislawrence": {
       "filmTitle": "Hunger Games - La Révolte : Partie 1",
