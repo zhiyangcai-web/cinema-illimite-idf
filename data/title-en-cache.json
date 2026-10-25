@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T16:25:59.732Z",
+  "updatedAt": "2026-10-25T20:53:56.446Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -12722,6 +12722,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1297641-vem-ar-vem",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "nousvoilagrands|lindahambackstinawirsen": {
+      "filmTitle": "Nous voilà grands !",
+      "director": "Linda Hambäck, Stina Wirsén",
+      "titleEn": "Who's Who",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-25T20:56:39.554Z"
     },
     "nousvoilagrands|stinawirsenlindahamback": {
       "filmTitle": "Nous voilà grands !",
