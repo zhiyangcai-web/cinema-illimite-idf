@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T11:35:44.439Z",
+  "updatedAt": "2026-10-25T16:25:59.732Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9424,6 +9424,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-08-26T02:02:46.968Z"
     },
+    "lesfilsdelhomme|alfonsocuaroacuten": {
+      "filmTitle": "LES FILS DE L'HOMME",
+      "director": "Alfonso Cuar&oacute;n",
+      "titleEn": "Children of Men",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-25T16:28:41.334Z"
+    },
     "lesfilsdelhomme|alfonsocuaron": {
       "filmTitle": "Les Fils de l'homme",
       "director": "Alfonso Cuarón",
@@ -12100,6 +12107,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1218069-yugly",
       "checkedAt": "2026-09-20T04:57:51.253Z"
+    },
+    "mochy|yanisbelaidjeremiedegruson": {
+      "filmTitle": "Mochy",
+      "director": "Yanis Belaïd, Jérémie Degruson",
+      "titleEn": "Yugly",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-25T16:28:41.334Z"
     },
     "moicapitaine|matteogarrone": {
       "filmTitle": "Moi capitaine",
