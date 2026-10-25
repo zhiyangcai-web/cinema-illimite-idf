@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-24T11:05:45.869Z",
+  "updatedAt": "2026-10-25T11:35:44.439Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -7179,6 +7179,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/776906-la-priere-aux-etoiles",
       "checkedAt": "2026-09-30T22:22:30.447Z"
+    },
+    "lapriereauxetoiles|pagnolmarcel": {
+      "filmTitle": "La Priere Aux Etoiles",
+      "director": "PAGNOL Marcel",
+      "titleEn": "La Prière aux étoiles",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-25T11:38:23.042Z"
     },
     "lapriereauxetoilesfilminacheve|marcelpagnol": {
       "filmTitle": "La Prière aux étoiles (film inachevé)",
@@ -16191,6 +16198,13 @@
       "titleEn": "All that Heaven Allows",
       "source": "AlloCine original title",
       "checkedAt": "2026-08-04T09:12:58.564Z"
+    },
+    "toutelabeauteetlesangverse|laurapoitras": {
+      "filmTitle": "Toute la beauté et le sang versé",
+      "director": "Laura Poitras",
+      "titleEn": "All The Beauty And The Bloodshed",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-25T11:38:23.042Z"
     },
     "toutesmessoeurs|massoudbakhshi": {
       "filmTitle": "Toutes mes soeurs",
