@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-25T20:53:56.446Z",
+  "updatedAt": "2026-10-26T22:41:58.907Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3878,6 +3878,13 @@
       "tmdbPath": "/movie/1655419-everytime",
       "checkedAt": "2026-08-29T16:46:40.824Z"
     },
+    "evildead2|samraimi": {
+      "filmTitle": "Evil Dead 2",
+      "director": "Sam Raimi",
+      "titleEn": "Evil Dead 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-26T22:44:39.799Z"
+    },
     "evildeadburn|sebastienvanicek": {
       "filmTitle": "Evil Dead Burn",
       "director": "Sébastien Vaniček",
@@ -3951,6 +3958,13 @@
       "titleEn": "The Fast and the Furious",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-07T12:40:44.553Z"
+    },
+    "fatcity|johnhuston": {
+      "filmTitle": "Fat City",
+      "director": "John Huston",
+      "titleEn": "Fat City",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-26T22:44:39.799Z"
     },
     "fatherland|pawelpawlikowski": {
       "filmTitle": "Fatherland",
@@ -17316,6 +17330,13 @@
       "titleEn": "Wicker",
       "source": "Previous showtimes",
       "checkedAt": "2026-10-20T04:58:28.282Z"
+    },
+    "wildhorsenine|martinmcdonagh": {
+      "filmTitle": "Wild Horse Nine",
+      "director": "Martin McDonagh",
+      "titleEn": "Wild Horse Nine",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-26T22:44:39.799Z"
     },
     "winnielourson|stephenjandersondonhall": {
       "filmTitle": "Winnie l'ourson",
