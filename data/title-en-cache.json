@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-26T22:41:58.907Z",
+  "updatedAt": "2026-10-27T05:09:51.952Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4185,6 +4185,13 @@
       "tmdbPath": "/movie/383004-fragments-sur-la-grace",
       "checkedAt": "2026-09-10T20:57:00.338Z"
     },
+    "frankenstein|jameswhale": {
+      "filmTitle": "Frankenstein",
+      "director": "James Whale",
+      "titleEn": "Frankenstein",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-27T05:13:55.894Z"
+    },
     "frankenweenie|timburton": {
       "filmTitle": "Frankenweenie",
       "director": "Tim Burton",
@@ -4483,6 +4490,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/258128-prick-och-flack-pa-flacken",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "grospoisetpetitpoint|uzigeffenbladlottageffenblad": {
+      "filmTitle": "Gros-pois et petit-point",
+      "director": "Uzi Geffenblad, Lotta Geffenblad",
+      "titleEn": "Spot and Splodge Plottspotting",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-27T05:13:55.894Z"
     },
     "guspetitoiseaugrandvoyage|christiandevita": {
       "filmTitle": "GUS PETIT OISEAU, GRAND VOYAGE",
@@ -8028,6 +8042,13 @@
       "titleEn": "Dial M. for Murder",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "lecrocodiledelamort|tobehooper": {
+      "filmTitle": "Le Crocodile de la mort",
+      "director": "Tobe Hooper",
+      "titleEn": "Eaten Alive",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-27T05:13:55.894Z"
     },
     "lecuirassepotemkine|sergeieisensteingrigoriyaleksandrov": {
       "filmTitle": "Le Cuirassé Potemkine",
@@ -11934,6 +11955,13 @@
       "tmdbPath": "/movie/9606",
       "checkedAt": "2026-09-02T21:08:06.647Z"
     },
+    "metropolis|rintaroharuyokanesaku": {
+      "filmTitle": "Metropolis",
+      "director": "Rintaro, Haruyo Kanesaku",
+      "titleEn": "Metropolis",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-27T05:13:55.894Z"
+    },
     "meurtresencascade|jonathandemme": {
       "filmTitle": "Meurtres en cascade",
       "director": "Jonathan Demme",
@@ -13521,6 +13549,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-01T21:06:51.921Z"
+    },
+    "piranha3d|alexandreaja": {
+      "filmTitle": "Piranha 3D",
+      "director": "Alexandre Aja",
+      "titleEn": "Piranha 3D",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-27T05:13:55.894Z"
     },
     "piropiro|sungahminmiyoungbaek": {
       "filmTitle": "Piro Piro",
