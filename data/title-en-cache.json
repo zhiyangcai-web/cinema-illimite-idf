@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T05:09:51.952Z",
+  "updatedAt": "2026-10-27T12:16:34.075Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -128,6 +128,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-01T21:06:51.921Z"
+    },
+    "2001lodysseedelespace|kubrickstanley": {
+      "filmTitle": "2001 L'Odyssee De L'Espace",
+      "director": "KUBRICK Stanley",
+      "titleEn": "2001: A Space Odyssey",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-27T12:21:16.952Z"
     },
     "2001lodysseedelespace|stanleykubrick": {
       "filmTitle": "2001 : l'odyssée de l'espace",
@@ -7812,6 +7819,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11657-le-cercle-rouge",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "lechange|clinteastwood": {
+      "filmTitle": "L'Echange",
+      "director": "Clint Eastwood",
+      "titleEn": "Changeling",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-27T12:21:16.952Z"
     },
     "lechantdelamer|mooretomm": {
       "filmTitle": "Le Chant De La Mer",
@@ -16716,6 +16730,13 @@
       "titleEn": "A Night at the Opera",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-08T04:44:43.845Z"
+    },
+    "unenuitenenfer|robertrodriguez": {
+      "filmTitle": "Une nuit en enfer",
+      "director": "Robert Rodriguez",
+      "titleEn": "From Dusk till Dawn",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-27T12:21:16.952Z"
     },
     "uneplaceausoleil|georgestevens": {
       "filmTitle": "Une Place au soleil",
