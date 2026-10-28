@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-27T12:16:34.075Z",
+  "updatedAt": "2026-10-28T12:59:30.136Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5210,6 +5210,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/205596-the-imitation-game",
       "checkedAt": "2026-08-19T01:57:30.946Z"
+    },
+    "impitoyable|clinteastwood": {
+      "filmTitle": "Impitoyable",
+      "director": "Clint Eastwood",
+      "titleEn": "Unforgiven",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-28T13:03:15.813Z"
     },
     "inception|christophernolan": {
       "filmTitle": "Inception",
@@ -10442,6 +10449,13 @@
       "titleEn": "The Nightmare Before Christmas",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-20T04:58:28.282Z"
+    },
+    "letrangepouvoirdenorman|samfellchrisbutler": {
+      "filmTitle": "L'Étrange pouvoir de Norman",
+      "director": "Sam Fell, Chris Butler",
+      "titleEn": "ParaNorman",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-28T13:03:15.813Z"
     },
     "letranger|francoisozon": {
       "filmTitle": "L’Étranger",
@@ -17448,6 +17462,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-10T16:30:07.959Z"
+    },
+    "workinggirls|lizzieborden": {
+      "filmTitle": "Working Girls",
+      "director": "Lizzie Borden",
+      "titleEn": "Working Girls",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-28T13:03:15.813Z"
     },
     "yellowletters|ilkercatak": {
       "filmTitle": " Yellow Letters ",
