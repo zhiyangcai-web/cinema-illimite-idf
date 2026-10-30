@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-29T05:51:51.158Z",
+  "updatedAt": "2026-10-30T05:52:56.687Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -8908,6 +8908,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-13T13:52:35.828Z"
     },
+    "leproces|kaistanicke": {
+      "filmTitle": "Le Procès",
+      "director": "Kai Stänicke",
+      "titleEn": "The Trial",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-30T05:56:45.180Z"
+    },
     "leproces|orsonwelles": {
       "filmTitle": "Le Procès",
       "director": "Orson Welles",
@@ -11856,6 +11863,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/642336-meli-melo",
       "checkedAt": "2026-09-22T17:02:29.303Z"
+    },
+    "melimelo|leahnelson": {
+      "filmTitle": "Méli-Mélo",
+      "director": "Leah Nelson",
+      "titleEn": "Meli Melo",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-30T05:56:45.180Z"
     },
     "melodieensoussol|": {
       "filmTitle": "MELODIE EN SOUS-SOL",
