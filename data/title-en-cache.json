@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T05:52:56.687Z",
+  "updatedAt": "2026-10-30T12:59:43.135Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1735,12 +1735,11 @@
       "checkedAt": "2026-09-28T14:03:29.559Z"
     },
     "carmentheroyalopera|damianomichieletto": {
-      "filmTitle": "CARMEN (THE ROYAL OPERA)",
+      "filmTitle": "Carmen (The Royal Opera)",
       "director": "Damiano Michieletto",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-29T05:50:38.985Z"
+      "titleEn": "Royal Ballet and Opera: Carmen",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-30T13:03:05.837Z"
     },
     "carol|toddhaynes": {
       "filmTitle": "Carol",
@@ -3135,6 +3134,13 @@
       "titleEn": "Die My Love",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "digger|alejandroginarritu": {
+      "filmTitle": "Digger",
+      "director": "Alejandro G. Iñárritu",
+      "titleEn": "Digger",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-30T13:03:05.837Z"
     },
     "digger|alejandrogonzaacutelezintildeaacuterritu": {
       "filmTitle": "DIGGER",
@@ -14908,6 +14914,13 @@
       "titleEn": "Scream",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-19T13:25:31.242Z"
+    },
+    "scrooge|tiwest": {
+      "filmTitle": "Scrooge",
+      "director": "Ti West",
+      "titleEn": "Ebenezer",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-30T13:03:05.837Z"
     },
     "seanceexceptionnelledegeldemanuelamartelli|": {
       "filmTitle": "Séance Exceptionnelle -  Degel, De Manuela Martelli",
