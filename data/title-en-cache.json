@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-30T12:59:43.135Z",
+  "updatedAt": "2026-10-31T05:47:54.041Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -11102,6 +11102,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "littlemisssunshine|valeriefarisjonathandayton": {
+      "filmTitle": "Little Miss Sunshine",
+      "director": "Valerie Faris, Jonathan Dayton",
+      "titleEn": "Little Miss Sunshine",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-31T05:51:32.648Z"
+    },
     "littleodessa|jamesgray": {
       "filmTitle": "Little Odessa",
       "director": "James Gray",
@@ -16570,6 +16577,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/203139-un-ano-sin-amor",
       "checkedAt": "2026-09-03T11:21:04.598Z"
+    },
+    "unapresmididechien|lumetsydney": {
+      "filmTitle": "Un Apres Midi De Chien",
+      "director": "LUMET Sydney",
+      "titleEn": "Dog Day Afternoon",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-10-31T05:51:32.648Z"
     },
     "unapresmididechien|sidneylumet": {
       "filmTitle": "Un après-midi de chien",
