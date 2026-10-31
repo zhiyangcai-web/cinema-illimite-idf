@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T05:47:54.041Z",
+  "updatedAt": "2026-10-31T12:37:17.307Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3456,6 +3456,13 @@
       "titleEn": "Dune",
       "source": "Previous showtimes",
       "checkedAt": "2026-10-19T22:27:03.680Z"
+    },
+    "dunedeuxiemepartie|denisvilleneuve": {
+      "filmTitle": "Dune : Deuxième Partie",
+      "director": "Denis Villeneuve",
+      "titleEn": "Dune: Part Two",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-10-31T12:40:44.052Z"
     },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
