@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T12:37:17.307Z",
+  "updatedAt": "2026-11-01T06:10:32.267Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5760,6 +5760,13 @@
       "titleEn": "Jubilee",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "jugementanuremberg|stanleykramer": {
+      "filmTitle": "Jugement à Nuremberg",
+      "director": "Stanley Kramer",
+      "titleEn": "Judgement at Nuremberg",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-01T06:13:54.747Z"
     },
     "julieen12chapitres|joachimtrier": {
       "filmTitle": "Julie (en 12 chapitres)",
