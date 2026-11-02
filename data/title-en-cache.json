@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-01T13:29:05.572Z",
+  "updatedAt": "2026-11-02T16:00:16.648Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2269,6 +2269,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/30017",
       "checkedAt": "2026-08-03T10:08:38.000Z"
+    },
+    "clubkid|jordanfirstman": {
+      "filmTitle": "Club Kid",
+      "director": "Jordan Firstman",
+      "titleEn": "Club Kid",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-02T16:02:31.431Z"
     },
     "coco|leeunkrich": {
       "filmTitle": "COCO",
