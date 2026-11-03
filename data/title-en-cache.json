@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T00:59:57.131Z",
+  "updatedAt": "2026-11-03T14:20:23.690Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -346,6 +346,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/19413-brutti-sporchi-e-cattivi",
       "checkedAt": "2026-08-17T19:02:56.014Z"
+    },
+    "affreuxsalesetmechants|scolaettore": {
+      "filmTitle": "Affreux Sales Et Mechants",
+      "director": "SCOLA Ettore",
+      "titleEn": "Ugly, Dirty and Bad",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-03T14:23:15.415Z"
     },
     "afidaifilm|aljafarikamal": {
       "filmTitle": "A Fidai Film",
@@ -5532,12 +5539,11 @@
       "checkedAt": "2026-09-10T20:57:00.338Z"
     },
     "jamesmcneillwhistler|davidbickerstaff": {
-      "filmTitle": "James Mcneill Whistler",
+      "filmTitle": "James McNeill Whistler",
       "director": "David Bickerstaff",
-      "titleEn": "James McNeill Whistler",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/1739735-james-mcneill-whistler",
-      "checkedAt": "2026-09-16T04:55:57.531Z"
+      "titleEn": "Exhibition On Screen: James McNeill Whistler",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-03T14:23:15.415Z"
     },
     "jananayagan|hvinoth": {
       "filmTitle": "Jana Nayagan",
@@ -12860,6 +12866,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/42269-c-eravamo-tanto-amati",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "nousnoussommestantaimes|scolaettore": {
+      "filmTitle": "Nous Nous Sommes Tant Aimes",
+      "director": "SCOLA Ettore",
+      "titleEn": "We All Loved Each Other So Much",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-03T14:23:15.415Z"
     },
     "nousvoilagrands|lindahamback": {
       "filmTitle": "Nous voilà grands !",
