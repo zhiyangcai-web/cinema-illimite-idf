@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-02T16:00:16.648Z",
+  "updatedAt": "2026-11-03T00:59:57.131Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -10833,6 +10833,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-08-17T19:02:56.014Z"
     },
+    "lidealiste|francisfordcoppola": {
+      "filmTitle": "L'Idéaliste",
+      "director": "Francis Ford Coppola",
+      "titleEn": "The Rainmaker",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-03T01:03:43.709Z"
+    },
     "lifeboat|alfredhitchcock": {
       "filmTitle": "Lifeboat",
       "director": "Alfred Hitchcock",
@@ -11083,6 +11090,13 @@
       "titleEn": "Invasion of the Body Snatchers",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-23T21:29:28.441Z"
+    },
+    "linvasiondesprofanateursdesepultures|donsiegel": {
+      "filmTitle": "L'Invasion des profanateurs de sépultures",
+      "director": "Don Siegel",
+      "titleEn": "Invasion of the Body Snatchers",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-03T01:03:43.709Z"
     },
     "linvitation|oliviawilde": {
       "filmTitle": "L'Invitation",
