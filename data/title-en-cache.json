@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T23:25:38.199Z",
+  "updatedAt": "2026-11-04T06:29:15.361Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -7306,6 +7306,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1001315-l-arabe",
       "checkedAt": "2026-09-13T04:55:20.832Z"
+    },
+    "larabe|malekbensmail": {
+      "filmTitle": "L’Arabe",
+      "director": "Malek Bensmail",
+      "titleEn": "The Arab",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-04T06:32:41.697Z"
     },
     "laragazza|comenciniluigi": {
       "filmTitle": "La Ragazza",
