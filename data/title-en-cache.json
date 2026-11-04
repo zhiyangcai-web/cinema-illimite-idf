@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T06:29:15.361Z",
+  "updatedAt": "2026-11-04T19:47:38.939Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -14621,6 +14621,13 @@
       "titleEn": "Back to the Future",
       "source": "Previous showtimes",
       "checkedAt": "2026-10-14T17:18:10.598Z"
+    },
+    "retourverslefuturii|robertzemeckis": {
+      "filmTitle": "Retour vers le futur II",
+      "director": "Robert Zemeckis",
+      "titleEn": "Back to the Future Part II",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-04T19:50:31.144Z"
     },
     "retrolesclassiquessurgrandecran|": {
       "filmTitle": "Rétro : Les Classiques Sur Grand Écran",
