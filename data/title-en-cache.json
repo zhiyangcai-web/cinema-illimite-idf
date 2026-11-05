@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T19:47:38.939Z",
+  "updatedAt": "2026-11-05T19:58:55.992Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -3850,6 +3850,13 @@
       "titleEn": "Erupcja",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "essene|frederickwiseman": {
+      "filmTitle": "Essene",
+      "director": "Frederick Wiseman",
+      "titleEn": "Essene",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-05T20:02:17.136Z"
     },
     "eternalsunshineofthespotlessmind|michelgondry": {
       "filmTitle": "Eternal Sunshine of the Spotless Mind",
@@ -8286,6 +8293,13 @@
       "titleEn": "The Maltese Falcon",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "lefauxcoupable|alfredhitchcock": {
+      "filmTitle": "Le Faux Coupable",
+      "director": "Alfred Hitchcock",
+      "titleEn": "The Wrong Man",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-05T20:02:17.136Z"
     },
     "lefilsdesaul|laszlonemes": {
       "filmTitle": "Le Fils De Saul",
