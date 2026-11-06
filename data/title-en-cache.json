@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-05T19:58:55.992Z",
+  "updatedAt": "2026-11-06T19:26:32.433Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1278,6 +1278,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1312311-billie-melody",
       "checkedAt": "2026-08-26T20:07:38.782Z"
+    },
+    "billyelliot|stephendaldry": {
+      "filmTitle": "Billy Elliot",
+      "director": "Stephen Daldry",
+      "titleEn": "Billy Elliot",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-06T19:29:26.639Z"
     },
     "bird|andreaarnold": {
       "filmTitle": "Bird",
@@ -7730,6 +7737,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/4271-la-vie-est-un-long-fleuve-tranquille",
       "checkedAt": "2026-09-01T11:44:55.653Z"
+    },
+    "laviepassionneedevincentvangogh|georgecukorvincenteminnelli": {
+      "filmTitle": "La Vie passionnée de Vincent Van Gogh",
+      "director": "George Cukor, Vincente Minnelli",
+      "titleEn": "Lust for Life",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-06T19:29:26.639Z"
     },
     "lavoixdaida|jasmilazbanic": {
       "filmTitle": "La Voix D'Aïda",
