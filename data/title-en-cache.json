@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T06:01:45.143Z",
+  "updatedAt": "2026-11-07T13:07:03.210Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5116,6 +5116,13 @@
       "titleEn": "The Hunger Games - Catching Fire",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-03T11:45:19.278Z"
+    },
+    "hungergamesleverdesoleilsurlamoisson|francislawrence": {
+      "filmTitle": "Hunger Games : Lever de soleil sur la moisson",
+      "director": "Francis Lawrence",
+      "titleEn": "The Hunger Games: Sunrise On The Reaping",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-07T13:09:44.008Z"
     },
     "hurlements|joedante": {
       "filmTitle": "HURLEMENTS",
