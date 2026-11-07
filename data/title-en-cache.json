@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T13:07:03.210Z",
+  "updatedAt": "2026-11-07T21:53:42.595Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -13409,6 +13409,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/655-paris-texas",
       "checkedAt": "2026-07-21T08:49:45.509Z"
+    },
+    "paristexas|wimwenders": {
+      "filmTitle": "Paris, Texas",
+      "director": "Wim Wenders",
+      "titleEn": "Paris, Texas",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-07T21:56:40.589Z"
     },
     "parisvupar|jeanlucgodardjeandouchetericrohmer": {
       "filmTitle": "Paris vu par...",
