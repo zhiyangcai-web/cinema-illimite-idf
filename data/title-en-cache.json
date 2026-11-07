@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-06T19:26:32.433Z",
+  "updatedAt": "2026-11-07T06:01:45.143Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9808,6 +9808,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/467536-les-jeunes-loups",
       "checkedAt": "2026-09-07T04:48:34.666Z"
+    },
+    "leslumieresdelaville|cchaplin": {
+      "filmTitle": "Les Lumieres De La Ville",
+      "director": "C.Chaplin",
+      "titleEn": "City Lights",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-07T06:05:19.090Z"
     },
     "leslumieresdelaville|chaplincharlie": {
       "filmTitle": "Les Lumieres De La Ville",
