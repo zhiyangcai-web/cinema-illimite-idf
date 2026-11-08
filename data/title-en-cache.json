@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T21:53:42.595Z",
+  "updatedAt": "2026-11-08T13:28:54.135Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -6749,6 +6749,13 @@
       "tmdbPath": "/movie/10421-la-guerre-des-boutons",
       "checkedAt": "2026-09-30T12:41:52.201Z"
     },
+    "laguerredesotages|ottopreminger": {
+      "filmTitle": "La guerre des otages",
+      "director": "Otto Preminger",
+      "titleEn": "The Human Factor",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-08T13:31:52.689Z"
+    },
     "lagueuledelautre|pierretchernia": {
       "filmTitle": "La Gueule de l'autre",
       "director": "Pierre Tchernia",
@@ -6881,6 +6888,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/49361-non-si-sevizia-un-paperino",
       "checkedAt": "2026-08-05T09:10:00.932Z"
+    },
+    "laluneetaitbleue|ottopreminger": {
+      "filmTitle": "La Lune était bleue",
+      "director": "Otto Preminger",
+      "titleEn": "The Moon is Blue",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-08T13:31:52.689Z"
     },
     "lamain|dannyphilippoumichaelphilippou": {
       "filmTitle": "LA MAIN",
@@ -10881,6 +10895,13 @@
       "tmdbPath": "/movie/92572-il-tigre",
       "checkedAt": "2026-09-24T11:52:56.226Z"
     },
+    "lhommeaubrasdor|ottopreminger": {
+      "filmTitle": "L'Homme au bras d'or",
+      "director": "Otto Preminger",
+      "titleEn": "The Man With the Golden Arm",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-08T13:31:52.689Z"
+    },
     "lhommequitualibertyvalance|johnford": {
       "filmTitle": "L'Homme qui tua Liberty Valance",
       "director": "John Ford",
@@ -13027,6 +13048,13 @@
       "tmdbPath": "/movie/1447853-oasis-don-t-look-back-in-anger",
       "checkedAt": "2026-08-25T01:57:09.246Z"
     },
+    "oblivion|josephkosinski": {
+      "filmTitle": "Oblivion",
+      "director": "Joseph Kosinski",
+      "titleEn": "Oblivion",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-08T13:31:52.689Z"
+    },
     "obsession|briandepalma": {
       "filmTitle": "Obsession",
       "director": "Brian De Palma",
@@ -14931,6 +14959,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
     },
+    "saintejeanne|ottopreminger": {
+      "filmTitle": "Sainte-Jeanne",
+      "director": "Otto Preminger",
+      "titleEn": "Saint Joan",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-08T13:31:52.689Z"
+    },
     "salooules120journeesdesodome|pierpaolopasolini": {
       "filmTitle": "Salò ou les 120 journées de Sodome",
       "director": "Pier Paolo Pasolini",
@@ -15814,6 +15849,13 @@
       "titleEn": "Witness for the Prosecution",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-22T03:53:46.639Z"
+    },
+    "tempeteawashington|ottopreminger": {
+      "filmTitle": "Tempête à Washington",
+      "director": "Otto Preminger",
+      "titleEn": "Advise and Consent",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-08T13:31:52.689Z"
     },
     "ten|abbaskiarostami": {
       "filmTitle": "Ten",
