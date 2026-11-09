@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T13:28:54.135Z",
+  "updatedAt": "2026-11-09T22:24:23.319Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2415,6 +2415,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-29T05:50:38.985Z"
+    },
+    "commentbraquerunebanque|davidleitch": {
+      "filmTitle": "Comment braquer une banque",
+      "director": "David Leitch",
+      "titleEn": "How To Rob A Bank",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-09T22:27:41.462Z"
     },
     "commenthabiterlemonde|": {
       "filmTitle": "Comment habiter le monde ?",
@@ -9433,6 +9440,13 @@
       "tmdbPath": "/movie/1221061-in-die-sonne-schauen",
       "checkedAt": "2026-08-03T20:02:32.577Z"
     },
+    "lesecretdebrokebackmountain|anglee": {
+      "filmTitle": "Le Secret de Brokeback Mountain",
+      "director": "Ang Lee",
+      "titleEn": "Brokeback Mountain",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-09T22:27:41.462Z"
+    },
     "lesecretderrierelaporte|fritzlang": {
       "filmTitle": "Le Secret Derriere La Porte",
       "director": "Fritz Lang",
@@ -15984,6 +15998,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1418811",
       "checkedAt": "2026-07-20T08:38:51.835Z"
+    },
+    "thefrontpage|lewismilestone": {
+      "filmTitle": "The Front page",
+      "director": "Lewis Milestone",
+      "titleEn": "The Front page",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-09T22:27:41.462Z"
     },
     "thegoodboy|jankomasa": {
       "filmTitle": "The Good Boy",
