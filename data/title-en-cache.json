@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-09T22:24:23.319Z",
+  "updatedAt": "2026-11-10T07:22:47.166Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -17650,6 +17650,13 @@
       "titleEn": "Wild Horse Nine",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-26T22:44:39.799Z"
+    },
+    "wildwoodlaprophetiedelaforet|travisknight": {
+      "filmTitle": "Wildwood la prophétie de la forêt",
+      "director": "Travis Knight",
+      "titleEn": "Wildwood",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-10T07:27:01.021Z"
     },
     "winnielourson|stephenjandersondonhall": {
       "filmTitle": "Winnie l'ourson",
