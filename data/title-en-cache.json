@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T07:22:47.166Z",
+  "updatedAt": "2026-11-10T19:46:16.832Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -13068,6 +13068,13 @@
       "titleEn": "Oblivion",
       "source": "AlloCine original title",
       "checkedAt": "2026-11-08T13:31:52.689Z"
+    },
+    "obrother|joelcoenethancoen": {
+      "filmTitle": "O'Brother",
+      "director": "Joel Coen, Ethan Coen",
+      "titleEn": "O Brother, Where Art Thou?",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-10T19:49:24.310Z"
     },
     "obsession|briandepalma": {
       "filmTitle": "Obsession",
