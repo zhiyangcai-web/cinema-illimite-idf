@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-10T19:46:16.832Z",
+  "updatedAt": "2026-11-11T06:28:42.167Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4848,6 +4848,13 @@
       "titleEn": "Heart Of The Beast",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-09T21:01:05.158Z"
+    },
+    "heat|jacquelinezund": {
+      "filmTitle": "Heat",
+      "director": "Jacqueline Zünd",
+      "titleEn": "Heat",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-11T06:32:08.152Z"
     },
     "heat|michaelmann": {
       "filmTitle": "Heat",
@@ -14178,6 +14185,13 @@
       "titleEn": "Dressed to Kill",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T20:00:48.385Z"
+    },
+    "punishmentpark|peterwatkins": {
+      "filmTitle": "Punishment Park",
+      "director": "Peter Watkins",
+      "titleEn": "Punishment Park",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-11T06:32:08.152Z"
     },
     "punku|juandanielfernandezmolero": {
       "filmTitle": "Punku",
