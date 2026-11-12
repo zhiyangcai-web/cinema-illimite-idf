@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T06:28:42.167Z",
+  "updatedAt": "2026-11-12T19:57:25.232Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -13541,6 +13541,13 @@
       "titleEn": "Leave Her to Heaven",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
+    "peinecapitale|jackleethompson": {
+      "filmTitle": "Peine capitale",
+      "director": "Jack Lee Thompson",
+      "titleEn": "Yield to the Night",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-12T20:00:41.006Z"
     },
     "pekingoperablues|tsuihark": {
       "filmTitle": "PEKING OPERA BLUES",
