@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T19:57:25.232Z",
+  "updatedAt": "2026-11-13T19:45:08.411Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -12622,6 +12622,13 @@
       "titleEn": "My Own Private Idaho",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-20T14:36:57.178Z"
+    },
+    "mysteriousskin|greggaraki": {
+      "filmTitle": "Mysterious Skin",
+      "director": "Gregg Araki",
+      "titleEn": "Mysterious Skin",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-13T19:47:59.708Z"
     },
     "mysticriver|clinteastwood": {
       "filmTitle": "Mystic River",
