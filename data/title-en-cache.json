@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-13T19:45:08.411Z",
+  "updatedAt": "2026-11-14T18:07:31.066Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1270,6 +1270,13 @@
       "titleEn": "The Bigamist",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-04T11:23:49.773Z"
+    },
+    "billiealacroiseedesmondes|fawnveerasunthornjasonhandjosietrinidad": {
+      "filmTitle": "Billie, à la croisée des mondes",
+      "director": "Fawn Veerasunthorn, Jason Hand, Josie Trinidad",
+      "titleEn": "Hexed",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-14T18:10:13.525Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -8507,6 +8514,13 @@
       "tmdbPath": "/movie/19548-le-grand-restaurant",
       "checkedAt": "2026-09-09T11:29:49.347Z"
     },
+    "legruffalo|jakobschuhmaxlang": {
+      "filmTitle": "Le Gruffalo",
+      "director": "Jakob Schuh, Max Lang",
+      "titleEn": "The Gruffalo",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-14T18:10:13.525Z"
+    },
     "leguepard|luchinovisconti": {
       "filmTitle": "Le Guépard",
       "director": "Luchino Visconti",
@@ -13362,6 +13376,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-10-02T22:20:58.781Z"
     },
+    "papertiger|jamesgray": {
+      "filmTitle": "Paper Tiger",
+      "director": "James Gray",
+      "titleEn": "Paper Tiger",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-14T18:10:13.525Z"
+    },
     "papicha|mouniameddour": {
       "filmTitle": "PAPICHA",
       "director": "Mounia Meddour",
@@ -15644,6 +15665,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/58526-splendor",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "springbreakers|harmonykorine": {
+      "filmTitle": "Spring Breakers",
+      "director": "Harmony Korine",
+      "titleEn": "Spring Breakers",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-14T18:10:13.525Z"
     },
     "standbyme|robreiner": {
       "filmTitle": "Stand by Me",
