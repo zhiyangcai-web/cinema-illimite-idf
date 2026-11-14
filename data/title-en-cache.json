@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T18:07:31.066Z",
+  "updatedAt": "2026-11-14T22:28:05.808Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5720,6 +5720,13 @@
       "tmdbPath": "/movie/1000492-je-verrai-toujours-vos-visages",
       "checkedAt": "2026-09-08T04:44:43.845Z"
     },
+    "jevoisdesimmeublestombercommelafoudre|cliobarnard": {
+      "filmTitle": "Je vois des immeubles tomber comme la foudre",
+      "director": "Clio Barnard",
+      "titleEn": "I See Buildings Fall Like Lightning",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-14T22:31:17.536Z"
+    },
     "jimqueen|marconguyennicolasathane": {
       "filmTitle": "Jim Queen",
       "director": "Marco Nguyen & Nicolas Athane",
@@ -7531,6 +7538,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1480-touch-of-evil",
       "checkedAt": "2026-08-04T03:42:56.819Z"
+    },
+    "lasorcieredanslesairs|langmax": {
+      "filmTitle": "La Sorciere Dans Les Airs",
+      "director": "LANG Max",
+      "titleEn": "Room on the Broom",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-14T22:31:17.536Z"
     },
     "lasorcieredanslesairs|maxlangjanlachauer": {
       "filmTitle": "La Sorcière dans les airs",
