@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T06:38:14.730Z",
+  "updatedAt": "2026-11-15T18:53:20.727Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -7801,6 +7801,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-11-06T19:29:26.639Z"
     },
+    "laviereveedewaltermitty|benstiller": {
+      "filmTitle": "La Vie rêvée de Walter Mitty",
+      "director": "Ben Stiller",
+      "titleEn": "The Secret Life of Walter Mitty",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-15T18:56:04.702Z"
+    },
     "lavoixdaida|jasmilazbanic": {
       "filmTitle": "La Voix D'Aïda",
       "director": "Jasmila Žbanić",
@@ -13896,6 +13903,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-29T13:00:27.215Z"
+    },
+    "pointbreakextremelimite|kathrynbigelow": {
+      "filmTitle": "Point break extrême limite",
+      "director": "Kathryn Bigelow",
+      "titleEn": "Point Break",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-15T18:56:04.702Z"
     },
     "pointlimite|sidneylumet": {
       "filmTitle": "Point limite",
