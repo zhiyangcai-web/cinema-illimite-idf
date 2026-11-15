@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-14T22:28:05.808Z",
+  "updatedAt": "2026-11-15T06:38:14.730Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -15709,6 +15709,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/410051-stranger-than-paradise",
       "checkedAt": "2026-07-28T03:41:27.507Z"
+    },
+    "strangerthanparadise|jimjarmusch": {
+      "filmTitle": "Stranger Than Paradise",
+      "director": "Jim Jarmusch",
+      "titleEn": "Stranger Than Paradise",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-15T06:41:49.603Z"
     },
     "streetfighter|kitaosakurai": {
       "filmTitle": "STREET FIGHTER",
