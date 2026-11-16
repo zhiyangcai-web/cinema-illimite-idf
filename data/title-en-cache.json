@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-15T18:53:20.727Z",
+  "updatedAt": "2026-11-16T22:07:54.793Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -2509,6 +2509,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1666683-congo-boy",
       "checkedAt": "2026-10-02T22:20:58.781Z"
+    },
+    "conjuringlesdossierswarren|jameswan": {
+      "filmTitle": "Conjuring : Les dossiers Warren",
+      "director": "James Wan",
+      "titleEn": "The Conjuring",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-16T22:10:58.619Z"
     },
     "contedete|ericrohmer": {
       "filmTitle": "Conte d'été",
@@ -9373,6 +9380,13 @@
       "tmdbPath": "/movie/99398-les-chants-de-mandrin",
       "checkedAt": "2026-09-28T14:03:29.559Z"
     },
+    "leschassesducomtezaroff|ernestbschoedsackirvingpichel": {
+      "filmTitle": "Les Chasses du comte Zaroff",
+      "director": "Ernest B. Schoedsack, Irving Pichel",
+      "titleEn": "The Most Dangerous Game",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-16T22:10:58.619Z"
+    },
     "leschoristes|christophebarratier": {
       "filmTitle": "Les Choristes",
       "director": "Christophe Barratier",
@@ -12408,6 +12422,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/265177-mommy",
       "checkedAt": "2026-08-28T11:29:01.241Z"
+    },
+    "monbeauperemabellefilleetmoi|johnhamburg": {
+      "filmTitle": "Mon beau-père, ma belle-fille et moi",
+      "director": "John Hamburg",
+      "titleEn": "Focker In-Law",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-16T22:10:58.619Z"
     },
     "monika|ingmarbergman": {
       "filmTitle": "Monika",
@@ -16476,6 +16497,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-08-03T20:02:32.577Z"
+    },
+    "titicutfollies|frederickwiseman": {
+      "filmTitle": "Titicut Follies",
+      "director": "Frederick Wiseman",
+      "titleEn": "Titicut Follies",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-16T22:10:58.619Z"
     },
     "tobeornottobe|ernstlubitsch": {
       "filmTitle": "To Be or not to Be",
