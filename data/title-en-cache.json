@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T07:58:14.045Z",
+  "updatedAt": "2026-11-17T20:57:58.314Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -11304,6 +11304,13 @@
       "source": "Previous showtimes",
       "checkedAt": "2026-10-31T05:51:32.648Z"
     },
+    "littleodessa|grayjames": {
+      "filmTitle": "Little Odessa",
+      "director": "GRAY James",
+      "titleEn": "Little Odessa",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-17T21:01:03.456Z"
+    },
     "littleodessa|jamesgray": {
       "filmTitle": "Little Odessa",
       "director": "James Gray",
@@ -14338,6 +14345,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-08T04:44:43.845Z"
     },
+    "quandlamermonte|gillesporteyolandemoreau": {
+      "filmTitle": "Quand La Mer Monte",
+      "director": "Gilles Porte, Yolande Moreau",
+      "titleEn": "When the Sea Rises",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-17T21:01:03.456Z"
+    },
     "quandlamermonte|yolandemoreaugillesporte": {
       "filmTitle": "Quand La Mer Monte...",
       "director": "Yolande Moreau, Gilles Porte",
@@ -14345,6 +14359,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/64758-quand-la-mer-monte",
       "checkedAt": "2026-08-16T18:49:41.289Z"
+    },
+    "quandpassentlescigognes|mikhailkalatazov": {
+      "filmTitle": "Quand Passent Les Cigognes",
+      "director": "Mikhail Kalatazov",
+      "titleEn": "The Cranes Are Flying",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-17T21:01:03.456Z"
     },
     "quandpassentlescigognes|mikhailkalatozov": {
       "filmTitle": "Quand passent les cigognes",
@@ -16820,6 +16841,13 @@
       "titleEn": "Twin Peaks - Fire Walk With Me",
       "source": "AlloCine original title",
       "checkedAt": "2026-07-21T03:51:08.662Z"
+    },
+    "twolovers|grayjames": {
+      "filmTitle": "Two Lovers",
+      "director": "GRAY James",
+      "titleEn": "Two Lovers",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-17T21:01:03.456Z"
     },
     "twolovers|jamesgray": {
       "filmTitle": "Two Lovers",
