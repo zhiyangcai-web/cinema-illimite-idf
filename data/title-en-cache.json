@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T20:57:58.314Z",
+  "updatedAt": "2026-11-18T20:35:01.753Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -5702,6 +5702,13 @@
       "titleEn": "Jesus Christ Superstar",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-23T17:15:08.801Z"
+    },
+    "jeudenfant|tomhollandii": {
+      "filmTitle": "Jeu d'enfant",
+      "director": "Tom Holland (II)",
+      "titleEn": "Child's Play",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-18T20:38:46.846Z"
     },
     "jeunepublic|": {
       "filmTitle": "Jeune Public",
@@ -13844,6 +13851,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/690-pickpocket",
       "checkedAt": "2026-07-23T14:36:31.346Z"
+    },
+    "piegedecristal|johnmctiernan": {
+      "filmTitle": "Piège de cristal",
+      "director": "John McTiernan",
+      "titleEn": "Die Hard",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-18T20:38:46.846Z"
     },
     "pierrotlefou|jeanlucgodard": {
       "filmTitle": "Pierrot le Fou",
