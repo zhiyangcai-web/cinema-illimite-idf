@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-18T20:35:01.753Z",
+  "updatedAt": "2026-11-19T07:29:41.885Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -4199,6 +4199,13 @@
       "tmdbPath": "/movie/823219-straume",
       "checkedAt": "2026-07-20T08:25:18.618Z"
     },
+    "flow|zilbalodisgints": {
+      "filmTitle": "Flow",
+      "director": "ZILBALODIS Gints",
+      "titleEn": "Flow",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-19T07:32:46.070Z"
+    },
     "flowlechatquinavaitpluspeurdeleau|gintszilbalodis": {
       "filmTitle": "Flow, le chat qui n’avait plus peur de l’eau",
       "director": "Gints Zilbalodis",
@@ -4991,6 +4998,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-15T05:01:18.483Z"
+    },
+    "holafrida|andrekadietkarinevezina": {
+      "filmTitle": "Hola Frida",
+      "director": "André Kadi et Karine Vézina",
+      "titleEn": "Hola Frida!",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-19T07:32:46.070Z"
     },
     "holafrida|andrekadikarinevezina": {
       "filmTitle": "HOLA FRIDA",
