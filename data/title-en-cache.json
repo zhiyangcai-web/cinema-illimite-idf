@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-19T20:40:36.527Z",
+  "updatedAt": "2026-11-20T20:25:09.685Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1271,6 +1271,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-09-04T11:23:49.773Z"
     },
+    "billiealacroiseedesmondes|fawnveerasunthornjasonhand": {
+      "filmTitle": "BILLIE, A LA CROISEE DES MONDES",
+      "director": "Fawn Veerasunthorn, Jason Hand",
+      "titleEn": "Hexed",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-20T20:27:51.912Z"
+    },
     "billiealacroiseedesmondes|fawnveerasunthornjasonhandjosietrinidad": {
       "filmTitle": "Billie, à la croisée des mondes",
       "director": "Fawn Veerasunthorn, Jason Hand, Josie Trinidad",
@@ -1831,12 +1838,11 @@
       "checkedAt": "2026-09-15T11:50:43.408Z"
     },
     "cassenoisettetheroyalballet|peterwright": {
-      "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
+      "filmTitle": "Casse-Noisette (The Royal Ballet)",
       "director": "Peter Wright",
-      "titleEn": "",
-      "source": "No confident TMDB match",
-      "tmdbPath": "",
-      "checkedAt": "2026-09-30T22:22:30.447Z"
+      "titleEn": "Royal Ballet and Opera: The Nutcracker (2025)",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-20T20:27:51.912Z"
     },
     "cassenoisettetheroyalballet|peterwrightjuliatrevelyanoman": {
       "filmTitle": "CASSE-NOISETTE (THE ROYAL BALLET)",
@@ -13593,6 +13599,13 @@
       "tmdbPath": "/movie/51808-paris-vu-par",
       "checkedAt": "2026-07-22T03:53:46.639Z"
     },
+    "pasdeprintempspourmarnie|alfredhitchcock": {
+      "filmTitle": "Pas de printemps pour Marnie",
+      "director": "Alfred Hitchcock",
+      "titleEn": "Marnie",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-20T20:27:51.912Z"
+    },
     "patetmatdemenagent|marekbenes": {
       "filmTitle": "Pat et Mat déménagent !",
       "director": "Marek Beneš",
@@ -14994,6 +15007,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/8422-rocco-e-i-suoi-fratelli",
       "checkedAt": "2026-08-10T13:48:26.704Z"
+    },
+    "rocky|johngavildsen": {
+      "filmTitle": "Rocky",
+      "director": "John G. Avildsen",
+      "titleEn": "Rocky",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-20T20:27:51.912Z"
     },
     "rollerball|normanjewison": {
       "filmTitle": "Rollerball",
