@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T20:25:09.685Z",
+  "updatedAt": "2026-11-21T19:18:58.202Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -15775,6 +15775,13 @@
       "source": "No confident TMDB match",
       "tmdbPath": "",
       "checkedAt": "2026-09-14T05:02:46.326Z"
+    },
+    "spidermanbrandnewbrandnewday|destindanielcretton": {
+      "filmTitle": "Spider-Man : \"Brand New\" Brand New Day",
+      "director": "Destin Daniel Cretton",
+      "titleEn": "Spider-Man : \"Brand New\" Brand New Day",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-21T19:21:50.141Z"
     },
     "spidermanbrandnewday|destindanielcretton": {
       "filmTitle": "Spider-Man: Brand New Day",
