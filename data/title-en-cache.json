@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T06:54:20.944Z",
+  "updatedAt": "2026-11-22T19:43:53.469Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9889,6 +9889,13 @@
       "tmdbPath": "/movie/759-gentlemen-prefer-blondes",
       "checkedAt": "2026-07-20T08:32:35.381Z"
     },
+    "leshorizonsdisparus|julienelie": {
+      "filmTitle": "Les Horizons disparus",
+      "director": "Julien Elie",
+      "titleEn": "Shifting Baselines",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-22T19:46:20.469Z"
+    },
     "leshuitsalopards|quentintarantino": {
       "filmTitle": "Les Huit salopards",
       "director": "Quentin Tarantino",
@@ -16479,6 +16486,13 @@
       "titleEn": "The Social Reckoning",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-22T17:16:50.477Z"
+    },
+    "thesouvenirparti|joannahogg": {
+      "filmTitle": "The Souvenir - Part I",
+      "director": "Joanna Hogg",
+      "titleEn": "The Souvenir - Part I",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-22T19:46:20.469Z"
     },
     "thesubstance|coraliefargeat": {
       "filmTitle": "The Substance",
