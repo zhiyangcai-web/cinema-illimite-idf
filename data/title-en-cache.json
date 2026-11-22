@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-21T19:18:58.202Z",
+  "updatedAt": "2026-11-22T06:54:20.944Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -9962,6 +9962,13 @@
       "titleEn": "City Lights",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-01T13:25:00.116Z"
+    },
+    "leslumieresdelaville|charliechaplin": {
+      "filmTitle": "Les Lumières De La Ville",
+      "director": "Charlie Chaplin",
+      "titleEn": "City Lights",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-22T06:57:05.567Z"
     },
     "lesmagnetiques|cardonavincent": {
       "filmTitle": "Les Magnetiques",
