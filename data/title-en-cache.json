@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-23T23:56:27.227Z",
+  "updatedAt": "2026-11-24T09:57:36.802Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -746,6 +746,13 @@
       "tmdbPath": "/movie/1697858-arcobaleno",
       "checkedAt": "2026-08-10T13:48:26.704Z"
     },
+    "armageddontime|jamesgray": {
+      "filmTitle": "Armageddon Time",
+      "director": "James Gray",
+      "titleEn": "Armageddon Time",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-24T10:00:42.584Z"
+    },
     "arrebato|ivanzulueta": {
       "filmTitle": "Arrebato",
       "director": "Iván Zulueta",
@@ -1297,7 +1304,7 @@
       "director": "Josie Trinidad, Fawn Veerasunthorn, Jason Hand",
       "titleEn": "Hexed",
       "source": "AlloCine original title",
-      "checkedAt": "2026-11-23T23:59:57.754Z"
+      "checkedAt": "2026-11-24T10:00:42.584Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
