@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-24T09:57:36.802Z",
+  "updatedAt": "2026-11-24T22:29:11.626Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -746,6 +746,13 @@
       "tmdbPath": "/movie/1697858-arcobaleno",
       "checkedAt": "2026-08-10T13:48:26.704Z"
     },
+    "armageddontime|grayjames": {
+      "filmTitle": "Armageddon Time",
+      "director": "GRAY James",
+      "titleEn": "Armageddon Time",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-24T22:32:16.143Z"
+    },
     "armageddontime|jamesgray": {
       "filmTitle": "Armageddon Time",
       "director": "James Gray",
@@ -1304,7 +1311,7 @@
       "director": "Josie Trinidad, Fawn Veerasunthorn, Jason Hand",
       "titleEn": "Hexed",
       "source": "AlloCine original title",
-      "checkedAt": "2026-11-24T10:00:42.584Z"
+      "checkedAt": "2026-11-24T22:32:16.143Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -7891,6 +7898,13 @@
       "source": "AlloCine original title",
       "checkedAt": "2026-11-15T18:56:04.702Z"
     },
+    "laviergesurletoit|ottopreminger": {
+      "filmTitle": "La Vierge sur le toit",
+      "director": "Otto Preminger",
+      "titleEn": "Die Jungfrau auf dem Dach",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-24T22:32:16.143Z"
+    },
     "lavoixdaida|jasmilazbanic": {
       "filmTitle": "La Voix D'Aïda",
       "director": "Jasmila Žbanić",
@@ -9396,10 +9410,9 @@
     "lesbansheesdinisherin|martinmcdonagh": {
       "filmTitle": "Les Banshees d'Inisherin",
       "director": "Martin McDonagh",
-      "titleEn": "The Banshees of Inisherin",
-      "source": "TMDB English page",
-      "tmdbPath": "/movie/674324-the-banshees-of-inisherin",
-      "checkedAt": "2026-07-20T08:38:51.835Z"
+      "titleEn": "The Banshees Of Inisherin",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-24T22:32:16.143Z"
     },
     "lesbasfondsnewyorkais|samuelfuller": {
       "filmTitle": "Les Bas-fonds new-yorkais",
@@ -15239,6 +15252,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1401106-kurtulus",
       "checkedAt": "2026-07-30T14:36:40.647Z"
+    },
+    "samsonetdalilametropolitanopera|darkotresnjak": {
+      "filmTitle": "Samson et Dalila (Metropolitan Opera)",
+      "director": "Darko Tresnjak",
+      "titleEn": "The Metropolitan Opera: Samson et Dalila (2026)",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-24T22:32:16.143Z"
     },
     "sanguine|marionlecorroller": {
       "filmTitle": "Sanguine",
