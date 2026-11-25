@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T08:40:23.700Z",
+  "updatedAt": "2026-11-25T21:44:15.780Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1005,6 +1005,13 @@
       "tmdbPath": "/movie/1003596-avengers-doomsday",
       "checkedAt": "2026-09-28T14:03:29.559Z"
     },
+    "avengersdoomsday|joerussoanthonyrusso": {
+      "filmTitle": "AVENGERS: DOOMSDAY",
+      "director": "Joe Russo, Anthony Russo",
+      "titleEn": "Avengers: Doomsday",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-25T21:47:17.921Z"
+    },
     "avengersendgame|joerussoanthonyrusso": {
       "filmTitle": "AVENGERS : ENDGAME",
       "director": "Joe Russo, Anthony Russo",
@@ -1311,7 +1318,7 @@
       "director": "Josie Trinidad, Fawn Veerasunthorn, Jason Hand",
       "titleEn": "Disney's Hexed",
       "source": "AlloCine original title",
-      "checkedAt": "2026-11-25T08:43:57.557Z"
+      "checkedAt": "2026-11-25T21:47:17.921Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -8108,6 +8115,13 @@
       "tmdbPath": "/movie/27431-il-gatto-a-nove-code",
       "checkedAt": "2026-07-29T19:48:12.519Z"
     },
+    "lechatchapeaute|alessandrocarloniericarivinoja": {
+      "filmTitle": "Le Chat chapeauté",
+      "director": "Alessandro Carloni, Erica Rivinoja",
+      "titleEn": "The Cat In The Hat",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-25T21:47:17.921Z"
+    },
     "lechatdescarpates|delphinekreuter": {
       "filmTitle": "Le chat des Carpates",
       "director": "Delphine Kreuter",
@@ -10419,6 +10433,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/66903-les-saisons-du-plaisir",
       "checkedAt": "2026-08-24T19:03:48.303Z"
+    },
+    "lessaphirs|harveyweinsteinwayneblair": {
+      "filmTitle": "Les Saphirs",
+      "director": "Harvey Weinstein, Wayne Blair",
+      "titleEn": "The Sapphires",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-25T21:47:17.921Z"
     },
     "lessentiersdelagloire|stanleykubrick": {
       "filmTitle": "Les Sentiers de la gloire",
@@ -16275,6 +16296,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/1180417-the-dutchman",
       "checkedAt": "2026-08-14T19:17:14.976Z"
+    },
+    "thefabelmans|stevenspielberg": {
+      "filmTitle": "The Fabelmans",
+      "director": "Steven Spielberg",
+      "titleEn": "The Fabelmans",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-25T21:47:17.921Z"
     },
     "thefin|syeyoungpark": {
       "filmTitle": "The Fin",
