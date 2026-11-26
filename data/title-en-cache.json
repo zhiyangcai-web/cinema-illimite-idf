@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T21:44:15.780Z",
+  "updatedAt": "2026-11-26T08:24:31.112Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1318,7 +1318,7 @@
       "director": "Josie Trinidad, Fawn Veerasunthorn, Jason Hand",
       "titleEn": "Disney's Hexed",
       "source": "AlloCine original title",
-      "checkedAt": "2026-11-25T21:47:17.921Z"
+      "checkedAt": "2026-11-26T08:28:29.615Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -8114,6 +8114,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/27431-il-gatto-a-nove-code",
       "checkedAt": "2026-07-29T19:48:12.519Z"
+    },
+    "lechatchapeaute|alessandrocarloni": {
+      "filmTitle": "Le Chat Chapeaute",
+      "director": "Alessandro Carloni",
+      "titleEn": "The Cat In The Hat",
+      "source": "Previous showtimes",
+      "checkedAt": "2026-11-26T08:28:29.615Z"
     },
     "lechatchapeaute|alessandrocarloniericarivinoja": {
       "filmTitle": "Le Chat chapeauté",
