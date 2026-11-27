@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-27T08:39:11.140Z",
+  "updatedAt": "2026-11-27T21:20:33.502Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1228,6 +1228,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-07-20T08:47:31.999Z"
     },
+    "beignetsdetomatesvertes|jonavnet": {
+      "filmTitle": "Beignets de tomates vertes",
+      "director": "Jon Avnet",
+      "titleEn": "Fried Green Tomatoes",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-27T21:23:26.463Z"
+    },
     "belle|mamoruhosoda": {
       "filmTitle": "Belle",
       "director": "Mamoru Hosoda",
@@ -1318,7 +1325,7 @@
       "director": "Josie Trinidad, Fawn Veerasunthorn, Jason Hand",
       "titleEn": "Disney's Hexed",
       "source": "AlloCine original title",
-      "checkedAt": "2026-11-27T08:42:30.755Z"
+      "checkedAt": "2026-11-27T21:23:26.463Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -4330,6 +4337,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/377263-frantz",
       "checkedAt": "2026-07-20T08:25:18.618Z"
+    },
+    "freakspartii|zachlipovskyadamstein": {
+      "filmTitle": "Freaks Part II",
+      "director": "Zach Lipovsky, Adam Stein",
+      "titleEn": "Freaks Part II",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-27T21:23:26.463Z"
     },
     "freddychapitre1lesgriffesdelanuit|wescraven": {
       "filmTitle": "Freddy - Chapitre 1 : Les Griffes de la Nuit",
@@ -18091,6 +18105,13 @@
       "source": "TMDB English page",
       "tmdbPath": "/movie/11878",
       "checkedAt": "2026-08-31T22:56:26.422Z"
+    },
+    "yourmonster|carolinelindy": {
+      "filmTitle": "Your Monster",
+      "director": "Caroline Lindy",
+      "titleEn": "Your Monster",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-27T21:23:26.463Z"
     },
     "yukuetlafleurdelhimalaya|arnauddemuynckremidurin": {
       "filmTitle": "Yuku et la fleur de l’Himalaya",
