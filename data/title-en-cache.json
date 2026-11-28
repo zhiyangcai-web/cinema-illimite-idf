@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-28T07:53:33.659Z",
+  "updatedAt": "2026-11-28T20:08:54.749Z",
   "entries": {
     "|": {
       "filmTitle": "",
@@ -1325,7 +1325,7 @@
       "director": "Josie Trinidad, Fawn Veerasunthorn, Jason Hand",
       "titleEn": "Disney's Hexed",
       "source": "AlloCine original title",
-      "checkedAt": "2026-11-28T07:57:18.645Z"
+      "checkedAt": "2026-11-28T20:11:43.192Z"
     },
     "billiemelody|christinepaillard": {
       "filmTitle": "BILLIE MELODY",
@@ -2345,6 +2345,13 @@
       "titleEn": "Club Kid",
       "source": "AlloCine original title",
       "checkedAt": "2026-11-02T16:02:31.431Z"
+    },
+    "clueless|amyheckerling": {
+      "filmTitle": "Clueless",
+      "director": "Amy Heckerling",
+      "titleEn": "Clueless",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-28T20:11:43.192Z"
     },
     "coco|leeunkrich": {
       "filmTitle": "COCO",
@@ -3560,6 +3567,13 @@
       "titleEn": "Dune: Part Two",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-31T12:40:44.052Z"
+    },
+    "dunetroisiemepartie|denisvilleneuve": {
+      "filmTitle": "Dune : Troisième partie",
+      "director": "Denis Villeneuve",
+      "titleEn": "Dune: Part Three",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-28T20:11:43.192Z"
     },
     "dunmondealautre|jeremierenier": {
       "filmTitle": "D'Un Monde À L'Autre",
@@ -5390,6 +5404,13 @@
       "titleEn": "Unforgiven",
       "source": "AlloCine original title",
       "checkedAt": "2026-10-28T13:03:15.813Z"
+    },
+    "inaviolentnature2|nathanielwilsonchrisnash": {
+      "filmTitle": "In A Violent Nature 2",
+      "director": "Nathaniel Wilson, Chris Nash",
+      "titleEn": "In A Violent Nature 2",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-28T20:11:43.192Z"
     },
     "inception|christophernolan": {
       "filmTitle": "Inception",
@@ -13989,6 +14010,13 @@
       "tmdbPath": "",
       "checkedAt": "2026-09-08T04:44:43.845Z"
     },
+    "phreaker|adamyorke": {
+      "filmTitle": "Phreaker",
+      "director": "Adam Yorke",
+      "titleEn": "Phreaker",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-28T20:11:43.192Z"
+    },
     "pickpocket|robertbresson": {
       "filmTitle": "PICKPOCKET",
       "director": "Robert Bresson",
@@ -16267,6 +16295,13 @@
       "titleEn": "The Cost of Growth",
       "source": "AlloCine original title",
       "checkedAt": "2026-09-12T10:53:22.261Z"
+    },
+    "thecycle|jordandowney": {
+      "filmTitle": "The Cycle",
+      "director": "Jordan Downey",
+      "titleEn": "The Cycle",
+      "source": "AlloCine original title",
+      "checkedAt": "2026-11-28T20:11:43.192Z"
     },
     "thedarkknightlechevaliernoir|christophernolan": {
       "filmTitle": "The Dark Knight, Le Chevalier Noir",
